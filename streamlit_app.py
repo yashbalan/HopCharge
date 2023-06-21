@@ -427,9 +427,9 @@ with tab1:
     with col8:
         st.plotly_chart(end_soc_median_gauge)
 
+    
     for city in allowed_cities:
-        for city in allowed_cities:
-    # Calculate start SoC statistics for the current city
+         # Calculate start SoC statistics for the current city
     start_soc_stats = df[df['City'] == city]['Start SoC'].describe()
 
     start_soc_max = start_soc_stats['max']
@@ -552,6 +552,7 @@ with tab1:
         st.plotly_chart(end_soc_median_gauge)
 
     st.subheader(city)
+   
 
 
 
