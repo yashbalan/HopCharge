@@ -307,7 +307,7 @@ with tab1:
 
     for city in allowed_cities:
     # Calculate start SoC statistics for the current city
-    start_soc_stats = df[df['City'] == city]['Start SoC'].describe()
+start_soc_stats = df[df['City'] == city]['Start SoC'].describe()
 
     start_soc_max = start_soc_stats['max']
     start_soc_min = start_soc_stats['min']
