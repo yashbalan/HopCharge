@@ -313,7 +313,8 @@ start_soc_max = start_soc_stats['max'].values.max()
 start_soc_min = start_soc_stats['min'].values.min()
 
 start_soc_avg = start_soc_stats['mean'].values.mean()
-    start_soc_median = np.median(start_soc_stats['median'].values)
+
+start_soc_median = np.median(start_soc_stats['median'].values)
 
     gauge_range = [0, 100]
 
@@ -429,6 +430,9 @@ start_soc_avg = start_soc_stats['mean'].values.mean()
         st.plotly_chart(end_soc_avg_gauge)
     with col8:
         st.plotly_chart(end_soc_median_gauge)
+
+ 
+   
 
     
 
