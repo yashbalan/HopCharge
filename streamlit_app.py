@@ -305,130 +305,130 @@ with tab1:
     col7.metric("City with Maximum Sessions", max_record_count_city)
     col7.metric("City with Minimum Sessions", min_record_count_city)
 
-    start_soc_max = start_soc_stats['max'].values.max()
+    for city in allowed_cities:
+    # Calculate start SoC statistics for the current city
+    start_soc_stats = df[df['City'] == city]['Start SoC'].describe()
 
-    start_soc_min = start_soc_stats['min'].values.min()
+    start_soc_max = start_soc_stats['max']
+    start_soc_min = start_soc_stats['min']
+    start_soc_avg = start_soc_stats['mean']
+    start_soc_median = start_soc_stats['50%']
 
-    start_soc_avg = start_soc_stats['mean'].values.mean()
-    start_soc_median = np.median(start_soc_stats['median'].values)
-
-    gauge_range = [0, 100]
-
+    # Create gauge chart for maximum Start SoC
     start_soc_max_gauge = go.Figure(go.Indicator(
         mode="gauge+number",
         value=start_soc_max,
-        title={'text': "Max Start SoC %", 'font': {'size': 15}},
+        title={'text': f"Max Start SoC % - {city}", 'font': {'size': 15}},
         domain={'x': [0, 1], 'y': [0, 1]},
-        gauge={'axis': {'range': gauge_range}},
+        gauge={'axis': {'range': gauge_range}}
     ))
     start_soc_max_gauge.update_layout(width=150, height=250)
 
+    # Create gauge chart for minimum Start SoC
     start_soc_min_gauge = go.Figure(go.Indicator(
         mode="gauge+number",
         value=start_soc_min,
-        title={'text': "Min Start SoC %", 'font': {'size': 15}},
+        title={'text': f"Min Start SoC % - {city}", 'font': {'size': 15}},
         domain={'x': [0, 1], 'y': [0, 1]},
         gauge={'axis': {'range': gauge_range}}
     ))
     start_soc_min_gauge.update_layout(width=150, height=250)
 
+    # Create gauge chart for average Start SoC
     start_soc_avg_gauge = go.Figure(go.Indicator(
         mode="gauge+number",
         value=start_soc_avg,
-        title={'text': "Avg Start SoC %", 'font': {'size': 15}},
+        title={'text': f"Avg Start SoC % - {city}", 'font': {'size': 15}},
         domain={'x': [0, 1], 'y': [0, 1]},
         gauge={'axis': {'range': gauge_range}}
     ))
     start_soc_avg_gauge.update_layout(width=150, height=250)
 
+    # Create gauge chart for median Start SoC
     start_soc_median_gauge = go.Figure(go.Indicator(
         mode="gauge+number",
         value=start_soc_median,
-        title={'text': "Median Start SoC %", 'font': {'size': 15}},
+        title={'text': f"Median Start SoC % - {city}", 'font': {'size': 15}},
         domain={'x': [0, 1], 'y': [0, 1]},
         gauge={'axis': {'range': gauge_range}}
     ))
     start_soc_median_gauge.update_layout(width=150, height=250)
-    with col3:
-        for i in range(1, 27):
-            st.write("\n")
-        st.write("#### Start SoC Stats")
 
-    with col6:
-        for i in range(1, 27):
-            st.write("\n")
-        st.write("#### End SoC Stats")
-    col1, col2, col3, col4, col5, col6, col7, col8 = st.columns(8)
+    # Display the gauge graphs for Start SoC
     with col1:
-
         st.plotly_chart(start_soc_min_gauge)
 
     with col2:
-
         st.plotly_chart(start_soc_max_gauge)
 
     with col3:
-
         st.plotly_chart(start_soc_avg_gauge)
 
     with col4:
-
         st.plotly_chart(start_soc_median_gauge)
 
-    end_soc_max = end_soc_stats['max'].values.max()
-    end_soc_min = end_soc_stats['min'].values.min()
-    end_soc_avg = end_soc_stats['mean'].values.mean()
-    end_soc_median = np.median(end_soc_stats['median'].values)
+    # Calculate end SoC statistics for the current city
+    end_soc_stats = df[df['City'] == city]['End SoC'].describe()
+
+    end_soc_max = end_soc_stats['max']
+    end_soc_min = end_soc_stats['min']
+    end_soc_avg = end_soc_stats['mean']
+    end_soc_median = end_soc_stats['50%']
 
     # Create gauge chart for maximum End SoC
     end_soc_max_gauge = go.Figure(go.Indicator(
         mode="gauge+number",
         value=end_soc_max,
-        title={'text': "Max End SoC %", 'font': {'size': 15}},
+        title={'text': f"Max End SoC % - {city}", 'font': {'size': 15}},
         domain={'x': [0, 1], 'y': [0, 1]},
         gauge={'axis': {'range': gauge_range}}
     ))
+    end_soc_max_gauge.update_layout(width=150, height=250)
 
     # Create gauge chart for minimum End SoC
     end_soc_min_gauge = go.Figure(go.Indicator(
         mode="gauge+number",
         value=end_soc_min,
-        title={'text': "Min End SoC %", 'font': {'size': 15}},
+        title={'text': f"Min End SoC % - {city}", 'font': {'size': 15}},
         domain={'x': [0, 1], 'y': [0, 1]},
         gauge={'axis': {'range': gauge_range}}
     ))
-    end_soc_max_gauge.update_layout(width=150, height=250)
     end_soc_min_gauge.update_layout(width=150, height=250)
 
+    # Create gauge chart for average End SoC
     end_soc_avg_gauge = go.Figure(go.Indicator(
         mode="gauge+number",
         value=end_soc_avg,
-        title={'text': "Avg End SoC %", 'font': {'size': 15}},
+        title={'text': f"Avg End SoC % - {city}", 'font': {'size': 15}},
         domain={'x': [0, 1], 'y': [0, 1]},
         gauge={'axis': {'range': gauge_range}}
     ))
     end_soc_avg_gauge.update_layout(width=150, height=250)
+
     # Create gauge chart for median End SoC
     end_soc_median_gauge = go.Figure(go.Indicator(
         mode="gauge+number",
         value=end_soc_median,
-        title={'text': "Median End SoC %", 'font': {'size': 15}},
+        title={'text': f"Median End SoC % - {city}", 'font': {'size': 15}},
         domain={'x': [0, 1], 'y': [0, 1]},
         gauge={'axis': {'range': gauge_range}}
     ))
     end_soc_median_gauge.update_layout(width=150, height=250)
+
+    # Display the gauge graphs for End SoC
     with col5:
         st.plotly_chart(end_soc_min_gauge)
 
     with col6:
         st.plotly_chart(end_soc_max_gauge)
+
     with col7:
         st.plotly_chart(end_soc_avg_gauge)
+
     with col8:
         st.plotly_chart(end_soc_median_gauge)
 
-    for city in allowed_cities:
-        st.subheader(city)
+    st.subheader(city)
 
 with tab2:
 
