@@ -430,6 +430,22 @@ with tab1:
     
     for city in allowed_cities:
         st.subheader(city)
+        col1, col2, col3, col4, col5, col6, col7, col8 = st.columns(8)
+        with col1:
+
+                 st.plotly_chart(start_soc_min_gauge)
+
+        with col2:
+
+                 st.plotly_chart(start_soc_max_gauge)
+
+        with col3:
+
+                 st.plotly_chart(start_soc_avg_gauge)
+
+        with col4:
+
+                 st.plotly_chart(start_soc_median_gauge)
     
         
 
