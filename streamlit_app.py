@@ -429,17 +429,18 @@ with tab1:
 
     
     for city in allowed_cities:
-         # Calculate start SoC statistics for the current city
-    start_soc_stats = df[df['City'] == city]['Start SoC'].describe()
 
-    start_soc_max = start_soc_stats['max']
-    start_soc_min = start_soc_stats['min']
-    start_soc_avg = start_soc_stats['mean']
-    start_soc_median = start_soc_stats['50%']
+            # Calculate start SoC statistics for the current city
+            start_soc_stats = df[df['City'] == city]['Start SoC'].describe()
 
-    # Create gauge chart for maximum Start SoC
-    start_soc_max_gauge = go.Figure(go.Indicator(
-        mode="gauge+number",
+            start_soc_max = start_soc_stats['max']
+            start_soc_min = start_soc_stats['min']
+            start_soc_avg = start_soc_stats['mean']
+            start_soc_median = start_soc_stats['50%']
+
+            # Create gauge chart for maximum Start SoC
+            start_soc_max_gauge = go.Figure(go.Indicator(
+                mode="gauge+number",
         value=start_soc_max,
         title={'text': f"Max Start SoC % - {city}", 'font': {'size': 15}},
         domain={'x': [0, 1], 'y': [0, 1]},
@@ -552,6 +553,8 @@ with tab1:
         st.plotly_chart(end_soc_median_gauge)
 
     st.subheader(city)
+        
+
    
 
 
