@@ -304,8 +304,11 @@ with tab1:
 
     col7.metric("City with Maximum Sessions", max_record_count_city)
     col7.metric("City with Minimum Sessions", min_record_count_city)
+    
+    for city in allowed_cities:
+        st.subheader(city)
 
-    start_soc_max = start_soc_stats['max'].values.max()
+start_soc_max = start_soc_stats['max'].values.max()
 
     start_soc_min = start_soc_stats['min'].values.min()
 
@@ -427,8 +430,8 @@ with tab1:
     with col8:
         st.plotly_chart(end_soc_median_gauge)
 
-    for city in allowed_cities:
-        st.subheader(city)
+    
+    
 
 with tab2:
 
