@@ -1,0 +1,1001 @@
+,uid,Actual Date,Customer Name_x,EPOD Name,Actual OPERATOR NAME,Duration,Day,E-pod Arrival Time @ Session location,Actual SoC_Start,Actual Soc_End,Booking Session time,Customer Location City,canceled_x,cancelledPenalty,t-15_kpi,type,KM Travelled for Session,KWH Pumped Per Session
+0,74b27a6f-afb7-433d-8de1-eb7d5b1d6162,"Sunday, May 14, 2023",Pradeep  Saini,EPOD-002,Md. Arif,57.0,Sunday,4:39:00 PM,15,65,16:00,Delhi,False,0,2,HopchargeZ3Y,43,14
+1,bfb657a1-128a-455d-8b49-8d293b830186,"Monday, May 15, 2023",Ankur Mittal,EPOD-003,Ankush chauhan,52.0,Monday,9:00:00 PM,25,80,21:00,Noida,False,0,0,Hopcharge-Y,8,16.8
+2,6085ae28-441c-47b0-b683-04a6a3a172ce,"Sunday, May 14, 2023",Sanjay Kumar,EPOD-008,Sonu Chauhan,75.0,Sunday,5:58:00 PM,27,95,19:00,Noida,False,0,1,Starter-I_100,12,14.8
+3,3a0b54ac-510e-49dc-a7a2-53523f3b4e43,"Sunday, May 14, 2023",Shalini Goyal,EPOD-009,Sunil Kumar,46.0,Sunday,9:54:00 PM,70,99,22:00,Gurgaon,False,0,0,HopchargeZ,14,9.2
+4,918bf66f-c6e4-4887-bbc3-85b78751d5b4,"Sunday, May 14, 2023",Poonam Bajaj,E-POD-012,Pritam Kumar,39.0,Sunday,3:49:00 PM,35,80,16:00,Gurgaon,False,0,0,,22,10.56
+5,4a92dbe0-249a-4795-a0fc-3d5c70545151,"Sunday, May 14, 2023",Vishal Saxena,EPOD-008,Sonu Chauhan,53.0,Sunday,12:15:00 PM,16,80,13:00,Noida,False,0,1,,8,10
+6,8ccaadde-3b97-4401-be13-c0436fc38084,"Sunday, May 14, 2023",Dinesh Sharma,E-POD-012,Pritam Kumar,88.0,Sunday,11:35:00 AM,11,95,12:00,Gurgaon,False,0,1,HopchargeZ,9,16.4
+7,96f0d0aa-8348-46bf-944e-5ec9ec8c35a0,"Sunday, May 14, 2023",Rupanshi Taneja,EPOD-005,Sachin Rajput,94.0,Sunday,5:41:00 AM,14,80,06:00,Gurgaon,False,0,1,HopchargeY,5,17.6
+8,0e71346e-e7e0-4d68-91f8-3b91a264136d,"Sunday, May 14, 2023",Rishi Shukla,EPOD-010,Aman Chaudhary,39.0,Sunday,10:45:00 PM,37,85,10:00,Gurgaon,False,0,2,HopchargeZ,23,7.6
+9,e6b1c02e-57eb-4684-b39e-6b2f0512ae31,"Sunday, May 14, 2023",Sandeep Yadav,EPOD-010,Aman Chaudhary,8.0,Sunday,9:47:00 PM,88,99,22:00,Gurgaon,False,0,0,HopchargeZ3,12,2
+10,6cea5829-3d45-40b4-bb7c-27b1423ad9e7,"Saturday, May 13, 2023",Renu Talwar,EPOD-010,Aman Chaudhary,63.0,Saturday,9:45:00 PM,25,75,22:00,Delhi,False,0,1,HopchargeZ,22,16.4
+11,968083d3-5d39-4815-ad09-89da161c6480,"Sunday, May 14, 2023",Manju Bhardwaj,E-POD-012,Pritam Kumar,27.0,Sunday,6:56:00 PM,21,86,07:00,Gurgaon,False,0,0,HopchargeZ,12,12.8
+12,eefb2d07-75ec-4ec0-8418-8948dde29905,"Sunday, May 14, 2023",Deepak  Sharma,EPOD-010,Aman Chaudhary,61.0,Sunday,4:45:00 AM,30,95,05:00,Gurgaon,False,0,1,HopchargeZ,6,11.6
+13,7909ad67-ae01-443c-9aa6-c5691b38f1ad,"Sunday, May 14, 2023",Arjun  Singh,EPOD-011,Ravi Dutt,69.0,Sunday,3:42:00 PM,16,56,16:00,Gurgaon,False,0,1,HopchargeZ,10,16.8
+14,b22015c5-4edd-4ebc-8b07-fc45c880e7a7,"Sunday, May 14, 2023",Tumpa Banerjee ,EPOD-009,Baljeet Kumar,65.0,Sunday,12:55:00 AM,30,95,01:00,Gurgaon,False,0,0,HopchargeZ,7,13.2
+15,453ed6c9-6dea-4718-92e0-dc0b2ebc14c0,"Saturday, May 13, 2023",Shalini Goyal,EPOD-005,Sachin Rajput,786.0,Saturday,9:20:00 PM,52,80,22:00,Gurgaon,False,0,1,HopchargeZ,10,9.2
+16,836bbff1-849c-4f32-ac3b-16023fb58ebe,"Sunday, May 14, 2023",Amit Singhal,EPOD-002,Vipin,51.0,Sunday,1:11:00 AM,20,80,06:00,Noida,False,0,1,HopchargeZ,34,14.8
+17,63a09c5c-78fb-402c-a729-dfe4d06b6b75,"Sunday, May 14, 2023",Piyush  Malyan ,EPOD-004,Pradeep Rawat,48.0,Sunday,4:21:00 AM,25,80,05:00,Delhi,False,0,1,HopchargeX3Y,15,12.68
+18,cb6439d0-fd33-48bf-83ab-89db0c084831,"Sunday, May 14, 2023",Silky  Chopra,EPOD-002,Md. Arif,59.0,Sunday,8:39:00 AM,10,80,09:00,Noida,False,0,1,Hopcharge-Y,14,15.6
+19,9e87385d-d1cb-4bd6-9da4-cd4292d16bdf,"Sunday, May 14, 2023",Tarun Wadhwa ,EPOD-005,Sachin Rajput,46.0,Sunday,3:50:00 AM,34,80,07:00,Gurgaon,False,0,1,HopchargeZ,10,9.2
+20,3f38fbd9-0dd3-46ee-ad7d-8da314159ce1,"Saturday, May 13, 2023",Shubham  Datick,EPOD-009,Baljeet Kumar,779.0,Saturday,10:20:00 AM,20,80,23:00,Gurgaon,False,0,1,,14,14
+21,5c62332f-7301-417e-81aa-1004a9662f52,"Saturday, May 13, 2023",Srishti  Sharma,EPOD-007,Rohit Nagar,849.0,Saturday,9:27:00 PM,10,80,22:00,Noida,False,0,1,HopchargeZ,16,13.2
+22,595e9812-4c9c-466d-a062-5593bab8bc00,"Sunday, May 14, 2023",PAWAN KHANDELWAL,E-POD-012,Pritam Kumar,51.0,Sunday,6:36:00 AM,34,100,07:00,Gurgaon,False,0,1,HopchargeZ,12,10.12
+23,1f024595-4335-48b5-b713-69b58194ddc1,"Saturday, May 13, 2023",Rashmi Kumari,EPOD-007,Awdesh Kumar,52.0,Saturday,3:58:00 PM,58,95,16:00,Noida,False,0,0,HopchargeZ,19 ,1200
+24,a91cddaf-664e-488a-b0a8-fefd8cc40502,"Sunday, May 14, 2023",raghu kapoor,EPOD-004,Pradeep Rawat,831.0,Sunday,11:45:00 AM,8,80,12:00,Delhi,False,0,1,HopchargeZ,3,15
+25,42cd7da6-10bd-4ef7-a6ae-426dbb23e406,"Saturday, May 13, 2023",Anil Raao,E-POD-012,Pradeep kumar,45.0,Saturday,3:15:00 PM,40,77,16:00,Gurgaon,False,0,1,HopchargeZ,4 ,1953.2
+26,f597a9d4-5ea9-4455-beb1-151d3367fe74,"Sunday, May 14, 2023",nitin patil,EPOD-004,Pradeep Rawat,70.0,Sunday,10:31:00 PM,16,80,22:00,Delhi,False,0,2,HopchargeZ,43,14.96
+27,afd2ffb5-a025-4b0e-a439-e54905aa5533,"Saturday, May 13, 2023",Aryan  Chaudhary,EPOD-002,Md. Arif,42.0,Saturday,11:40:00 AM,50,80,10:00,Noida,False,0,2,HopchargeZ,12,12.8
+28,a7711a46-afe0-4ccf-97fc-780c02e7fcdf,"Saturday, May 13, 2023",Himanshu Thacker,EPOD-005,Sachin Rajput,792.0,Saturday,10:45:00 PM,17,67,23:00,Gurgaon,False,0,1,HopchargeZ3Y,15,16.4
+29,21b26ca4-51bc-4be0-aa92-8fabe05315b4,"Saturday, May 13, 2023",Amit Singhal,EPOD-007,Awdesh Kumar,59.0,Saturday,11:22:00 AM,44,80,13:00,Noida,False,0,1,HopchargeZ,54 ,680
+30,af58682c-227d-46a7-bb4c-d6538f01cb1a,"Saturday, May 13, 2023",Manju Bhardwaj,E-POD-012,Pradeep kumar,77.0,Saturday,6:55:00 PM,22,60,19:00,Gurgaon,False,0,0,HopchargeZ,11 ,7.6
+31,3b58c94f-b28a-4ba3-be66-72e54b0e6075,"Sunday, May 14, 2023",Pragun Mittal,EPOD-008,Shakti singh,71.0,Sunday,10:54:00 AM,54,91,04:00,Noida,False,0,2,HopchargeZ,38,2000
+32,eb577b65-1907-4c3e-98e0-9a2b94017417,"Saturday, May 13, 2023",Surendra  Prasad ,EPOD-002,Md. Arif,56.0,Saturday,3:26:00 PM,16,80,16:00,Noida,False,0,1,Hopcharge-Y,14,16
+33,92b09ba6-9ad2-40b7-b0fe-36b3bc599487,"Saturday, May 13, 2023",Pradeep  Saini,EPOD-005,Sachin Rajput,646.0,Saturday,12:45:00 AM,27,90,01:00,Delhi,False,0,1,HopchargeZ3Y,24,21.2
+34,2e3875d9-16bc-4c3f-8c32-7fe1718d4e26,"Sunday, May 14, 2023",Ankit Kumar,EPOD-005,Jitendra Singh New,104.0,Sunday,2:41:00 PM,23,95,15:00,Gurgaon,False,0,1,HopchargeZ,10,24.8
+35,f7ec4d2c-8f82-4eab-9375-3206ef1c80a8,"Saturday, May 13, 2023",PAWAN KHANDELWAL,EPOD-010,Akash Kumar,47.0,Saturday,12:46:00 PM,44,80,13:00,Gurgaon,False,0,0,HopchargeZ,15,8
+36,a4f65e0c-1045-4e6e-99c7-36030ae89659,"Saturday, May 13, 2023",Dinesh Sharma,EPOD-005,Jitendra Singh New,93.0,Saturday,12:45:00 PM,11,97,13:00,Gurgaon,False,0,1,HopchargeZ,10,17.2
+37,93d79626-d49c-48f1-bcb4-5a7dfc80574c,"Saturday, May 13, 2023",Rakesh Bahnewal,EPOD-005,Sachin Rajput,60.0,Saturday,3:47:00 AM,24,80,04:00,Gurgaon,False,0,0,HopchargeZ3Y,14,12.8
+38,e8ee9df7-4e82-4427-9c47-e51bf86f9563,"Sunday, May 14, 2023",Amit Kr Chauhan ,EPOD-010,Aman Chaudhary,170.0,Sunday,12:57:00 AM,25,95,02:00,Gurgaon,False,0,1,HopchargeZ3,12,11.2
+39,a323151f-b925-4d20-b703-e830b8b485a0,"Saturday, May 13, 2023",Romil  Saxena,EPOD-003,Ankush chauhan,100.0,Saturday,10:37:00 PM,11,80,01:00,Noida,False,0,2,HopchargeZ,26,-960
+40,976d2786-66e9-4b73-9a39-9dbb73916b2c,"Saturday, May 13, 2023",Sandeep Yadav,E-POD-012,Pradeep kumar,,Saturday,1:56:00 PM,84,95,14:00,Gurgaon,False,0,0,HopchargeZ3,24 ,#VALUE!
+41,8b7bd619-6d3e-45d5-a937-34a4bde262df,"Friday, May 12, 2023",Sandeep Yadav,EPOD-011,Rohit Yadav,66.0,Friday,6:22:00 AM,8,74,19:00,Gurgaon,False,0,1,HopchargeZ3,4 ,15.6
+42,2983d538-b894-488f-8f71-5294f62c4cab,"Saturday, May 13, 2023",Maheshwar Nath Kushwaha   Kushwaha,EPOD-002,Vipin,29.0,Saturday,9:42:00 PM,45,80,05:00,Noida,False,0,2,HopchargeZ3,13,14
+43,2de7f0ec-5eab-4582-9ae9-ea82af8b2d75,"Friday, May 12, 2023",Shalini Goyal,EPOD-005,Jitendra Singh New,70.0,Friday,5:02:00 PM,19,70,18:00,Gurgaon,False,0,1,HopchargeZ,2,17.2
+44,22febe40-6c08-4e92-8629-34b0a9b284d6,"Saturday, May 13, 2023",Tumpa Banerjee ,E-POD-012,Sunil Kumar,643.0,Saturday,11:40:00 PM,24,95,12:00,Gurgaon,False,0,2,HopchargeZ,6.6,13.84
+45,63269526-a04d-4e15-b796-b36b5972fe22,"Saturday, May 13, 2023",Mohit  Gupta ,EPOD-011,Ravi Dutt,61.0,Saturday,5:47:00 AM,51,100,06:00,Gurgaon,False,0,0,HopchargeZ,13 ,9.6
+46,4dcdd96b-a998-4c84-9218-738c32dd938f,"Saturday, May 13, 2023",KULDEEP Singh ,EPOD-010,Akash Kumar,64.0,Saturday,9:10:00 AM,67,100,09:00,Gurgaon,False,0,2,HopchargeZ,8,11.6
+47,a4939b02-154e-4454-80db-19450ceed968,"Saturday, May 13, 2023",Tarun Wadhwa ,E-POD-012,Sunil Kumar,31.0,Saturday,6:05:00 AM,44,80,07:00,Gurgaon,False,0,1,HopchargeZ,12,6.64
+48,7cc18c89-5305-440a-bdf2-c61d170be995,"Saturday, May 13, 2023",KULDEEP Singh ,E-POD-012,Pritam Kumar,796.0,Saturday,10:53:00 PM,27,80,23:00,Gurgaon,False,0,0,HopchargeZ,8,18
+49,07e216f0-49f0-493e-88bb-08395d44c123,"Saturday, May 13, 2023",Sankalp Maheshwari,EPOD-004,Pradeep Rawat,73.0,Saturday,6:02:00 AM,4,80,07:00,Delhi,False,0,1,HopchargeX3,13,14.72
+50,744f6425-f299-4b0b-be7d-b9b1e92c0e22,"Saturday, May 13, 2023",Madhu Srivastava,E-POD-012,Pradeep kumar,81.0,Saturday,8:57:00 AM,23,75,09:00,Gurgaon,False,0,0,HopchargeZ,8 ,32
+51,7274411c-f1fb-4366-bace-9a99f2a95740,"Saturday, May 13, 2023",Amit Singhal,EPOD-004,Pradeep Rawat,54.0,Saturday,4:32:00 AM,20,80,06:00,Delhi,False,0,1,HopchargeZ,23,11.4
+52,a5927f6d-e2d2-4936-bf5a-c33e16c99b0f,"Friday, May 12, 2023",Rashmi Kumari,EPOD-005,Jitendra Singh New,47.0,Friday,3:01:00 PM,44,80,16:00,Gurgaon,False,0,1,HopchargeZ,5,12
+53,9b404fea-4900-4c90-aee7-8426a7dd1e40,"Saturday, May 13, 2023",Richa  Singh ,EPOD-011,Ravi Dutt,96.0,Saturday,10:36:00 PM,20,90,13:00,Gurgaon,False,0,2,HopchargeZ,14 ,16
+54,1859aefd-dee3-4afb-abdd-7daa887aaca6,"Saturday, May 13, 2023",Vinod  Yadav,EPOD-011,Rohit Yadav,97.0,Saturday,9:50:00 AM,10,95,10:00,Gurgaon,False,0,0,HopchargeZ,5 ,10.8
+55,72a3f1c3-b334-4312-86a0-70b0abcb76eb,"Friday, May 12, 2023",Manju Bhardwaj,EPOD-004,Pradeep Rawat,48.0,Friday,9:59:00 PM,13,60,22:00,Delhi,False,0,0,HopchargeZ,7.8,9.16
+56,f8b4144d-938b-45b3-b324-bd826f6839cb,"Friday, May 12, 2023",Manju Bhardwaj,E-POD-012,Pradeep kumar,29.0,Friday,5:45:00 PM,7,30,18:00,Gurgaon,False,0,1,HopchargeZ,15 ,4.4
+57,feec31bc-b2b4-4d30-8d99-d5ed5135fbb4,"Saturday, May 13, 2023",Nisha  Chauhan ,EPOD-008,Shakti singh,47.0,Saturday,8:54:00 AM,80,80,22:00,Noida,False,0,1,HopZ Lite,7,600
+58,7427efa5-d1b8-40d3-a894-d80d8d15c160,"Sunday, May 14, 2023",Vinit Chadha,EPOD-011,Ravi Dutt,52.0,Sunday,12:44:00 PM,18,80,13:00,Gurgaon,False,0,1,HopchargeZ,9 ,15.2
+59,f251a742-9f83-4a87-a9d1-e2b4e024742e,"Friday, May 12, 2023",Dr. Rohit Nara,EPOD-011,Ravi Dutt,793.0,Friday,10:46:00 PM,9,60,23:00,Gurgaon,False,0,0,HopchargeZ,12 ,16.4
+60,f72cd175-2e0b-4aa4-9697-a1601da3d69c,"Friday, May 12, 2023",Tumpa Banerjee ,EPOD-009,Jitender Singh,9.0,Friday,1:52:00 PM,76,85,14:00,Gurgaon,False,0,0,HopchargeZ,8,2
+61,eec445dc-99dc-462a-a9e1-17bf1d69b391,"Friday, May 12, 2023",Sanjay Kumar,EPOD-002,Vipin,813.0,Friday,10:45:00 PM,27,95,23:00,Noida,False,0,1,Starter-I_100,12,18.4
+62,eeae43ee-37a6-48a0-a1ca-44f9b8d7a188,"Friday, May 12, 2023",Sanjay Kumar,EPOD-007,Rohit Nagar,74.0,Friday,3:05:00 PM,7,92,17:00,Noida,False,0,1,Starter-I_100,16,18.4
+63,06e1d87e-0801-4fee-bdbf-7697076fa11c,"Friday, May 12, 2023",Pradeep Sharma,EPOD-003,Ankush chauhan,19.0,Friday,11:15:00 PM,0,23,02:00,Gurgaon,False,0,2,,30,5.6
+64,8d98fb09-c2e2-46ff-ab97-0c99776d2d67,"Saturday, May 13, 2023",Pragun Mittal,EPOD-008,Shakti singh,731.0,Saturday,1:26:00 AM,28,90,10:00,Noida,False,0,1,HopchargeZ,38,23.2
+65,7b8232c4-a1cb-43cd-bfec-c063eab26131,"Saturday, May 13, 2023",Amit Kr Chauhan ,EPOD-009,Baljeet Kumar,22.0,Saturday,3:33:00 AM,35,95,19:00,Gurgaon,False,0,1,HopchargeZ3,18,6.4
+66,c1276176-a15c-4a5b-b243-eedeab4ecded,"Friday, May 12, 2023",Dinesh Sharma,E-POD-012,Pradeep kumar,76.0,Friday,10:45:00 AM,16,95,11:00,Gurgaon,False,0,1,HopchargeZ,10 ,15.6
+67,af4d8ef5-b124-4e99-a28a-582ce23975d5,"Friday, May 12, 2023",Rakesh Bahnewal,EPOD-010,Aman Chaudhary,34.0,Friday,2:55:00 AM,44,80,03:00,Gurgaon,False,0,0,HopchargeZ3Y,12,6.8
+68,ab83c514-2d68-4fd9-b6d5-e665a70f268d,"Thursday, May 11, 2023",B S  Madan,EPOD-005,Sachin Rajput,56.0,Thursday,1:45:00 AM,27,80,02:00,Gurgaon,False,0,1,HopchargeZ3Y,7,10.8
+69,57e62687-f73d-4f32-9f48-3d213d4c1981,"Friday, May 12, 2023",Vinit Chadha,EPOD-009,Baljeet Kumar,45.0,Friday,1:56:00 AM,10,99,02:00,Gurgaon,False,0,0,HopchargeZ,13,7.2
+70,1c816370-193e-453f-9bf6-594563701752,"Friday, May 12, 2023",Ankit Kumar,EPOD-010,Aman Chaudhary,798.0,Friday,10:46:00 PM,22,80,21:00,Gurgaon,False,0,2,HopchargeZ,6,19.6
+71,f7066196-9a5c-4a27-bc9c-31f984eaf872,"Saturday, May 13, 2023",Maheshwar Nath Kushwaha   Kushwaha,EPOD-008,Shakti singh,26.0,Saturday,4:54:00 AM,57,80,22:00,Noida,False,0,1,HopchargeZ3,39,7.6
+72,76a46b87-ddd1-47e8-8eea-4b7bf63bd273,"Friday, May 12, 2023",Romil  Saxena,EPOD-003,Ankush chauhan,187.0,Friday,12:45:00 PM,10,80,01:00,Noida,False,0,1,HopchargeZ,26,2200
+73,f68aaa7b-09c6-422c-a8e7-1179d60f3f44,"Friday, May 12, 2023",Arjun  Singh,E-POD-012,Pritam Kumar,41.0,Friday,4:53:00 AM,31,71,05:00,Gurgaon,False,0,0,HopchargeZ,24,16.8
+74,1c3866f2-2d2a-4819-95f0-e91b5be207dd,"Friday, May 12, 2023",Indresh Kumar  Singh,EPOD-008,Shakti singh,89.0,Friday,5:48:00 AM,28,99,06:00,Ghaziabad,False,0,0,HopchargeZ3Y,17,-1362
+75,6743e60d-62b7-4134-9526-94b20be5856d,"Thursday, May 11, 2023",Manish Kumar  Narang,EPOD-002,Vipin,64.0,Thursday,9:15:00 PM,25,75,19:00,Noida,False,0,2,Hopcharge-Y,35,20.8
+76,d353c2e0-718a-4057-a6ba-4feef3b3582d,"Friday, May 12, 2023",Samarth  Chopra,EPOD-007,Awdesh Kumar,90.0,Friday,5:40:00 AM,23,100,06:00,Noida,False,0,1,Hopcharge1,29,-2128
+77,eb2b9da5-6fef-49cc-a57b-c8e3815d73d2,"Friday, May 12, 2023",Tarun Wadhwa ,EPOD-009,Baljeet Kumar,56.0,Friday,6:59:00 AM,11,80,07:00,Gurgaon,False,0,0,HopchargeZ,19,13.2
+78,400bc321-7842-4d9d-a01b-449881e4f86b,"Thursday, May 11, 2023",Vinit Chadha,EPOD-005,Jitendra Singh New,41.0,Thursday,6:45:00 PM,22,70,19:00,Gurgaon,False,0,1,HopchargeZ,14,11.6
+79,afdd1015-ce2d-4aad-9b94-be39f01b3c90,"Thursday, May 11, 2023",Manju Bhardwaj,E-POD-012,Pradeep kumar,63.0,Thursday,6:45:00 PM,16,80,19:00,Gurgaon,False,0,1,HopchargeZ,13,12.4
+80,39e84cd6-9876-4393-81cd-c4b66750d2d8,"Friday, May 12, 2023",Tumpa Banerjee ,EPOD-010,Aman Chaudhary,50.0,Friday,11:46:00 PM,52,95,12:00,Gurgaon,False,0,2,HopchargeZ,8,5.2
+81,ca9eed6b-1d98-4924-9957-2cdd91a27bb9,"Thursday, May 11, 2023",Narendra Singh,EPOD-005,Jitendra Singh New,67.0,Thursday,2:13:00 PM,25,70,16:00,Gurgaon,False,0,1,FLEX,6,15.6
+82,5ff779eb-f30f-48da-ac96-079d4d723529,"Friday, May 12, 2023",KULDEEP Singh ,EPOD-010,Akash Kumar,16.0,Friday,10:50:00 AM,72,80,11:00,Gurgaon,False,0,0,HopchargeZ,12,2.8
+83,39488e80-3023-4107-958a-b4b18d83ea73,"Thursday, May 11, 2023",KULDEEP Singh ,E-POD-012,Pritam Kumar,45.0,Thursday,10:15:00 PM,48,80,23:00,Gurgaon,False,0,1,HopchargeZ,17,10.8
+84,892a47b4-8af3-401e-ba45-d1e75a798a90,"Thursday, May 11, 2023",Rakesh Bahnewal,EPOD-005,Jitendra Singh New,77.0,Thursday,11:41:00 AM,10,76,13:00,Gurgaon,False,0,1,HopchargeZ3Y,22,15.2
+85,1ecfd357-db47-4f3a-aa5b-81025813d68a,"Thursday, May 11, 2023",Rashmi Kumari,EPOD-010,Akash Kumar,80.0,Thursday,12:45:00 PM,33,95,13:00,Gurgaon,False,0,1,HopchargeZ,15,21.6
+86,a92a5bf2-d575-4992-ab73-99729c2ebd91,"Friday, May 12, 2023",nitin patil,EPOD-007,Awdesh Kumar,61.0,Friday,11:53:00 PM,20,80,07:00,Noida,False,0,2,HopchargeZ,18 ,14
+87,5f1ec285-4c39-4008-b343-5b221e0be85b,"Thursday, May 11, 2023",Dr. Rohit Nara,EPOD-009,Baljeet Kumar,92.0,Thursday,9:56:00 PM,20,93,22:00,Gurgaon,False,0,0,HopchargeZ,4,25.2
+88,97bc6e0b-d5b8-4479-9f97-3d40c2c31277,"Friday, May 12, 2023",Atishay Jain,EPOD-008,Sonu Chauhan,82.0,Friday,1:02:00 PM,9,85,14:00,Noida,False,0,1,HopchargeZ,7 ,18
+89,451967f0-753f-4b03-972b-ae89409c7e45,"Thursday, May 11, 2023",Sanjay Kumar,EPOD-008,Shakti singh,47.0,Thursday,8:27:00 PM,64,95,23:00,Noida,False,0,1,Starter-I_100,7,4.4
+90,67c8d539-41d3-4b21-80e3-840202657119,"Thursday, May 11, 2023",Sanjay Kumar,EPOD-008,Sonu Chauhan,97.0,Thursday,1:11:00 PM,17,95,14:00,Noida,False,0,1,Starter-I_100,11,16.8
+91,71114a25-03bb-4727-a145-d7f26b68dcd0,"Thursday, May 11, 2023",Sanjay Kumar,EPOD-007,Rohit Nagar,81.0,Thursday,12:02:00 PM,36,95,13:00,Noida,False,0,1,Starter-I_100,9,12.4
+92,d3ca4b23-eb05-4577-ad26-bbedc6eda1b0,"Thursday, May 11, 2023",Pradeep  Saini,EPOD-004,Pradeep Rawat,52.0,Thursday,12:31:00 AM,44,44,03:00,Delhi,False,0,1,HopchargeZ3Y,27,11.68
+93,f8f1452a-8548-441b-a59d-00b5d0d5ebfa,"Friday, May 12, 2023",Sachin Sharma,EPOD-007,Awdesh Kumar,66.0,Friday,11:32:00 PM,30,80,04:00,Noida,False,0,2,HopchargeZ,16,9.6
+94,8df0f952-241b-4396-b961-b162d5f4008c,"Thursday, May 11, 2023",Vaibhav  B,EPOD-008,Sonu Chauhan,21.0,Thursday,10:45:00 AM,55,80,11:00,Noida,False,0,1,HopchargeZ3,17,4.8
+95,0320e0b2-1a51-41c8-b34f-ea9d6d259f02,"Thursday, May 11, 2023",Rajeev Kumar,EPOD-003,Dinesh Kumar,67.0,Thursday,9:39:00 AM,18,79,09:00,Noida,False,0,2,Hopcharge-X12,5,15.2
+96,aabd375e-331d-4435-ac41-a672af740e4e,"Friday, May 12, 2023",Srishti  Sharma,EPOD-004,Pradeep Rawat,55.0,Friday,8:44:00 PM,23,50,01:00,Delhi,False,0,2,HopchargeZ,1,5.2
+97,bd040971-a06a-4bfa-8771-d42a0148c276,"Thursday, May 11, 2023",Anil Raao,EPOD-003,Ankush chauhan,69.0,Thursday,12:50:00 AM,34,80,01:00,Gurgaon,False,0,0,HopchargeZ,13,19.2
+98,7a82494b-acba-4f99-97a4-9d8dcfe6f440,"Friday, May 12, 2023",Mohit  Gupta ,EPOD-011,Rohit Yadav,49.0,Friday,2:58:00 AM,25,80,05:00,Gurgaon,False,0,1,HopchargeZ,9 ,12.4
+99,e1c24e76-f585-4634-af2a-dacf6956e154,"Wednesday, May 10, 2023",Anand Kumar ,EPOD-003,Ankush chauhan,60.0,Wednesday,8:45:00 PM,30,80,21:00,Noida,False,0,1,HopchargeZ,22,12
+100,4cb5ff51-65ee-4d92-819b-d3183704599c,"Thursday, May 11, 2023",Dinesh Sharma,E-POD-012,Pradeep kumar,53.0,Thursday,10:47:00 AM,8,95,11:00,Gurgaon,False,0,0,HopchargeZ,10,17.2
+101,bb29beba-ba22-4535-b78c-9491cb91e0c2,"Thursday, May 11, 2023",Amit Kr Chauhan ,E-POD-012,Pritam Kumar,64.0,Thursday,5:36:00 AM,31,95,06:00,Gurgaon,False,0,1,HopchargeZ3,12,13.12
+102,948b7810-13d3-4fb9-983b-297c3f88419e,"Thursday, May 11, 2023",Ankit Kumar,EPOD-010,Aman Chaudhary,83.0,Thursday,8:52:00 PM,15,80,21:00,Gurgaon,False,0,0,HopchargeZ,6,21.2
+103,67ff99a8-1b9e-47c9-bc22-9d6f7b47fcc4,"Thursday, May 11, 2023",Amit Singhal,EPOD-008,Shakti singh,32.0,Thursday,3:01:00 AM,45,80,06:00,Faridabad,False,0,1,HopchargeZ,38,6.8
+104,d70e9ddb-b4c2-45e9-9383-4db4a70084aa,"Thursday, May 11, 2023",Ramesh Gupta,EPOD-010,Aman Chaudhary,67.0,Thursday,3:41:00 AM,10,60,08:00,Gurgaon,False,0,1,Hopcharge-X12,3,15.2
+105,2c575389-575a-4b97-bc9c-597b05808abb,"Thursday, May 11, 2023",Nisha  Chauhan ,EPOD-007,Rohit Nagar,24.0,Thursday,10:43:00 AM,27,80,23:00,Noida,False,0,1,HopZ Lite,24,5.2
+106,b17b136f-52cd-44b7-8a0e-685303a0b510,"Thursday, May 11, 2023",Saroj  Kumar,EPOD006,Ankit Kumar Gupta,47.0,Thursday,10:44:00 AM,18,80,10:00,Ghaziabad,False,0,2,FLEX,17,12.4
+107,2a88e66b-3849-42bc-a55b-51f93f7f8437,"Thursday, May 11, 2023",Maheshwar Nath Kushwaha   Kushwaha,EPOD-003,Ankush chauhan,26.0,Thursday,5:45:00 AM,59,80,05:00,Noida,False,0,2,HopchargeZ3,22,640
+108,52539555-dffa-4ae9-a434-0e687be8620c,"Wednesday, May 10, 2023",Surbhi Sangwan,EPOD-009,Jitender Singh,41.0,Wednesday,12:40:00 PM,10,40,14:00,Gurgaon,False,0,1,HopchargeZ,3,6
+109,43326778-808e-4b7b-80fa-5a1051d827ae,"Wednesday, May 10, 2023",Surbhi Sangwan,EPOD-009,Jitender Singh,25.0,Wednesday,12:40:00 PM,16,40,14:00,Gurgaon,False,0,1,HopchargeZ,3,5.2
+110,b39ee210-b71c-46de-9e95-a61dfc7bd1af,"Wednesday, May 10, 2023",Amit Singhal,EPOD006,Dinesh Kumar,55.0,Wednesday,3:14:00 PM,38,80,15:00,Delhi,False,0,2,HopchargeZ,45,8.4
+111,a1289bb4-28ff-413a-9794-51f4dd60704c,"Wednesday, May 10, 2023",Arvind Tygi,EPOD-007,Rohit Nagar,61.0,Wednesday,12:42:00 PM,20,80,13:00,Ghaziabad,False,0,1,,35,11.6
+112,2faf471f-04ec-48b8-9725-dc449e3cc4d8,"Friday, May 12, 2023",Vinod  Yadav,EPOD-005,Jitendra Singh New,78.0,Friday,10:37:00 PM,39,99,10:00,Gurgaon,False,0,2,HopchargeZ,19,20.8
+113,acbba0cc-9d31-40a3-b016-72bfdaef808f,"Thursday, May 11, 2023",Tarun Wadhwa ,EPOD-009,Baljeet Kumar,49.0,Thursday,6:52:00 AM,21,80,07:00,Gurgaon,False,0,0,HopchargeZ,12,11.6
+114,e7f22ffc-4755-4e00-9a80-4f7dfd0345de,"Wednesday, May 10, 2023",Harshit Srivastava,EPOD-008,Sonu Chauhan,67.0,Wednesday,7:05:00 PM,30,80,19:00,Noida,False,0,2,Hopcharge-Y,10 ,16.8
+115,93f3a7b5-b788-4c8b-8425-94db9532b676,"Thursday, May 11, 2023",raghu kapoor,EPOD-004,Pradeep Rawat,67.0,Thursday,2:14:00 AM,16,77,05:00,Delhi,False,0,1,HopchargeZ,15,12.64
+116,2cf5dc87-8fb3-4f4f-8095-cd05fc052c0e,"Thursday, May 11, 2023",Vinit Chadha,EPOD-009,Baljeet Kumar,54.0,Thursday,11:39:00 PM,20,80,12:00,Gurgaon,False,0,2,HopchargeZ,12,14
+117,9e77a34f-a901-44a7-9e3a-36b0623e842d,"Wednesday, May 10, 2023",B S  Madan,EPOD-005,Jitendra Singh New,1495.0,Wednesday,5:19:00 PM,45,80,18:00,Gurgaon,False,0,1,HopchargeZ3Y,8,7.2
+118,fef7f171-3516-445f-a540-37fc1c3152b2,"Wednesday, May 10, 2023",Pragun Mittal,EPOD-007,Awdesh Kumar,,Wednesday,10:43:00 PM,9,92,23:00,Noida,True,0,1,HopchargeZ,8 ,27.6
+119,43a004d5-3b7c-4f3a-8c86-07e1a2d0e45f,"Wednesday, May 10, 2023",Pragun Mittal,EPOD-007,Awdesh Kumar,117.0,Wednesday,6:55:00 AM,69,84,23:00,Noida,False,0,1,HopchargeZ,8 ,5.2
+120,2da8585e-9db7-4bc0-b7da-4766dd156dca,"Saturday, May 13, 2023",Sandeep Yadav,E-POD-012,Sunil Kumar,9.0,Saturday,3:42:00 AM,53,95,23:00,Gurgaon,False,0,1,HopchargeZ3,9.2,-3089.6
+121,15f90b4a-200a-470a-b5da-db5ccd99d21e,"Thursday, May 11, 2023",Sanjay Kumar,EPOD-004,Pradeep Rawat,105.0,Thursday,6:03:00 AM,18,95,06:00,Delhi,False,0,2,Starter-I_100,27,16
+122,e003f012-42bc-4188-a222-7fe5977fc4c8,"Thursday, May 11, 2023",Rishi Shukla,EPOD-009,Baljeet Kumar,14.0,Thursday,8:56:00 PM,65,80,21:00,Gurgaon,False,0,0,HopchargeZ,18,3.2
+123,2a64b617-e3ef-4dc8-b886-a58de401da5c,"Thursday, May 11, 2023",Rishi Shukla,EPOD-009,Baljeet Kumar,29.0,Thursday,1:36:00 AM,49,80,21:00,Gurgaon,False,0,1,HopchargeZ,10,7.2
+124,e3eaf9fa-3d8f-4435-a0d8-6628ed35b48e,"Wednesday, May 10, 2023",Rishi Shukla,EPOD-011,Sachin Rajput,41.0,Wednesday,1:15:00 AM,34,80,03:00,Gurgaon,False,0,1,HopchargeZ,12,10.4
+125,8e3978b2-575e-49b5-a723-920de2bd7872,"Wednesday, May 10, 2023",Rakesh Bahnewal,E-POD-012,Sunil Kumar,32.0,Wednesday,5:58:00 AM,47,85,06:00,Gurgaon,False,0,0,HopchargeZ3Y,12,9.2
+126,79aaa280-45d8-42c4-b089-620d0845d264,"Wednesday, May 10, 2023",Shubhra  Vanjani,EPOD-004,OPS Team,,Wednesday,10:18:00 AM,60,95,09:00,Delhi,False,0,2,HopchargeZ,15,2000
+127,0ec322ed-cf0a-48eb-8b7d-401f75c77617,"Wednesday, May 10, 2023",Sandeep Yadav,EPOD-005,Sunil Kumar,92.0,Wednesday,9:50:00 PM,19,99,22:00,Gurgaon,False,0,0,HopchargeZ3,12,18
+128,d0af6b99-fc15-4ae1-bfc3-0f734b11b733,"Tuesday, May 9, 2023",Vikas Agarwal,EPOD-004,Pradeep Rawat,18.0,Tuesday,11:36:00 PM,0,26,02:00,Delhi,False,0,2,Hopcharge-X12,5,3.88
+129,0540647b-3da7-4c62-aa4c-4068070532dd,"Wednesday, May 10, 2023",KULDEEP Singh ,EPOD-009,Jitender Singh,,Wednesday,8:38:00 AM,71,99,09:00,Gurgaon,False,0,1,HopchargeZ,12,8.4
+130,060a2f1a-4472-49ab-abca-47598abf9d70,"Wednesday, May 10, 2023",Karan  Ray,EPOD-003,Ankit Kumar Gupta,58.0,Wednesday,9:30:00 AM,21,76,09:00,Delhi,False,0,2,HopchargeZ,18,20.8
+131,604694f1-e46d-48ef-8265-fbe7713d59d0,"Wednesday, May 10, 2023",Sanjay Kumar,EPOD-008,Shakti singh,87.0,Wednesday,5:31:00 AM,36,95,15:00,Delhi,False,0,1,Starter-I_100,23,15.6
+132,e35d7a95-ff4a-4358-b958-97946615718b,"Wednesday, May 10, 2023",Sanjay Kumar,EPOD-008,Shakti singh,41.0,Wednesday,5:31:00 AM,10,95,15:00,Delhi,False,0,1,Starter-I_100,23,6.4
+133,8dacb428-f347-459e-8f09-7ad490af6813,"Wednesday, May 10, 2023",Sanjay Kumar,EPOD-008,Sonu Chauhan,61.0,Wednesday,2:45:00 PM,29,75,15:00,Noida,False,0,1,Starter-I_100,17,9.6
+134,1ca528d2-7550-4510-ad98-37734d30c945,"Wednesday, May 10, 2023",Dinesh Sharma,E-POD-012,Pradeep kumar,102.0,Wednesday,10:55:00 AM,10,95,11:00,Gurgaon,False,0,0,HopchargeZ,5,16.8
+135,496bd63f-6c82-443d-88a6-791699007704,"Wednesday, May 10, 2023",Deepak  Sharma,E-POD-012,Pritam Kumar,63.0,Wednesday,8:35:00 PM,32,95,21:00,Gurgaon,False,0,1,HopchargeZ,07 ,15.2
+136,b9d7e88a-5750-406a-8c4c-e6287e3a2bc0,"Tuesday, May 9, 2023",Tumpa Banerjee ,EPOD-009,Baljeet Kumar,55.0,Tuesday,10:46:00 PM,42,99,02:00,Gurgaon,False,0,2,HopchargeZ,10,3.6
+137,9a8901b3-b7c6-4850-bb72-5e6cb1769687,"Thursday, May 11, 2023",Tumpa Banerjee ,EPOD-010,Aman Chaudhary,,Thursday,1:50:00 AM,81,95,02:00,Gurgaon,True,1,0,HopchargeZ,9,3.2
+138,7fb22ae7-fc6e-429c-8d9e-06aa30663e79,"Wednesday, May 10, 2023",Sundeep  Jain,EPOD-010,Aman Chaudhary,48.0,Wednesday,12:45:00 AM,24,80,01:00,Gurgaon,False,0,1,HopchargeZ3Y,11,12
+139,332d8765-a20d-4df2-b2a8-e7f11c20d34d,"Wednesday, May 10, 2023",Pradeep  Saini,EPOD-010,Aman Chaudhary,43.0,Wednesday,9:34:00 PM,0,16,01:00,Gurgaon,False,0,2,HopchargeZ3Y,3,4.4
+140,1d511651-769c-47dc-842f-7f3b15aeb4c8,"Wednesday, May 10, 2023",Dr. Rohit Nara,EPOD-011,Sachin Rajput,113.0,Wednesday,4:46:00 AM,11,95,05:00,Gurgaon,False,0,0,HopchargeZ,8,22.8
+141,b261d18b-cd61-4ca7-ab73-cc3ac765c35f,"Wednesday, May 10, 2023",Sanjay Kumar,EPOD-007,Rohit Nagar,69.0,Wednesday,6:12:00 PM,44,60,17:00,Noida,False,0,2,Starter-I_100,15,3.6
+142,c62b50c3-e635-4fd7-b240-0fd9e1c2e578,"Wednesday, May 10, 2023",Ankit Kumar,E-POD-012,Sunil Kumar,72.0,Wednesday,12:45:00 AM,21,80,01:00,Gurgaon,False,0,1,HopchargeZ,6,-864
+143,60fe9761-88d5-428d-b662-186a6e91e406,"Wednesday, May 10, 2023",Romil  Saxena,EPOD-007,Awdesh Kumar,73.0,Wednesday,1:55:00 AM,10,80,01:00,Noida,False,0,2,HopchargeZ,8 ,15.6
+144,d2bec1dc-d045-4090-b6bd-ef20a3f4b206,"Wednesday, May 10, 2023",Anand Kumar ,EPOD-007,Awdesh Kumar,56.0,Wednesday,5:49:00 AM,16,80,06:00,Noida,False,0,0,HopchargeZ,17,12.4
+145,7e3d834b-75df-48a2-9135-c7ce428e0bc6,"Wednesday, May 10, 2023",Vinit Chadha,EPOD-011,Sachin Rajput,28.0,Wednesday,11:45:00 PM,78,95,12:00,Gurgaon,False,0,2,HopchargeZ,89,5.6
+146,e47bf3aa-464b-418e-a0d5-1ed33816a63d,"Wednesday, May 10, 2023",Sankalp Maheshwari,EPOD-004,Pradeep Rawat,60.0,Wednesday,2:16:00 AM,7,80,23:00,Delhi,False,0,1,HopchargeX3,21,14
+147,92fb3ad2-8ac1-46c4-9a82-654e4882ef57,"Wednesday, May 10, 2023",Amit Singhal,EPOD-004,Pradeep Rawat,43.0,Wednesday,4:49:00 AM,31,80,06:00,Delhi,False,0,1,HopchargeZ,13,9.48
+148,fa8532fe-dd22-4e02-87f0-f3570e2b2ebc,"Wednesday, May 10, 2023",Surbhi Sangwan,EPOD-009,Jitender Singh,25.0,Wednesday,12:40:00 PM,19,40,14:00,Gurgaon,False,0,1,HopchargeZ,3,4.8
+149,f59c2d0a-e461-4818-91bd-94fa66cc399f,"Wednesday, May 10, 2023",Surbhi Sangwan,EPOD-009,Jitender Singh,17.0,Wednesday,12:40:00 PM,10,40,14:00,Gurgaon,False,0,1,HopchargeZ,3,6.4
+150,56d999d8-9a34-4449-a9bc-c73ab1766f70,"Tuesday, May 9, 2023",Rishi Shukla,EPOD-010,Akash Kumar,21.0,Tuesday,2:08:00 PM,20,80,15:00,Gurgaon,False,0,1,HopchargeZ,26,4
+151,eb923e81-1512-47b3-91cc-d85ddcd3950a,"Tuesday, May 9, 2023",PRAKASH Tiwari,EPOD-009,Jitender Singh,67.0,Tuesday,3:36:00 PM,0,80,18:00,Gurgaon,False,0,1,,8,15.6
+152,115a1570-370f-4dc3-93f7-c49ddcee9330,"Tuesday, May 9, 2023",Shalini Goyal,E-POD-012,Jitendra Singh New,59.0,Tuesday,3:45:00 PM,20,69,16:00,Gurgaon,False,0,1,HopchargeZ,14,16
+153,09efac90-2fd3-4836-a38f-ad5cf0f34015,"Tuesday, May 9, 2023",SS Tours  Pvt Ltd,E-POD-012,Jitendra Singh New,43.0,Tuesday,6:50:00 PM,25,80,19:00,Gurgaon,False,0,0,Starter-I_100,13,10.8
+154,2b98f00e-6928-4eab-920f-6a74d6b4800f,"Wednesday, May 10, 2023",SS Tours  Pvt Ltd,E-POD-012,Pradeep kumar,,Wednesday,6:40:00 PM,46,80,19:00,Gurgaon,True,1,1,Starter-I_100,11 ,6.8
+155,ef9e4269-8426-493e-b7d5-fbf26db68721,"Wednesday, May 10, 2023",SS Tours  Pvt Ltd,EPOD-010,Akash Kumar,49.0,Wednesday,6:28:00 PM,31,80,19:00,Gurgaon,False,0,1,Starter-I_100,15,10.4
+156,f2bf1236-75b3-4bc8-b9d0-254b91856a63,"Tuesday, May 9, 2023",Sanjay Kumar,EPOD-008,Sonu Chauhan,15.0,Tuesday,3:45:00 PM,11,95,16:00,Noida,False,0,1,Starter-I_100,17,17.6
+157,465d3596-ae9a-45b7-8c4a-7ac7982e6976,"Tuesday, May 9, 2023",Tarun Wadhwa ,EPOD-010,Akash Kumar,58.0,Tuesday,6:42:00 PM,10,80,19:00,Gurgaon,False,0,1,HopchargeZ,16,13.2
+158,5e5eddf8-8a84-4619-99b0-f42c1a5432d8,"Tuesday, May 9, 2023",Himanshu Agrawal,EPOD-007,Awdesh Kumar,56.0,Tuesday,9:46:00 PM,18,80,22:00,Noida,False,0,0,,15 ,2.4
+159,e7df82a4-225a-4cf6-ab01-12aa024a8f9b,"Wednesday, May 10, 2023",Siddhartha Sharma,EPOD-001,OPS Team,25.0,Wednesday,3:48:00 PM,58,90,16:00,Delhi,False,0,0,HopchargeZ,19,1520
+160,2f803a9c-f5a8-45e4-9778-03ccb223a8f1,"Wednesday, May 10, 2023",PAWAN KHANDELWAL,EPOD-010,Aman Chaudhary,54.0,Wednesday,6:44:00 AM,20,80,22:00,Gurgaon,False,0,1,HopchargeZ,10,13.6
+161,d23d9ccc-9cc3-470a-b55d-b587a0ec8991,"Wednesday, May 10, 2023",Vinod  Yadav,EPOD-005,OPS Team,110.0,Wednesday,10:40:00 AM,24,95,10:00,Gurgaon,False,0,2,HopchargeZ,8,-3720.4
+162,69c57bf5-a6b7-4813-866d-23c64a1b4a9a,"Tuesday, May 9, 2023",Vinod  Yadav,EPOD-009,Jitender Singh,32.0,Tuesday,2:43:00 PM,59,80,15:00,Gurgaon,False,0,1,HopchargeZ,6,7.6
+163,3fd12c83-0eb9-4fd2-8ca7-433c51954dee,"Tuesday, May 9, 2023",Vinit Chadha,EPOD-011,Ravi Dutt,66.0,Tuesday,6:42:00 PM,15,80,19:00,Gurgaon,False,0,1,HopchargeZ,13 ,15.2
+164,9468cb3c-ca8a-4bf4-a87c-c0dff0374140,"Tuesday, May 9, 2023",Rishi Shukla,EPOD-005,Others,1.0,Tuesday,6:40:00 AM,39,69,09:00,Gurgaon,False,0,1,HopchargeZ,0,6
+165,b6834ed9-5a59-4f71-9fea-e6e1d17c2c0e,"Tuesday, May 9, 2023",Deepak  Sharma,E-POD-012,Pritam Kumar,32.0,Tuesday,4:49:00 AM,80,100,05:00,Gurgaon,False,0,0,HopchargeZ,9,3.68
+166,c2ce3c4f-559a-4008-886c-18095be6b707,"Tuesday, May 9, 2023",Srishti  Sharma,EPOD-008,Shakti singh,53.0,Tuesday,1:32:00 AM,24,80,02:00,Noida,False,0,1,HopchargeZ,42,10.8
+167,ad7fc8b9-1b29-4db5-9783-7d1ec66fa332,"Tuesday, May 9, 2023",Gaurav Manchanda,EPOD-004,Pradeep Rawat,88.0,Tuesday,1:45:00 AM,35,95,02:00,Delhi,False,0,1,HopchargeZ,16,20.04
+168,02a252da-6d8a-4c6c-bb7e-33657df83231,"Wednesday, May 10, 2023",Sachin Sharma,EPOD-008,Shakti singh,77.0,Wednesday,12:13:00 AM,10,75,22:00,Noida,False,0,1,HopchargeZ,23,15.6
+169,c3f9dd93-e5a5-4692-9f0e-020e04c687a3,"Tuesday, May 9, 2023",Arun Rana,EPOD-005,Sachin Rajput,60.0,Tuesday,4:57:00 AM,42,80,06:00,Gurgaon,False,0,1,HopchargeZ,25,15.6
+170,b7374163-ea30-4bbe-8cd5-ddca71413a7f,"Tuesday, May 9, 2023",Poonam Bajaj,EPOD-011,Sunil Kumar,,Tuesday,6:50:00 AM,19,80,07:00,Gurgaon,False,0,0,,12,14
+171,a262f633-a2c3-464d-b265-79c62973f01e,"Tuesday, May 9, 2023",Subhodip  Guha,EPOD-005,Sachin Rajput,48.0,Tuesday,6:25:00 AM,39,69,07:00,Gurgaon,False,0,1,Hopcharge-X12,20,6.8
+172,2bab9382-577a-46a8-b146-3934cb47cc66,"Monday, May 8, 2023",Dr. Rohit Nara,EPOD-011,Rohit Yadav,65.0,Monday,3:11:00 AM,34,97,05:00,Gurgaon,False,0,1,HopchargeZ,11,5.6
+173,55edb014-28cf-4b5c-8827-f2f38b1b7548,"Tuesday, May 9, 2023",SS Tours  Pvt Ltd,E-POD-012,Jitendra Singh New,53.0,Tuesday,8:10:00 PM,24,80,19:00,Gurgaon,False,0,2,Starter-I_100,11,12
+174,e15b32fb-1f94-4404-8922-b58c832122dc,"Tuesday, May 9, 2023",Piyush  Malyan ,EPOD-010,Aman Chaudhary,63.0,Tuesday,12:55:00 AM,31,82,01:00,Delhi,False,0,0,HopchargeX3Y,38,11.2
+175,b373673f-b908-4cf9-bf36-ef63b7d2ce41,"Tuesday, May 9, 2023",B S  Madan,EPOD-010,Akash Kumar,45.0,Tuesday,3:34:00 PM,45,81,16:00,Gurgaon,False,0,1,HopchargeZ3Y,15,8
+176,21243adb-a9e9-42da-aa9a-ab8c1372a901,"Monday, May 8, 2023",Rashmi Kumari,EPOD-010,Aman Chaudhary,53.0,Monday,9:03:00 PM,36,65,22:00,Gurgaon,False,0,1,HopchargeZ,10,9.6
+177,7a348650-c6c9-4201-8179-66c49315470c,"Tuesday, May 9, 2023",Sanjay Kumar,EPOD-007,Rohit Nagar,104.0,Tuesday,2:37:00 PM,12,95,15:00,Noida,False,0,1,Starter-I_100,16,16.8
+178,966d5f2a-62e5-4722-adee-1023053a485a,"Tuesday, May 9, 2023",Sanjay Kumar,EPOD-008,Sonu Chauhan,45.0,Tuesday,11:23:00 AM,51,95,12:00,Noida,False,0,1,Starter-I_100,10,9.2
+179,93467f14-9202-4ba2-9c17-bddd97460af3,"Monday, May 8, 2023",Sanjay Kumar,EPOD-007,Dinesh Kumar,783.0,Monday,2:29:00 PM,23,80,22:00,Noida,False,0,1,Starter-I_100,35,12.8
+180,f10a7ade-684b-4433-84b0-ae61762fc86b,"Monday, May 8, 2023",Sanjay Kumar,EPOD-007,Dinesh Kumar,,Monday,2:32:00 PM,80,95,23:00,Noida,False,0,1,Starter-I_100,35,12.8
+181,b6d72e5c-d614-4bc7-827d-1af22fc2c99d,"Tuesday, May 9, 2023",KULDEEP Singh ,EPOD-010,Akash Kumar,60.0,Tuesday,9:16:00 AM,53,95,09:00,Gurgaon,False,0,2,HopchargeZ,8,14.4
+182,830e23bd-5597-4ed1-bfbf-561a4daecd68,"Monday, May 8, 2023",Renu Talwar,EPOD-004,Pradeep Rawat,91.0,Monday,9:45:00 PM,20,81,22:00,Delhi,False,0,1,HopchargeZ,16,20.08
+183,2eb3e17e-28a2-455d-a640-606ede923a14,"Tuesday, May 9, 2023",Dinesh Sharma,E-POD-012,Jitendra Singh New,92.0,Tuesday,11:37:00 AM,13,95,12:00,Gurgaon,False,0,1,HopchargeZ,10,15.2
+184,44c3f77d-a0a9-490a-bf35-69145941dc42,"Monday, May 8, 2023",Abhay Gun Shekhar,EPOD-008,Sonu Chauhan,,Monday,6:07:00 PM,36,83,18:00,Noida,False,0,2,HopchargeY,32,11.2
+185,819ba9eb-2fdc-4039-a6a8-ba1238fa266d,"Tuesday, May 9, 2023",Amit Singhal,EPOD-004,Pradeep Rawat,63.0,Tuesday,5:45:00 AM,8,80,06:00,Delhi,False,0,1,HopchargeZ,30,13.8
+186,cf46eb38-491b-4004-8709-04531352b581,"Tuesday, May 9, 2023",Amit Kr Chauhan ,E-POD-012,Pritam Kumar,617.0,Tuesday,12:36:00 AM,51,100,01:00,Gurgaon,False,0,1,HopchargeZ3,12,11.2
+187,b7010445-f24b-4543-9803-350b1ba4920f,"Monday, May 8, 2023",Tumpa Banerjee ,EPOD-009,Baljeet Kumar,60.0,Monday,10:46:00 PM,53,80,23:00,Gurgaon,False,0,0,HopchargeZ,10,5.6
+188,3778940d-659e-4bc4-aa3e-b44b2245539d,"Monday, May 8, 2023",Manju Bhardwaj,EPOD-010,Akash Kumar,37.0,Monday,6:45:00 PM,37,80,19:00,Gurgaon,False,0,1,HopchargeZ,15,8
+189,40fad7ba-c4cd-4e5e-8625-39742ce40e98,"Monday, May 8, 2023",Vaibhav  B,EPOD-008,Sonu Chauhan,38.0,Monday,1:47:00 PM,40,80,14:00,Noida,False,0,0,HopchargeZ3,18,7.6
+190,c13473f4-7668-4e76-87ec-eb6d93589e4b,"Tuesday, May 9, 2023",Tarun Wadhwa ,EPOD-009,Baljeet Kumar,51.0,Tuesday,6:45:00 AM,25,81,19:00,Gurgaon,False,0,1,HopchargeZ,11,10.8
+191,8528aab6-d426-41db-8935-523e3ac7912d,"Monday, May 8, 2023",Ankit Kumar,EPOD-005,Sachin Rajput,85.0,Monday,9:48:00 PM,16,80,22:00,Gurgaon,False,0,0,HopchargeZ,7,21.6
+192,9ab41d2a-1f43-4a2b-919f-5a4c0d298ab5,"Monday, May 8, 2023",SS Tours  Pvt Ltd,EPOD-005,Jitendra Singh New,44.0,Monday,6:45:00 PM,27,80,19:00,Gurgaon,False,0,1,Starter-I_100,19,12
+193,8497fd7f-da6b-42ec-b373-8f690fd922b9,"Monday, May 8, 2023",SS Tours  Pvt Ltd,EPOD-009,Jitender Singh,49.0,Monday,6:48:00 PM,33,80,19:00,Gurgaon,False,0,0,Starter-I_100,12,10
+194,9511b59f-f146-4e33-b89f-2f2c32ce322c,"Tuesday, May 9, 2023",Sandeep Yadav,EPOD-009,Baljeet Kumar,38.0,Tuesday,3:38:00 AM,72,99,23:00,Gurgaon,False,0,1,HopchargeZ3,12,5.6
+195,26163f0f-ac1d-47b2-89fe-57ad50949693,"Tuesday, May 9, 2023",Sandeep Yadav,EPOD-011,Ravi Dutt,52.0,Tuesday,3:47:00 PM,23,83,16:00,Gurgaon,False,0,0,HopchargeZ3,8,14.4
+196,25d11923-9d29-4258-8925-b1cd00a0e472,"Tuesday, May 9, 2023",Vinod  Yadav,EPOD-009,Jitender Singh,84.0,Tuesday,9:58:00 AM,17,80,10:00,Gurgaon,False,0,0,HopchargeZ,18,21.6
+197,9850fd1d-dcec-4488-a88f-cdfccf1e58f6,"Monday, May 8, 2023",Vinod  Yadav,EPOD-011,Ravi Dutt,75.0,Monday,2:45:00 PM,14,67,15:00,Gurgaon,False,0,1,HopchargeZ,8,30.8
+198,4c8d9197-0264-4d47-90c9-66d757e244ab,"Monday, May 8, 2023",Pradeep  Saini,EPOD-010,Akash Kumar,93.0,Monday,11:45:00 AM,11,80,12:00,Delhi,False,0,1,HopchargeZ3Y,18,23.2
+199,e86c8e05-8e1c-4f1c-a613-7f1e8a6aadd8,"Monday, May 8, 2023",Aparajeeta Sarmah,EPOD-004,Others,74.0,Monday,11:43:00 AM,44,80,12:00,Noida,False,0,1,HopchargeZ,0,25.2
+200,d4e94e43-7d99-4c2f-a2f2-01b063e3c54a,"Monday, May 8, 2023",Deepak  Sharma,E-POD-012,Pritam Kumar,70.0,Monday,8:45:00 PM,50,80,21:00,Gurgaon,False,0,1,HopchargeZ,9,7.32
+201,c29fbcfc-9519-4208-b541-8b764784bb9a,"Monday, May 8, 2023",Jyotendra Pallav,EPOD-011,Ravi Dutt,,Monday,8:38:00 AM,38,80,09:00,Gurgaon,False,0,1,HopchargeZ,10,17.6
+202,45349d4f-418d-4b8a-a1c1-21c77a0bcc03,"Monday, May 8, 2023",nitin patil,EPOD-007,Awdesh Kumar,57.0,Monday,8:55:00 AM,30,78,09:00,Noida,False,0,0,HopchargeZ,18 ,26.4
+203,c7690aa1-2448-4bc4-8ead-b84ad39f6726,"Monday, May 8, 2023",Sanjay Kumar,EPOD-003,Shoyab ali,,Monday,4:57:00 PM,31,95,17:00,Noida,False,0,0,Starter-I_100,16,18.4
+204,aa6118b6-b865-4771-ac2c-93a77ecc4f01,"Monday, May 8, 2023",Sanjay Kumar,EPOD-007,Ankush chauhan,,Monday,5:45:00 AM,21,95,12:00,Delhi,False,0,1,Starter-I_100,23,18.8
+205,e8154e8e-990b-4ff7-899f-c8e30b6a5955,"Monday, May 8, 2023",Mohit  Gupta ,EPOD-009,Sachin Rajput,87.0,Monday,5:45:00 AM,56,80,06:00,Gurgaon,False,0,1,HopchargeZ,22,4.4
+206,9661dcda-620c-4657-9ae8-894a0f256c4b,"Monday, May 8, 2023",Arvind Tygi,EPOD-003,Shoyab ali,43.0,Monday,8:58:00 AM,28,80,09:00,Noida,False,0,0,,18,12.8
+207,fb00645c-ced0-49f9-969d-072190588ad7,"Monday, May 8, 2023",Harsh Khandelwal,EPOD-001,Himanshu Kashyap,,Monday,8:35:00 AM,18,80,09:00,Delhi,False,0,1,Hopcharge1,5,25.2
+208,d6251b78-9be5-4b3e-add4-88e507bef214,"Monday, May 8, 2023",Nisha  Chauhan ,EPOD-007,Ankush chauhan,14.0,Monday,8:45:00 PM,46,80,21:00,Noida,False,0,1,HopZ Lite,7,12.8
+209,56290097-17d8-48f4-b983-cfe59a51e483,"Monday, May 8, 2023",Vinit Chadha,EPOD-011,Sunil Kumar,728.0,Monday,10:55:00 PM,62,80,11:00,Gurgaon,False,0,0,HopchargeZ,15,4.4
+210,ae1fe46a-5f69-45e3-8eee-150b8a3400ba,"Monday, May 8, 2023",Dinesh  Kumar,EPOD-005,Jitendra Singh New,,Monday,1:42:00 PM,27,95,14:00,Gurgaon,False,0,1,HopchargeZ,6,16
+211,c52eca56-858a-48d0-872e-2436a5a34381,"Monday, May 8, 2023",Nischal  Chauhan ,EPOD-008,Sonu Chauhan,94.0,Monday,9:22:00 AM,9,75,09:00,Noida,False,0,2,HopchargeZ,20,22.4
+212,123aa28a-28bd-4b51-822c-4908ddda1e5f,"Monday, May 8, 2023",Poonam  Rani,EPOD-007,Awdesh Kumar,55.0,Monday,6:42:00 AM,18,80,07:00,Noida,False,0,1,Hopcharge-Y,16 ,12
+213,7f6333d2-d6a1-4be1-a556-cea5976a6b8e,"Monday, May 8, 2023",Maheshwar Nath Kushwaha   Kushwaha,EPOD-003,Deepak kumar,43.0,Monday,10:24:00 PM,56,80,22:00,Noida,False,0,2,HopchargeZ3,20,10.4
+214,3161a4cf-9d65-44ec-8ace-59ce80dcbb0f,"Sunday, May 7, 2023",Rakesh Bahnewal,EPOD-010,Akash Kumar,,Sunday,6:04:00 PM,12,78,19:00,Gurgaon,False,0,1,HopchargeZ3Y,18,15.6
+215,742f43ca-726f-4905-b2b7-5c7195e418c9,"Monday, May 8, 2023",Dr. Rohit Nara,EPOD-011,Rohit Yadav,105.0,Monday,3:11:00 AM,19,80,04:00,Gurgaon,False,0,1,HopchargeZ,11,20.4
+216,978a76ae-5bab-4588-8861-660777a81f35,"Sunday, May 7, 2023",Anil Raao,EPOD-004,Pradeep Rawat,43.0,Sunday,12:06:00 AM,52,80,01:00,Gurgaon,False,0,1,HopchargeZ,29,9.2
+217,26cc86ba-4505-487f-9998-501ae0fb9801,"Monday, May 8, 2023",Tumpa Banerjee ,EPOD-009,Sachin Rajput,691.0,Monday,12:45:00 AM,80,95,01:00,Gurgaon,False,0,1,HopchargeZ,0,2.8
+218,06c33d89-a7c3-4d63-8215-daaa008ca2fc,"Monday, May 8, 2023",Manju Bhardwaj,EPOD-004,Pradeep Rawat,,Monday,6:45:00 AM,11,80,07:00,Delhi,False,0,1,HopchargeZ,24,13.2
+219,ef78e905-582f-4032-95cd-d78249a39ebc,"Monday, May 8, 2023",Arjun  Singh,E-POD-012,Pritam Kumar,22.0,Monday,4:51:00 AM,60,80,05:00,Gurgaon,False,0,0,HopchargeZ,20,8
+220,7254d4ae-b6f5-42c1-ae8c-c9a5e3f9e938,"Sunday, May 7, 2023",Dinesh Sharma,EPOD-003,Jitendra Singh New,102.0,Sunday,1:31:00 PM,80,98,15:00,Gurgaon,False,0,1,HopchargeZ,7,14
+221,c4631f21-b323-49ed-9948-bfe90888f850,"Monday, May 8, 2023",Romil  Saxena,EPOD-002,Vipin,0.0,Monday,3:11:00 AM,22,71,04:00,Noida,False,0,1,HopchargeZ,28,20.4
+222,3ff5f459-7dbd-48b8-a7fa-4e3ab7f555ef,"Sunday, May 7, 2023",Dr. Rohit Nara,EPOD-005,Sonu Chauhan,78.0,Sunday,11:45:00 AM,8,58,15:00,Noida,False,0,1,HopchargeZ,30,16.8
+223,7f8f670e-30a1-4456-9b5d-627d390b071b,"Monday, May 8, 2023",B S  Madan,EPOD-009,Jitender Singh,52.0,Monday,3:54:00 PM,35,80,16:00,Gurgaon,False,0,0,HopchargeZ3Y,10,9.2
+224,db043386-f3f1-441d-821a-c2c9667ec97e,"Sunday, May 7, 2023",Srishti  Sharma,EPOD-007,Awdesh Kumar,8.0,Sunday,2:09:00 AM,17,80,02:00,Noida,False,0,2,HopchargeZ,14 ,12.8
+225,288ceb39-2ba0-4499-ae47-05d60c1491c4,"Sunday, May 7, 2023",Rajeev Kumar,EPOD-003,Shoyab ali,54.0,Sunday,5:40:00 PM,23,80,18:00,Noida,False,0,1,Hopcharge-X12,14,14.4
+226,10bacba3-8be5-474e-bb11-e65e8c609062,"Monday, May 8, 2023",Aryan  Chaudhary,EPOD006,Ankush chauhan,53.0,Monday,4:45:00 AM,19,80,05:00,Noida,False,0,1,HopchargeZ,18,20
+227,517b2199-42e5-4638-9b78-55e2fc217174,"Sunday, May 7, 2023",SS Tours  Pvt Ltd,E-POD-012,Pritam Kumar,44.0,Sunday,8:50:00 PM,63,95,12:00,Gurgaon,False,0,2,Starter-I_100,0,6.76
+228,1f172d9d-9dfd-4666-b743-3f4a405012a5,"Sunday, May 7, 2023",SS Tours  Pvt Ltd,E-POD-012,Pritam Kumar,69.0,Sunday,8:50:00 PM,36,95,23:00,Gurgaon,False,0,1,Starter-I_100,12,12.4
+229,b8390110-3f03-46ea-a2e4-bf3807fec7bd,"Sunday, May 7, 2023",Vinit Chadha,EPOD-011,Rohit Yadav,47.0,Sunday,10:45:00 AM,33,80,23:00,Gurgaon,False,0,1,HopchargeZ,9,11.2
+230,e290eeb9-e056-4281-9240-db7485fbf2d6,"Sunday, May 7, 2023",Aparajeeta Sarmah,EPOD-005,Sonu Chauhan,42.0,Sunday,8:45:00 AM,48,80,09:00,Noida,False,0,1,HopchargeZ,17,10.4
+231,62af6f4d-75d7-40d5-92db-f11ce9df7f90,"Sunday, May 7, 2023",Aryan  Chaudhary,EPOD006,Ankit Kumar Gupta,53.0,Sunday,8:40:00 AM,51,80,09:00,Noida,False,0,1,HopchargeZ,30,9.6
+232,97452ba5-30da-44b7-b47c-133a45c2b0fa,"Sunday, May 7, 2023",Surbhi Sangwan,EPOD-009,Jitendra Singh New,,Sunday,5:59:00 PM,22,50,18:00,Gurgaon,False,0,0,HopchargeZ,12,6
+233,43953852-f385-48f7-beb5-ac87fb4787a2,"Sunday, May 7, 2023",Sandeep Yadav,EPOD-010,Aman Chaudhary,39.0,Sunday,10:45:00 PM,60,80,23:00,Gurgaon,False,0,1,HopchargeZ3,12,4.4
+234,643d3996-15e5-4c98-966d-ed9fc7f3acef,"Sunday, May 7, 2023",Rakesh Bahnewal,E-POD-012,Pritam Kumar,57.0,Sunday,5:39:00 AM,37,80,06:00,Gurgaon,False,0,1,HopchargeZ3Y,13,9.6
+235,173d1617-8ea8-4315-b5b0-955e54f06905,"Sunday, May 7, 2023",Anand Kumar ,EPOD-004,Pradeep Rawat,47.0,Sunday,5:29:00 AM,30,80,07:00,Delhi,False,0,1,HopchargeZ,21,9.4
+236,a96399df-1efd-4358-97b1-0ab8a985c54a,"Sunday, May 7, 2023",Nisha  Chauhan ,EPOD-002,Vipin,,Sunday,7:45:00 PM,70,80,20:00,Noida,False,0,1,HopZ Lite,7,2.4
+237,56e93ddc-bfa7-43da-a7d7-26d2072576da,"Sunday, May 7, 2023",Sanjay Kumar,EPOD-002,Md. Arif,80.0,Sunday,3:08:00 PM,17,91,16:00,Noida,False,0,1,Starter-I_100,7,14.8
+238,c8cea387-b318-48b1-a666-7366e00591c8,"Sunday, May 7, 2023",Rishi Shukla,EPOD-011,Rohit Yadav,751.0,Sunday,9:27:00 PM,44,80,22:00,Gurgaon,False,0,1,HopchargeZ,15,8.4
+239,1ecc9563-79d5-49ab-b841-b529bc6dac62,"Sunday, May 7, 2023",Manju Bhardwaj,EPOD-004,Pradeep Rawat,,Sunday,7:45:00 AM,22,80,08:00,Delhi,False,0,1,HopchargeZ,23,11.12
+240,a7f7df0b-554a-4d84-9cf4-c4916219c9fe,"Saturday, May 6, 2023",Renu Talwar,EPOD-004,Pradeep Rawat,,Saturday,8:54:00 PM,18,68,21:00,Delhi,False,0,0,HopchargeZ,16,16.32
+241,92456322-4322-49bc-93c0-5105fac8be34,"Sunday, May 7, 2023",PAWAN KHANDELWAL,E-POD-012,Pradeep kumar,49.0,Sunday,9:25:00 AM,27,82,10:00,Gurgaon,False,0,1,HopchargeZ,4,12.8
+242,d3ab753b-089c-46ff-9e18-7a2949d3808d,"Sunday, May 7, 2023",PAWAN KHANDELWAL,EPOD-009,Sachin Rajput,50.0,Sunday,9:16:00 PM,34,80,22:00,Gurgaon,False,0,1,HopchargeZ,20,10.8
+243,734d093f-507b-4027-a02e-53add49def04,"Sunday, May 7, 2023",Romil  Saxena,EPOD-007,Awdesh Kumar,770.0,Sunday,11:16:00 PM,44,80,12:00,Noida,False,0,2,HopchargeZ,8,12
+244,19b47b9d-c2c9-4df7-bd58-175d05d8afda,"Sunday, May 7, 2023",Sankalp Maheshwari,EPOD-003,Ashish Tyagi,57.0,Sunday,10:40:00 PM,15,80,23:00,Noida,False,0,1,HopchargeX3,25,16
+245,67e20583-4fb1-4f6d-a1ed-f71e4497a8a4,"Sunday, May 7, 2023",Vinit Chadha,EPOD-011,Rohit Yadav,1024.0,Sunday,1:50:00 AM,25,80,02:00,Gurgaon,False,0,0,HopchargeZ,15,13.2
+246,15d7ad23-b9a2-49cb-8380-58217a48ba53,"Sunday, May 7, 2023",Tumpa Banerjee ,EPOD-009,Sachin Rajput,,Sunday,12:27:00 AM,53,99,23:00,Gurgaon,False,0,1,HopchargeZ,17,8
+247,3b2d5de7-db9c-4c22-b1e2-c7db391ca904,"Saturday, May 6, 2023",Tumpa Banerjee ,EPOD-009,Baljeet Kumar,96.0,Saturday,8:56:00 PM,17,98,21:00,Gurgaon,False,0,0,HopchargeZ,10,4
+248,b8e983e6-9274-4d35-8553-39d1246530c1,"Saturday, May 6, 2023",Sachin Sharma,EPOD-005,Ashish Tyagi,45.0,Saturday,9:40:00 PM,35,80,22:00,Noida,False,0,1,HopchargeZ,18,11.2
+249,c78e0dea-1d58-4621-ad12-4380bbed4ad5,"Saturday, May 6, 2023",Deepak  Sharma,EPOD006,Ankit Kumar Gupta,54.0,Saturday,1:56:00 AM,47,80,02:00,Noida,False,0,0,HopchargeZ,30,7.6
+250,d371d14a-6670-4608-9e5b-ec585b6be744,"Saturday, May 6, 2023",Vaishali  Sharma,EPOD-005,Dinesh Kumar,,Saturday,5:20:00 PM,12,80,18:00,Noida,False,0,1,Hopcharge-Y,9,11.2
+251,f5b092f2-dadb-456e-8da1-fbe66296802e,"Sunday, May 7, 2023",KULDEEP Singh ,EPOD-004,Pradeep Rawat,58.0,Sunday,10:45:00 PM,44,80,23:00,Delhi,False,0,1,HopchargeZ,40,6.36
+252,63dfcdb5-5ef8-4e5e-a636-54e0fb9e1582,"Saturday, May 6, 2023",nitin patil,EPOD-002,Md. Arif,47.0,Saturday,2:41:00 PM,37,80,16:00,Noida,False,0,1,HopchargeZ,16,9.6
+253,9e4525ff-032c-4d70-b3da-c7c2efbe50e2,"Saturday, May 6, 2023",Sandeep Yadav,EPOD-002,Vipin,40.0,Saturday,10:45:00 PM,67,80,23:00,Noida,False,0,1,HopchargeZ3,13,5.2
+254,e714cdab-4e9a-4ed6-8cbb-0e7308e45145,"Sunday, May 7, 2023",Karan  Ray,EPOD-003,Deepak kumar,41.0,Sunday,5:46:00 AM,23,80,06:00,Delhi,False,0,0,HopchargeZ,14,16.4
+255,cd74ca4d-3ad1-4581-87a9-15d87f642b56,"Saturday, May 6, 2023",Shalini Goyal,EPOD-003,Jitendra Singh New,45.0,Saturday,3:35:00 PM,46,80,16:00,Gurgaon,False,0,1,HopchargeZ,14,11.6
+256,8c4f7b18-ea72-47ae-8a9f-378fad4d56c4,"Saturday, May 6, 2023",Nisha  Chauhan ,EPOD-002,Md. Arif,51.0,Saturday,6:39:00 PM,20,80,19:00,Noida,False,0,1,HopZ Lite,7,14.8
+257,bf536893-3ec1-4277-978b-46971d85d05d,"Saturday, May 6, 2023",Deepak  Sharma,EPOD-010,Aman Chaudhary,62.0,Saturday,8:45:00 PM,39,80,21:00,Gurgaon,False,0,1,HopchargeZ,6,9.6
+258,a8cfa725-9eb1-4de5-ab27-686c32144f61,"Saturday, May 6, 2023",Deepak  Sharma,EPOD-010,Aman Chaudhary,,Saturday,8:45:00 PM,81,99,22:00,Gurgaon,False,0,1,HopchargeZ,6,4
+259,4ed8a5bc-3364-442a-8a17-963d6a2854ab,"Saturday, May 6, 2023",Sanjay Kumar,EPOD-003,Shoyab ali,39.0,Saturday,4:27:00 PM,65,95,17:00,Noida,False,0,1,Starter-I_100,16,8
+260,4b897042-edae-42dd-bafd-37d5ed24d725,"Sunday, May 7, 2023",Mohit  Tyagi ,EPOD-001,Others,52.0,Sunday,12:45:00 PM,38,80,13:00,Delhi,False,0,1,HopchargeZ,0,14
+261,4fa4b15c-c3a7-4269-bfa7-034538256565,"Saturday, May 6, 2023",Sanjay Kumar,EPOD-007,Rohit Nagar,119.0,Saturday,10:53:00 AM,11,90,11:00,Noida,False,0,0,Starter-I_100,15,16.4
+262,397266dd-086d-4318-8050-72f28119173d,"Saturday, May 6, 2023",B S  Madan,EPOD-010,Aman Chaudhary,48.0,Saturday,10:45:00 PM,35,80,23:00,Gurgaon,False,0,1,HopchargeZ3Y,9,9.6
+263,c147442f-0b87-41f1-9e97-11de789ad906,"Saturday, May 6, 2023",Dinesh Sharma,EPOD-010,Akash Kumar,98.0,Saturday,11:45:00 AM,13,98,12:00,Gurgaon,False,0,1,HopchargeZ,14,14
+264,9f44cbdf-8789-4449-bef5-abdaf31b0838,"Saturday, May 6, 2023",Dr. Rohit Nara,EPOD-002,Vipin,91.0,Saturday,3:50:00 AM,30,93,05:00,Noida,False,0,1,HopchargeZ,62,36
+265,59aeb88f-ada4-4196-9048-9dfb9a6a9cb2,"Saturday, May 6, 2023",Siddharth Nagpal,EPOD-002,Dinesh Kumar,65.0,Saturday,10:49:00 AM,12,80,11:00,Noida,False,0,0,,5,13.2
+266,a4bc91ea-ad4e-4ff4-907b-310026db343a,"Saturday, May 6, 2023",Vinit Chadha,EPOD-011,Sachin Rajput,642.0,Saturday,12:50:00 AM,46,80,01:00,Gurgaon,False,0,0,HopchargeZ,15,8
+267,5a6550ff-160e-4aa9-9f39-b99fb84b50e2,"Saturday, May 6, 2023",Rishi Shukla,EPOD-011,Rohit Yadav,68.0,Saturday,9:32:00 PM,19,80,23:00,Gurgaon,False,0,1,HopchargeZ,11,14.4
+268,2f911e9b-c5f4-4f98-8ff9-72c101dd216a,"Saturday, May 6, 2023",Pardeep  Kapoor,E-POD-012,Pritam Kumar,49.0,Saturday,12:46:00 AM,42,80,12:00,Delhi,False,0,1,,15,12.44
+269,cccdaa6d-9551-407a-82fe-0044c22cc0d9,"Saturday, May 6, 2023",Amit Singhal,EPOD-005,Shakti singh,30.0,Saturday,4:45:00 AM,45,80,06:00,Faridabad,False,0,1,HopchargeZ,33,6.8
+270,235b5dc1-746b-435c-aff1-cbb7adf820ea,"Saturday, May 6, 2023",Amit Kr Chauhan ,EPOD-010,Aman Chaudhary,1.0,Saturday,12:45:00 AM,41,95,13:00,Gurgaon,False,0,1,HopchargeZ3,12,7.6
+271,47d4f6b4-ad9d-4d6b-8669-6c70a78d0e8a,"Saturday, May 6, 2023",Pradeep  Saini,EPOD-001,Others,673.0,Saturday,5:00:00 PM,69,100,01:00,Delhi,False,0,2,HopchargeZ3Y,0,11.2
+272,0c11c01f-b86c-455c-8fab-93d35bb9234b,"Friday, May 5, 2023",Piyush  Malyan ,EPOD-004,Pradeep Rawat,66.0,Friday,9:45:00 PM,30,80,22:00,Delhi,False,0,1,HopchargeX3Y,5.6,11.24
+273,942b57be-f558-4f57-843b-f857964145e2,"Saturday, May 6, 2023",Mohit  Gupta ,EPOD-011,Sachin Rajput,30.0,Saturday,5:42:00 AM,20,80,06:00,Gurgaon,False,0,1,HopchargeZ,17,10
+274,5689bac1-8f3b-4a15-8c0d-a0d6a7fbcde4,"Saturday, May 6, 2023",raghu kapoor,EPOD-004,Pradeep Rawat,82.0,Saturday,2:33:00 AM,16,80,05:00,Delhi,False,0,1,HopchargeZ,14,13.76
+275,d1e95026-c09d-4afa-953b-96919532c13f,"Saturday, May 6, 2023",Mohit  Tyagi ,EPOD-004,Others,117.0,Saturday,10:54:00 AM,27,73,11:00,Delhi,False,0,0,HopchargeZ,0,14.8
+276,b7e5f27b-e461-4758-9044-5472b8462c37,"Friday, May 5, 2023",Rishi Shukla,EPOD-011,Sachin Rajput,35.0,Friday,9:58:00 PM,40,72,23:00,Gurgaon,False,0,1,HopchargeZ,15,9.2
+277,3edf022a-d359-4154-a1cd-8c75b7c79f07,"Friday, May 5, 2023",Sandeep Yadav,EPOD-011,Rohit Yadav,50.0,Friday,3:48:00 AM,27,80,16:00,Gurgaon,False,0,1,HopchargeZ3,7,12.4
+278,33898dff-76c0-4557-9575-a141b10e45ce,"Friday, May 5, 2023",Tumpa Banerjee ,EPOD-009,Jitender Singh,25.0,Friday,3:49:00 PM,44,58,16:00,Gurgaon,False,0,0,HopchargeZ,7,2.8
+279,1c608772-f238-411c-85ec-b87cd9f0f08b,"Friday, May 5, 2023",Tumpa Banerjee ,EPOD-009,Baljeet Kumar,84.0,Friday,11:44:00 PM,33,80,23:00,Gurgaon,False,0,2,HopchargeZ,10,9.2
+280,a75dec35-ab7b-4120-99d8-64fac3382093,"Friday, May 5, 2023",Maheshwar Nath Kushwaha   Kushwaha,EPOD-002,Vipin,47.0,Friday,9:34:00 PM,46,80,22:00,Noida,False,0,1,HopchargeZ3,12,14
+281,b29e8d14-b8a7-4315-8734-dbf3a582f37b,"Friday, May 5, 2023",B S  Madan,EPOD-010,Akash Kumar,32.0,Friday,6:45:00 PM,75,85,19:00,Gurgaon,False,0,1,HopchargeZ3Y,12,1.6
+282,029488ee-d853-46c6-955b-665f128d4310,"Friday, May 5, 2023",Vinay  Babbar ,EPOD-010,Akash Kumar,53.0,Friday,1:09:00 PM,25,80,13:00,Delhi,False,0,2,Hopcharge-Y,35,13.2
+283,903edc56-3462-4c99-a7b7-9d0c8b37bfdd,"Saturday, May 6, 2023",Tarun Wadhwa ,EPOD-009,Baljeet Kumar,21.0,Saturday,6:43:00 AM,55,80,07:00,Gurgaon,False,0,1,HopchargeZ,11,4.8
+284,a92029da-13eb-4461-8e98-297350da1327,"Saturday, May 6, 2023",Vinod  Yadav,EPOD-011,Ravi Dutt,,Saturday,10:43:00 AM,26,95,11:00,Gurgaon,False,0,1,HopchargeZ,8,16
+285,c5d7045b-a930-4f91-867a-782f3ac49508,"Friday, May 5, 2023",Sushant Saxena,EPOD-005,Sonu Chauhan,46.0,Friday,9:41:00 AM,29,95,10:00,Noida,False,0,1,HopchargeZ,20,10.8
+286,63306c0e-3fcc-4fef-a758-7748245db0b5,"Friday, May 5, 2023",Gamini Mundra,EPOD-001,Others,16.0,Friday,4:05:00 PM,29,80,13:00,Delhi,False,0,2,HopchargeZ,0,12.8
+287,64f76161-0e17-402b-a2c3-c42c4d1a0541,"Friday, May 5, 2023",Sanjay Kumar,EPOD-005,Sonu Chauhan,76.0,Friday,2:55:00 PM,35,95,16:00,Noida,False,0,1,Starter-I_100,21,9.6
+288,a89f9053-f5be-4b63-9ca9-c0af6c615846,"Friday, May 5, 2023",Sanjay Kumar,EPOD-005,Sonu Chauhan,102.0,Friday,5:57:00 PM,63,96,18:00,Noida,False,0,0,Starter-I_100,20,4
+289,5d2ed737-dd44-4317-a899-e317f853f337,"Friday, May 5, 2023",nitin patil,EPOD-007,Rohit Nagar,61.0,Friday,3:55:00 PM,21,80,16:00,Noida,False,0,0,HopchargeZ,27,14
+290,91dffc75-d558-479e-aa7a-ba24e55bb9ee,"Friday, May 5, 2023",Vinit Chadha,EPOD006,Ankit Kumar Gupta,73.0,Friday,6:45:00 PM,24,80,19:00,Noida,False,0,1,HopchargeZ,8,13.6
+291,da410f94-2740-47c2-a002-60d26985d7ed,"Friday, May 5, 2023",Rishi Shukla,EPOD-009,Baljeet Kumar,46.0,Friday,3:56:00 AM,34,80,04:00,Gurgaon,False,0,0,HopchargeZ,9,10.4
+292,168682b4-316e-466b-a9e4-ba5b7a84af35,"Friday, May 5, 2023",Girish  Bhatia ,EPOD-004,Others,62.0,Friday,3:14:00 PM,26,80,13:00,Delhi,False,0,2,HopX3Y (GB) ,0,12.4
+293,0955fee2-a570-44b8-8ae7-0012c4cc0959,"Friday, May 5, 2023",Himanshu Agrawal,EPOD006,Ankit Kumar Gupta,76.0,Friday,12:42:00 AM,10,80,13:00,Noida,False,0,1,,22,14
+294,94184f8d-8ae5-42fd-845d-033028f665ad,"Friday, May 5, 2023",Rashmi Kumari,EPOD-009,Jitender Singh,,Friday,6:56:00 PM,13,95,19:00,Gurgaon,False,0,0,HopchargeZ,10,18.8
+295,2696300c-70c2-429a-aba5-4af4152fb7ba,"Friday, May 5, 2023",Dinesh Sharma,E-POD-012,Pradeep kumar,54.0,Friday,2:40:00 PM,73,83,16:00,Gurgaon,False,0,1,HopchargeZ,20,12.8
+296,81e017fe-b954-4d86-8695-b47b0ae415ef,"Friday, May 5, 2023",Deepak  Sharma,E-POD-012,Pritam Kumar,32.0,Friday,8:49:00 PM,80,100,22:00,Gurgaon,False,0,1,HopchargeZ,0,4.4
+297,3b3c7cc0-7fed-4e39-81c9-0f0c57da97fe,"Friday, May 5, 2023",Deepak  Sharma,E-POD-012,Pritam Kumar,,Friday,8:49:00 PM,23,80,21:00,Gurgaon,False,0,0,HopchargeZ,9,13.2
+298,2736c420-8e74-4e9d-a066-d34490b8cfdc,"Friday, May 5, 2023",Deepak  Sharma,EPOD-007,Rohit Nagar,22.0,Friday,12:42:00 PM,54,80,13:00,Noida,False,0,1,HopchargeZ,12,6
+299,34327676-e7e8-4189-8cce-2361eecff41e,"Friday, May 5, 2023",PAWAN KHANDELWAL,EPOD-010,Akash Kumar,31.0,Friday,9:47:00 AM,43,80,10:00,Gurgaon,False,0,0,HopchargeZ,14,8.4
+300,e8e17e09-7b40-4b94-a54e-9bb1cc1c923c,"Friday, May 5, 2023",Siddhartha Sharma,EPOD-001,Others,60.0,Friday,9:36:00 AM,32,80,10:00,Delhi,False,0,1,HopchargeZ,0,16.4
+301,7fb15062-2ea7-4541-b264-99421b74e7d7,"Friday, May 5, 2023",Romil  Saxena,EPOD006,Ankit Kumar Gupta,114.0,Friday,9:54:00 AM,39,60,10:00,Noida,False,0,0,HopchargeZ,30,6.8
+302,7b094ec6-c074-496d-a020-558f278b7834,"Friday, May 5, 2023",Mohit  Tyagi ,EPOD-009,Jitender Singh,69.0,Friday,11:00:00 AM,28,80,11:00,Gurgaon,False,0,0,HopchargeZ,14,17.2
+303,30b5219b-db10-4d15-b42f-de8fa347dff6,"Friday, May 5, 2023",KULDEEP Singh ,E-POD-012,Pradeep kumar,64.0,Friday,9:36:00 AM,17,80,10:00,Gurgaon,False,0,1,HopchargeZ,8,10.4
+304,9415de24-326d-4630-b459-fc364734a5ff,"Friday, May 5, 2023",Amit Kr Chauhan ,E-POD-012,Pritam Kumar,604.0,Friday,12:51:00 AM,28,80,01:00,Gurgaon,False,0,0,HopchargeZ3,5,10.92
+305,88efc0cc-5f32-4373-b76e-c90b805c46f0,"Friday, May 5, 2023",Ankit Kumar,EPOD-010,Aman Chaudhary,650.0,Friday,12:45:00 AM,28,80,01:00,Gurgaon,False,0,1,HopchargeZ,6,16.8
+306,9362a36d-6304-47c7-8875-b8ad09c95c35,"Friday, May 5, 2023",Joydeep Debnath,EPOD-010,Aman Chaudhary,63.0,Friday,4:45:00 AM,28,78,05:00,Gurgaon,False,0,1,HopchargeX12,4,16.8
+307,ac961c15-1377-4203-9936-bfd03cbbb965,"Friday, May 5, 2023",Amit Singhal,EPOD-002,Dinesh Kumar,33.0,Friday,1:28:00 PM,46,83,14:00,Delhi,False,0,1,HopchargeZ,30,9.6
+308,bc03bad2-1794-4d77-b6d8-d28740aad3dc,"Friday, May 5, 2023",Pragun Mittal,EPOD-007,Awdesh Kumar,40.0,Friday,3:40:00 AM,73,82,05:00,Noida,False,0,1,HopchargeZ,8,6
+309,e620a2ed-7dfb-4af8-a06b-bfdd391595da,"Friday, May 5, 2023",Subhodip  Guha,EPOD-011,Ravi Dutt,66.0,Friday,6:48:00 AM,23,80,07:00,Gurgaon,False,0,0,Hopcharge-X12,14,10
+310,46270562-2d7d-4858-89a8-49719cb9489d,"Friday, May 5, 2023",Srishti  Sharma,EPOD-005,Shakti singh,3.0,Friday,12:45:00 AM,28,80,01:00,Noida,False,0,1,HopchargeZ,24,10
+311,06c269ed-0dfa-4e9d-b127-31ede45b1a88,"Friday, May 5, 2023",Renu Talwar,EPOD-004,Others,88.0,Friday,9:41:00 AM,20,65,10:00,Delhi,False,0,1,HopchargeZ,0,26
+312,47338b8f-ed45-4ac5-b5b0-cce5d2b08673,"Thursday, May 4, 2023",Sanjay Kumar,EPOD-005,Sonu Chauhan,21.0,Thursday,5:08:00 PM,24,94,18:00,Noida,False,0,1,Starter-I_100,11,13.2
+313,a8b1f7a1-16c2-4029-ac3b-6b0b242ebbf0,"Thursday, May 4, 2023",Dinesh  Kumar,EPOD-011,Rohit Yadav,28.0,Thursday,12:58:00 PM,80,100,15:00,Gurgaon,False,0,1,HopchargeZ,4,4.4
+314,9e17c592-d4fc-4ec6-bc49-9367285c877a,"Friday, May 5, 2023",Nisha  Chauhan ,EPOD-002,Ashish Tyagi,28.0,Friday,6:45:00 AM,49,80,07:00,Noida,False,0,1,HopZ Lite,13,8
+315,a5ebccba-09d7-4296-8b28-2ffe832a4858,"Thursday, May 4, 2023",Rakesh Bahnewal,EPOD-003,Sunil Kumar,,Thursday,3:30:00 AM,15,80,04:00,Gurgaon,True,1,1,HopchargeZ3Y,17,18.8
+316,68cd7025-c197-47a7-95ff-350469ab7bc3,"Thursday, May 4, 2023",Amit Kumar,E-POD-012,Pritam Kumar,62.0,Thursday,5:45:00 AM,40,80,19:00,Gurgaon,False,0,1,Hopcharge-Y,12,8
+317,bf05367c-df52-42d8-81ec-dcb9293a0528,"Friday, May 5, 2023",Sachin Sharma,EPOD-007,Awdesh Kumar,789.0,Friday,11:42:00 PM,17,81,12:00,Noida,False,0,2,HopchargeZ,16,14
+318,9f464da4-8444-4f20-bb87-d0a91c6964d3,"Thursday, May 4, 2023",nitin patil,EPOD-007,Rohit Nagar,41.0,Thursday,2:52:00 PM,35,80,15:00,Noida,False,0,0,HopchargeZ,17,10.4
+319,44816a3f-547c-458e-93e5-6bdf17d9ada4,"Friday, May 5, 2023",Dr. Rohit Nara,EPOD-011,Ravi Dutt,,Friday,10:47:00 PM,68,95,12:00,Gurgaon,False,0,2,HopchargeZ,0,10
+320,5c99df8e-2d2e-4166-b356-04eeba4b6457,"Thursday, May 4, 2023",Dr. Rohit Nara,EPOD-011,Ravi Dutt,129.0,Thursday,10:47:00 PM,15,66,23:00,Gurgaon,False,0,0,HopchargeZ,12,17.2
+321,8d2244b7-036e-423e-9797-6fec04adf5dc,"Friday, May 5, 2023",Vinit Chadha,EPOD-009,Baljeet Kumar,708.0,Friday,11:46:00 PM,15,81,12:00,Gurgaon,False,0,2,HopchargeZ,12,15.6
+322,151c95d5-cc78-4148-9614-7414bb798bed,"Friday, May 5, 2023",Tarun Wadhwa ,EPOD-009,Baljeet Kumar,72.0,Friday,6:12:00 AM,20,80,07:00,Gurgaon,False,0,1,HopchargeZ,11,11.6
+323,6eaaad18-3fe3-44b1-b607-631804935a56,"Friday, May 5, 2023",Vinod  Yadav,EPOD-011,Rohit Yadav,,Friday,9:45:00 AM,37,80,10:00,Gurgaon,False,0,1,HopchargeZ,4,14.4
+324,60c940c5-1783-489f-9d1a-9012d2c9b068,"Thursday, May 4, 2023",Shubhra  Vanjani,EPOD-004,Others,31.0,Thursday,10:39:00 AM,51,80,11:00,Delhi,False,0,1,HopchargeZ,0,6.4
+325,6aca47ee-dd07-4472-a7eb-fe75ebf177c5,"Thursday, May 4, 2023",Harshit Srivastava,EPOD-002,Ashish Tyagi,86.0,Thursday,9:45:00 PM,20,70,22:00,Noida,False,0,1,Hopcharge-Y,16,20.8
+326,ceaeb5b0-017e-4de3-970d-4e3887c8639d,"Thursday, May 4, 2023",Vaibhav  B,EPOD-002,Ashish Tyagi,0.0,Thursday,6:40:00 AM,24,81,22:00,Noida,False,0,1,HopchargeZ3,10,11.2
+327,4b5cb367-7881-446d-a4fb-37d6d683b4e7,"Thursday, May 4, 2023",Sanjay Kumar,EPOD-008,Shoyab ali,23.0,Thursday,2:35:00 PM,51,95,15:00,Noida,False,0,1,Starter-I_100,15,6
+328,2ddb1eb7-1b95-479f-93c8-1799ca8d9208,"Thursday, May 4, 2023",Sanjay Kumar,EPOD-005,Sonu Chauhan,95.0,Thursday,10:15:00 AM,16,95,11:00,Noida,False,0,1,Starter-I_100,18,13.2
+329,dab4eccd-c8f1-4618-b8f8-5e68c26dc339,"Thursday, May 4, 2023",Vinod  Yadav,EPOD-010,Jitender Singh,163.0,Thursday,4:58:00 PM,59,88,17:00,Gurgaon,False,0,0,HopchargeZ,18,10
+330,c1128495-9923-4d45-a512-ccacd90feaf9,"Thursday, May 4, 2023",Vinod  Yadav,EPOD-011,Rohit Yadav,65.0,Thursday,10:45:00 AM,13,63,11:00,Gurgaon,False,0,1,HopchargeZ,4,16.4
+331,ad5c6c20-0b8f-41e1-8bf2-1e8fea3f39f7,"Thursday, May 4, 2023",Dinesh  Kumar,EPOD-011,Rohit Yadav,20.0,Thursday,12:58:00 PM,55,80,13:00,Gurgaon,False,0,0,HopchargeZ,4,5.6
+332,3b81e7f4-bc29-4fc7-8185-42aea974cd53,"Thursday, May 4, 2023",Pragun Mittal,EPOD-007,Awdesh Kumar,125.0,Thursday,2:16:00 AM,26,99,05:00,Noida,False,0,1,HopchargeZ,7,15.2
+333,4c7f6994-a78d-47a2-82c9-4655ee1fc232,"Thursday, May 4, 2023",Vaibhav  B,EPOD-005,Shakti singh,50.0,Thursday,9:46:00 PM,77,80,07:00,Noida,False,0,2,HopchargeZ3,17,1.2
+334,f364c0c3-e0c5-4539-a1c8-b4f384402015,"Thursday, May 4, 2023",Mohit  Gupta ,EPOD-003,Sachin Rajput,51.0,Thursday,6:42:00 AM,24,90,07:00,Gurgaon,False,0,1,HopchargeZ,13,12.4
+335,2b2e7ba5-861a-4bb3-8207-ab9b0f217d46,"Thursday, May 4, 2023",Arun Rana,EPOD-011,Ravi Dutt,40.0,Thursday,5:42:00 AM,41,80,06:00,Gurgaon,False,0,1,HopchargeZ,10,16
+336,32ae6ab8-9f02-4f6f-a529-6921f1da25d4,"Thursday, May 4, 2023",Dinesh Sharma,E-POD-012,Pradeep kumar,91.0,Thursday,10:57:00 AM,10,97,11:00,Gurgaon,False,0,0,HopchargeZ,10,13.6
+337,0f932162-81d1-4a19-879d-65a78053c2bc,"Thursday, May 4, 2023",Srishti  Sharma,EPOD-007,Awdesh Kumar,42.0,Thursday,11:40:00 PM,29,81,01:00,Noida,False,0,2,HopchargeZ,14,9.6
+338,84204aeb-37b9-4d28-a9ec-9778acabb37a,"Friday, May 5, 2023",Aparajeeta Sarmah,EPOD006,Ankush chauhan,62.0,Friday,9:38:00 AM,28,80,22:00,Noida,False,0,1,HopchargeZ,25,17.2
+339,943b9ecf-4c8b-4d53-a277-051076c76cd6,"Wednesday, May 3, 2023",Richa  Singh ,EPOD-011,Ravi Dutt,125.0,Wednesday,8:55:00 PM,74,100,23:00,Gurgaon,False,0,1,HopchargeZ,0,9.2
+340,efc0ca65-d2cf-4b58-a5ec-3cba260d1955,"Wednesday, May 3, 2023",Richa  Singh ,EPOD-011,Ravi Dutt,125.0,Wednesday,8:55:00 PM,24,73,22:00,Gurgaon,False,0,1,HopchargeZ,15,16.4
+341,ef7feb98-dd7e-4d42-a32a-97b26cf51273,"Thursday, May 4, 2023",Amit Singhal,EPOD-004,Pradeep Rawat,49.0,Thursday,5:38:00 AM,24,80,06:00,Delhi,False,0,1,HopchargeZ,30,10.96
+342,4a645339-9122-48ed-a6da-9d87a1e1a554,"Thursday, May 4, 2023",Deepak  Sharma,EPOD-007,Rohit Nagar,63.0,Thursday,11:46:00 AM,54,80,12:00,Noida,False,0,0,HopchargeZ,4,6
+343,108824d0-472c-4f52-932a-6f001acd985a,"Thursday, May 4, 2023",Surbhi Sangwan,E-POD-012,Others,45.0,Thursday,3:35:00 PM,55,95,16:00,Gurgaon,False,0,1,HopchargeZ,0,3.2
+344,219f570e-4cdc-48b4-9736-ef7b38d905ec,"Wednesday, May 3, 2023",Romil  Saxena,EPOD006,Ankush chauhan,,Wednesday,2:45:00 AM,28,80,19:00,Noida,False,0,1,HopchargeZ,26,16
+345,f5b8ff6f-538d-43e2-b3d2-26dda2273417,"Wednesday, May 3, 2023",Rishi Shukla,EPOD-009,Jitender Singh,5.0,Wednesday,2:52:00 PM,1,30,16:00,Gurgaon,False,0,1,HopchargeZ,7,3.2
+346,082cc03f-1f9e-4af6-ab89-12abf3f8fa0d,"Wednesday, May 3, 2023",Geetanjali  Chhauda,EPOD-005,Sonu Chauhan,38.0,Wednesday,3:45:00 PM,49,75,16:00,Noida,False,0,1,Hopcharge-X12,10,8.8
+347,c8a3eed7-cdb1-454f-ae2a-c263762c5648,"Wednesday, May 3, 2023",Siddhartha Sharma,EPOD-004,Others,74.0,Wednesday,3:41:00 PM,28,61,16:00,Delhi,False,0,1,HopchargeZ,0,12
+348,a6c158e0-c0c2-4b5d-b958-667ba75903d0,"Thursday, May 4, 2023",B S  Madan,EPOD-003,Jitendra Singh New,,Thursday,2:56:00 PM,53,80,16:00,Gurgaon,False,0,1,HopchargeZ3Y,10,6.8
+349,b3cf168c-5ed5-43e2-a696-9b074b6dc204,"Wednesday, May 3, 2023",B S  Madan,E-POD-012,Pradeep kumar,39.0,Wednesday,3:43:00 PM,45,80,16:00,Gurgaon,False,0,1,HopchargeZ3Y,15,7.6
+350,6ba8a38a-0ca4-4956-83d5-c3e107e214da,"Wednesday, May 3, 2023",Tumpa Banerjee ,E-POD-012,Pritam Kumar,59.0,Wednesday,9:55:00 PM,44,96,23:00,Gurgaon,False,0,1,HopchargeZ,10,-275.2
+351,940f253c-3d29-485d-97f7-7652816d4e29,"Thursday, May 4, 2023",Deepak  Sharma,EPOD-010,Aman Chaudhary,44.0,Thursday,8:49:00 PM,81,99,22:00,Gurgaon,False,0,1,HopchargeZ,6,2.8
+352,67b8985d-319a-4498-b102-a9343abdab99,"Thursday, May 4, 2023",Deepak  Sharma,EPOD-010,Aman Chaudhary,22.0,Thursday,8:49:00 PM,37,80,21:00,Gurgaon,False,0,0,HopchargeZ,6,10.4
+353,ba691f4c-277d-41dd-98cf-bf090d26fd37,"Thursday, May 4, 2023",Sandeep Yadav,EPOD-003,Sunil Kumar,46.0,Thursday,10:55:00 PM,50,80,23:00,Gurgaon,False,0,0,HopchargeZ3,12,11.2
+354,09a87e15-1acb-411a-b582-501ce7a79358,"Thursday, May 4, 2023",Sandeep Yadav,EPOD-011,Rohit Yadav,39.0,Thursday,4:45:00 AM,40,80,17:00,Gurgaon,False,0,1,HopchargeZ3,5,9.2
+355,9cf35682-8958-45cd-b533-4ce7125054fd,"Wednesday, May 3, 2023",Sandeep Yadav,EPOD-004,Gaurav kumar,1533.0,Wednesday,11:46:00 PM,11,100,23:00,Gurgaon,False,0,2,HopchargeZ3,9,18
+356,1aa7cf02-2c83-48ee-971e-03f9c10361c7,"Wednesday, May 3, 2023",Maheshwar Nath Kushwaha   Kushwaha,EPOD006,Ankit Kumar Gupta,67.0,Wednesday,3:35:00 AM,31,80,16:00,Noida,False,0,1,HopchargeZ3,15,16.8
+357,e9a5048d-ba53-48ff-9711-bea628fd42bb,"Wednesday, May 3, 2023",Rishi Shukla,EPOD-011,Rohit Yadav,16.0,Wednesday,6:45:00 AM,65,80,07:00,Gurgaon,False,0,1,HopchargeZ,13,3.6
+358,71d171f5-6ced-4325-9842-4fa889dbc84c,"Thursday, May 4, 2023",Rishi Shukla,EPOD-001,Himanshu Kashyap,37.0,Thursday,10:18:00 AM,3,80,10:00,Delhi,False,0,2,HopchargeZ,24,10.4
+359,89026670-34b1-4c16-8bd2-a6eb8ab242fb,"Wednesday, May 3, 2023",Pradeep  Saini,EPOD-001,Pradeep Rawat,31.0,Wednesday,6:45:00 AM,28,53,07:00,Delhi,False,0,1,HopchargeZ3Y,22,8.16
+360,ab3aa88d-5b98-44aa-bb5a-62f73b873355,"Wednesday, May 3, 2023",Sanjay Kumar,EPOD-007,Rohit Nagar,114.0,Wednesday,5:50:00 PM,15,95,19:00,Noida,False,0,1,Starter-I_100,8,16.8
+361,b8abb540-ee66-4936-bb73-27f22afb4293,"Wednesday, May 3, 2023",Sanjay Kumar,EPOD-007,Rohit Nagar,71.0,Wednesday,3:57:00 PM,41,95,15:00,Noida,False,0,2,Starter-I_100,8,10.8
+362,40a829d0-452e-48cb-895a-16c1cb20bafd,"Wednesday, May 3, 2023",Sanjay Kumar,EPOD-002,Dinesh Kumar,,Wednesday,4:23:00 PM,28,95,17:00,Noida,False,0,1,Starter-I_100,18,15.2
+363,b9871413-85cd-45b5-bc89-7089550377e3,"Wednesday, May 3, 2023",Sanjay Kumar,EPOD-002,Dinesh Kumar,83.0,Wednesday,9:46:00 AM,11,90,10:00,Noida,False,0,0,Starter-I_100,26,18.4
+364,5b7b612d-ca48-4abd-b993-636fd35439f0,"Wednesday, May 3, 2023",Arpit Aggarwal ,EPOD006,Ashish Tyagi,66.0,Wednesday,3:45:00 AM,53,64,04:00,Noida,False,0,1,HopchargeX3,25,7.6
+365,df75b1c3-e886-4d8a-a85e-bd1ad1e1041b,"Wednesday, May 3, 2023",Aparajeeta Sarmah,EPOD006,Ankit Kumar Gupta,51.0,Wednesday,8:57:00 AM,53,80,09:00,Noida,False,0,0,HopchargeZ,15,9.2
+366,1f86b7c7-93c6-413c-8cfd-4201c554a3d7,"Wednesday, May 3, 2023",Gaurav Manchanda,EPOD-004,Pradeep Rawat,92.0,Wednesday,12:50:00 AM,34,97,01:00,Delhi,False,0,0,HopchargeZ,17,20.4
+367,0fbb684f-f859-4213-b32c-517458656849,"Wednesday, May 3, 2023",Gaurav Manchanda,EPOD-004,Pradeep Rawat,,Wednesday,12:45:00 PM,80,97,01:00,Delhi,False,0,1,HopchargeZ,15,5.48
+368,21ea0fe6-8440-4031-96ea-05e9581ec196,"Wednesday, May 3, 2023",Nitesh  Kumar,E-POD-012,Pradeep kumar,50.0,Wednesday,1:46:00 PM,19,80,14:00,Gurgaon,False,0,0,FLEX,4,14.4
+369,09808c7a-b15e-47d5-ae1f-d13e09aa1407,"Wednesday, May 3, 2023",Deepak  Sharma,EPOD-010,Sunil Kumar,80.0,Wednesday,9:29:00 PM,24,95,22:00,Gurgaon,False,0,1,HopchargeZ,6,15.92
+370,d1d83287-1efe-476d-9fcb-29adc014a9e2,"Wednesday, May 3, 2023",Deepak  Sharma,EPOD-005,Sonu Chauhan,,Wednesday,1:48:00 PM,58,80,14:00,Noida,False,0,0,HopchargeZ,25,4.8
+371,8a549f58-8ca4-43d7-a861-f993138c4726,"Wednesday, May 3, 2023",Karan  Ray,EPOD-004,Pradeep Rawat,51.0,Wednesday,4:11:00 AM,32,80,04:00,Delhi,False,0,2,HopchargeZ,17,10.88
+372,98e0b7c7-7761-461f-a512-f414167053e1,"Wednesday, May 3, 2023",Anil Raao,EPOD-009,Baljeet Kumar,61.0,Wednesday,12:56:00 AM,21,71,01:00,Gurgaon,False,0,0,HopchargeZ,16,16.8
+373,389c9daa-5f02-41a2-a0cd-683fe1f9c3f1,"Wednesday, May 3, 2023",Dinesh Sharma,EPOD-009,Jitender Singh,,Wednesday,11:44:00 AM,5,83,12:00,Gurgaon,True,1,1,HopchargeZ,6,15.2
+374,d63eaa57-0ee9-4801-a022-3d2cc8cb869b,"Wednesday, May 3, 2023",Dinesh Sharma,EPOD-009,Jitender Singh,98.0,Wednesday,10:44:00 AM,84,97,11:00,Gurgaon,False,0,1,HopchargeZ,6,6.8
+375,7ed5c857-77ef-44a5-b2be-3976277b5cb2,"Wednesday, May 3, 2023",Vinod  Yadav,EPOD-011,Rohit Yadav,117.0,Wednesday,9:44:00 AM,15,98,10:00,Gurgaon,False,0,1,HopchargeZ,5,21.6
+376,1f3c22e3-3946-4c31-a057-fbc3d8ab8f68,"Wednesday, May 3, 2023",Ankit Kumar,EPOD-003,Sachin Rajput,100.0,Wednesday,1:50:00 AM,20,80,01:00,Gurgaon,False,0,2,HopchargeZ,10,10
+377,c2c62452-3655-4f9e-8646-6759a43b5427,"Wednesday, May 3, 2023",Pragun Mittal,EPOD-007,Rohit Nagar,,Wednesday,4:16:00 AM,81,98,06:00,Noida,True,1,1,HopchargeZ,35,22
+378,2a29bd93-b9b9-4d84-bd02-0e96aeced4ac,"Wednesday, May 3, 2023",Pragun Mittal,EPOD-007,Rohit Nagar,88.0,Wednesday,4:16:00 AM,30,80,05:00,Noida,False,0,1,HopchargeZ,35,16
+379,57e57508-780d-4249-a8ca-68f4e71e7aca,"Wednesday, May 3, 2023",Indresh Kumar  Singh,EPOD006,Ashish Tyagi,78.0,Wednesday,5:45:00 AM,32,80,06:00,Noida,False,0,1,HopchargeZ3Y,28,16
+380,42a0d434-585b-4324-9d84-ffb92845bd60,"Tuesday, May 2, 2023",Vinod  Yadav,EPOD-011,Ravi Dutt,20.0,Tuesday,5:35:00 PM,43,59,18:00,Gurgaon,False,0,1,HopchargeZ,8,4.8
+381,099041ef-ffd3-436f-b6a2-e5652fc6b4ae,"Wednesday, May 3, 2023",Vinit Chadha,EPOD-011,Rohit Yadav,68.0,Wednesday,11:45:00 AM,18,80,12:00,Gurgaon,False,0,1,HopchargeZ,14 ,14.4
+382,643279fa-3906-4956-87ee-11c614ee252f,"Wednesday, May 3, 2023",nitin patil,EPOD-007,Rohit Nagar,73.0,Wednesday,7:27:00 AM,23,80,07:00,Noida,False,0,2,HopchargeZ,20,13.2
+383,60273660-804b-4971-84d1-9981e94628c0,"Wednesday, May 3, 2023",KULDEEP Singh ,E-POD-012,Pritam Kumar,90.0,Wednesday,9:41:00 PM,25,80,22:00,Gurgaon,False,0,1,HopchargeZ,7,18.4
+384,9f22754e-839b-408d-8740-aa23f89058e9,"Tuesday, May 2, 2023",Sachin Sharma,EPOD006,Ashish Tyagi,36.0,Tuesday,9:45:00 PM,41,80,22:00,Noida,False,0,1,HopchargeZ,21,9.2
+385,887bde90-5bb9-40fa-bae5-22b5e8e00684,"Tuesday, May 2, 2023",Renu Talwar,EPOD-004,Others,105.0,Tuesday,2:41:00 PM,15,80,15:00,Delhi,False,0,1,HopchargeZ,0,21.2
+386,ad7f8689-6afa-4e57-b82e-725b08a99fdf,"Wednesday, May 3, 2023",Tarun Wadhwa ,EPOD-003,Sachin Rajput,50.0,Wednesday,9:27:00 PM,23,80,20:00,Gurgaon,False,0,2,HopchargeZ,15,14
+387,0868cf89-41f7-4675-a322-e1e9b3b9500d,"Wednesday, May 3, 2023",Vinit Chadha,EPOD-011,Rohit Yadav,,Wednesday,11:55:00 AM,80,90,01:00,Gurgaon,True,1,2,HopchargeZ,14 ,2
+388,83d32c9a-2942-4afd-839d-2b71d00baab5,"Tuesday, May 2, 2023",Anand Kumar ,EPOD-007,Rohit Nagar,50.0,Tuesday,9:58:00 PM,24,80,22:00,Noida,False,0,0,HopchargeZ,17,10.8
+389,e2e81789-18fb-498a-9b69-683f86dc39b1,"Tuesday, May 2, 2023",Sandeep Yadav,EPOD-003,Sachin Rajput,93.0,Tuesday,11:45:00 PM,80,93,23:00,Gurgaon,False,0,2,HopchargeZ3,18,4
+390,b4aaeee7-1717-455d-9bfe-bc5b1783d1b5,"Tuesday, May 2, 2023",Sandeep Yadav,EPOD-003,Sachin Rajput,,Tuesday,10:26:00 PM,18,80,16:00,Gurgaon,False,0,2,HopchargeZ3,18,18.4
+391,d1131ec1-2e48-40b1-b7e4-b8963c4e8caa,"Wednesday, May 3, 2023",Mohit  Tyagi ,EPOD-001,Others,65.0,Wednesday,10:33:00 AM,51,90,11:00,Delhi,False,0,1,HopchargeZ,0,12.8
+392,a134dbf1-d189-4dee-9986-29ea50e36e9a,"Wednesday, May 3, 2023",Dinesh  Kumar,EPOD-009,Baljeet Kumar,90.0,Wednesday,4:52:00 AM,28,97,05:00,Gurgaon,False,0,0,HopchargeZ,9.5,15.6
+393,98cb140f-ce89-4df8-9a8c-cc48970c5320,"Wednesday, May 3, 2023",Atishay Jain,EPOD-002,Others,60.0,Wednesday,9:57:00 AM,39,85,10:00,Noida,False,0,0,HopchargeZ,0,8.8
+394,410b9e26-fa5a-4514-8a80-0abc273d6c05,"Tuesday, May 2, 2023",KULDEEP Singh ,EPOD-009,Baljeet Kumar,34.0,Tuesday,9:46:00 PM,52,80,22:00,Gurgaon,False,0,0,HopchargeZ,9,9.2
+395,0eceb72d-5d49-45b5-be54-ff1160125576,"Tuesday, May 2, 2023",Aparajeeta Sarmah,EPOD-008,Shoyab ali,75.0,Tuesday,4:55:00 PM,16,68,17:00,Noida,False,0,0,HopchargeZ,14,16.8
+396,18096aa5-8880-4845-9434-87af11a4a2a0,"Tuesday, May 2, 2023",Tarun Wadhwa ,EPOD-003,Jitendra Singh New,62.0,Tuesday,2:45:00 AM,20,80,15:00,Gurgaon,False,0,1,HopchargeZ,12,14.4
+397,ba9c535b-47b1-4e7a-b421-eba3f23cdd5f,"Tuesday, May 2, 2023",B S  Madan,EPOD-010,Others,46.0,Tuesday,3:51:00 PM,30,80,16:00,Gurgaon,False,0,0,HopchargeZ3Y,0,10
+398,ad0ffa7e-976f-4f1e-a8fe-ac272540508d,"Tuesday, May 2, 2023",Rajeev Kumar,EPOD-005,Sonu Chauhan,59.0,Tuesday,12:45:00 PM,15,80,13:00,Noida,False,0,1,Hopcharge-X12,8,12.8
+399,51d65a57-9922-4635-8e88-a3af7ecffe43,"Tuesday, May 2, 2023",Piyush  Malyan ,E-POD-012,Sunil Kumar,67.0,Tuesday,11:30:00 PM,15,80,22:00,Delhi,False,0,2,HopchargeX3Y,36,12.8
+400,2714a1c3-25a3-44f8-b9d2-51d3384f6db2,"Tuesday, May 2, 2023",Shubhra  Vanjani,EPOD-004,Pradeep Rawat,52.0,Tuesday,5:18:00 AM,33,80,06:00,Delhi,False,0,1,HopchargeZ,64,10.6
+401,d9ed9548-5e34-41be-9714-d2b95bf17733,"Tuesday, May 2, 2023",Amit Kr Chauhan ,E-POD-012,Pritam Kumar,35.0,Tuesday,6:40:00 AM,80,100,08:00,Gurgaon,False,0,1,HopchargeZ3,0,4.64
+402,373d20d1-563c-42e3-9a9b-78c8b9b57f02,"Tuesday, May 2, 2023",Amit Kr Chauhan ,E-POD-012,Pritam Kumar,,Tuesday,6:00:00 AM,41,80,07:00,Gurgaon,True,1,1,HopchargeZ3,25,8
+403,92d0f032-7aa6-4471-b08e-560f490d8c73,"Tuesday, May 2, 2023",Umesh Malhotra,EPOD-001,Others,78.0,Tuesday,5:31:00 PM,13,90,18:00,Noida,False,0,1,,0,18
+404,c4145d36-f218-40a2-9174-dd17167e5675,"Tuesday, May 2, 2023",SS Tours  Pvt Ltd,E-POD-012,Pradeep kumar,91.0,Tuesday,11:45:00 AM,29,95,12:00,Gurgaon,False,0,1,Starter-I_100,8,13.2
+405,53971ae2-2efa-44eb-85e6-81770c2f4592,"Tuesday, May 2, 2023",Ankit Kumar,EPOD-010,Aman Chaudhary,32.0,Tuesday,1:47:00 AM,53,80,02:00,Gurgaon,False,0,0,HopchargeZ,6,8.8
+406,8fe5e9f8-c876-4261-a861-e19089f1b718,"Tuesday, May 2, 2023",Pradeep  Saini,EPOD-004,Pradeep Rawat,66.0,Tuesday,12:09:00 AM,23,71,02:00,Delhi,False,0,1,HopchargeZ3Y,39,15.84
+407,8c2f4a8d-1aaa-4538-af61-a371ab9e226d,"Tuesday, May 2, 2023",Karan  Ray,EPOD-007,Awdesh Kumar,,Tuesday,1:34:00 PM,43,81,06:00,Noida,False,0,1,HopchargeZ,8 ,8.8
+408,394e9efb-72af-427c-810d-2e51a283c71d,"Tuesday, May 2, 2023",Anil Raao,EPOD-005,Shakti singh,76.0,Tuesday,12:31:00 PM,11,61,02:00,Gurgaon,False,0,1,HopchargeZ,25,16.8
+409,5f4d0f80-86ac-472c-9206-6635ac3ca136,"Tuesday, May 2, 2023",Shalini Goyal,EPOD-010,Aman Chaudhary,41.0,Tuesday,6:45:00 AM,47,80,07:00,Gurgaon,False,0,1,HopchargeZ,12,9.6
+410,c30006ab-a006-4e58-8dd1-6e4bfa2f866d,"Tuesday, May 2, 2023",Dr. Rohit Nara,EPOD-011,Sachin Rajput,82.0,Tuesday,12:45:00 AM,80,95,01:00,Gurgaon,False,0,1,HopchargeZ,0,4.8
+411,4f8a0d70-d64e-4a07-b73e-cc3a45774fb3,"Tuesday, May 2, 2023",Deepak  Sharma,EPOD-010,Aman Chaudhary,73.0,Tuesday,9:45:00 PM,31,99,22:00,Gurgaon,False,0,1,HopchargeZ,6,11.2
+412,53ea4d51-4f45-4e4d-b42a-61e137f782a1,"Tuesday, May 2, 2023",Dr. Rohit Nara,EPOD-011,Sachin Rajput,,Tuesday,12:35:00 AM,35,80,12:00,Gurgaon,False,0,1,HopchargeZ,15,14.8
+413,559e2680-6d17-4886-8094-506b5dbd1a72,"Tuesday, May 2, 2023",Deepak  Sharma,EPOD-005,Sonu Chauhan,27.0,Tuesday,9:59:00 PM,55,80,10:00,Noida,False,0,0,HopchargeZ,21,6
+414,bc56c9a7-a3f1-46b1-ab5f-b1c8be11409d,"Tuesday, May 2, 2023",Madhu Srivastava,EPOD-009,Shoyab ali,,Tuesday,9:48:00 AM,29,80,10:00,Delhi,False,0,0,HopchargeZ,14,32
+415,0ba0dacc-0cd8-40f7-af03-8dfd5117d2a6,"Tuesday, May 2, 2023",Dinesh Sharma,EPOD-010,Akash Kumar,93.0,Tuesday,10:44:00 AM,10,80,11:00,Gurgaon,False,0,1,HopchargeZ,14,14
+416,b071e09f-3170-4237-966b-50ac5ee40003,"Monday, May 1, 2023",Shaurya Malik,EPOD-011,Ravi Dutt,90.0,Monday,7:52:00 PM,15,80,19:00,Gurgaon,False,0,2,,39 ,21.6
+417,02fdf45e-65fa-46e9-beff-c15630063af9,"Tuesday, May 2, 2023",Amit Singhal,E-POD-012,Sunil Kumar,68.0,Tuesday,5:58:00 AM,49,95,06:00,Gurgaon,False,0,0,HopchargeZ,12,9.2
+418,f2a85177-fc4a-40af-a975-3a6d62cb191e,"Monday, May 1, 2023",Manju Bhardwaj,E-POD-012,Pritam Kumar,,Monday,6:54:00 PM,56,80,19:00,Gurgaon,False,0,0,HopchargeZ,12 ,4.44
+419,8581c293-1513-4e24-9c30-dfeb8c9ed464,"Monday, May 1, 2023",Sanjay Kumar,EPOD-009,Deepak kumar,78.0,Monday,9:44:00 PM,32,95,22:00,Noida,False,0,1,Starter-I_100,15,13.2
+420,d9bb0bb2-e080-46cd-b0b8-5848fa3e0d19,"Tuesday, May 2, 2023",Poonam Bajaj,EPOD-011,Sachin Rajput,58.0,Tuesday,6:45:00 AM,9,75,07:00,Gurgaon,False,0,1,,10,15.6
+421,4f8e2e4b-16b7-4428-ac21-f176b272b80b,"Monday, May 1, 2023",Tumpa Banerjee ,E-POD-012,Pritam Kumar,29.0,Monday,12:24:00 AM,74,88,23:00,Gurgaon,False,0,1,HopchargeZ,08 ,2.4
+422,e257bc71-162c-4b7c-a005-9e422da6c09e,"Monday, May 1, 2023",Tumpa Banerjee ,E-POD-012,Pritam Kumar,,Monday,12:24:00 AM,88,100,23:00,Gurgaon,False,0,1,HopchargeZ,0,2.12
+423,17d72cc8-779a-4f71-a72e-dffa064e9ad0,"Tuesday, May 2, 2023",Sanjay Kumar,EPOD-007,Awdesh Kumar,82.0,Tuesday,2:55:00 PM,20,80,12:00,Noida,False,0,2,Starter-I_100,15 ,12.4
+424,31ca22dd-848b-43a4-b96f-f6c7dd934b40,"Tuesday, May 2, 2023",Sanjay Kumar,EPOD-007,Awdesh Kumar,696.0,Tuesday,3:00:00 PM,81,95,14:00,Noida,False,0,2,Starter-I_100,15 ,3.2
+425,06e631f8-4f57-4a40-a72d-fdc180ca880c,"Monday, May 1, 2023",KULDEEP Singh ,EPOD-005,Shakti singh,55.0,Monday,10:44:00 PM,38,80,23:00,Gurgaon,False,0,1,HopchargeZ,44,13.6
+426,c638f730-216d-4512-8401-82499d862fce,"Monday, May 1, 2023",Joydeep Debnath,EPOD-010,Akash Kumar,,Monday,5:46:00 PM,33,80,18:00,Gurgaon,False,0,0,HopchargeX12,8,15.2
+427,f1aea80c-4c72-4855-82a2-1646cf8b51fe,"Monday, May 1, 2023",Sanjay Kumar,EPOD-005,Sonu Chauhan,100.0,Monday,1:45:00 PM,19,81,14:00,Noida,False,0,1,Starter-I_100,18 ,12.8
+428,11dec80a-bf35-4be8-888b-631080db0163,"Monday, May 1, 2023",Karan  Ray,EPOD-001,Others,17.0,Monday,9:57:00 AM,67,80,10:00,Delhi,False,0,0,HopchargeZ,0,3.2
+429,70c3628f-c8e0-4e76-ae99-4adad7c311be,"Monday, May 1, 2023",Deepak  Sharma,E-POD-012,Pritam Kumar,33.0,Monday,8:43:00 PM,80,100,22:00,Gurgaon,False,0,1,HopchargeZ,0,4.12
+430,54f3550c-f9ed-4ac3-a54e-95b51114c216,"Monday, May 1, 2023",Deepak  Sharma,E-POD-012,Pritam Kumar,49.0,Monday,8:43:00 PM,22,80,21:00,Gurgaon,False,0,1,HopchargeZ,10 ,13.76
+431,7ecdfba5-090b-4157-8064-a66a670ddbfe,"Monday, May 1, 2023",Mohit  Tyagi ,EPOD-004,Others,74.0,Monday,11:58:00 PM,26,75,12:00,Delhi,False,0,2,HopchargeZ,0,16
+432,9ef7df66-5b05-415a-9086-d08b4c4741cc,"Tuesday, May 2, 2023",Rishi Shukla,EPOD-011,Sachin Rajput,32.0,Tuesday,2:22:00 AM,71,87,01:00,Gurgaon,False,0,2,HopchargeZ,17,4.4
+433,fb83a01c-eda4-4168-8f73-431575103990,"Monday, May 1, 2023",Rishi Shukla,EPOD-008,Jitender Singh,60.0,Monday,1:54:00 PM,23,80,14:00,Gurgaon,False,0,0,HopchargeZ,34,13.2
+434,24a435e6-9e2b-4593-8dcf-2d65200f3f22,"Monday, May 1, 2023",Arpit Aggarwal ,EPOD-004,Pradeep Rawat,69.0,Monday,9:27:00 PM,40,66,22:00,Delhi,False,0,1,HopchargeX3,31,16.08
+435,ab3538b8-2d5c-4fcd-acd9-0b1a9ce91856,"Tuesday, May 2, 2023",Vinit Chadha,EPOD-011,Ravi Dutt,23.0,Tuesday,9:47:00 AM,53,80,10:00,Gurgaon,False,0,0,HopchargeZ,15,6.4
+436,04c97141-bf8a-44d1-ab80-23a31f065c35,"Monday, May 1, 2023",Vaibhav Jain,EPOD-002,Vipin,67.0,Monday,9:27:00 PM,19,80,21:00,Noida,False,0,2,Hopcharge-Y,17,17.2
+437,d538cae9-3be8-4deb-a687-db47375524dd,"Monday, May 1, 2023",Vinod  Yadav,EPOD-011,Ravi Dutt,,Monday,9:46:00 AM,67,95,11:00,Gurgaon,True,1,1,HopchargeZ,0,10
+438,5cb828eb-4ee1-4ac5-ab62-4522ea472eab,"Monday, May 1, 2023",Rashmi Kumari,EPOD-010,Akash Kumar,50.0,Monday,12:45:00 PM,43,80,13:00,Gurgaon,False,0,1,HopchargeZ,14,11.6
+439,2ab5b795-da7e-4b4e-bb5c-86c38fc32678,"Monday, May 1, 2023",Rishi Shukla,EPOD-011,Rohit Yadav,33.0,Monday,1:24:00 AM,46,80,02:00,Gurgaon,False,0,1,HopchargeZ,15,7.6
+440,b07a88c5-85b7-4f74-9e6b-917471e6c797,"Monday, May 1, 2023",Romil  Saxena,EPOD-002,Vipin,56.0,Monday,1:45:00 AM,40,80,02:00,Noida,False,0,1,HopchargeZ,24,3580.8
+441,a52a2f0a-446f-4c46-abc8-de1b983c0cd9,"Monday, May 1, 2023",Pradeep  Saini,EPOD-010,Aman Chaudhary,1411.0,Monday,11:02:00 PM,81,100,02:00,Delhi,False,0,2,HopchargeZ3Y,15,6.8
+442,3c743c3b-6bf2-4b15-a51a-5402894a0a81,"Monday, May 1, 2023",Pradeep  Saini,EPOD-010,Aman Chaudhary,32.0,Monday,11:02:00 PM,55,80,01:00,Delhi,False,0,2,HopchargeZ3Y,15,7.6
+443,23d94ada-8acc-42bc-a31e-ac760be86e29,"Monday, May 1, 2023",Nisha  Chauhan ,EPOD-002,Vipin,30.0,Monday,6:45:00 AM,41,80,07:00,Noida,False,0,1,HopZ Lite,7,9.6
+444,4f4c68d3-9abc-4998-9b94-ccd78b273c41,"Monday, May 1, 2023",Arpit Aggarwal ,EPOD-004,Pradeep Rawat,69.0,Monday,11:44:00 PM,34,61,12:00,Delhi,False,0,2,HopchargeX3,16,15.88
+445,b1c89fb9-c0d1-4255-8b16-27c0ae6b5b11,"Monday, May 1, 2023",Amit Kr Chauhan ,E-POD-012,Pritam Kumar,,Monday,9:24:00 AM,53,80,10:00,Gurgaon,False,0,1,HopchargeZ3,12,5.72
+446,b3d6fca7-f246-4d8b-bb18-00631ada8e6d,"Monday, May 1, 2023",Mohit  Gupta ,EPOD-011,Rohit Yadav,25.0,Monday,5:58:00 AM,55,80,06:00,Gurgaon,False,0,0,HopchargeZ,9,4.8
+447,5934fa12-4b6b-436c-a8b4-e126afe2f373,"Monday, May 1, 2023",nitin patil,EPOD-007,Ashish Tyagi,85.0,Monday,4:16:00 AM,39,80,07:00,Noida,False,0,1,HopchargeZ,20,3771.2
+448,d37aa70b-088d-46e2-ac0d-78317608603c,"Monday, May 1, 2023",SS Tours  Pvt Ltd,EPOD-003,Jitendra Singh New,49.0,Monday,10:45:00 AM,25,80,11:00,Gurgaon,False,0,1,Starter-I_100,8,14.4
+449,dcab12ec-7b1b-4a10-ba87-11affc35abbf,"Monday, May 1, 2023",Vinod  Yadav,EPOD-011,Ravi Dutt,,Monday,9:46:00 AM,14,66,10:00,Gurgaon,False,0,0,HopchargeZ,8,17.2
+450,b9920f0f-0388-41d3-b345-938cf8628ad1,"Monday, May 1, 2023",KULDEEP Singh ,EPOD-010,Akash Kumar,50.0,Monday,8:52:00 AM,47,80,09:00,Gurgaon,False,0,0,HopchargeZ,12,11.2
+451,fc6decd5-7a0b-4ad3-807a-5af134f008fe,"Monday, May 1, 2023",Sandeep Yadav,EPOD-010,Aman Chaudhary,33.0,Monday,9:46:00 PM,81,100,23:00,Gurgaon,False,0,1,HopchargeZ3,12,2.8
+452,9ca016df-1722-4b4c-8e99-13ed5eab7cef,"Monday, May 1, 2023",Sandeep Yadav,EPOD-010,Aman Chaudhary,58.0,Monday,9:46:00 PM,17,80,22:00,Gurgaon,False,0,0,HopchargeZ3,12,14.4
+453,05b43dec-b4dd-4f3e-9203-1cabfff1a881,"Monday, May 1, 2023",Vinit Chadha,EPOD-011,Rohit Yadav,58.0,Monday,11:39:00 AM,51,91,12:00,Gurgaon,False,0,1,HopchargeZ,14,9.6
+454,589086f6-4aa2-4d0f-a07b-c531df61fa15,"Saturday, May 27, 2023",Shalini Goyal,EPOD-009,Sunil Kumar,37.0,Saturday,8:55:00 PM,53,80,21:00,Gurgaon,False,0,0,HopchargeZ,6,9.56
+455,66a6cbb0-28d0-49bb-87b2-28fa66ae2e63,"Saturday, May 27, 2023",nitin patil,EPOD-004,Rohit Nagar,75.0,Saturday,5:19:00 PM,19,80,18:00,Noida,False,0,1,HopchargeZ,18,14
+456,b5156c50-1928-4a6e-af85-988aa198a163,"Saturday, May 27, 2023",Girish  Bhatia ,EPOD006,OPS sup,71.0,Saturday,6:50:00 PM,6,75,19:00,Delhi,False,0,0,HopX3Y (GB) ,11,16
+457,b21b7614-ea98-4281-b23d-e84759e008cd,"Saturday, May 27, 2023",Vinod  Yadav,E-POD-012,Pradeep kumar,56.0,Saturday,3:25:00 PM,67,95,16:00,Gurgaon,False,0,1,HopchargeZ,8 ,9.2
+458,9ad532a3-4aec-4d0d-ac1b-284e73dea686,"Saturday, May 27, 2023",Aryan  Chaudhary,EPOD-008,OPS sup,73.0,Saturday,2:53:00 PM,53,80,13:00,Noida,False,0,2,HopchargeZ,14,-1297.6
+459,0eac8f19-641c-472f-95ee-9aab97cd391a,"Saturday, May 27, 2023",Manju Bhardwaj,E-POD-012,Pradeep kumar,,Saturday,5:55:00 PM,11,80,18:00,Gurgaon,False,0,0,HopchargeZ,20 ,2865.2
+460,5b820ba4-927f-4b12-a91f-ae050a9375a0,"Saturday, May 27, 2023",B S  Madan,EPOD-005,Jitendra Singh New,115.0,Saturday,3:49:00 PM,19,80,16:00,Gurgaon,False,0,0,HopchargeZ3Y,18,12.4
+461,1d9a226d-6627-48fe-ad64-3cc17662e12e,"Saturday, May 27, 2023",Tumpa Banerjee ,EPOD-005,Sachin Rajput,,Saturday,10:32:00 PM,38,80,23:00,Gurgaon,True,1,1,HopchargeZ,8,8.4
+462,2415335f-a749-4378-9cfd-94cd77958eef,"Saturday, May 27, 2023",Anand Kumar ,EPOD-004,Rohit Nagar,72.0,Saturday,12:46:00 PM,21,80,13:00,Noida,False,0,0,HopchargeZ,18,11.2
+463,bad480ce-2c4c-429e-8cc7-efb80eb504ea,"Saturday, May 27, 2023",Sandeep Yadav,E-POD-012,Pradeep kumar,576.0,Saturday,11:12:00 AM,32,60,10:00,Gurgaon,False,0,2,HopchargeZ3,10 ,6.8
+464,deb27c57-a521-44d8-8241-ee0443bc828f,"Saturday, May 27, 2023",Renu Talwar,EPOD-007,Pradeep Rawat,74.0,Saturday,3:00:00 AM,26,76,04:00,Delhi,False,0,1,HopchargeZ,17,16.44
+465,8607a2b0-39c7-4a5c-923f-e9b22df83213,"Sunday, May 28, 2023",Rama Shankar,EPOD-004,Awdesh Kumar,37.0,Sunday,8:45:00 AM,39,80,21:00,Noida,False,0,1,HopZ Lite,8,7.2
+466,a83c4579-fe35-4495-bc83-b488a2870bb8,"Friday, May 26, 2023",Rajeev Kumar,EPOD-002,OPS sup,58.0,Friday,3:45:00 AM,13,80,04:00,Noida,False,0,1,Hopcharge-X12,15,1680
+467,770c78c3-4902-4512-b1db-77f037ed9aed,"Saturday, May 27, 2023",Arjun  Singh,EPOD-009,Baljeet Kumar,59.0,Saturday,3:16:00 AM,25,63,05:00,Gurgaon,False,0,1,HopchargeZ,16,11.6
+468,6230e483-a054-4d84-9636-0f9132f7bd57,"Saturday, May 27, 2023",Richa  Singh ,EPOD-004,Awdesh Kumar,1320.0,Saturday,11:50:00 PM,31,100,01:00,Noida,False,0,2,HopchargeZ,8,0
+469,da431ba6-4dd7-4aa7-8f0f-136f77f696d7,"Saturday, May 27, 2023",Arun Rana,EPOD-011,Rohit Yadav,65.0,Saturday,5:44:00 AM,37,77,06:00,Gurgaon,False,0,1,HopchargeZ,8,17.2
+470,afca1a10-ba9f-41e8-aa28-a004057872d2,"Saturday, May 27, 2023",Sachin Sharma,EPOD-003,Ankush chauhan,103.0,Saturday,10:45:00 PM,37,80,23:00,Noida,False,0,1,HopchargeZ,18,1320
+471,28ee6eb0-839d-4787-ba8b-cace23ea8489,"Saturday, May 27, 2023",Rishi Shukla,EPOD-011,Ravi Dutt,58.0,Saturday,1:21:00 PM,14,74,13:00,Gurgaon,False,0,2,HopchargeZ,11 ,22.8
+472,7a94b8b0-cef5-4efb-a40a-8b7c2f36d980,"Saturday, May 27, 2023",Mohit  Gupta ,EPOD-009,Punil Kumar,72.0,Saturday,2:50:00 PM,54,80,15:00,Gurgaon,False,0,0,HopchargeZ,18,4.8
+473,09b506a5-a0ce-4862-92f5-0e657f7e2492,"Saturday, May 27, 2023",Siddharth Nagpal,EPOD-008,OPS sup,59.0,Saturday,11:47:00 AM,10,75,22:00,Noida,False,0,1,,16,12.8
+474,85d3ab45-488d-4b71-b98e-9fb284c8fa29,"Saturday, May 27, 2023",N Kumar ,EPOD-010,Akash Kumar,49.0,Saturday,6:33:00 PM,14,80,10:00,Gurgaon,False,0,1,FLEX,5,13.2
+475,3fe79257-680e-4641-90bd-fe9d7d8b22c0,"Saturday, May 27, 2023",Vaibhav  B,EPOD-002,Md. Arif,67.0,Saturday,11:40:00 AM,48,80,10:00,Ghaziabad,False,0,2,HopchargeZ3,15,8
+476,d0a87d72-4d96-4f74-bcf6-abb541af146b,"Saturday, May 27, 2023",Amit Kr Chauhan ,E-POD-012,Pradeep kumar,0.0,Saturday,8:58:00 AM,55,82,09:00,Gurgaon,False,0,0,HopchargeZ3,5 ,2382
+477,22df90a2-7502-4381-b894-ddd5d3599a1d,"Saturday, May 27, 2023",Vinit Chadha,EPOD-011,Rohit Yadav,1381.0,Saturday,10:58:00 AM,20,80,01:00,Gurgaon,False,0,2,HopchargeZ,14,14.4
+478,a98b4e1e-c4f1-43cd-a630-395b907cbc65,"Saturday, May 27, 2023",Gautam Ahuja,EPOD-003,OPS sup,107.0,Saturday,4:50:00 AM,20,70,05:00,Noida,False,0,0,Hopcharge-Y,16,2120
+479,391dc02a-a648-4454-9bbd-6561fb3ff960,"Saturday, May 27, 2023",Pragun Mittal,EPOD-004,Awdesh Kumar,74.0,Saturday,4:46:00 AM,20,72,05:00,Noida,False,0,0,HopchargeZ,8,-2162
+480,7637e708-37c6-4e1d-9204-2554750e8980,"Saturday, May 27, 2023",Dinesh Sharma,EPOD-010,Akash Kumar,64.0,Saturday,12:45:00 PM,7,80,13:00,Gurgaon,False,0,1,HopchargeZ,12,15.2
+481,87304bf6-f9c4-445c-bd53-603fe0419215,"Saturday, May 27, 2023",Indresh Kumar  Singh,EPOD-008,Shakti singh,60.0,Saturday,9:50:00 PM,25,75,22:00,Ghaziabad,False,0,0,HopchargeZ3Y,18,1640
+482,85ac3663-62ca-45ad-885c-be84d37a1f20,"Friday, May 26, 2023",Ankit Kumar,EPOD-010,Aman Chaudhary,65.0,Friday,10:18:00 PM,23,73,22:00,Gurgaon,False,0,2,HopchargeZ,6,16.4
+483,41e880d8-bdde-4e47-aeeb-e46e6e7e8238,"Saturday, May 27, 2023",B S  Madan,EPOD-009,Baljeet Kumar,,Saturday,1:43:00 AM,8,29,01:00,Gurgaon,True,0,2,HopchargeZ3Y,5,4.4
+484,31f2e035-9f59-46e5-8e66-6fa90ac57124,"Saturday, May 27, 2023",Rakesh Bahnewal,E-POD-012,Pritam Kumar,66.0,Saturday,5:40:00 AM,19,80,06:00,Gurgaon,False,0,1,HopchargeZ3Y,12,14.12
+485,15494890-4a58-40db-9bd4-2990e76cb3d6,"Saturday, May 27, 2023",Sandeep Yadav,EPOD-009,Punil Kumar,58.0,Saturday,4:38:00 PM,34,80,16:00,Gurgaon,False,0,2,HopchargeZ3,25,11.2
+486,0ecd984c-ef00-495a-a704-2a72068fe8eb,"Saturday, May 27, 2023",Tarun Wadhwa ,EPOD-005,Sachin Rajput,34.0,Saturday,4:48:00 AM,41,80,05:00,Gurgaon,False,0,0,HopchargeZ,12,7.6
+487,487ae5b3-019e-4a44-ac48-63bc86497545,"Sunday, May 28, 2023",Romil  Saxena,EPOD-004,OPS sup,31.0,Sunday,6:40:00 AM,17,80,01:00,Noida,False,0,2,HopchargeZ,12,1640
+488,319ac5bc-b2bb-41c2-8079-7a9f4925e8aa,"Saturday, May 27, 2023",Madhu Gogia,EPOD-010,Aman Chaudhary,38.0,Saturday,7:45:00 AM,45,85,08:00,Gurgaon,False,0,1,,4,9.2
+489,89d64c64-ecc2-414e-aaa6-1a4568dfe936,"Saturday, May 27, 2023",Vinod  Yadav,EPOD-011,Ravi Dutt,45.0,Saturday,11:37:00 AM,36,81,10:00,Gurgaon,False,0,2,HopchargeZ,7 ,3777.2
+490,db160cf3-ee74-4e06-b0bc-f8856fdff1ae,"Saturday, May 27, 2023",Karan  Ray,EPOD-007,Pradeep Rawat,31.0,Saturday,5:44:00 AM,14,50,07:00,Delhi,False,0,1,HopchargeZ,17,8.04
+491,7be116dc-7016-4ee4-ada2-60d5238c3a8c,"Saturday, May 27, 2023",Aparajeeta Sarmah,EPOD-008,OPS sup,67.0,Saturday,6:40:00 AM,21,72,07:00,Noida,False,0,1,HopchargeZ,12,1680
+492,e4db55f6-d6ac-48e7-9224-60bd9d867558,"Saturday, May 27, 2023",Madhu Srivastava,EPOD-009,Punil Kumar,,Saturday,9:07:00 AM,38,80,09:00,Gurgaon,False,0,2,HopchargeZ,7,24.8
+493,f85cb497-9776-4fa5-8fe0-727868bcf7ce,"Sunday, May 28, 2023",Nisha  Chauhan ,EPOD-003,Others,65.0,Sunday,2:48:00 PM,22,74,09:00,Noida,False,0,1,HopZ Lite,17,13.2
+494,3acb344b-85fe-4f52-9d32-a8a3e46cc8ab,"Saturday, May 27, 2023",KULDEEP Singh ,EPOD-010,Aman Chaudhary,20.0,Saturday,9:56:00 PM,63,80,22:00,Gurgaon,False,0,0,HopchargeZ,6,5.6
+495,af72e962-4f7c-47f2-9611-94970f7d20de,"Friday, May 26, 2023",Rashmi Kumari,E-POD-012,Pradeep kumar,49.0,Friday,11:45:00 AM,44,80,12:00,Gurgaon,False,0,1,HopchargeZ,10,11.6
+496,7a875be2-4dd2-4e89-9ab9-8b3d02c39d39,"Friday, May 26, 2023",Madhu Gogia,EPOD-010,Akash Kumar,40.0,Friday,9:36:00 AM,56,90,22:00,Gurgaon,False,0,1,,8,7.6
+497,a85fae9f-6783-48cc-9865-000c56351d20,"Friday, May 26, 2023",PAWAN KHANDELWAL,E-POD-012,Pritam Kumar,42.0,Friday,9:37:00 PM,38,80,22:00,Gurgaon,False,0,1,HopchargeZ,5,9.4
+498,76362f27-8464-4773-a8ce-31644dbdca45,"Friday, May 26, 2023",Mohit  Gupta ,EPOD-011,Ravi Dutt,56.0,Friday,11:40:00 AM,15,80,12:00,Gurgaon,False,0,1,HopchargeZ,12,12.8
+499,186e1395-df71-4425-a124-3e70f3465a2f,"Friday, May 26, 2023",Anil Raao,EPOD-010,OPS sup,107.0,Friday,12:45:00 PM,31,80,13:00,Gurgaon,False,0,1,HopchargeZ,16,15.2
+500,c7873373-5277-4b17-8f8b-d8e9e8b92478,"Friday, May 26, 2023",Srishti  Sharma,EPOD-004,Awdesh Kumar,82.0,Friday,4:32:00 AM,12,80,05:00,Noida,False,0,1,HopchargeZ,15,12.8
+501,88d1cb82-9521-4ac7-9a6f-78544b3a61be,"Friday, May 26, 2023",Shubhra  Vanjani,EPOD-007,OPS sup,,Friday,9:36:00 AM,45,80,21:00,Delhi,True,1,1,HopchargeZ,17,8.4
+502,36644b98-9a53-443b-bcf2-cfbe95f36a4c,"Friday, May 26, 2023",Richa  Singh ,EPOD-010,Aman Chaudhary,69.0,Friday,1:46:00 AM,28,80,02:00,Gurgaon,False,0,0,HopchargeZ,12,16.8
+503,288343ca-5987-4962-b6fc-2fa6650bd0d2,"Friday, May 26, 2023",Amit Kr Chauhan ,E-POD-012,Pritam Kumar,62.0,Friday,1:43:00 AM,25,80,02:00,Gurgaon,False,0,1,HopchargeZ3,12,11.28
+504,fa02effa-baf6-47e5-a924-96ae1369dc6b,"Friday, May 26, 2023",Tumpa Banerjee ,EPOD-005,Jitendra Singh New,48.0,Friday,11:40:00 AM,44,70,02:00,Gurgaon,False,0,2,HopchargeZ,12,5.2
+505,bc5d46af-d231-4c7f-b4a7-d70e8fedf0da,"Friday, May 26, 2023",Pradeep  Saini,EPOD-005,Sachin Rajput,25.0,Friday,1:47:00 AM,68,80,02:00,Delhi,False,0,0,HopchargeZ3Y,25,4
+506,7445b84a-6a70-4f9d-81ad-09a1ddba1c58,"Friday, May 26, 2023",Deepak  Sharma,EPOD-004,Rohit Nagar,30.0,Friday,10:45:00 AM,54,80,14:00,Noida,False,0,1,HopchargeZ,5,6
+507,5d90ea35-2120-4096-ba4a-2599a217a54e,"Sunday, May 28, 2023",Sanjay Kumar,EPOD-007,Pradeep Rawat,70.0,Sunday,6:45:00 AM,37,88,12:00,Delhi,False,0,1,Starter-I_100,24,3772.4
+508,7f737b73-ebc9-4535-825f-1a0ca8321f93,"Friday, May 26, 2023",raghu kapoor,EPOD-005,Sachin Rajput,52.0,Friday,4:45:00 AM,33,77,05:00,Delhi,False,0,1,HopchargeZ,30,9.2
+509,6fcdd947-9ad4-473e-8012-d5b781538f35,"Friday, May 26, 2023",Srishti  Sharma,EPOD-003,Ankush chauhan,49.0,Friday,12:43:00 AM,20,80,01:00,Noida,False,0,1,HopchargeZ,19,1480
+510,0d88f73e-8585-403c-a948-feac5c37486a,"Friday, May 26, 2023",Manju Bhardwaj,E-POD-012,Pradeep kumar,359.0,Friday,6:45:00 PM,20,80,19:00,Gurgaon,False,0,1,HopchargeZ,11,11.6
+511,8d2c7928-2476-49a5-8e62-059b4cdb0aeb,"Thursday, May 25, 2023",Tarun Wadhwa ,EPOD-011,Rohit Yadav,35.0,Thursday,6:45:00 AM,39,80,19:00,Gurgaon,False,0,1,HopchargeZ,15,8
+512,799edb59-fba3-437f-aa1f-b68cf425fc42,"Wednesday, May 24, 2023",Sachin Kapoor,EPOD006,OPS sup,130.0,Wednesday,11:39:00 AM,2,80,12:00,Delhi,False,0,1,,14,26
+513,a091a4ed-dedb-4d1e-9ab8-7dbd700f1705,"Friday, May 26, 2023",Sachin Sharma,EPOD-004,Awdesh Kumar,91.0,Friday,12:47:00 AM,32,80,01:00,Noida,False,0,0,HopchargeZ,16,9.2
+514,944326dd-deab-40f0-9edc-3814e5cab034,"Friday, May 26, 2023",Mohit  Tyagi ,EPOD006,OPS sup,39.0,Friday,5:57:00 PM,40,80,12:00,Delhi,False,0,2,HopchargeZ,14,13.6
+515,03220659-1e3e-4cd8-b764-1fc5d87465e1,"Friday, May 26, 2023",Dr. Rohit Nara,EPOD-009,Baljeet Kumar,31.0,Friday,12:43:00 AM,59,80,22:00,Gurgaon,False,0,1,HopchargeZ,18,6.8
+516,72f0ad0c-21b2-4579-a3c8-34684b3b9d58,"Friday, May 26, 2023",Vinod  Yadav,EPOD-011,Ravi Dutt,44.0,Friday,9:33:00 AM,46,80,10:00,Gurgaon,False,0,1,HopchargeZ,7,11.2
+517,a5817159-e418-46b6-883b-d542a246ba31,"Thursday, May 25, 2023",Sandeep Yadav,EPOD-005,Sachin Rajput,1451.0,Thursday,10:30:00 PM,67,80,22:00,Gurgaon,False,0,2,HopchargeZ3,15,3.2
+518,4a692139-2cee-4c1f-aa0b-880e46fbfa77,"Thursday, May 25, 2023",Madhu Srivastava,EPOD-005,Jitendra Singh New,120.0,Thursday,11:39:00 AM,16,68,06:00,Delhi,False,0,2,HopchargeZ,40,31.2
+519,f9a2e3ee-7840-46d7-a18f-b5df18f24ad5,"Thursday, May 25, 2023",Rashmi Kumari,E-POD-012,Pradeep kumar,90.0,Thursday,2:48:00 PM,28,80,15:00,Gurgaon,False,0,0,HopchargeZ,10,17.2
+520,f04a6999-46b9-49eb-9648-e984d4e3ab30,"Tuesday, May 30, 2023",Rama Shankar,EPOD-001,Others,45.0,Tuesday,10:42:00 PM,33,80,21:00,Noida,False,0,2,HopZ Lite,8 ,8.4
+521,c1560a5d-ae9b-475e-9cf3-4b282986819d,"Friday, May 26, 2023",Rakesh Bahnewal,E-POD-012,Pritam Kumar,42.0,Friday,3:15:00 AM,52,80,06:00,Gurgaon,False,0,1,HopchargeZ3Y,13,6.8
+522,e7c6bb6c-4ece-475a-a728-e1ffd5b7b671,"Thursday, May 25, 2023",Shalini Goyal,EPOD-010,Aman Chaudhary,52.0,Thursday,4:10:00 AM,39,80,23:00,Gurgaon,False,0,1,HopchargeZ,13,13.6
+523,73df7cf7-c51a-4b2a-8f52-f5e96235bb4e,"Thursday, May 25, 2023",Joydeep Debnath,EPOD-009,Jitender Singh,,Thursday,7:28:00 PM,33,80,19:00,Gurgaon,False,0,2,HopchargeX12,18,15.6
+524,93ce80c4-554b-4c7d-80e5-3d69bdf3d593,"Thursday, May 25, 2023",Rishi Shukla,EPOD-011,Rohit Yadav,0.0,Thursday,5:05:00 AM,41,82,06:00,Gurgaon,False,0,1,HopchargeZ,13,7.6
+525,5501935c-9414-492a-ad2f-9fecede92ae3,"Thursday, May 25, 2023",Karan  Ray,EPOD-008,Sonu Chauhan,64.0,Thursday,2:45:00 PM,14,80,15:00,Noida,False,0,1,HopchargeZ,5,15.2
+526,a55f2689-0e8f-4318-abb4-b14f57436af0,"Thursday, May 25, 2023",Sundeep  Jain,EPOD-011,Ravi Dutt,116.0,Thursday,1:31:00 AM,16,100,23:00,Gurgaon,False,0,1,HopchargeZ3Y,41,17.6
+527,0729d63d-7803-48ae-b215-a7580dd4b8f9,"Thursday, May 25, 2023",Deepak  Sharma,EPOD-001,Ankit Kumar Gupta,0.0,Thursday,4:17:00 AM,27,80,16:00,Noida,False,0,1,HopchargeZ,30,12.4
+528,63dc9d31-3978-4cf9-9798-352e8c9491c3,"Thursday, May 25, 2023",Amit Kr Chauhan ,E-POD-012,Pritam Kumar,45.0,Thursday,2:12:00 AM,35,85,04:00,Gurgaon,False,0,1,HopchargeZ3,12,10
+529,85eb26fd-34f8-4f42-8258-aa566e9ec8cf,"Thursday, May 25, 2023",Manju Bhardwaj,EPOD-007,Pradeep Rawat,56.0,Thursday,6:45:00 AM,11,80,19:00,Delhi,False,0,1,HopchargeZ,22,10.6
+530,6ec01bb7-f852-48f5-9f76-a439abfbe48b,"Wednesday, May 24, 2023",Poonam Bajaj,EPOD-007,OPS sup,52.0,Wednesday,4:07:00 PM,24,80,16:00,Delhi,False,0,2,,14,12.8
+531,b4b97b95-bbea-4b9c-8099-0b0c73d688d1,"Thursday, May 25, 2023",Rakesh Bahnewal,E-POD-012,Pritam Kumar,55.0,Thursday,3:28:00 AM,32,90,05:00,Gurgaon,False,0,1,HopchargeZ3Y,7,14
+532,94bfaf6f-1068-4c93-b6d6-09a4f83d4398,"Friday, May 26, 2023",Rama Shankar,EPOD-004,Awdesh Kumar,32.0,Friday,8:42:00 PM,33,81,21:00,Noida,False,0,1,HopZ Lite,7,10
+533,76f9319d-e7e1-4144-b44f-f279cda3e1b5,"Thursday, May 25, 2023",Rama Shankar,EPOD-004,Awdesh Kumar,64.0,Thursday,5:41:00 AM,17,90,06:00,Noida,False,0,1,HopZ Lite,7,16.4
+534,f5db883a-6f7c-4e56-a190-1f0dd75986bf,"Thursday, May 25, 2023",PAWAN KHANDELWAL,E-POD-012,Pritam Kumar,48.0,Thursday,6:55:00 AM,33,80,07:00,Gurgaon,False,0,0,HopchargeZ,10,30
+535,0b15ccbc-d7d6-4879-9011-f78a3abcdb13,"Wednesday, May 24, 2023",Nisha  Chauhan ,EPOD-008,Sonu Chauhan,44.0,Wednesday,6:34:00 PM,31,80,19:00,Noida,False,0,1,HopZ Lite,18,9.6
+536,8795540c-fb7b-4974-ad28-5b1b9e00f825,"Thursday, May 25, 2023",Anil Raao,EPOD-005,Sunil Kumar,69.0,Thursday,1:35:00 AM,29,79,02:00,Gurgaon,False,0,1,HopchargeZ,17,-632.44
+537,837a31bf-8f7e-4bb2-a005-586a6eac7495,"Wednesday, May 24, 2023",Omkar  Pundir,EPOD-003,Shoyab ali,36.0,Wednesday,3:19:00 PM,4,45,18:00,Noida,False,0,1,,3,12
+538,f160de91-4325-4e68-96e4-d2f121f1c1fa,"Thursday, May 25, 2023",Rahul  Kumar ,EPOD-009,Jitender Singh,35.0,Thursday,9:24:00 AM,44,80,09:00,Faridabad,False,0,2,Hopcharge-X,34,8
+539,84c31d3a-9ec8-45a2-be99-3442cc72dc11,"Thursday, May 25, 2023",Sid Jain,EPOD-009,Jitender Singh,63.0,Thursday,11:23:00 AM,14,80,12:00,Faridabad,False,0,1,,4,14
+540,c1efe4af-c0ca-42a8-88ef-1ba61051ba88,"Wednesday, May 24, 2023",Dr. Rohit Nara,EPOD-010,Sunil Kumar,68.0,Wednesday,4:55:00 AM,30,90,05:00,Gurgaon,False,0,0,HopchargeZ,21,19.72
+541,0685e1f0-4431-4807-b302-1f7f23143cbc,"Thursday, May 25, 2023",Srishti  Sharma,EPOD-008,Sonu Chauhan,59.0,Thursday,4:43:00 PM,26,81,01:00,Noida,False,0,2,HopchargeZ,20,7.6
+542,e9efb2b0-73cf-400e-9a59-00240ef1fd2f,"Thursday, May 25, 2023",Madhu Gogia,EPOD-010,Aman Chaudhary,66.0,Thursday,7:20:00 AM,47,99,08:00,Gurgaon,False,0,1,,3,11.2
+543,6cd86d98-cee2-4bc6-b934-c158137ec174,"Thursday, May 25, 2023",Vinod  Yadav,EPOD-011,Rohit Yadav,103.0,Thursday,9:45:00 AM,35,95,10:00,Gurgaon,False,0,1,HopchargeZ,5,20.4
+544,a68c61d0-a6b8-4436-88c2-2ca77f422787,"Wednesday, May 24, 2023",Aparajeeta Sarmah,EPOD-008,Sonu Chauhan,38.0,Wednesday,1:45:00 PM,31,80,14:00,Noida,False,0,1,HopchargeZ,20,16.4
+545,2e5e9494-4354-4209-ad7d-bcf2104aeab1,"Thursday, May 25, 2023",Sandeep Yadav,EPOD-009,Jitender Singh,64.0,Thursday,3:51:00 PM,28,80,16:00,Gurgaon,False,0,0,HopchargeZ3,18,12.4
+546,f07450ce-fc11-46a7-86f2-1bb659ca2cd8,"Thursday, May 25, 2023",KULDEEP Singh ,E-POD-012,Pritam Kumar,23.0,Thursday,11:16:00 PM,67,80,22:00,Gurgaon,False,0,2,HopchargeZ,7,4.4
+547,adbfdd3e-1b8a-495b-87c1-d75ae61ece0a,"Wednesday, May 24, 2023",KULDEEP Singh ,EPOD-009,Baljeet Kumar,64.0,Wednesday,9:57:00 PM,57,99,22:00,Gurgaon,False,0,0,HopchargeZ,8,14.4
+548,81c228c1-f303-462c-8877-72aa8cf090a9,"Thursday, May 25, 2023",Sanjay Kumar,EPOD-004,Rohit Nagar,94.0,Thursday,2:45:00 PM,16,95,15:00,Noida,False,0,1,Starter-I_100,16,16.8
+549,87626cb8-cf79-4721-b14b-63f537deaa48,"Thursday, May 25, 2023",Sanjay Kumar,EPOD-008,Sonu Chauhan,43.0,Thursday,11:45:00 AM,53,95,12:00,Noida,False,0,1,Starter-I_100,11,8.8
+550,14651dd9-f668-4542-accd-11794160c887,"Wednesday, May 24, 2023",Vimi Kant Vatsa,EPOD-001,Ankit Kumar Gupta,,Wednesday,5:45:00 AM,10,80,18:00,Noida,False,0,1,Hopcharge-Y,18,17.2
+551,8607c64b-9958-487b-9ef0-a32aa90c5513,"Wednesday, May 24, 2023",Vaibhav  B,EPOD-004,Rohit Nagar,48.0,Wednesday,4:50:00 PM,51,95,17:00,Noida,False,0,0,HopchargeZ3,23,8.4
+552,80ae763b-6471-469c-9f64-34bb892201d8,"Wednesday, May 24, 2023",Vinit Chadha,EPOD-011,Rohit Yadav,97.0,Wednesday,5:46:00 PM,17,100,18:00,Gurgaon,False,0,0,HopchargeZ,13,18.4
+553,cbdeea62-fae2-485e-9454-f1062583306b,"Wednesday, May 24, 2023",Madhu Gogia,EPOD-009,Jitender Singh,60.0,Wednesday,11:32:00 AM,14,80,17:00,Gurgaon,False,0,1,,4,15.6
+554,2e476f4b-cdef-4445-9abd-a11db97fc804,"Wednesday, May 24, 2023",Jyotendra Pallav,EPOD-005,Sunil Kumar,54.0,Wednesday,10:40:00 PM,47,80,23:00,Gurgaon,False,0,1,HopchargeZ,17,14.4
+555,09fc0efa-7ee8-48ef-ba04-14d545432062,"Wednesday, May 24, 2023",Deepak  Sharma,EPOD-004,Rohit Nagar,5.0,Wednesday,1:52:00 PM,57,80,14:00,Noida,False,0,0,HopchargeZ,30,5.2
+556,e12b98d2-312b-470c-90f8-0dbfac18ef91,"Wednesday, May 24, 2023",Dinesh Sharma,E-POD-012,Pradeep kumar,83.0,Wednesday,1:58:00 PM,9,95,14:00,Gurgaon,False,0,0,HopchargeZ,9,17.2
+557,c7895911-8f5b-4ef7-aead-a4715aa642bb,"Wednesday, May 24, 2023",Shalini Goyal,EPOD-010,Aman Chaudhary,36.0,Wednesday,10:22:00 PM,72,97,23:00,Gurgaon,False,0,1,HopchargeZ,13,8
+558,3a487ee2-beec-4983-b857-dd5e8c3346e5,"Wednesday, May 24, 2023",Sukhvinder  Singh,EPOD-001,Ankit Kumar Gupta,69.0,Wednesday,11:38:00 AM,27,80,17:00,Noida,False,0,1,Starter-I,15,11.2
+559,be974b21-39dc-4679-a107-aae942af27ee,"Wednesday, May 24, 2023",Tumpa Banerjee ,EPOD-009,Baljeet Kumar,35.0,Wednesday,11:14:00 PM,33,95,14:00,Gurgaon,False,0,2,HopchargeZ,3,12.8
+560,e2d04198-f6c6-4df0-a2b8-d128da470eac,"Wednesday, May 24, 2023",Tumpa Banerjee ,EPOD-005,Punil Kumar,,Wednesday,2:25:00 AM,23,65,14:00,Gurgaon,True,1,1,HopchargeZ,6,8.4
+561,ead64fdb-3dfd-4dee-9524-e23d2516bcc3,"Thursday, May 25, 2023",Amit Singhal,EPOD-007,Pradeep Rawat,32.0,Thursday,2:07:00 AM,44,83,06:00,Delhi,False,0,1,HopchargeZ,23,7.6
+562,4c9e924b-1a01-490d-a6fb-f97bd4fa30d8,"Wednesday, May 24, 2023",Parag Bhatnagar,EPOD-009,Jitender Singh,68.0,Wednesday,9:43:00 AM,9,60,10:00,Gurgaon,False,0,1,,18,16.8
+563,f3bc4743-9759-4545-9307-2cc3c453b5ea,"Wednesday, May 24, 2023",Rishi Shukla,EPOD-011,Ravi Dutt,42.0,Wednesday,10:55:00 PM,41,80,23:00,Gurgaon,False,0,0,HopchargeZ,14,8.8
+564,cb7471ea-3f59-418d-add4-a40a6d4b6249,"Wednesday, May 24, 2023",Rishi Shukla,E-POD-012,Pradeep kumar,11.0,Wednesday,10:46:00 AM,26,80,17:00,Gurgaon,False,0,1,HopchargeZ,11,12
+565,0061bae1-7b4d-4d3b-a464-fccd626bc9bb,"Wednesday, May 24, 2023",Rishi Shukla,EPOD-001,Ankit Kumar Gupta,62.0,Wednesday,4:44:00 PM,66,80,11:00,Noida,False,0,1,HopchargeZ,0,3.2
+566,d823cce2-9473-4435-a035-4eb7d7158244,"Wednesday, May 24, 2023",Arjun  Singh,EPOD-011,Rohit Yadav,65.0,Wednesday,5:04:00 AM,40,80,06:00,Gurgaon,False,0,1,HopchargeZ,9,17.2
+567,5fd05fae-bded-42d3-b043-8436eb74c3ee,"Wednesday, May 24, 2023",Amit Kr Chauhan ,EPOD-005,Sachin Rajput,,Wednesday,1:00:00 AM,32,91,03:00,Gurgaon,True,1,1,HopchargeZ3,15,12.8
+568,42985fbe-c6bc-4c76-a3ee-2bb0db60f817,"Wednesday, May 24, 2023",Ankit Kumar,EPOD-009,Jitender Singh,643.0,Wednesday,4:17:00 PM,79,90,11:00,Gurgaon,False,0,1,HopchargeZ,16,3.6
+569,11b98024-8c1c-4785-8759-e5f0e051c257,"Wednesday, May 24, 2023",Vijay Shankar,EPOD-005,Punil Kumar,56.0,Wednesday,10:00:00 AM,39,80,10:00,Gurgaon,False,0,0,,4,13.6
+570,1461a0b3-038a-4da3-a6db-c63dd3e1e8d7,"Tuesday, May 23, 2023",Manju Bhardwaj,EPOD-009,Jitender Singh,37.0,Tuesday,6:59:00 PM,10,47,19:00,Gurgaon,False,0,0,HopchargeZ,12,7.2
+571,1fe04715-8a45-48df-9555-b07b92bfc106,"Tuesday, May 23, 2023",Siddhartha Sharma,EPOD-008,Sonu Chauhan,42.0,Tuesday,6:36:00 PM,25,58,18:00,Noida,False,0,2,HopchargeZ,20,10.8
+572,399cc697-79c8-46ad-bf4e-31ba5b15a00e,"Wednesday, May 24, 2023",Richa  Singh ,EPOD-011,Rohit Yadav,107.0,Wednesday,11:12:00 AM,36,100,02:00,Gurgaon,False,0,2,HopchargeZ,10,21.2
+573,36e1cef3-2cc8-43a3-9a89-c6a1f064a23f,"Wednesday, May 24, 2023",Sukhvinder  Singh,EPOD-003,Shoyab ali,45.0,Wednesday,5:50:00 PM,28,80,11:00,Noida,False,0,1,Starter-I,17,14
+574,0fe5ef1c-1519-4eb5-b3ff-f6d029d6b495,"Wednesday, May 24, 2023",Mohit  Gupta ,EPOD-011,Rohit Yadav,60.0,Wednesday,6:41:00 AM,25,90,07:00,Gurgaon,False,0,1,HopchargeZ,4,12.8
+575,103fb52e-31c2-4b21-a287-45d21ff7221c,"Wednesday, May 24, 2023",Sandeep Yadav,EPOD-005,Sachin Rajput,24.0,Wednesday,11:28:00 PM,55,80,01:00,Gurgaon,False,0,2,HopchargeZ3,12,5.6
+576,d6bad968-1ac7-406e-ad9b-dff85e8f94e1,"Tuesday, May 23, 2023",Vinay Yadav,EPOD-004,Rohit Nagar,63.0,Tuesday,6:50:00 PM,18,61,19:00,Noida,False,0,0,HopchargeX,36,14.8
+577,746a9c81-9395-470e-8d10-6191cd6c6b48,"Wednesday, May 24, 2023",Tarun Wadhwa ,EPOD-005,Sachin Rajput,58.0,Wednesday,6:45:00 AM,10,80,07:00,Gurgaon,False,0,1,HopchargeZ,13,20.8
+578,18c84828-befd-4b18-992d-336bb1432952,"Wednesday, May 24, 2023",Ankit Kumar,EPOD-010,Akash Kumar,16.0,Wednesday,11:30:00 AM,45,95,15:00,Delhi,False,0,1,HopchargeZ,45,17.2
+579,984e9fdd-54ea-434d-92a0-6a38476fd51b,"Wednesday, May 24, 2023",Sanjay Kumar,EPOD-007,Pradeep Rawat,98.0,Wednesday,10:45:00 PM,21,95,23:00,Delhi,False,0,1,Starter-I_100,25,14.36
+580,3ac7a10b-2527-4e25-8e4b-f7c0b58fe60c,"Tuesday, May 23, 2023",Ankit Kumar,E-POD-012,Pritam Kumar,72.0,Tuesday,1:32:00 AM,30,80,22:00,Gurgaon,False,0,1,HopchargeZ,12,16.6
+581,d019a55d-663f-4f60-8f7a-08be30ac5b48,"Wednesday, May 24, 2023",Vinod  Yadav,EPOD-011,Rohit Yadav,78.0,Wednesday,12:34:00 PM,38,95,10:00,Gurgaon,False,0,1,HopchargeZ,5,20
+582,07a2d2c1-a32d-4c60-99a9-b667fb4561b8,"Tuesday, May 23, 2023",Rashmi Kumari,EPOD-005,Jitendra Singh New,82.0,Tuesday,4:38:00 PM,32,95,17:00,Gurgaon,False,0,1,HopchargeZ,5,20.8
+583,b1a70d03-3dce-4406-8c90-4671f4313626,"Wednesday, May 24, 2023",Rakesh Bahnewal,E-POD-012,Pritam Kumar,104.0,Wednesday,5:47:00 AM,22,100,06:00,Gurgaon,False,0,0,HopchargeZ3Y,13,18.4
+584,772cc57a-aa0a-4aa3-a6b9-a119d9c1cfe5,"Wednesday, May 24, 2023",Harshit Srivastava,EPOD-004,Rohit Nagar,75.0,Wednesday,9:59:00 AM,28,80,10:00,Noida,False,0,0,Hopcharge-Y,31,16.8
+585,6731d389-2cb7-4fce-9743-72030ab864fd,"Tuesday, May 23, 2023",B S  Madan,EPOD-010,Akash Kumar,0.0,Tuesday,5:46:00 PM,18,82,18:00,Gurgaon,False,0,0,HopchargeZ3Y,15,12.8
+586,1b5bf355-803c-4df1-8c4d-242e2a3f4453,"Tuesday, May 23, 2023",Romil  Saxena,EPOD-008,Shakti singh,53.0,Tuesday,2:40:00 AM,10,48,23:00,Noida,False,0,1,HopchargeZ,23,9.2
+587,295b79f0-cb7d-4a4f-b2c1-21b9aef684ba,"Tuesday, May 23, 2023",Shalini Goyal,E-POD-012,Punil Kumar,92.0,Tuesday,4:02:00 AM,30,80,17:00,Gurgaon,False,0,1,HopchargeZ,,16
+588,cc2f3ddd-aae6-4f75-a6db-45923eb726b7,"Tuesday, May 23, 2023",Narendra Singh,EPOD-003,Shoyab ali,120.0,Tuesday,4:03:00 PM,12,62,15:00,Noida,False,0,2,FLEX,32,21.2
+589,0de9b4cf-fa58-4c37-8b7c-155157ef4ff6,"Tuesday, May 23, 2023",Vaibhav  B,EPOD-004,Rohit Nagar,64.0,Tuesday,1:09:00 PM,15,67,14:00,Noida,False,0,1,HopchargeZ3,20,22
+590,3437d825-2084-4918-a315-9209662d653c,"Wednesday, May 24, 2023",Vinit Chadha,EPOD-009,Baljeet Kumar,44.0,Wednesday,1:56:00 AM,32,80,02:00,Gurgaon,False,0,0,HopchargeZ,12,11.6
+591,fe70404d-48b1-4a75-86f0-447d3a36e51d,"Tuesday, May 23, 2023",Arjun  Singh,EPOD-010,Akash Kumar,62.0,Tuesday,1:58:00 PM,12,80,14:00,Gurgaon,False,0,0,HopchargeZ,10,16.4
+592,5c14b367-88d6-4569-9aca-764fb6bffec1,"Tuesday, May 23, 2023",KULDEEP Singh ,EPOD-007,Pradeep Rawat,70.0,Tuesday,1:55:00 AM,65,99,09:00,Delhi,False,0,1,HopchargeZ,3.9,11.88
+593,4d7a8ee1-cbcf-43cf-830f-e374ae61b90a,"Tuesday, May 23, 2023",Renu Talwar,EPOD-007,Pradeep Rawat,64.0,Tuesday,7:45:00 AM,21,71,08:00,Delhi,False,0,1,HopchargeZ,23,16.28
+594,bf5b09e1-a551-4c4c-902a-433c9dcbd6b0,"Tuesday, May 23, 2023",nitin patil,EPOD-004,Rohit Nagar,740.0,Tuesday,10:47:00 AM,12,80,11:00,Noida,False,0,0,HopchargeZ,12,16
+595,5e1cb110-0e18-4132-a33a-d80b99eec15a,"Tuesday, May 23, 2023",Mohit  Tyagi ,EPOD-009,Jitender Singh,79.0,Tuesday,11:59:00 AM,22,80,12:00,Delhi,False,0,0,HopchargeZ,55,20
+596,670317d5-da46-4d69-accb-87e8f43f3923,"Tuesday, May 23, 2023",Mohit  Gupta ,EPOD-011,Sachin Rajput,56.0,Tuesday,6:45:00 AM,8,70,07:00,Gurgaon,False,0,1,HopchargeZ,15,12.4
+597,2935d373-52b5-4aa4-aa81-1dc5c15b8111,"Monday, May 22, 2023",Manju Bhardwaj,EPOD-009,Jitender Singh,,Monday,6:57:00 PM,28,80,19:00,,False,0,0,HopchargeZ,,0
+598,f197e1e6-a622-4351-a718-fa3c2f43b3a3,"Monday, May 22, 2023",Deepak  Sharma,EPOD-003,Shoyab ali,44.0,Monday,6:40:00 AM,32,80,19:00,Noida,False,0,1,HopchargeZ,29,14.4
+599,1e5f6081-22b9-4476-a6a8-8effe5c1ab50,"Tuesday, May 23, 2023",Tumpa Banerjee ,EPOD-007,Pradeep Rawat,64.0,Tuesday,12:38:00 AM,37,95,01:00,Delhi,False,0,1,HopchargeZ,30,11.2
+600,14524234-b019-4710-bae6-6f4ad092786b,"Monday, May 22, 2023",Nisha  Chauhan ,EPOD-008,Sonu Chauhan,28.0,Monday,5:00:00 PM,51,95,07:00,Noida,False,0,1,HopZ Lite,15,5.6
+601,a9fada6f-7626-439b-8d4c-90c16c8d7abd,"Monday, May 22, 2023",Nagendra  Singh,EPOD-004,OPS sup,52.0,Monday,1:48:00 PM,10,67,14:00,Noida,False,0,0,,16,8
+602,8d50beb8-69d6-4e60-aa5e-103f4cf6bf70,"Monday, May 22, 2023",Nisha Bhimsaria ,EPOD-002,Md. Arif,56.0,Monday,4:50:00 PM,27,80,17:00,Noida,False,0,0,Hopcharge-X12NB,9,14
+603,f4084ede-25af-4b6d-98d1-7cf2d8112d74,"Monday, May 22, 2023",Vinod  Yadav,EPOD-011,Ravi Dutt,124.0,Monday,1:55:00 PM,10,84,14:00,Gurgaon,False,0,0,HopchargeZ,7,25.6
+604,2894ec6c-1393-4a22-9466-a4ef2057bb53,"Monday, May 22, 2023",Amit Singhal,EPOD-003,Ankush chauhan,30.0,Monday,5:45:00 AM,34,80,06:00,Faridabad,False,0,1,HopchargeZ,30,12
+605,64307267-a59b-4439-9a97-5a4120521618,"Tuesday, May 23, 2023",KULDEEP Singh ,E-POD-012,Pritam Kumar,354.0,Tuesday,9:49:00 PM,18,100,22:00,Gurgaon,False,0,0,HopchargeZ,7,4.6
+606,db65d235-8fe6-494c-b2d6-3617ce01c8a2,"Monday, May 22, 2023",KULDEEP Singh ,EPOD-005,Sunil Kumar,71.0,Monday,9:32:00 PM,16,66,21:00,Gurgaon,False,0,2,HopchargeZ,8,22.92
+607,02e3db68-be8b-43ed-b0b9-38f8f31e1f5f,"Tuesday, May 23, 2023",Dinesh Sharma,EPOD-005,Jitendra Singh New,96.0,Tuesday,11:45:00 AM,9,97,12:00,Gurgaon,False,0,1,HopchargeZ,11,17.6
+608,82dbf189-206f-4bb0-892c-c9f64d7c7af6,"Monday, May 22, 2023",Nischal  Chauhan ,EPOD-003,Ankush chauhan,63.0,Monday,11:45:00 PM,30,80,12:00,Noida,False,0,2,HopchargeZ,18,21.2
+609,a0f1ccf3-6e75-41ea-88df-e0b421707e1e,"Monday, May 22, 2023",PAWAN KHANDELWAL,E-POD-012,Pritam Kumar,50.0,Monday,9:55:00 PM,27,80,22:00,Gurgaon,False,0,0,HopchargeZ,10,12.24
+610,9c2117a4-81e2-4acf-b7f8-8b562faf8044,"Tuesday, May 23, 2023",Sanjay Kumar,EPOD-008,Sonu Chauhan,79.0,Tuesday,11:45:00 AM,28,90,12:00,Noida,False,0,1,Starter-I_100,11,13.6
+611,c23fe75f-9464-4bc6-b243-ceff0b0115a2,"Tuesday, May 23, 2023",Rakesh Bahnewal,EPOD-009,Baljeet Kumar,34.0,Tuesday,5:52:00 AM,39,80,06:00,Gurgaon,False,0,0,HopchargeZ3Y,22,10
+612,4646bbb1-c2e4-45e6-816d-abfe55ab4129,"Tuesday, May 23, 2023",Dr. Rohit Nara,EPOD-005,Sachin Rajput,61.0,Tuesday,3:52:00 AM,37,80,05:00,Gurgaon,False,0,1,HopchargeZ,10,14.8
+613,6290a9e7-8813-43ed-a798-7555f3c6a46b,"Tuesday, May 23, 2023",Vinod  Yadav,E-POD-012,Punil Kumar,77.0,Tuesday,10:00:00 AM,42,95,10:00,Gurgaon,False,0,0,HopchargeZ,53,18
+614,0a572354-a18e-4802-8a27-c2ea10b73fcf,"Tuesday, May 23, 2023",Jyotendra Pallav,EPOD-011,Sachin Rajput,52.0,Tuesday,11:45:00 PM,48,80,12:00,Gurgaon,False,0,2,HopchargeZ,11,13.2
+615,0ee38343-fc86-4d19-b3ff-eb6a41bcca1d,"Tuesday, May 23, 2023",Karan  Ray,EPOD006,OPS sup,60.0,Tuesday,5:55:00 AM,19,70,06:00,Delhi,False,0,0,HopchargeZ,15,-1019.6
+616,442afe24-04b4-4314-9797-3893221660c3,"Tuesday, May 23, 2023",Sandeep Yadav,EPOD-011,Sachin Rajput,61.0,Tuesday,10:00:00 PM,19,95,16:00,Gurgaon,False,0,2,HopchargeZ3,10,10
+617,52d35475-478a-45d0-8166-c68c913e96ec,"Tuesday, May 23, 2023",Vinit Chadha,EPOD-009,Baljeet Kumar,60.0,Tuesday,1:39:00 AM,12,80,02:00,Gurgaon,False,0,1,HopchargeZ,11,16
+618,d96cbafe-44b6-4874-bca0-6b3725333af0,"Tuesday, May 23, 2023",Deepak  Sharma,EPOD-005,Sunil Kumar,51.0,Tuesday,4:50:00 AM,41,96,05:00,Gurgaon,False,0,0,HopchargeZ,11,11.24
+619,8f4e314f-7bfc-471f-8257-17d35a774575,"Monday, May 22, 2023",Shalini Goyal,EPOD-009,Jitender Singh,29.0,Monday,9:24:00 AM,56,80,10:00,Gurgaon,False,0,1,HopchargeZ,6,8
+620,9cc8863f-52c3-4920-9b01-1b96d3c83dfc,"Monday, May 22, 2023",Mohit  Tyagi ,E-POD-012,Pradeep kumar,99.0,Monday,4:45:00 PM,21,87,17:00,Gurgaon,False,0,1,HopchargeZ,11,22.4
+621,b45b3303-f784-4181-897d-42f723e7fdef,"Monday, May 22, 2023",Anil Raao,EPOD-010,Punil Kumar,96.0,Monday,1:44:00 AM,34,80,14:00,Gurgaon,False,0,1,HopchargeZ,80,15.2
+622,ce24b6e3-3988-4fc1-b09c-b16335f2b7c5,"Monday, May 22, 2023",Dinesh  Kumar,EPOD-009,Jitender Singh,76.0,Monday,12:53:00 PM,23,95,13:00,Gurgaon,False,0,0,HopchargeZ,4,16.8
+623,10a2a9de-c71a-4a33-bb75-ac98958868c0,"Monday, May 22, 2023",raghu kapoor,EPOD-005,Jitendra Singh New,78.0,Monday,9:37:00 AM,22,80,10:00,Gurgaon,False,0,1,HopchargeZ,12,12.4
+624,4ef4676a-cb01-4497-8eb5-eedb427f7334,"Sunday, May 21, 2023",Deepak  Sharma,EPOD-010,OPS sup,99.0,Sunday,2:29:00 AM,28,61,06:00,Gurgaon,False,0,1,HopchargeZ,9,8
+625,59466536-2291-42dc-ba1d-8c7ac4e70ffa,"Monday, May 22, 2023",Mohit  Gupta ,EPOD-009,Sunil Kumar,22.0,Monday,6:14:00 AM,59,80,07:00,Gurgaon,False,0,1,HopchargeZ,14,3.96
+626,746d8a19-c70a-445d-a58d-981a3c174f5c,"Monday, May 22, 2023",Rishi Shukla,EPOD-007,OPS sup,19.0,Monday,10:35:00 AM,61,80,10:00,Delhi,False,0,2,HopchargeZ,19,4.4
+627,1d00363f-6353-40f4-ad50-69b46a5ae09f,"Monday, May 22, 2023",Sanjay Kumar,EPOD-004,OPS sup,51.0,Monday,5:00:00 PM,13,95,12:00,Noida,False,0,2,Starter-I_100,15,19.2
+628,25eb498e-c8f9-4a37-8f9b-7fb17a9ef15f,"Sunday, May 21, 2023",Srishti  Sharma,EPOD-004,OPS sup,31.0,Sunday,9:49:00 PM,37,81,22:00,Noida,False,0,0,HopchargeZ,15,8.4
+629,32855166-8a9d-459a-8a54-09e005d21d4d,"Sunday, May 21, 2023",Sushil  Kumar ,E-POD-012,Punil Kumar,74.0,Sunday,6:13:00 PM,0,80,21:00,Delhi,False,0,1,,80,16
+630,22414f26-b30a-413c-9184-d4dcc9d09316,"Monday, May 22, 2023",KULDEEP Singh ,EPOD-010,Aman Chaudhary,38.0,Monday,1:11:00 AM,72,100,05:00,Gurgaon,False,0,1,HopchargeZ,6,9.2
+631,bb3c196e-e50c-4013-b6b6-49af26915183,"Monday, May 22, 2023",Aparajeeta Sarmah,EPOD-003,Shoyab ali,52.0,Monday,11:48:00 AM,42,80,12:00,Noida,False,0,0,HopchargeZ,18,16
+632,e313b58a-bf4c-4581-97bf-89cc75dcbd74,"Sunday, May 21, 2023",Vaibhav Aggarwal ,EPOD-005,Baljeet Kumar,37.0,Sunday,3:55:00 PM,37,80,18:00,Gurgaon,False,0,1,,0,8.8
+633,a32fa645-47c9-45b1-bb2c-97f891deae2b,"Sunday, May 21, 2023",Manju Bhardwaj,EPOD-010,Akash Kumar,,Sunday,5:45:00 PM,7,99,18:00,Gurgaon,False,0,1,HopchargeZ,18,16.8
+634,cc8f0514-409c-4c99-9ceb-ebd4c621007c,"Monday, May 22, 2023",Sukhvinder  Singh,EPOD-008,Sonu Chauhan,,Monday,10:47:00 AM,7,80,11:00,Noida,False,0,0,Starter-I,15,15.2
+635,604febc5-c38a-4ecb-8199-384354f2556e,"Monday, May 22, 2023",Tumpa Banerjee ,EPOD-010,Aman Chaudhary,41.0,Monday,10:35:00 PM,54,95,12:00,Gurgaon,False,0,2,HopchargeZ,8,8
+636,2333213b-2a73-402c-af8f-efbe34be8334,"Monday, May 22, 2023",Sandeep Yadav,EPOD-005,Jitendra Singh New,77.0,Monday,3:41:00 PM,75,99,16:00,Gurgaon,False,0,1,HopchargeZ3,25,16
+637,33dade5f-a0ac-4b22-a4a9-3c931dc4072f,"Monday, May 22, 2023",Sandeep Yadav,EPOD-009,Sunil Kumar,16.0,Monday,11:42:00 PM,87,99,12:00,Gurgaon,False,0,2,HopchargeZ3,12,-3473.8
+638,0c2a4618-8125-4318-9e9a-01d5c3603abd,"Monday, May 22, 2023",Pradeep  Saini,EPOD-007,Pradeep Rawat,131.0,Monday,1:10:00 AM,21,81,01:00,Delhi,False,0,2,HopchargeZ3Y,39,34.8
+639,1cdca3c8-8703-4944-8140-2546ac9efe8f,"Saturday, May 20, 2023",Maheshwar Nath Kushwaha   Kushwaha,EPOD-003,Ankush chauhan,811.0,Saturday,12:19:00 AM,45,80,22:00,Noida,False,0,1,HopchargeZ3,18,12.4
+640,f364fd0c-3ed2-4ebf-93a9-7d87d9ea1c13,"Sunday, May 21, 2023",Arjun  Singh,EPOD-005,OPS sup,50.0,Sunday,4:31:00 AM,48,80,05:00,Gurgaon,False,0,1,HopchargeZ,17,13.2
+641,a7497c77-ec62-41b6-a9f2-1bb80d4ba3d1,"Monday, May 22, 2023",Subhodip  Guha,E-POD-012,Pritam Kumar,68.0,Monday,6:15:00 AM,25,81,07:00,Gurgaon,False,0,1,Hopcharge-X12,24,12.48
+642,32acbd42-25cc-4000-86e5-632eb785d331,"Sunday, May 21, 2023",nitin patil,EPOD-004,OPS sup,75.0,Sunday,6:36:00 AM,16,80,07:00,Noida,False,0,1,HopchargeZ,11,10.8
+643,1f3cd025-eaba-4e67-af90-9f6421e39a8f,"Sunday, May 21, 2023",KULDEEP Singh ,EPOD-010,OPS sup,64.0,Sunday,1:11:00 AM,44,99,10:00,Gurgaon,False,0,1,HopchargeZ,17,8.8
+644,db2a9857-d5a9-4ed9-adfa-bcee5c5d0233,"Sunday, May 21, 2023",Dinesh Sharma,EPOD-005,Baljeet Kumar,76.0,Sunday,12:03:00 AM,7,85,17:00,Gurgaon,False,0,1,HopchargeZ,8.5,15.6
+645,9242bfe1-aaae-4dcf-9022-19a525c6450e,"Sunday, May 21, 2023",Sushant Saxena,EPOD-002,Md. Arif,,Sunday,5:15:00 PM,33,80,05:00,Delhi,True,1,2,HopchargeZ,15,13.2
+646,cfd99cde-3cea-4620-9750-2f59271fb94b,"Sunday, May 21, 2023",Mohit  Gupta ,EPOD-011,Rohit Yadav,57.0,Sunday,3:12:00 AM,11,80,16:00,Gurgaon,False,0,1,HopchargeZ,9,13.6
+647,58169dad-770a-48ac-b4f4-06082f3212fc,"Sunday, May 21, 2023",Nischal  Chauhan ,EPOD-004,Rohit Nagar,66.0,Sunday,1:43:00 PM,37,80,14:00,Noida,False,0,1,HopchargeZ,16,14.4
+648,8c4a8b82-086a-498f-8447-174013a1e608,"Sunday, May 21, 2023",Rishi Shukla,EPOD-005,Sachin Rajput,79.0,Sunday,10:45:00 PM,11,80,23:00,Gurgaon,False,0,1,HopchargeZ,19,12.4
+649,4eac9b1d-fe75-41fe-bd01-e2f98ee5fc55,"Sunday, May 21, 2023",Romil  Saxena,EPOD-008,Sonu Chauhan,77.0,Sunday,12:45:00 PM,25,75,13:00,Noida,False,0,1,HopchargeZ,12,16.8
+650,2d9d36ea-67c7-4cb7-b354-d465d76d10af,"Sunday, May 21, 2023",Vinod  Yadav,EPOD-003,Shoyab ali,85.0,Sunday,10:30:00 AM,18,80,10:00,Delhi,False,0,2,HopchargeZ,14,26.8
+651,3e2d5b7f-e06e-4575-9c93-d97b397c815a,"Sunday, May 21, 2023",Jyotendra Pallav,EPOD-011,Rohit Yadav,72.0,Sunday,8:45:00 AM,27,70,09:00,Gurgaon,False,0,1,HopchargeZ,7,19.2
+652,0823b90b-b0bb-46a9-83d8-aecd5c31e66a,"Sunday, May 21, 2023",Ankit Kumar,EPOD-011,Ravi Dutt,239.0,Sunday,11:02:00 PM,46,100,23:00,Gurgaon,False,0,2,HopchargeZ,22,17.6
+653,133441aa-fab6-4c53-acc3-2dbb2228a4ea,"Saturday, May 20, 2023",SS Tours  Pvt Ltd,EPOD-010,Aman Chaudhary,1524.0,Saturday,9:29:00 PM,44,95,02:00,Gurgaon,False,0,2,Starter-I_100,10,10.8
+654,d4575545-8ebb-4fc8-ab5f-f858df4d8553,"Saturday, May 20, 2023",SS Tours  Pvt Ltd,E-POD-012,Pritam Kumar,60.0,Saturday,9:29:00 PM,25,95,02:00,Gurgaon,False,0,2,Starter-I_100,10,14.8
+655,abff9529-e497-4de4-9a05-809702e4ec90,"Sunday, May 21, 2023",Amit Kr Chauhan ,EPOD-010,Akash Kumar,92.0,Sunday,8:49:00 AM,23,95,09:00,Gurgaon,False,0,0,HopchargeZ3,18,14
+656,48d6e8b3-c398-4ec0-ac39-e1ee6ca8f89c,"Sunday, May 21, 2023",Sachin Sharma,EPOD-002,Md. Arif,52.0,Sunday,8:50:00 AM,32,80,09:00,Noida,False,0,0,HopchargeZ,17,12.4
+657,092f7914-9935-4954-92bf-02f623584c91,"Saturday, May 20, 2023",Kanupriya  Jha,EPOD-002,OPS sup,80.0,Saturday,5:31:00 PM,15,65,19:00,Noida,False,0,1,Hopcharge-X,25,35.6
+658,0d200e77-2e83-4dfb-ad32-e8469fad0c54,"Saturday, May 20, 2023",Rishi Shukla,EPOD-009,Akash Kumar,39.0,Saturday,3:45:00 PM,43,80,16:00,Gurgaon,False,0,1,HopchargeZ,25,9.2
+659,e3148d48-f6a5-4a1e-b1cf-1a2977dd3d07,"Sunday, May 21, 2023",Shubhra  Vanjani,EPOD006,OPS sup,68.0,Sunday,6:12:00 AM,35,95,07:00,Delhi,False,0,1,HopchargeZ,16,11.2
+660,91497d95-2462-4d54-bf4a-23205ceab6a5,"Saturday, May 20, 2023",Mohit  Tyagi ,EPOD006,OPS sup,68.0,Saturday,3:56:00 PM,24,71,16:00,Delhi,False,0,0,HopchargeZ,30,24
+661,9ca765a4-1630-437e-9ea7-c4a7b315027d,"Sunday, May 21, 2023",Shalini Goyal,EPOD-009,Sunil Kumar,36.0,Sunday,5:44:00 AM,54,80,06:00,Gurgaon,False,0,1,HopchargeZ,4.5,8.56
+662,96515234-fcc6-4027-b220-f69b2c0bbc13,"Sunday, May 21, 2023",Aryan  Chaudhary,EPOD-008,OPS sup,,Sunday,5:47:00 AM,57,80,06:00,Noida,False,0,0,HopchargeZ,17,6
+663,a82360ba-ae7f-408c-813e-3b4da6432ff4,"Saturday, May 20, 2023",Vaishali  Sharma,EPOD-003,Ankush chauhan,54.0,Saturday,6:45:00 AM,22,80,07:00,Noida,False,0,1,Hopcharge-Y,8,14.4
+664,502c419c-de04-44c0-9969-2e32026e7ed8,"Saturday, May 20, 2023",Tumpa Banerjee ,E-POD-012,Pradeep kumar,43.0,Saturday,3:46:00 PM,58,95,16:00,Gurgaon,False,0,0,HopchargeZ,10,7.2
+665,308cea1f-93a5-4ce4-a853-365d2b267d33,"Saturday, May 20, 2023",Mayank Sachdeva,EPOD-010,Punil Kumar,105.0,Saturday,1:29:00 AM,21,86,14:00,Delhi,False,0,1,,86,34
+666,faeced88-291a-4b84-add9-5f63865e4324,"Saturday, May 20, 2023",Vaibhav  B,EPOD-003,Shoyab ali,32.0,Saturday,12:52:00 PM,45,80,13:00,Noida,False,0,0,HopchargeZ3,13,8.4
+667,400cdc99-381d-455c-a937-5609baeaac86,"Saturday, May 20, 2023",Renu Talwar,EPOD-007,OPS sup,80.0,Saturday,12:41:00 PM,23,80,13:00,Delhi,False,0,1,HopchargeZ,15,19.2
+668,b301b8df-d689-47ef-a249-11aeacf48a81,"Saturday, May 20, 2023",B S  Madan,EPOD-009,Sunil Kumar,1341.0,Saturday,10:44:00 PM,30,80,23:00,Gurgaon,False,0,1,HopchargeZ3Y,4.6,10.44
+669,374daf8f-679e-468a-9cae-80012c4b92dd,"Sunday, May 21, 2023",Sandeep Yadav,EPOD-011,Rohit Yadav,622.0,Sunday,11:52:00 AM,23,95,12:00,Gurgaon,False,0,0,HopchargeZ3,19,16.4
+670,681f6284-3663-4f3b-9cd8-65082224c426,"Sunday, May 21, 2023",Indresh Kumar  Singh,E-POD-012,Pritam Kumar,40.0,Sunday,5:45:00 AM,51,95,06:00,Delhi,False,0,1,HopchargeZ3Y,22,14.52
+671,e4e16aca-f99b-4028-8bc6-38e1670420d1,"Sunday, May 21, 2023",PAWAN KHANDELWAL,EPOD-005,Sachin Rajput,32.0,Sunday,6:40:00 AM,13,80,07:00,Gurgaon,False,0,1,HopchargeZ,12,3.6
+672,86608f86-d9f0-4e7d-927c-bc9e15d4acac,"Saturday, May 20, 2023",Vinod  Yadav,EPOD-011,Rohit Yadav,86.0,Saturday,10:49:00 AM,24,90,11:00,Gurgaon,False,0,0,HopchargeZ,5,22.8
+673,df108665-ef5c-483a-9d7c-6304d4e86823,"Sunday, May 21, 2023",Sundeep  Jain,EPOD-005,Sachin Rajput,622.0,Sunday,1:47:00 AM,20,80,02:00,Gurgaon,False,0,0,HopchargeZ3Y,12,12.8
+674,cda660ee-6011-40af-997a-ed4cd608c4e5,"Saturday, May 20, 2023",Aparajeeta Sarmah,EPOD-008,OPS sup,71.0,Saturday,5:41:00 PM,26,76,18:00,Noida,False,0,1,HopchargeZ,25,16.4
+675,f11c14da-c6db-40a4-9421-2e1e3362dcb1,"Saturday, May 20, 2023",Sumit Wadhwa,EPOD006,OPS sup,64.0,Saturday,11:46:00 AM,22,80,12:00,Delhi,False,0,0,HopchargeX3,18,13.6
+676,e91c48fd-5cbe-4ba0-93de-fc9fea9f75d1,"Sunday, May 21, 2023",Vinit Chadha,E-POD-012,Punil Kumar,36.0,Sunday,3:49:00 AM,34,80,16:00,Gurgaon,False,0,1,HopchargeZ,46,8
+677,984b5bbc-6fa7-40d1-b18b-33bc4a09c475,"Saturday, May 20, 2023",Ankit Kumar,EPOD-005,Sachin Rajput,627.0,Saturday,9:44:00 PM,7,80,22:00,Gurgaon,False,0,1,HopchargeZ,7,24
+678,bc25e78c-42e7-4823-8d07-fe7f0f6bde41,"Saturday, May 20, 2023",Sanjay Kumar,EPOD-003,OPS sup,44.0,Saturday,11:45:00 AM,44,95,12:00,Noida,False,0,1,Starter-I_100,13,13.2
+679,74575f46-b220-4029-a75d-ba94e1a92e95,"Saturday, May 20, 2023",Ankit Kumar,EPOD-007,Pradeep Rawat,100.0,Saturday,1:36:00 AM,28,80,11:00,Delhi,False,0,1,HopchargeZ,5,17
+680,c883e69f-85ca-48b4-8796-8ba2fad055dc,"Saturday, May 20, 2023",nitin patil,EPOD-004,Rohit Nagar,,Saturday,10:42:00 AM,20,80,11:00,Noida,False,0,1,HopchargeZ,11,14
+681,456ef8aa-5d7d-4e98-aa04-d5bb2b407bb5,"Saturday, May 20, 2023",Dinesh Sharma,EPOD-009,Jitender Singh,96.0,Saturday,11:49:00 AM,8,97,12:00,Gurgaon,False,0,0,HopchargeZ,9,17.6
+682,78c20176-5473-4a1d-b78d-c6e3c7187670,"Saturday, May 20, 2023",Harshit Srivastava,EPOD-003,Ankit Kumar Gupta,71.0,Saturday,8:52:00 AM,28,80,09:00,Noida,False,0,0,Hopcharge-Y,10,22
+683,b8b87ed5-640f-4a03-875c-66708b10f3dd,"Friday, May 19, 2023",Gaurav Manchanda,EPOD-001,Deepak kumar,66.0,Friday,1:41:00 AM,51,90,03:00,Delhi,False,0,1,HopchargeZ,16,0
+684,f3587d8d-1637-41df-8dc8-c44c0bf671bb,"Saturday, May 20, 2023",B S  Madan,EPOD-009,Baljeet Kumar,,Saturday,5:57:00 AM,9,70,06:00,Gurgaon,False,0,0,HopchargeZ3Y,5,13.2
+685,b0922f67-454d-4d42-8377-9b61e050986e,"Saturday, May 20, 2023",Rakesh Bahnewal,EPOD-010,Sunil Kumar,57.0,Saturday,5:36:00 AM,20,80,06:00,Gurgaon,False,0,1,HopchargeZ3Y,13,13.6
+686,18687743-ffd3-446a-9a79-f8ff3995c76d,"Friday, May 19, 2023",Ramesh Gupta,EPOD-010,Sunil Kumar,45.0,Friday,7:38:00 AM,15,65,08:00,Gurgaon,False,0,1,Hopcharge-X12,17,16.8
+687,23b61eb6-7575-466c-9e77-d792e4c71c19,"Saturday, May 20, 2023",Madhu Srivastava,E-POD-012,Pradeep kumar,115.0,Saturday,8:58:00 AM,30,80,09:00,Gurgaon,False,0,0,HopchargeZ,10,30
+688,44f9d230-98c3-4cc5-9fcd-f2530c7eb02b,"Saturday, May 20, 2023",Manju Bhardwaj,EPOD-007,Pradeep Rawat,70.0,Saturday,7:45:00 AM,20,80,08:00,Delhi,False,0,1,HopchargeZ,20,11.28
+689,4e87a783-1c91-4e3e-bf19-a808f0068b48,"Saturday, May 20, 2023",Amit Kr Chauhan ,E-POD-012,Pradeep kumar,176.0,Saturday,6:51:00 PM,26,87,19:00,Gurgaon,False,0,0,HopchargeZ3,500 ,12.8
+690,cac98226-4d93-412d-84f6-4c769946e1b0,"Saturday, May 20, 2023",Amit Kr Chauhan ,EPOD-010,Sunil Kumar,55.0,Saturday,1:03:00 AM,40,90,02:00,Gurgaon,False,0,1,HopchargeZ3,12,3586.2
+691,965d5b6d-2e0b-4a75-ab22-025c3ffaeee2,"Saturday, May 20, 2023",Tumpa Banerjee ,EPOD-002,Md. Arif,39.0,Saturday,5:05:00 PM,15,95,12:00,Noida,False,0,2,HopchargeZ,15,28
+692,50064cf7-6e77-46b4-8b9c-af35be63a15f,"Friday, May 19, 2023",Vinit Chadha,EPOD-009,Jitender Singh,1379.0,Friday,5:39:00 PM,19,80,18:00,Gurgaon,False,0,1,HopchargeZ,14,14.4
+693,5080c928-f23e-4f20-94ac-16b3c274fd60,"Saturday, May 20, 2023",Mohit  Gupta ,EPOD-011,Rohit Yadav,34.0,Saturday,6:46:00 AM,38,80,07:00,Gurgaon,False,0,0,HopchargeZ,15,8
+694,7e287a04-5caa-4b4d-a7e8-b707fdf08eb3,"Saturday, May 20, 2023",Dr. Rohit Nara,EPOD-011,Rohit Yadav,40.0,Saturday,1:56:00 AM,51,80,12:00,Gurgaon,False,0,1,HopchargeZ,11,10
+695,6150fc9d-86d2-43f5-aa2d-b022f8ac1bab,"Saturday, May 20, 2023",Richa  Singh ,EPOD-011,Rohit Yadav,127.0,Saturday,9:49:00 AM,18,80,21:00,Gurgaon,False,0,1,HopchargeZ,18,20.4
+696,c4e066f4-f8da-4643-b366-c9eccbe268c9,"Saturday, May 20, 2023",Tarun Wadhwa ,EPOD-011,Rohit Yadav,23.0,Saturday,5:50:00 AM,59,80,07:00,Gurgaon,False,0,1,HopchargeZ,21,4.4
+697,77b1996b-8a5d-4885-a425-74af6a567a65,"Friday, May 19, 2023",Sushant Saxena,EPOD-002,Md. Arif,1468.0,Friday,6:15:00 PM,48,80,18:00,Delhi,False,0,2,HopchargeZ,17,7.6
+698,64629963-f245-4180-8a80-c8bd246188b0,"Saturday, May 20, 2023",Ankur Mangla,EPOD-001,OPS sup,50.0,Saturday,5:42:00 PM,21,61,17:00,Noida,False,0,2,,,17.2
+699,cc777d53-4c3a-4439-b75c-a9edce6ac5c7,"Friday, May 19, 2023",Maheshwar Nath Kushwaha   Kushwaha,EPOD-008,Shakti singh,28.0,Friday,9:50:00 PM,62,80,22:00,Noida,False,0,0,HopchargeZ3,14,12
+700,f86554a3-397c-44bf-b841-01b5ee8831a2,"Friday, May 19, 2023",Abhishek D,EPOD-005,Jitendra Singh New,86.0,Friday,1:45:00 PM,26,78,14:00,Gurgaon,False,0,1,,2,22.4
+701,4bafda75-a5f3-4bff-a144-d5999f71ab8e,"Saturday, May 20, 2023",KULDEEP Singh ,EPOD-005,Baljeet Kumar,120.0,Saturday,2:43:00 AM,18,98,05:00,Gurgaon,False,0,1,HopchargeZ,8,26.8
+702,de46e4d5-7b77-45ad-9b87-57e546360198,"Saturday, May 20, 2023",Siddhartha Sharma,EPOD006,OPS sup,67.0,Saturday,1:58:00 PM,38,80,14:00,Delhi,False,0,0,HopchargeZ,15,14
+703,bce4148c-9ab7-4b8c-8325-0f480948b1a2,"Saturday, May 20, 2023",Narendra Singh,EPOD-004,Rohit Nagar,318.0,Saturday,6:49:00 PM,21,71,19:00,Noida,False,0,0,FLEX,36,16.4
+704,cd24f619-e529-4da3-8187-effacdd2da78,"Friday, May 19, 2023",Nischal  Chauhan ,EPOD-004,Awdesh Kumar,637.0,Friday,10:41:00 PM,28,80,23:00,Noida,False,0,1,HopchargeZ,17,17.2
+705,a482b839-3bd1-4e62-8fd4-32cf3288f689,"Friday, May 19, 2023",Rashmi Kumari,EPOD-009,Jitender Singh,87.0,Friday,10:36:00 AM,31,95,11:00,Gurgaon,False,0,1,HopchargeZ,4,21.6
+706,34be13a7-4daa-40db-9083-73d6c0ebd4aa,"Saturday, May 20, 2023",Atishay Jain,EPOD-002,Md. Arif,40.0,Saturday,10:11:00 AM,29,80,10:00,Noida,False,0,2,HopchargeZ,7,18
+707,ff18bab5-aad6-49fe-bcdb-efb85d1f6fbf,"Friday, May 19, 2023",Amit Kr Chauhan ,EPOD-010,Aman Chaudhary,,Friday,4:15:00 AM,13,90,10:00,Gurgaon,True,0,1,HopchargeZ3,0,16
+708,b288fc61-5228-4173-a69d-735762172793,"Saturday, May 20, 2023",Amit Singhal,EPOD-003,OPS sup,65.0,Saturday,4:46:00 PM,16,80,17:00,Faridabad,False,0,0,HopchargeZ,35,15.6
+709,3acba3a2-48ec-4c51-a694-7f8e769ae2b7,"Friday, May 19, 2023",Rishi Shukla,EPOD-005,Jitendra Singh New,63.0,Friday,10:41:00 AM,19,80,10:00,Delhi,False,0,2,HopchargeZ,27,13.6
+710,fcff6150-ff9a-47c1-a2e8-79aba2f65eb9,"Friday, May 19, 2023",Sanjay Kumar,EPOD006,Aman Agarwal,1338.0,Friday,10:54:00 AM,27,94,23:00,Delhi,False,0,1,Starter-I_100,15,14.4
+711,e3cb32a3-eaf0-43ef-a938-b77a3896437b,"Friday, May 19, 2023",Sanjay Kumar,EPOD-008,Sonu Chauhan,88.0,Friday,2:45:00 PM,21,95,15:00,Noida,False,0,1,Starter-I_100,18,16.4
+712,afcbbb36-d3cd-4652-88ea-ca3b05f024b3,"Friday, May 19, 2023",Arjun  Singh,EPOD-011,Rohit Yadav,65.0,Friday,3:35:00 AM,32,72,04:00,Gurgaon,False,0,1,HopchargeZ,8,16.8
+713,459a9225-107f-4e99-8df3-95c246b1165f,"Friday, May 19, 2023",Nisha  Chauhan ,EPOD-002,Vipin,1463.0,Friday,8:52:00 PM,54,80,21:00,Noida,False,0,0,HopZ Lite,15,6.4
+714,136994e8-d69b-4db2-bf61-710d0f153860,"Friday, May 19, 2023",Vinod  Yadav,EPOD-011,Punil Kumar,105.0,Friday,9:40:00 AM,44,95,10:00,Gurgaon,False,0,1,HopchargeZ,95,17.2
+715,5841c13f-3158-404e-b28a-9f84c9de139a,"Friday, May 19, 2023",nitin patil,EPOD-004,Rohit Nagar,61.0,Friday,10:51:00 AM,27,80,11:00,Noida,False,0,0,HopchargeZ,12,12.4
+716,77547c28-8755-4305-b6e0-08c9bef36928,"Friday, May 19, 2023",Rakesh Bahnewal,E-POD-012,Pradeep kumar,52.0,Friday,5:45:00 AM,26,80,06:00,Gurgaon,False,0,1,HopchargeZ3Y,13,12.8
+717,38815b6a-15fe-4dd7-8276-019e1e82dd50,"Friday, May 19, 2023",Ankit Kumar,EPOD-007,Pradeep Rawat,63.0,Friday,1:36:00 AM,28,80,02:00,Gurgaon,False,0,1,HopchargeZ,16,16.8
+718,fe9c4ad2-24f4-42f8-9aef-c22dfeea9221,"Friday, May 19, 2023",Tarun Wadhwa ,EPOD-009,Baljeet Kumar,44.0,Friday,6:51:00 AM,29,80,07:00,Gurgaon,False,0,0,HopchargeZ,12,9.6
+719,ca4586f6-5816-4c2b-9f7b-27b34b3801c3,"Thursday, May 18, 2023",Sushant Saxena,EPOD-008,Sonu Chauhan,1460.0,Thursday,6:20:00 PM,47,80,19:00,Noida,False,0,1,HopchargeZ,8,7.6
+720,974ada3f-409d-467a-907c-642f66b4454f,"Thursday, May 18, 2023",Srishti  Sharma,EPOD-004,Awdesh Kumar,92.0,Thursday,5:40:00 PM,25,96,18:00,Noida,False,0,1,HopchargeZ,15,13.6
+721,7956416c-2344-4ca1-b93a-f215a0a4b41b,"Thursday, May 18, 2023",Rakesh K,EPOD-003,Ankit Kumar Gupta,1522.0,Thursday,8:25:00 PM,10,80,19:00,Noida,False,0,2,Hopcharge-Y,12,19.6
+722,85e78ed8-29d2-47b6-a98b-e80514d8e039,"Friday, May 19, 2023",Dinesh Sharma,EPOD-010,Akash Kumar,88.0,Friday,11:00:00 AM,9,97,11:00,Gurgaon,False,0,0,HopchargeZ,15,17.6
+723,228c65cc-9ec0-44c0-ae9b-c8ad5de46278,"Friday, May 19, 2023",Deepak  Sharma,EPOD-004,Rohit Nagar,35.0,Friday,1:51:00 PM,46,80,14:00,Noida,False,0,0,HopchargeZ,12,8.4
+724,fc108080-f958-4780-ae1d-3f4ead0091ad,"Friday, May 19, 2023",Deepak  Sharma,EPOD-009,Baljeet Kumar,777.0,Friday,9:23:00 PM,33,91,21:00,Gurgaon,False,0,2,HopchargeZ,11,14
+725,2d1dfe00-0342-46db-8307-48ab41df18cb,"Friday, May 19, 2023",Sanjay  Yadav,EPOD-008,Sonu Chauhan,65.0,Friday,2:45:00 PM,20,95,15:00,Noida,False,0,1,,18,16.4
+726,b05d0670-1a1a-4869-a8d6-b805f629be41,"Friday, May 19, 2023",Tumpa Banerjee ,EPOD-009,Baljeet Kumar,62.0,Friday,11:45:00 PM,34,95,12:00,Gurgaon,False,0,2,HopchargeZ,15,12
+727,0a82c932-863e-4373-bafc-92affc78e13e,"Thursday, May 18, 2023",Dinesh Sharma,EPOD-010,Akash Kumar,80.0,Thursday,12:04:00 PM,32,80,12:00,Gurgaon,False,0,2,HopchargeZ,32,10.4
+728,e6ef071e-117b-4a16-9ae5-f1a355f47a43,"Friday, May 19, 2023",Rishi Shukla,EPOD-011,Punil Kumar,7.0,Friday,4:46:00 AM,65,80,17:00,Gurgaon,False,0,1,HopchargeZ,95,3.6
+729,48a168a7-9249-498f-b9cd-106616ad8370,"Thursday, May 18, 2023",B S  Madan,EPOD-005,Jitendra Singh New,82.0,Thursday,11:34:00 PM,16,80,12:00,Gurgaon,False,0,2,HopchargeZ3Y,5,13.6
+730,07cf0374-27e3-4977-992c-2f4bed42f046,"Thursday, May 18, 2023",Jyotendra Pallav,EPOD-011,Ravi Dutt,,Thursday,6:40:00 PM,26,66,19:00,Gurgaon,False,0,1,HopchargeZ,13,16.8
+731,c6743d7a-d9cd-485f-b9b8-52d6e4fd30f5,"Thursday, May 18, 2023",Atishay Jain,EPOD-007,OPS Sup,118.0,Thursday,11:24:00 AM,28,90,11:00,Delhi,False,0,2,HopchargeZ,16,7.6
+732,33580823-27ce-4dad-b96b-c892c9095462,"Thursday, May 18, 2023",Poonam  Rani,EPOD-004,Awdesh Kumar,60.0,Thursday,9:55:00 AM,14,80,10:00,Noida,False,0,0,Hopcharge-Y,16,12.8
+733,ba2c8125-7272-46e2-9987-7fa3c8d2eee1,"Thursday, May 18, 2023",Dr. Rohit Nara,EPOD-005,Jitendra Singh New,95.0,Thursday,5:04:00 PM,30,95,18:00,Gurgaon,False,0,1,HopchargeZ,20,22
+734,ae56d9c5-6d1a-4e77-8c2d-b41c2c6bc134,"Thursday, May 18, 2023",Manju Bhardwaj,EPOD-010,Akash Kumar,50.0,Thursday,6:45:00 PM,28,70,19:00,Gurgaon,False,0,1,HopchargeZ,16,8.8
+735,219bab64-f38b-458b-b755-f973177a1034,"Thursday, May 18, 2023",Ankit Kumar,E-POD-012,Pradeep kumar,45.0,Thursday,1:45:00 AM,38,80,15:00,Gurgaon,False,0,1,HopchargeZ,20,13.6
+736,e4cd555a-3cf0-4627-a3aa-c53a5945cf28,"Thursday, May 18, 2023",Mohit  Gupta ,EPOD-011,Ravi Dutt,41.0,Thursday,2:43:00 PM,30,80,15:00,Gurgaon,False,0,1,HopchargeZ,12,9.2
+737,b24f36d7-7e8d-47c2-93c1-d0f9ac38b854,"Thursday, May 18, 2023",Siddhartha Sharma,EPOD006,OPS Sup,88.0,Thursday,1:47:00 PM,15,72,14:00,Delhi,False,0,0,HopchargeZ,22,-4.4
+738,5c233925-8568-43a5-8d4f-035aea1f7d2f,"Wednesday, May 17, 2023",Vaibhav Patawari,EPOD-003,Ankush chauhan,17.0,Wednesday,9:56:00 PM,0,30,12:00,Delhi,False,0,2,,16,6
+739,18c3aa37-4218-4e73-8c7a-b52d69664c07,"Thursday, May 18, 2023",Sundeep  Jain,EPOD-010,Aman Chaudhary,78.0,Thursday,10:45:00 PM,15,80,23:00,Gurgaon,False,0,1,HopchargeZ3Y,12,14.4
+740,cb79a192-979d-4038-9584-30c90f7cfe2a,"Thursday, May 18, 2023",Amit Kr Chauhan ,EPOD-009,Jitender Singh,18.0,Thursday,10:22:00 AM,47,95,20:00,Gurgaon,False,0,1,HopchargeZ3,16,5.2
+741,76187178-5c15-41de-b543-9dff8c7c0553,"Thursday, May 18, 2023",Amit Kr Chauhan ,E-POD-012,Pritam Kumar,44.0,Thursday,3:03:00 AM,26,70,06:00,Gurgaon,False,0,1,HopchargeZ3,4,18.4
+742,58cadcbd-a5a3-475c-a46c-3497a33dda0a,"Thursday, May 18, 2023",Romil  Saxena,EPOD-004,Rohit Nagar,41.0,Thursday,2:24:00 AM,31,80,03:00,Noida,False,0,1,HopchargeZ,8,16
+743,f4db001f-b1d8-47af-bc30-351b9ab5074d,"Friday, May 19, 2023",KULDEEP Singh ,EPOD-005,Sachin Rajput,909.0,Friday,10:40:00 PM,11,96,23:00,Gurgaon,False,0,1,HopchargeZ,8,30
+744,1ee84264-dda9-4352-acae-458b49351c37,"Wednesday, May 17, 2023",Arjun  Singh,EPOD-011,Rohit Yadav,67.0,Wednesday,4:48:00 AM,13,53,05:00,Gurgaon,False,0,0,HopchargeZ,9,12.8
+745,a8561da9-0180-4ad8-84fa-87c17998cec5,"Thursday, May 18, 2023",Rishi Shukla,EPOD-009,Baljeet Kumar,114.0,Thursday,1:58:00 AM,22,96,02:00,Gurgaon,False,0,0,HopchargeZ,18,14.4
+746,04adc570-ba68-4bc2-861c-ee122900b9fe,"Thursday, May 18, 2023",Deepak  Sharma,EPOD-010,Aman Chaudhary,26.0,Thursday,9:48:00 PM,78,95,22:00,Gurgaon,False,0,0,HopchargeZ,6,4
+747,262d7128-a6f2-4829-90b8-a2f36a9c3f9a,"Thursday, May 18, 2023",Shalini Goyal,EPOD-009,Baljeet Kumar,46.0,Thursday,6:06:00 AM,44,80,07:00,Gurgaon,False,0,1,HopchargeZ,14,12
+748,b5fab179-150c-4c49-b2fb-a08e68e9afea,"Thursday, May 18, 2023",Himanshu Thacker,E-POD-012,Pritam Kumar,79.0,Thursday,12:41:00 AM,19,81,01:00,Gurgaon,False,0,1,HopchargeZ3Y,12,20.4
+749,cab5daa1-84dd-4ddd-abf9-44eb52c0af13,"Wednesday, May 17, 2023",Ankit Kumar,EPOD-005,Jitendra Singh New,65.0,Wednesday,6:10:00 PM,20,70,19:00,Gurgaon,False,0,1,HopchargeZ,11,16.8
+750,419d5c15-b7f1-46e6-af69-5a47cafd23d5,"Wednesday, May 17, 2023",Himanshu Agrawal,EPOD-003,Ankush chauhan,58.0,Wednesday,6:45:00 AM,10,78,07:00,Ghaziabad,False,0,1,,16,17.2
+751,7fddc307-1d00-4857-8e13-24acc1674b42,"Friday, May 19, 2023",Pradeep  Saini,EPOD-008,Shakti singh,71.0,Friday,2:11:00 AM,39,80,02:00,Delhi,False,0,2,HopchargeZ3Y,18,17.6
+752,bcee836c-c7e2-4c04-8a2c-f5632952b140,"Wednesday, May 17, 2023",Sanjay Kumar,EPOD-004,Awdesh Kumar,51.0,Wednesday,6:32:00 PM,48,80,19:00,Noida,False,0,1,Starter-I_100,20,8
+753,1d76732e-9cc6-4400-ae79-7abe1dc528a2,"Thursday, May 18, 2023",Sanjay Kumar,EPOD-008,Sonu Chauhan,164.0,Thursday,11:45:00 PM,40,95,12:00,Noida,False,0,2,Starter-I_100,11,12.4
+754,571a82a2-9f09-468b-a879-05c039478688,"Thursday, May 18, 2023",Sanjay Kumar,EPOD-001,OPS Sup,,Thursday,3:01:00 PM,31,95,15:00,Noida,False,0,2,Starter-I_100,9,14
+755,333a446c-4d34-4a23-9dc3-86747cc52a12,"Thursday, May 18, 2023",Nischal  Chauhan ,EPOD-003,Ankush chauhan,59.0,Thursday,11:45:00 PM,22,65,18:00,Noida,False,0,2,HopchargeZ,22,28
+756,0ddffc97-3997-4ef4-9aa8-6134aa4d1eef,"Wednesday, May 17, 2023",Rakesh Bahnewal,EPOD-010,Akash Kumar,64.0,Wednesday,6:20:00 PM,19,80,19:00,Gurgaon,False,0,1,HopchargeZ3Y,22,13.6
+757,0b855d33-a0c5-4676-b602-024180dc6712,"Thursday, May 18, 2023",Sandeep Yadav,EPOD-009,Baljeet Kumar,30.0,Thursday,9:45:00 PM,67,98,22:00,Gurgaon,False,0,1,HopchargeZ3,12,7.6
+758,0315b1ac-0193-4d1a-b404-52c56b287650,"Thursday, May 18, 2023",Sandeep Yadav,EPOD-011,Rohit Yadav,45.0,Thursday,12:30:00 AM,55,100,01:00,Gurgaon,False,0,1,HopchargeZ3,19,8.4
+759,69505388-4ac2-4dd6-bb37-ef9534ddb209,"Wednesday, May 17, 2023",Sandeep Yadav,EPOD-011,Ravi Dutt,51.0,Wednesday,4:50:00 PM,25,80,17:00,Gurgaon,False,0,0,HopchargeZ3,7,13.2
+760,6d3a15b2-dd3b-40c0-aa8c-7cd012e2ee01,"Thursday, May 18, 2023",PAWAN KHANDELWAL,EPOD-010,Aman Chaudhary,30.0,Thursday,6:45:00 AM,46,80,07:00,Gurgaon,False,0,1,HopchargeZ,12,7.6
+761,eef20017-4b1e-404c-87a0-252a511c7e30,"Wednesday, May 17, 2023",Gamini Mundra,EPOD-007,Others,173.0,Wednesday,3:42:00 PM,41,80,16:00,Delhi,False,0,1,HopchargeZ,0,12.8
+762,233daac1-5130-49dd-8d2d-04a95b36d11a,"Wednesday, May 17, 2023",KULDEEP Singh ,EPOD-010,Aman Chaudhary,1386.0,Wednesday,10:48:00 PM,57,98,23:00,Gurgaon,False,0,0,HopchargeZ,6,14
+763,3b789595-f042-40eb-9b4c-10353a0805ea,"Wednesday, May 17, 2023",Tumpa Banerjee ,EPOD-005,Sunil Kumar,47.0,Wednesday,10:52:00 PM,51,95,23:00,Gurgaon,False,0,0,HopchargeZ,9,8.64
+764,2ef81913-c66a-4a55-bba0-061914ed364d,"Wednesday, May 17, 2023",Tarun Wadhwa ,EPOD-007,Sunil Kumar,49.0,Wednesday,6:38:00 AM,41,80,07:00,Gurgaon,False,0,1,HopchargeZ,15,7.2
+765,600f89d7-c395-4ec1-b850-a0650841abb6,"Wednesday, May 17, 2023",Manju Bhardwaj,EPOD-010,Akash Kumar,65.0,Wednesday,12:45:00 PM,13,80,13:00,Gurgaon,False,0,1,HopchargeZ,10,13.2
+766,ce162efc-0b1e-464a-875d-08837be53883,"Thursday, May 18, 2023",Pragun Mittal,EPOD-002,Vipin,,Thursday,12:30:00 AM,62,96,01:00,Noida,True,0,1,HopchargeZ,15,14.8
+767,fe126925-8afb-432c-8220-0d609c170ad1,"Thursday, May 18, 2023",Amit Singhal,EPOD-003,Ankush chauhan,60.0,Thursday,5:45:00 AM,17,81,06:00,Faridabad,False,0,1,HopchargeZ,30,8.8
+768,2d07864e-b39a-49d8-bd34-def65f7757a7,"Friday, May 19, 2023",raghu kapoor,EPOD006,Aman Agarwal,76.0,Friday,4:44:00 AM,38,80,12:00,Delhi,False,0,1,HopchargeZ,16,9.2
+769,ef640c48-b205-4f3c-848e-1d6ce4f531d3,"Wednesday, May 17, 2023",Joydeep Debnath,E-POD-012,Pritam Kumar,56.0,Wednesday,9:49:00 PM,35,80,22:00,Gurgaon,False,0,0,HopchargeX12,14,14.96
+770,aabee016-77a6-4f3b-ac37-d42d1afd6396,"Wednesday, May 17, 2023",nitin patil,EPOD-004,Rohit Nagar,79.0,Wednesday,9:46:00 PM,17,82,22:00,Noida,False,0,0,HopchargeZ,18,14.4
+771,3a611ab3-1384-471d-99aa-bdd65f95dbf8,"Thursday, May 18, 2023",Karan  Ray,EPOD-007,Aman Agarwal,,Thursday,5:02:00 AM,17,80,06:00,Delhi,False,0,1,HopchargeZ,13,14.4
+772,539dfa0e-e5be-4c67-9d3a-ab403da65806,"Thursday, May 18, 2023",Vinod  Yadav,EPOD-011,Ravi Dutt,104.0,Thursday,9:47:00 AM,34,97,10:00,Gurgaon,False,0,0,HopchargeZ,7,21.6
+773,0637c313-8d89-422d-83a1-1163724e1450,"Wednesday, May 17, 2023",Vinod  Yadav,EPOD-009,Jitender Singh,31.0,Wednesday,5:04:00 PM,44,95,17:00,Gurgaon,False,0,2,HopchargeZ,22,6.8
+774,c0a7a5a7-9967-4491-a59c-85407626766d,"Thursday, May 18, 2023",Mohit  Tyagi ,EPOD-007,OPS Sup,90.0,Thursday,10:49:00 AM,10,70,17:00,Delhi,False,0,1,HopchargeZ,18,20.4
+775,46e78744-7d8a-49b4-b535-f0c396e10b7c,"Wednesday, May 17, 2023",Shubhra  Vanjani,EPOD-007,Others,46.0,Wednesday,11:07:00 AM,58,99,14:00,Delhi,False,0,1,HopchargeZ,0,8.8
+776,f394b562-f9ec-4ab8-9a6e-7d5131ef5c28,"Wednesday, May 17, 2023",Subhodip  Guha,EPOD-011,Ravi Dutt,59.0,Wednesday,8:53:00 AM,22,80,09:00,Gurgaon,False,0,0,Hopcharge-X12,13,13.6
+777,e95eb1e3-6b2d-424f-a9fb-5afa96cd05e7,"Tuesday, May 16, 2023",Hem Chandra  Palariya ,EPOD-004,Pradeep Rawat,1408.0,Tuesday,11:22:00 PM,11,40,03:00,Delhi,False,0,2,,17,6.68
+778,6e720eba-7883-458f-8dee-480c05a33dc9,"Wednesday, May 17, 2023",Pragun Mittal,EPOD-007,Rohit Nagar,235.0,Wednesday,6:14:00 AM,49,66,03:00,Noida,False,0,2,HopchargeZ,23,5.6
+779,f2a14018-2f9e-4544-bbd1-677b9bc14be0,"Wednesday, May 17, 2023",Shalini Goyal,EPOD-009,Baljeet Kumar,42.0,Wednesday,12:34:00 AM,49,80,08:00,Gurgaon,False,0,1,HopchargeZ,10,10.4
+780,c4771ef1-9ccc-478d-ace4-b4b93dfb8253,"Wednesday, May 17, 2023",Rashmi Kumari,EPOD-005,Jitendra Singh New,104.0,Wednesday,1:40:00 PM,24,97,14:00,Gurgaon,False,0,1,HopchargeZ,5,24.4
+781,6df5eb1e-f7f7-4475-8377-6175c1310f26,"Wednesday, May 17, 2023",Aparajeeta Sarmah,EPOD-008,Shakti singh,63.0,Wednesday,5:46:00 AM,25,25,06:00,Noida,False,0,0,HopchargeZ,16,17.2
+782,9f6c8f36-068f-4092-82e8-99e80a359345,"Tuesday, May 16, 2023",Jaskaran Singh,EPOD-011,Ravi Dutt,1521.0,Tuesday,8:32:00 PM,2,42,02:00,Gurgaon,False,0,2,,17,7.2
+783,fccc07f3-fdab-4564-aac8-fcb4231215ed,"Wednesday, May 17, 2023",Amit Kr Chauhan ,EPOD-009,Jitender Singh,22.0,Wednesday,7:44:00 PM,13,40,20:00,Gurgaon,False,0,1,HopchargeZ3,0,9.2
+784,7baa4d0d-7cb5-4206-adba-9442e6a263f5,"Wednesday, May 17, 2023",Amit Kr Chauhan ,EPOD-010,Aman Chaudhary,77.0,Wednesday,1:45:00 AM,22,93,02:00,Gurgaon,False,0,1,HopchargeZ3,12,13.2
+785,83ae6854-c31e-4bd4-9964-fe2ee2f6e5d3,"Wednesday, May 17, 2023",Arun Rana,EPOD-009,Baljeet Kumar,84.0,Wednesday,5:45:00 AM,41,93,06:00,Gurgaon,False,0,1,HopchargeZ,16,22
+786,64e93186-677e-4602-8bec-8ed72fab05b5,"Wednesday, May 17, 2023",Renu Talwar,EPOD006,Others,104.0,Wednesday,11:26:00 AM,30,85,09:00,Delhi,False,0,2,HopchargeZ,0,31.2
+787,7f0a02c8-9bf3-4357-97ec-cc25491ccc5b,"Wednesday, May 17, 2023",Romil  Saxena,EPOD-007,Rohit Nagar,42.0,Wednesday,1:46:00 AM,50,80,02:00,Noida,False,0,0,HopchargeZ,8,9.6
+788,9b544b96-5c15-4bb5-9a58-6a7eb0ab0acb,"Wednesday, May 17, 2023",Pradeep  Saini,EPOD-008,Shakti singh,73.0,Wednesday,1:31:00 AM,19,69,02:00,Gurgaon,False,0,1,HopchargeZ3Y,42,16.4
+789,d7100881-87b1-473d-86df-021ea6f610b9,"Wednesday, May 17, 2023",Rishi Shukla,EPOD-011,Rohit Yadav,47.0,Wednesday,12:46:00 AM,23,75,01:00,Gurgaon,False,0,0,HopchargeZ,12,12.4
+790,dc981b2e-94f5-467c-a520-e00d0cf6986a,"Tuesday, May 16, 2023",Ankit Kumar,EPOD-005,Jitender Singh,64.0,Tuesday,6:55:00 PM,20,80,19:00,Gurgaon,False,0,0,HopchargeZ,12,16.4
+791,0ed4025a-5e75-4682-a37d-b4a383bd572c,"Wednesday, May 17, 2023",Sanjay Kumar,EPOD-007,Sunil Kumar,85.0,Wednesday,10:45:00 PM,20,40,23:00,Delhi,False,0,1,Starter-I_100,10,4.24
+792,782f1a36-d3e6-42f3-a843-5f1f0839d139,"Wednesday, May 17, 2023",Sanjay Kumar,EPOD-002,Md. Arif,90.0,Wednesday,2:55:00 PM,22,95,15:00,Noida,False,0,0,Starter-I_100,15,18
+793,2214b37f-73cb-4faa-89d0-a831da1a1f9c,"Wednesday, May 17, 2023",Sanjay Kumar,EPOD-003,Others,74.0,Wednesday,11:45:00 AM,34,95,12:00,Noida,False,0,1,Starter-I_100,0,16.4
+794,6dcd5fbc-3870-4f69-b2d8-6ea43eb1eec7,"Thursday, May 18, 2023",Maheshwar Nath Kushwaha   Kushwaha,EPOD-007,Aman Agarwal,30.0,Thursday,2:33:00 AM,54,80,05:00,Noida,False,0,1,HopchargeZ3,11,18
+795,c016d3fc-4a26-44d4-a356-5423ef53fef1,"Tuesday, May 16, 2023",Sanjay Kumar,EPOD-002,Md. Arif,90.0,Tuesday,5:55:00 PM,30,95,18:00,Noida,False,0,0,Starter-I_100,15,18.4
+796,70f94d37-53be-4d08-8fe7-871351cc8042,"Wednesday, May 17, 2023",Vaibhav  B,EPOD-008,Sonu Chauhan,51.0,Wednesday,11:45:00 AM,41,80,12:00,Noida,False,0,1,HopchargeZ3,20,8
+797,a36bb508-0619-4afc-b637-5837eefd2092,"Tuesday, May 16, 2023",Tarun Wadhwa ,E-POD-012,Punil Kumar,13.0,Tuesday,5:00:00 PM,65,65,18:00,Gurgaon,False,0,1,HopchargeZ,54,3.08
+798,756b7061-20d2-4b69-aaab-bdd317cc4345,"Tuesday, May 16, 2023",Mohit  Tyagi ,EPOD-004,Others,36.0,Tuesday,5:43:00 PM,25,86,18:00,Delhi,False,0,1,HopchargeZ,0,16.8
+799,5cdd5360-5c0d-475a-9443-8650a4e8aa37,"Tuesday, May 16, 2023",Dharamveer  Yadav,EPOD-005,Jitender Singh,62.0,Tuesday,2:44:00 PM,15,80,15:00,Gurgaon,False,0,1,,8,15.6
+800,1e54e5fe-b449-4136-95e2-bd2531870ba7,"Tuesday, May 16, 2023",Romil  Saxena,EPOD-003,Others,48.0,Tuesday,2:49:00 PM,34,70,15:00,Noida,False,0,0,HopchargeZ,0,16.4
+801,83b654db-ceeb-4308-8bcf-8ca4ef27d4ec,"Tuesday, May 16, 2023",Tumpa Banerjee ,EPOD-010,Aman Chaudhary,53.0,Tuesday,10:48:00 PM,39,95,23:00,Gurgaon,False,0,0,HopchargeZ,8,8
+802,d23b03fc-963a-42de-a88c-01c59251e5ef,"Tuesday, May 16, 2023",Siddharth Nagpal,EPOD-008,Sonu Chauhan,64.0,Tuesday,12:45:00 PM,15,81,13:00,Noida,False,0,1,,10,13.2
+803,9b2d4b85-e5c3-4d57-a505-9e59501349bd,"Tuesday, May 16, 2023",Anita Goswami,EPOD-008,Sonu Chauhan,33.0,Tuesday,4:56:00 PM,43,80,18:00,Noida,False,0,1,,11,8.8
+804,7f707ac5-824a-4d31-931a-df70d617b95a,"Tuesday, May 16, 2023",Srishti  Sharma,EPOD-007,Rohit Nagar,48.0,Tuesday,9:28:00 PM,21,80,22:00,Noida,False,0,1,HopchargeZ,16,11.2
+805,4e038f2d-6c3d-462b-8d59-d0f1f0f7e8dc,"Wednesday, May 17, 2023",nitin patil,EPOD-007,Rohit Nagar,61.0,Wednesday,4:42:00 AM,17,79,07:00,Noida,False,0,1,HopchargeZ,17,14.4
+806,656f8bb9-3cd3-499b-9c6a-849bdd68ac48,"Wednesday, May 17, 2023",Amit Singhal,EPOD-004,Pradeep Rawat,60.0,Wednesday,3:39:00 AM,9,75,06:00,Delhi,False,0,1,HopchargeZ,30,12.72
+807,3d0b736f-abe1-4d3e-a041-c83d3f7fbbfb,"Tuesday, May 16, 2023",Vinod  Yadav,EPOD-011,Ravi Dutt,123.0,Tuesday,2:48:00 PM,23,97,15:00,Gurgaon,False,0,0,HopchargeZ,7,25.6
+808,75dfc03a-f4b1-4ac0-b92b-1fbd79daa458,"Wednesday, May 17, 2023",Sandeep Yadav,EPOD-011,Rohit Yadav,31.0,Wednesday,12:31:00 AM,55,99,01:00,Gurgaon,False,0,1,HopchargeZ3,11,8.4
+809,c8a3e0f9-a8f4-4d9f-a960-e799b5ff0d08,"Tuesday, May 16, 2023",Sandeep Yadav,E-POD-012,Punil Kumar,75.0,Tuesday,2:42:00 AM,27,97,15:00,Gurgaon,False,0,1,HopchargeZ3,95,16.4
+810,5893e530-fda4-412d-be45-b994bd2d2430,"Thursday, May 18, 2023",Nisha  Chauhan ,EPOD-008,Shakti singh,20.0,Thursday,8:43:00 PM,53,80,21:00,Noida,False,0,1,HopZ Lite,14,5.2
+811,5a92a955-5f11-4fc5-bb36-7ed13eda12f5,"Tuesday, May 16, 2023",Nisha  Chauhan ,EPOD-008,Shakti singh,34.0,Tuesday,8:43:00 AM,53,80,21:00,Noida,False,0,1,HopZ Lite,15,5.2
+812,2e042d61-1f96-4713-ba51-09e0539e45d7,"Tuesday, May 16, 2023",Sachin Sharma,EPOD-007,Rohit Nagar,66.0,Tuesday,10:42:00 PM,18,81,23:00,Noida,False,0,1,HopchargeZ,8,14.4
+813,d012f95b-20ba-429a-8b0b-3dbc8721f653,"Tuesday, May 16, 2023",Dr. Rohit Nara,EPOD-005,Sachin Rajput,40.0,Tuesday,10:45:00 PM,50,80,23:00,Gurgaon,False,0,1,HopchargeZ,22,10.4
+814,2119e0f0-f29f-48c5-9427-0cf9888b22c1,"Tuesday, May 16, 2023",Girish  Bhatia ,EPOD-001,Others,58.0,Tuesday,11:58:00 AM,19,67,12:00,Delhi,False,0,0,HopX3Y (GB) ,0,21.2
+815,93d13f0b-d42a-446c-bc3c-15e508cd1ef2,"Tuesday, May 16, 2023",Nischal  Chauhan ,EPOD-002,Vipin,61.0,Tuesday,11:28:00 PM,30,80,02:00,Noida,False,0,2,HopchargeZ,18,20.4
+816,df3f6f22-79b9-4692-883e-6664e66a1bcc,"Tuesday, May 16, 2023",Siddhartha Sharma,EPOD-001,Others,73.0,Tuesday,9:45:00 AM,27,81,10:00,Delhi,False,0,1,HopchargeZ,0,7.2
+817,79b49e18-c3ab-4d18-adad-a5c726ddca13,"Tuesday, May 16, 2023",Poonam Bajaj,EPOD-011,Ravi Dutt,68.0,Tuesday,8:48:00 AM,7,80,09:00,Gurgaon,False,0,0,,13,17.2
+818,675477a5-a458-4c37-9741-f067ec04fce3,"Tuesday, May 16, 2023",Dinesh Sharma,EPOD-010,Akash Kumar,92.0,Tuesday,10:45:00 AM,9,97,23:00,Gurgaon,False,0,1,HopchargeZ,15,17.2
+819,f1c934b7-8e1e-4a7a-93ca-fed71cb51a9f,"Tuesday, May 16, 2023",Maheshwar Nath Kushwaha   Kushwaha,EPOD006,Deepak kumar,60.0,Tuesday,3:50:00 AM,36,80,04:00,Ghaziabad,False,0,0,HopchargeZ3,14,14.8
+820,8a1233b5-ca39-4444-8cef-3686e44279a2,"Tuesday, May 16, 2023",Rajeev Kumar,EPOD-008,Shakti singh,62.0,Tuesday,3:48:00 AM,14,80,04:00,Noida,False,0,0,Hopcharge-X12,9,12
+821,23c1ee63-0127-47f7-b4e2-38c668479d56,"Monday, May 15, 2023",Rishi Shukla,EPOD-010,Aman Chaudhary,45.0,Monday,10:45:00 AM,30,85,01:00,Gurgaon,False,0,2,HopchargeZ,6,7.6
+822,c5dda404-e3a8-4ebd-8bdd-c43130dcacf1,"Tuesday, May 16, 2023",Madhu Srivastava,EPOD-004,Others,124.0,Tuesday,9:40:00 AM,27,81,10:00,Delhi,False,0,1,HopchargeZ,0,32
+823,7ecd5f6d-8ba5-41b0-a65b-3765eaba9495,"Tuesday, May 16, 2023",Manju Bhardwaj,EPOD-010,Akash Kumar,42.0,Tuesday,6:45:00 PM,15,65,19:00,Gurgaon,False,0,1,HopchargeZ,15,9.6
+824,2d8eebe3-eaa2-4f21-bd52-28df2c87013a,"Tuesday, May 16, 2023",Rakesh Bahnewal,EPOD-005,Sunil Kumar,84.0,Tuesday,3:40:00 AM,3,99,04:00,Gurgaon,False,0,1,HopchargeZ3Y,12,21.04
+825,91a4f6b7-2689-47cb-8b9a-d2d1a602e19c,"Tuesday, May 16, 2023",Anil Raao,EPOD-010,Aman Chaudhary,50.0,Tuesday,12:45:00 AM,19,80,01:00,Gurgaon,False,0,1,HopchargeZ,6,12.8
+826,dc62d61c-53e0-4619-9c6e-e82aaa7d76e5,"Tuesday, May 16, 2023",Amit Kr Chauhan ,E-POD-012,Pritam Kumar,83.0,Tuesday,6:45:00 AM,29,95,07:00,Gurgaon,False,0,1,HopchargeZ3,12,14.12
+827,90083c19-43f2-4258-925a-1798568a7953,"Monday, May 15, 2023",B S  Madan,EPOD-009,Jitender Singh,72.0,Monday,5:27:00 PM,27,80,19:00,Gurgaon,False,0,1,HopchargeZ3Y,6,11.6
+828,6430b6be-09ba-43c2-9a46-f6713ecd1374,"Monday, May 15, 2023",Vaishali  Sharma,EPOD-003,Others,42.0,Monday,5:52:00 PM,23,75,19:00,Noida,False,0,1,Hopcharge-Y,0,12.8
+829,e35d0161-ea8f-43fe-80ad-f7b876f91837,"Tuesday, May 16, 2023",KULDEEP Singh ,EPOD-005,Sachin Rajput,42.0,Tuesday,5:28:00 AM,27,77,06:00,Gurgaon,False,0,1,HopchargeZ,10,9.2
+830,9aae3fa7-e9d8-4ba0-99fe-6353ceca7a82,"Tuesday, May 16, 2023",Deepak  Sharma,EPOD-010,Aman Chaudhary,55.0,Tuesday,3:45:00 AM,49,95,05:00,Gurgaon,False,0,1,HopchargeZ,5,7.2
+831,b9189291-e59d-4374-b57d-b72fc800db4d,"Monday, May 15, 2023",Tumpa Banerjee ,EPOD-010,Aman Chaudhary,48.0,Monday,10:45:00 PM,45,95,23:00,Gurgaon,False,0,1,HopchargeZ,8,6.8
+832,49a23cac-0946-4b88-bc82-a831d18bdfb7,"Monday, May 15, 2023",Romil  Saxena,EPOD-002,Vipin,67.0,Monday,10:38:00 PM,9,55,23:00,Noida,False,0,1,HopchargeZ,25,19.2
+833,f3bab86c-4fc0-400d-97e1-63da08118fd0,"Tuesday, May 16, 2023",Tarun Wadhwa ,EPOD-011,Sachin Rajput,22.0,Tuesday,6:00:00 AM,55,80,07:00,Gurgaon,False,0,1,HopchargeZ,10,4.8
+834,5e877636-08ab-4879-a5d3-f7d3e82910e5,"Tuesday, May 16, 2023",nitin patil,EPOD-007,Rohit Nagar,65.0,Tuesday,4:45:00 AM,17,80,07:00,Noida,False,0,1,HopchargeZ,18,14.4
+835,079b0451-4a49-4014-b5fa-7ffc03e216aa,"Monday, May 15, 2023",Renu Talwar,EPOD-004,Others,75.0,Monday,3:52:00 PM,25,80,16:00,Delhi,False,0,0,HopchargeZ,0,18.8
+836,07a0dc17-beb3-4e2a-a3d4-865784e556fc,"Tuesday, May 16, 2023",Sanjay Kumar,EPOD-002,Md. Arif,69.0,Tuesday,10:45:00 AM,22,95,11:00,Noida,False,0,1,Starter-I_100,15,18
+837,98f30c10-9c96-44cd-b32f-be38847d524f,"Monday, May 15, 2023",Aparajeeta Sarmah,EPOD-008,Sonu Chauhan,3.0,Monday,6:59:00 PM,21,71,19:00,Noida,False,0,0,HopchargeZ,19,16.4
+838,f8c8cf0f-819b-4922-822e-fd138dd122fd,"Monday, May 15, 2023",Siddharth Khanna,EPOD-010,Akash Kumar,60.0,Monday,3:45:00 PM,18,80,18:00,Delhi,False,0,1,,30,15.2
+839,bf6780b3-d6e4-4b8d-877f-fdefc6550359,"Tuesday, May 16, 2023",Anand Kumar ,EPOD-003,Ankush chauhan,60.0,Tuesday,10:45:00 PM,28,80,23:00,Noida,False,0,1,HopchargeZ,26,16.8
+840,d08d7141-21fc-41ef-b419-14c7dd47f861,"Monday, May 15, 2023",Vinit Chadha,EPOD-005,Sachin Rajput,59.0,Monday,8:24:00 AM,25,80,07:00,Gurgaon,False,0,2,HopchargeZ,12,12.8
+841,e25f57e1-cb36-4b65-a8a7-baee6f7ba64c,"Monday, May 15, 2023",Mayank  Khatter,E-POD-012,Pritam Kumar,53.0,Monday,9:30:00 PM,38,80,22:00,Gurgaon,False,0,1,FLEX,9,14.4
+842,715be285-1373-4067-a3e4-7590d351ca9f,"Monday, May 15, 2023",Pradeep  Saini,EPOD-001,Others,83.0,Monday,3:58:00 PM,20,65,16:00,Noida,False,0,0,HopchargeZ3Y,0,15.2
+843,88558ee7-705e-4fac-806e-67aabae7d2b3,"Monday, May 15, 2023",Pragun Mittal,EPOD-007,Others,85.0,Monday,3:41:00 PM,25,80,16:00,Delhi,False,0,1,HopchargeZ,0,18.4
+844,be6306ee-3b5a-4267-bd3c-b5fca7f9702a,"Wednesday, May 17, 2023",Vinit Chadha,EPOD-009,Baljeet Kumar,88.0,Wednesday,9:58:00 PM,21,99,22:00,Gurgaon,False,0,0,HopchargeZ,10,17.2
+845,198631a8-85c4-4b06-b43f-e5b81ccb1696,"Monday, May 15, 2023",Ankit Kumar,EPOD-005,Sunil Kumar,57.0,Monday,10:51:00 PM,27,80,23:00,Gurgaon,False,0,0,HopchargeZ,6,17.4
+846,73a156c9-572c-48e6-b84a-a30e5b40e886,"Monday, May 15, 2023",Srishti  Sharma,EPOD-007,Rohit Nagar,64.0,Monday,9:45:00 PM,14,80,22:00,Noida,False,0,1,HopchargeZ,16,12.8
+847,75700161-5d10-466d-a679-c8dd0dc440aa,"Monday, May 15, 2023",Sachin Sharma,EPOD006,Deepak kumar,56.0,Monday,10:48:00 PM,28,80,23:00,Noida,False,0,0,HopchargeZ,20,12.4
+848,83c6ff07-8950-4454-b2aa-ad5c8bb02d13,"Monday, May 15, 2023",Sanjay Kumar,EPOD-003,Others,112.0,Monday,11:58:00 AM,19,95,12:00,Noida,False,0,0,Starter-I_100,0,20
+849,189cdcd4-50c1-46cf-a2a2-564712bac015,"Monday, May 15, 2023",Dr. Rohit Nara,EPOD-009,Baljeet Kumar,64.0,Monday,10:59:00 PM,19,69,23:00,Gurgaon,False,0,0,HopchargeZ,16,16.8
+850,5239ae25-4edf-4540-adcd-12ae97b95b20,"Tuesday, May 16, 2023",Karan  Ray,EPOD-004,Pradeep Rawat,54.0,Tuesday,4:46:00 AM,28,80,06:00,Delhi,False,0,1,HopchargeZ,17,11.84
+851,c96dbd2d-414c-4f61-8ef6-95cf060a01c4,"Monday, May 15, 2023",Ankit Kumar,EPOD-005,Punil Kumar,52.0,Monday,2:29:00 AM,57,95,15:00,Gurgaon,False,0,1,HopchargeZ,95,12.68
+852,43e9b452-f1c6-40c3-b92b-cffbb6b1fe00,"Monday, May 15, 2023",Vinod  Yadav,EPOD-011,Ravi Dutt,107.0,Monday,10:48:00 AM,14,85,11:00,Gurgaon,False,0,0,HopchargeZ,7,34
+853,c3171f42-5ab2-4b01-a5cc-13ebf5684e64,"Monday, May 15, 2023",Dinesh  Kumar,EPOD-009,Jitender Singh,76.0,Monday,1:37:00 PM,16,95,14:00,Gurgaon,False,0,1,HopchargeZ,20,18.8
+854,85da6656-b498-4d74-abb9-1b1bb8b299b3,"Monday, May 15, 2023",Manju Bhardwaj,E-POD-012,Pradeep kumar,62.0,Monday,6:47:00 PM,11,80,19:00,Gurgaon,False,0,0,HopchargeZ,11,13.6
+855,bf3f58c5-3178-48ac-b003-4804ec36ca9c,"Monday, May 15, 2023",Aryan  Chaudhary,EPOD-007,Others,31.0,Monday,8:56:00 AM,59,80,09:00,Noida,False,0,0,HopchargeZ,0,6.8
+856,1441c5aa-dec0-4602-9623-c10dbb266450,"Monday, May 15, 2023",Shubhra  Vanjani,EPOD-004,Others,62.0,Monday,9:03:00 AM,51,100,09:00,Delhi,False,0,2,HopchargeZ,0,10.4
+857,419980fa-e03d-46d4-a245-70080953e9b0,"Monday, May 15, 2023",Mohit  Gupta ,EPOD-011,Ravi Dutt,21.0,Monday,8:47:00 AM,57,80,09:00,Gurgaon,False,0,0,HopchargeZ,13,4.4
+858,935c25b2-4b58-4f1f-b3a3-949078e58688,"Monday, May 15, 2023",Dr. Rohit Nara,EPOD-011,Ravi Dutt,40.0,Monday,4:44:00 AM,52,80,05:00,Gurgaon,False,0,1,HopchargeZ,12,9.2
+859,92e11644-c263-41c6-803e-ec28ce4cf418,"Monday, May 15, 2023",Muneet Chandla,EPOD-008,Sonu Chauhan,53.0,Monday,10:05:00 AM,16,80,11:00,Noida,False,0,1,FLEX,10,10.4
+860,0cbb6a10-27c4-4469-8656-8a74cb0b9750,"Monday, May 15, 2023",Mohit  Tyagi ,EPOD-001,Others,51.0,Monday,10:39:00 AM,41,80,11:00,Delhi,False,0,1,HopchargeZ,0,13.2
+861,4ba1403b-9b83-42fc-8e17-3695b264f216,"Monday, May 15, 2023",Deepak  Sharma,EPOD-010,Aman Chaudhary,75.0,Monday,4:45:00 AM,31,95,05:00,Gurgaon,False,0,1,HopchargeZ,6,12
+862,3de865ec-d2c0-4d26-82a1-303d098bf9f6,"Monday, May 15, 2023",KULDEEP Singh ,EPOD-009,Sunil Kumar,17.0,Monday,5:40:00 AM,88,99,06:00,Gurgaon,False,0,1,HopchargeZ,8,3.2
+863,45fd37b9-301d-4f00-b143-0536f1f4e68c,"Monday, May 15, 2023",Pragun Mittal,EPOD-007,Rohit Nagar,87.0,Monday,12:43:00 AM,13,85,01:00,Noida,False,0,1,HopchargeZ,7,38
+864,4f0a9917-a572-4fbd-8e67-6f5d890600fe,"Monday, May 15, 2023",Nisha  Chauhan ,EPOD006,Deepak kumar,31.0,Monday,8:46:00 PM,45,80,21:00,Noida,False,0,0,HopZ Lite,17,6.8
+865,093c013a-c372-44ae-bc24-82967d7194d6,"Monday, May 15, 2023",Karan  Ray,EPOD-004,Pradeep Rawat,71.0,Monday,4:31:00 AM,10,76,06:00,Delhi,False,0,1,HopchargeZ,17,15.32
+866,81d66124-5c7c-461d-b58c-cd4631709dd3,"Monday, May 15, 2023",Tumpa Banerjee ,EPOD-009,Sunil Kumar,44.0,Monday,12:51:00 AM,47,95,01:00,Gurgaon,False,0,0,HopchargeZ,9.5,9.32
+867,3f0fea97-2aa8-4556-b404-341b871a4d85,"Monday, May 15, 2023",Sanjay Kumar,EPOD-004,Pradeep Rawat,1370.0,Monday,10:45:00 PM,37,95,23:00,Delhi,False,0,1,Starter-I_100,9,12.08
+868,e025fbc6-8f44-4d28-a1f4-399a408790e5,"Monday, May 15, 2023",Sanjay Kumar,EPOD-008,Sonu Chauhan,78.0,Monday,2:22:00 PM,23,95,15:00,Noida,False,0,1,Starter-I_100,18,16.4
+869,ac9cb1f6-f80c-4797-b62e-5442ecebb4e2,"Monday, May 15, 2023",Indresh Kumar  Singh,EPOD-002,Md. Arif,62.0,Monday,5:25:00 PM,34,80,18:00,Ghaziabad,False,0,1,HopchargeZ3Y,18,17.6
+870,09a9dd2c-d36b-4450-8b7f-493b20f4ea48,"Monday, May 15, 2023",Indresh Kumar  Singh,EPOD-008,Shakti singh,65.0,Monday,11:44:00 AM,80,95,06:00,Ghaziabad,False,0,2,HopchargeZ3Y,19,6.4
+871,e070a325-2b42-4809-ae3c-9b42d6e15380,"Monday, May 15, 2023",Amit Kr Chauhan ,EPOD-005,Punil Kumar,21.0,Monday,6:55:00 AM,62,41,19:00,Gurgaon,False,0,1,HopchargeZ3,95,4.6
+872,508baf66-7907-4bd9-9166-5633c2583f15,"Monday, May 15, 2023",Amit Kr Chauhan ,E-POD-012,Pradeep kumar,58.0,Monday,12:40:00 PM,47,95,02:00,Gurgaon,False,0,1,HopchargeZ3,11,#VALUE!
+873,5d97da8b-7b7e-454c-812c-6d9b833a2f2e,"Monday, May 15, 2023",Anil Raao,EPOD-005,Sachin Rajput,63.0,Monday,12:44:00 AM,32,80,01:00,Gurgaon,False,0,1,HopchargeZ,8,16
+874,6a72a341-54b6-4a1e-84c7-03cfccc5340c,"Monday, May 15, 2023",PAWAN KHANDELWAL,E-POD-012,Pradeep kumar,40.0,Monday,6:52:00 AM,37,80,07:00,Gurgaon,False,0,0,HopchargeZ,11,9.6
+875,9618ad6c-b35c-431e-a763-c07dd76d1805,"Monday, May 15, 2023",Subhodip  Guha,EPOD-005,Sachin Rajput,59.0,Monday,5:46:00 AM,15,80,06:00,Gurgaon,False,0,0,Hopcharge-X12,23,15.2
+876,d2716f28-798a-4ae1-a86c-6f7c56052fab,"Wednesday, May 31, 2023",Ishan Agrawal,EPOD-001,Rohit Nagar,119.0,Wednesday,5:42:00 PM,16,75,18:00,Noida,False,0,1,,18,27.6
+877,feb3137e-4ee0-4cde-8c2b-b78dc1761524,"Wednesday, May 31, 2023",Joydeep Debnath,EPOD-010,Akash Kumar,82.0,Wednesday,5:40:00 PM,30,80,18:00,Gurgaon,False,0,1,HopchargeX12,8,16.8
+878,f13c1788-2499-40eb-9636-0268e2ac1504,"Wednesday, May 31, 2023",Vinod  Yadav,EPOD-011,Ravi Dutt,72.0,Wednesday,12:12:00 PM,15,67,18:00,Gurgaon,False,0,1,HopchargeZ,7,18
+879,7c637b48-ee9b-4385-be57-5f957715b32d,"Wednesday, May 31, 2023",Nitesh  Kumar,EPOD-009,Jitender Singh,73.0,Wednesday,2:55:00 PM,21,80,15:00,Gurgaon,False,0,0,FLEX,14,14.4
+880,f311c1e9-7c92-4945-9f3d-0e6ebb172241,"Wednesday, May 31, 2023",Pradeep  Saini,EPOD-007,OPS sup,66.0,Wednesday,2:26:00 AM,14,64,16:00,Delhi,False,0,1,HopchargeZ3Y,22,1640
+881,e6aa0b38-68d0-44f8-8df2-313d53ae1bc4,"Wednesday, May 31, 2023",Sanjay Kumar,EPOD006,OPS sup,59.0,Wednesday,2:53:00 AM,62,80,03:00,Delhi,False,0,0,Starter-I_100,12,720
+882,4d82ab8c-f04a-461e-acba-da869124333b,"Wednesday, May 31, 2023",Rashmi Kumari,EPOD-010,Akash Kumar,39.0,Wednesday,12:45:00 PM,42,80,13:00,Gurgaon,False,0,1,HopchargeZ,30,13.2
+883,8872cf18-b38b-45fc-8bbd-1d4f328f970c,"Wednesday, May 31, 2023",Pragun Mittal,EPOD-001,Awdesh Kumar,8.0,Wednesday,12:55:00 AM,85,95,01:00,Noida,False,0,0,HopchargeZ,7 ,2
+884,5406f472-a492-4e11-b757-e2169b8c3632,"Wednesday, May 31, 2023",Manju Bhardwaj,EPOD-005,Punil Kumar,,Wednesday,1:00:00 PM,9,80,13:00,Gurgaon,False,0,0,HopchargeZ,0,6.8
+885,4db317cd-7e7e-46ae-826f-c258888926ad,"Wednesday, May 31, 2023",Shalini Goyal,EPOD-009,Jitender Singh,34.0,Wednesday,10:15:00 AM,44,80,10:00,Gurgaon,False,0,2,HopchargeZ,6,8
+886,06eb36b7-1402-48c1-ba0e-d49f17aa5257,"Wednesday, May 31, 2023",Dinesh Sharma,EPOD-009,Jitender Singh,84.0,Wednesday,11:33:00 AM,11,86,12:00,Gurgaon,False,0,1,HopchargeZ,8,15.2
+887,0f9ac2c9-46b7-42a6-bdc4-c6c225265b26,"Wednesday, May 31, 2023",Piyush  Malyan ,EPOD-007,OPS sup,41.0,Wednesday,5:40:00 AM,22,70,06:00,Delhi,False,0,1,HopchargeX3Y,15,1000
+888,959a365c-6e7e-4919-9c7e-90aeeacfeca8,"Wednesday, May 31, 2023",Srishti  Sharma,EPOD-001,Awdesh Kumar,79.47,Wednesday,2:57:00 AM,23,80,03:00,Noida,False,0,0,HopchargeZ,15 ,#VALUE!
+889,0c3d4cf4-6415-4c35-824f-154ebc26dcd7,"Wednesday, May 31, 2023",Subhodip  Guha,EPOD-010,Akash Kumar,73.0,Wednesday,10:36:00 AM,11,80,10:00,Gurgaon,False,0,2,Hopcharge-X12,25,16.4
+890,17acfe90-4ece-43e7-80b3-b1827e9c1fe3,"Wednesday, May 31, 2023",Mohit  Gupta ,EPOD-005,Punil Kumar,688.0,Wednesday,11:20:00 AM,80,87,10:00,Gurgaon,False,0,2,HopchargeZ,0,-32885.2
+891,a0fe6d07-2eed-4dd0-8ab5-cd8de38d9865,"Wednesday, May 31, 2023",Mohit  Gupta ,EPOD-009,Baljeet Kumar,35.0,Wednesday,2:47:00 AM,39,80,03:00,Gurgaon,False,0,0,HopchargeZ,14,8
+892,c5d429ca-39a9-46de-84d8-c69c87825386,"Wednesday, May 31, 2023",Surbhi Sangwan,EPOD-005,Punil Kumar,57.0,Wednesday,2:46:00 PM,18,66,13:00,Gurgaon,False,0,2,HopchargeZ,0,11.6
+893,47e401ee-e11d-49eb-8051-81d8230b989b,"Wednesday, May 31, 2023",Tumpa Banerjee ,EPOD-009,Baljeet Kumar,53.0,Wednesday,10:55:00 PM,25,80,23:00,Gurgaon,False,0,0,HopchargeZ,3,10.8
+894,48f486d4-a278-4044-a25f-59796a27ddb2,"Wednesday, May 31, 2023",Ankit Kumar,EPOD-010,Aman Chaudhary,36.0,Wednesday,9:46:00 PM,55,80,22:00,Gurgaon,False,0,0,HopchargeZ,7,800
+895,dfcebe06-d186-4713-be53-602c01156544,"Wednesday, May 31, 2023",Nischal  Chauhan ,EPOD-008,OPS sup,41.0,Wednesday,12:55:00 PM,48,80,01:00,Noida,False,0,0,HopchargeZ,15,960
+896,3ae0b447-e03e-488a-97fa-9431fe103239,"Wednesday, May 31, 2023",Vinit Chadha,EPOD-010,Aman Chaudhary,56.0,Wednesday,5:46:00 AM,24,80,06:00,Gurgaon,False,0,0,HopchargeZ,19,1320
+897,71a62527-4bd6-422f-aa0d-3538fa9cbe17,"Wednesday, May 31, 2023",Rakesh Bahnewal,EPOD-009,Baljeet Kumar,43.0,Wednesday,5:57:00 AM,39,80,06:00,Gurgaon,False,0,0,HopchargeZ3Y,17,10
+898,ec40b1dd-872c-4064-a287-1f2aac6c0106,"Wednesday, May 31, 2023",Sanjay Kumar,EPOD-001,Rohit Nagar,0.0,Wednesday,2:48:00 PM,46,95,15:00,Noida,False,0,0,Starter-I_100,17,10.4
+899,84bfb6ad-155d-4fc4-91a8-7274c261bcf6,"Wednesday, May 31, 2023",Sanjay Kumar,EPOD-008,Sonu Chauhan,73.0,Wednesday,2:45:00 PM,28,96,15:00,Noida,False,0,1,Starter-I_100,15,14.8
+900,9943c042-89f3-4893-8f83-341f0ea0f736,"Wednesday, May 31, 2023",raghu kapoor,EPOD006,OPS sup,64.0,Wednesday,11:50:00 PM,20,80,01:00,Delhi,False,0,2,HopchargeZ,12,1240
+901,13558706-75e1-4d84-83a2-854378abbeb9,"Wednesday, May 31, 2023",Amit Kr Chauhan ,EPOD-010,Aman Chaudhary,37.0,Wednesday,12:46:00 AM,38,80,01:00,Gurgaon,False,0,0,HopchargeZ3,15,840
+902,9adcfe5b-73c9-40f7-ac62-7618f1f3ef21,"Tuesday, May 30, 2023",Vipan Kumar,EPOD-002,Md. Arif,65.0,Tuesday,2:02:00 PM,10,80,15:00,Noida,False,0,1,,7,17.6
+903,17b85be0-3cfd-4e10-89e9-a927835b5837,"Tuesday, May 30, 2023",Vaibhav  B,EPOD-008,OPS sup,40.0,Tuesday,4:05:00 PM,48,81,17:00,Noida,False,0,1,HopchargeZ3,12,6.4
+904,177c9f51-a316-485a-b7ba-99a457cba87b,"Tuesday, May 30, 2023",Dinesh Sharma,EPOD-009,Jitender Singh,1137.0,Tuesday,1:35:00 PM,72,80,14:00,Gurgaon,False,0,1,HopchargeZ,18,1.6
+905,07aebb40-aef2-4f87-b848-6ed7632bce11,"Wednesday, May 31, 2023",Abha Chiripal,EPOD-011,Ravi Dutt,75.0,Wednesday,3:53:00 PM,44,80,16:00,Gurgaon,False,0,0,HopchargeX,11,8.4
+906,735cf56e-72eb-4ef3-b74b-2d7104394705,"Tuesday, May 30, 2023",Sandeep Yadav,EPOD-011,Ravi Dutt,55.0,Tuesday,10:51:00 AM,20,80,12:00,Gurgaon,False,0,1,HopchargeZ3,7,14
+907,ba490406-41df-4723-9430-c83cfed74fd4,"Tuesday, May 30, 2023",Vaibhav  Jain,EPOD-005,Jitendra Singh New,129.0,Tuesday,11:41:00 AM,4,75,12:00,Gurgaon,False,0,1,,16,30.8
+908,d3626af0-6da4-44ee-a908-6ca03b027352,"Tuesday, May 30, 2023",Vinay Yadav,EPOD-002,OPS sup,51.0,Tuesday,10:19:00 PM,18,70,22:00,Noida,False,0,2,HopchargeX,16,2120
+909,ef20912a-917b-4a2d-af69-dbd6bcf568eb,"Wednesday, May 31, 2023",Siddhartha Sharma,EPOD-008,OPS sup,65.0,Wednesday,5:43:00 AM,37,80,06:00,Noida,False,0,1,HopchargeZ,15,1400
+910,27875bac-2b9a-4f9b-8231-8cddeac4011c,"Wednesday, May 31, 2023",Narendra Singh,EPOD-001,OPS sup,70.0,Wednesday,6:55:00 AM,28,77,07:00,Noida,False,0,0,FLEX,15,1680
+911,104cc7e0-d39a-4ccb-ba0a-01321cf1e9c5,"Wednesday, May 31, 2023",Karan  Ray,EPOD006,OPS sup,28.0,Wednesday,4:51:00 AM,55,80,06:00,Delhi,False,0,1,HopchargeZ,15,560
+912,d3990200-7b31-47aa-8953-c721ff75f07e,"Wednesday, May 31, 2023",KULDEEP Singh ,EPOD-009,Baljeet Kumar,47.0,Wednesday,9:45:00 PM,51,80,22:00,Gurgaon,False,0,1,HopchargeZ,8.5,9.2
+913,f167d637-0bc8-40ce-9b68-0658f2b5681c,"Tuesday, May 30, 2023",Rishi Shukla,EPOD006,OPS sup,60.0,Tuesday,10:06:00 AM,26,83,10:00,Delhi,False,0,2,HopchargeZ,13,12.4
+914,ca0b1524-3f05-4148-a6e9-39fd9320ff45,"Wednesday, May 31, 2023",Deepak  Sharma,EPOD-008,Sonu Chauhan,2.0,Wednesday,1:05:00 PM,55,80,13:00,Noida,False,0,2,HopchargeZ,23,6
+915,97c888eb-06be-4713-a35c-b0d2ecc398ec,"Wednesday, May 31, 2023",Deepak  Sharma,EPOD-005,Sachin Rajput,14.0,Wednesday,3:45:00 AM,24,80,04:00,Gurgaon,False,0,1,HopchargeZ,15,13.2
+916,ed1e8d07-dfda-40ed-8218-b1a4b92c1705,"Tuesday, May 30, 2023",Mohit  Gupta ,EPOD-011,OPS sup,30.0,Tuesday,4:45:00 AM,48,86,05:00,Gurgaon,False,0,1,HopchargeZ,15,600
+917,f591c2c8-5680-48e9-9679-d2c661fea872,"Tuesday, May 30, 2023",Pragun Mittal,EPOD-003,OPS sup,14.0,Tuesday,1:42:00 AM,68,80,02:00,Noida,False,0,1,HopchargeZ,15,480
+918,b3376832-6826-42f9-a4d3-913a0436391f,"Tuesday, May 30, 2023",Vinit Chadha,EPOD-011,Rohit Yadav,20.0,Tuesday,1:49:00 AM,55,88,02:00,Gurgaon,False,0,0,HopchargeZ,15,6
+919,ed0b6682-3276-4e2f-8001-28e75475658d,"Tuesday, May 30, 2023",Sachin Sharma,EPOD-002,OPS sup,100.0,Tuesday,4:15:00 AM,18,72,23:00,Noida,False,0,1,HopchargeZ,11,13.2
+920,0c742556-fca5-42c3-8511-9090372369b4,"Tuesday, May 30, 2023",Rashmi Kumari,EPOD-009,Jitender Singh,47.0,Tuesday,3:09:00 PM,46,80,16:00,Gurgaon,False,0,1,HopchargeZ,22,11.6
+921,9f564bd5-0a05-40f6-a5e5-5a64aed3c569,"Tuesday, May 30, 2023",PAWAN KHANDELWAL,EPOD-010,Akash Kumar,51.0,Tuesday,10:15:00 AM,36,80,10:00,Gurgaon,False,0,2,HopchargeZ,15,10
+922,93683115-61db-4e49-b60c-3396e892cb62,"Monday, May 29, 2023",Aparajeeta Sarmah,EPOD-008,Shakti singh,36.0,Monday,9:45:00 PM,52,80,22:00,Noida,False,0,1,HopchargeZ,13,920
+923,845919b0-c112-44dd-86d7-0e96a24e8b22,"Tuesday, May 30, 2023",Sanjay Kumar,EPOD-008,Sonu Chauhan,86.0,Tuesday,11:45:00 AM,44,95,15:00,Noida,False,0,1,Starter-I_100,11 ,11.2
+924,af6329a9-cc5a-4f9a-9e12-350b4f9d92f4,"Tuesday, May 30, 2023",Sanjay Kumar,EPOD-008,Sonu Chauhan,53.0,Tuesday,1:36:00 PM,34,95,12:00,Noida,False,0,2,Starter-I_100,8 ,-1451.6
+925,ae39a611-0023-4e5d-932b-9e56a3fdccf9,"Tuesday, May 30, 2023",B S  Madan,EPOD-010,Akash Kumar,86.0,Tuesday,2:45:00 PM,20,80,15:00,Gurgaon,False,0,1,HopchargeZ3Y,25,12.4
+926,860f758f-dd66-4dd5-9e60-c79802380eba,"Tuesday, May 30, 2023",Himanshu Thacker,EPOD-007,OPS sup,73.0,Tuesday,12:23:00 AM,20,69,01:00,Gurgaon,False,0,1,HopchargeZ3Y,32,1600
+927,6ecc6931-6b52-4405-94da-36e971d059ae,"Tuesday, May 30, 2023",Dinesh Sharma,EPOD-009,Jitender Singh,62.0,Tuesday,11:37:00 AM,9,80,12:00,Gurgaon,False,0,1,HopchargeZ,8,14
+928,e48c384c-3fb7-4dcc-a5a2-e9aebc60af76,"Tuesday, May 30, 2023",Manju Bhardwaj,EPOD006,OPS sup,33.0,Tuesday,6:40:00 AM,46,80,07:00,Delhi,False,0,1,HopchargeZ,16,760
+929,2f78b88d-4806-43cf-8d2b-588e67b05219,"Tuesday, May 30, 2023",Tumpa Banerjee ,EPOD-007,Pradeep Rawat,50.0,Tuesday,10:45:00 PM,22,80,23:00,Delhi,False,0,1,HopchargeZ,33,11.32
+930,a2cb16a9-e293-48f9-96bf-67f6841e1316,"Tuesday, May 30, 2023",Rama Shankar,EPOD-001,OPS sup,35.0,Tuesday,10:42:00 PM,38,80,21:00,Gurgaon,False,0,2,HopZ Lite,12,8.4
+931,9f7b1cb5-4ca8-4d8c-a8a7-98a5770cf77b,"Tuesday, May 30, 2023",nitin patil,EPOD-008,OPS sup,42.0,Tuesday,10:19:00 PM,36,80,22:00,Noida,False,0,2,HopchargeZ,16,1040
+932,d4079026-cc67-4cc0-b434-44da30162ab9,"Tuesday, May 30, 2023",nitin patil,EPOD-001,OPS sup,41.0,Tuesday,5:54:00 AM,15,80,07:00,Noida,False,0,1,HopchargeZ,15,1480
+933,0677b98d-8bd1-4c1f-9995-5260816a6bef,"Tuesday, May 30, 2023",Romil  Saxena,EPOD-008,Shakti singh,80.0,Tuesday,12:46:00 AM,34,80,01:00,Noida,False,0,0,HopchargeZ,11,1560
+934,a44c5073-c441-467d-8ae4-1ffff92adf7d,"Monday, May 29, 2023",Vaibhav  B,EPOD-002,OPS sup,43.0,Monday,9:40:00 PM,33,80,22:00,Noida,False,0,1,HopchargeZ3,5,680
+935,da0d5d2b-82cc-47b6-9f98-ad2e46f4f0a0,"Tuesday, May 30, 2023",Mohit  Tyagi ,EPOD-007,OPS sup,47.0,Tuesday,10:49:00 AM,45,77,11:00,Delhi,False,0,0,HopchargeZ,13,10.8
+936,a31373b2-4a5f-4fea-9eef-a3308867b032,"Monday, May 29, 2023",Ankit Kumar,EPOD-010,Akash Kumar,33.0,Monday,5:45:00 PM,35,80,18:00,Gurgaon,False,0,1,HopchargeZ,10,14.8
+937,fdc25430-6299-444c-bff0-c023b764dd63,"Tuesday, May 30, 2023",KULDEEP Singh ,EPOD-010,Aman Chaudhary,25.0,Tuesday,9:21:00 PM,60,81,22:00,Gurgaon,False,0,1,HopchargeZ,6,680
+938,fe465f1b-542a-43e6-82ca-c9cfd50c0753,"Tuesday, May 30, 2023",Nisha  Chauhan ,EPOD-003,OPS sup,33.0,Tuesday,7:39:00 AM,40,80,09:00,Noida,False,0,1,HopZ Lite,11,9.6
+939,18a938c1-b1a8-42ff-a382-d3a21592e42e,"Tuesday, May 30, 2023",Jyotendra Pallav,EPOD-009,Baljeet Kumar,61.0,Tuesday,10:30:00 PM,52,80,23:00,Gurgaon,False,0,1,HopchargeZ,17,11.6
+940,47479e2f-ae68-469d-bdd7-ad9efb0772f0,"Monday, May 29, 2023",Srishti  Sharma,EPOD-001,Deepak kumar,,Monday,9:45:00 PM,13,80,01:00,Noida,True,1,2,HopchargeZ,19,1320
+941,cf57f6bd-7ab8-429b-a7a6-99b25d4be73d,"Monday, May 29, 2023",Srishti  Sharma,EPOD-001,OPS sup,71.0,Monday,9:46:00 PM,13,80,22:00,Noida,False,0,0,HopchargeZ,15,1280
+942,2595dfe6-fcd4-488c-b7a0-91aef0d8e13a,"Tuesday, May 30, 2023",Vinod  Yadav,EPOD-011,Ravi Dutt,72.0,Tuesday,12:12:00 PM,28,77,13:00,Gurgaon,False,0,1,HopchargeZ,4 ,17.2
+943,601f5279-2423-46e8-9d93-1637178b0aef,"Monday, May 29, 2023",Vinod  Yadav,EPOD-005,Jitendra Singh New,65.0,Monday,2:41:00 PM,15,65,10:00,Gurgaon,False,0,1,HopchargeZ,23,15.6
+944,b4c34b75-f570-4d24-86f4-4652db73f33c,"Tuesday, May 30, 2023",Sankalp Maheshwari,EPOD-007,Pradeep Rawat,67.0,Tuesday,5:45:00 AM,18,80,06:00,Delhi,False,0,1,HopchargeX3,32,11.76
+945,eb818526-647b-4d9a-b792-648f88dcaa19,"Tuesday, May 30, 2023",Karan  Ray,EPOD-004,OPS sup,60.0,Tuesday,4:07:00 AM,40,80,06:00,Delhi,False,0,1,HopchargeZ,16,920
+946,60d21eac-fb03-4926-bd6e-c6209b98948e,"Tuesday, May 30, 2023",Madhu Srivastava,EPOD-005,Jitendra Singh New,,Tuesday,6:45:00 PM,27,70,19:00,Gurgaon,False,0,1,HopchargeZ,8,26
+947,ec4ce907-9b9d-4fc3-b8d2-4ca772dea82e,"Monday, May 29, 2023",Dr. Rohit Nara,EPOD-011,OPS sup,70.0,Monday,9:45:00 PM,58,80,22:00,Gurgaon,False,0,1,HopchargeZ,12,720
+948,c32c13b3-c542-4c62-8d5e-8417b56add71,"Monday, May 29, 2023",Vinit Chadha,EPOD-005,Jitendra Singh New,59.0,Monday,5:45:00 PM,22,80,18:00,Gurgaon,False,0,1,HopchargeZ,15,13.6
+949,77040eb3-4d45-46ba-92aa-2e11f9bf711e,"Monday, May 29, 2023",Manju Bhardwaj,EPOD-010,Akash Kumar,,Monday,2:51:00 PM,25,80,19:00,Gurgaon,True,0,1,HopchargeZ,12,10.8
+950,9c2b724d-6b5b-4695-9af1-bda619e76361,"Monday, May 29, 2023",Girish  Bhatia ,EPOD-007,Others,117.0,Monday,9:00:00 AM,10,75,10:00,Delhi,False,0,1,HopX3Y (GB) ,5,15.2
+951,969acc9e-ce65-439f-80d9-ecc63a10c10f,"Monday, May 29, 2023",Anil Raao,EPOD-010,Aman Chaudhary,72.0,Monday,1:45:00 AM,47,80,02:00,Gurgaon,False,0,1,HopchargeZ,6,10.8
+952,3275f3a3-8ecc-45f9-b1d9-8cab3dfd00d9,"Monday, May 29, 2023",Pragun Mittal,EPOD-003,Shoyab ali,65.0,Monday,9:57:00 AM,80,95,10:00,Noida,False,0,0,HopchargeZ,33,6.4
+953,038257f0-00e2-4aa3-9e17-a0728b26d5f1,"Monday, May 29, 2023",Pragun Mittal,EPOD-003,Ankush chauhan,76.0,Monday,1:45:00 AM,26,80,05:00,Noida,False,0,1,HopchargeZ,8,480
+954,8e8858a2-853f-46cb-8f90-1cf0db86cc7b,"Monday, May 29, 2023",Deepak  Sharma,EPOD-010,Aman Chaudhary,13.0,Monday,4:45:00 AM,85,99,05:00,Gurgaon,False,0,1,HopchargeZ,5,2.8
+955,74cc420c-bcd4-4994-ad98-232a27a906d5,"Monday, May 29, 2023",Nischal  Chauhan ,EPOD-003,OPS sup,43.0,Monday,1:47:00 AM,47,80,02:00,Noida,False,0,0,HopchargeZ,15,1360
+956,3e22de1f-1e65-4801-8276-9e4cd655c3dd,"Monday, May 29, 2023",Gamini Mundra,EPOD-007,Others,87.0,Monday,2:00:00 AM,27,80,15:00,Delhi,False,0,1,HopchargeZ,20,17.2
+957,2074920b-2c31-4711-8f52-90008d9a73ed,"Monday, May 29, 2023",Rashmi Kumari,EPOD-010,Akash Kumar,59.0,Monday,12:46:00 PM,43,80,13:00,Gurgaon,False,0,0,HopchargeZ,15,12.4
+958,8dab863a-89b9-4e3f-a376-9e14609ff931,"Monday, May 29, 2023",Karan  Ray,EPOD-001,OPS sup,66.0,Monday,4:51:00 AM,15,80,06:00,Delhi,False,0,1,HopchargeZ,18,1520
+959,c67e48dc-d660-4ead-afe7-b9a1a67395e9,"Monday, May 29, 2023",Romil  Saxena,EPOD-001,OPS sup,49.0,Monday,1:00:00 AM,39,80,01:00,Noida,False,0,0,HopchargeZ,13,1320
+960,dbd662e6-2346-442f-a356-d5eeb1bbc61d,"Sunday, May 28, 2023",Renu Talwar,EPOD-003,Ankush chauhan,57.0,Sunday,1:45:00 AM,47,80,22:00,Noida,False,0,1,HopchargeZ,18,1360
+961,f9dda9e5-f340-4af7-9cac-017bc70ea077,"Monday, May 29, 2023",Rajeev Kumar,EPOD-008,OPS sup,52.0,Monday,5:50:00 AM,18,80,06:00,Noida,False,0,0,Hopcharge-X12,16,1240
+962,18b8b721-5522-4efa-a8b1-e6207c9d7a09,"Monday, May 29, 2023",Gaurav Manchanda,EPOD-007,Pradeep Rawat,78.0,Monday,12:45:00 AM,29,90,01:00,Delhi,False,0,1,HopchargeZ,15,19.96
+963,deea04e1-dc73-434f-bc16-52806d806008,"Monday, May 29, 2023",Rama Shankar,EPOD-003,Ankush chauhan,56.0,Monday,10:25:00 PM,34,84,22:00,Noida,False,0,2,HopZ Lite,33,920
+964,71f2c8c2-66e2-4ab9-b758-3253bc10c29d,"Monday, May 29, 2023",Mohit  Tyagi ,EPOD006,Others,89.0,Monday,4:49:00 PM,32,80,17:00,Delhi,False,0,0,HopchargeZ,13,16.4
+965,b9f69cfe-5a63-428b-973b-c882c48581f9,"Monday, May 29, 2023",Sandeep Yadav,EPOD-009,Jitender Singh,46.0,Monday,4:32:00 PM,24,80,17:00,Gurgaon,False,0,1,HopchargeZ3,18,12.8
+966,e19982f7-8844-497c-881d-a85186818eec,"Monday, May 29, 2023",Sandeep Yadav,EPOD-009,Sachin Rajput,52.0,Monday,12:43:00 AM,20,80,01:00,Gurgaon,False,0,1,HopchargeZ3,7,14
+967,f5692e06-6241-4406-8c13-368d04262d84,"Monday, May 29, 2023",KULDEEP Singh ,EPOD-005,OPS sup,37.0,Monday,9:47:00 PM,50,80,22:00,Gurgaon,False,0,0,HopchargeZ,9,1400
+968,73049b7c-a567-4a6c-bef9-5f73b4289154,"Sunday, May 28, 2023",Vaibhav  B,EPOD-001,OPS sup,9.0,Sunday,9:42:00 PM,8,58,22:00,Noida,False,0,1,HopchargeZ3,19,1640
+969,cda1cd2e-33b4-4a74-b0db-c68d16b5029b,"Monday, May 29, 2023",Shubhra  Vanjani,EPOD006,Others,25.0,Monday,9:33:00 AM,60,80,10:00,Noida,False,0,1,HopchargeZ,12,4.4
+970,7bcdff07-8658-4f03-92bf-8a1e20c870cd,"Monday, May 29, 2023",Sanjay Kumar,EPOD-004,OPS sup,50.0,Monday,11:40:00 PM,22,95,22:00,Delhi,False,0,2,Starter-I_100,8,1440
+971,fd619ccd-4459-4dbf-b290-edd076e4e97b,"Monday, May 29, 2023",Sanjay Kumar,EPOD-008,Sonu Chauhan,102.0,Monday,2:46:00 PM,31,96,15:00,Noida,False,0,0,Starter-I_100,18,14.8
+972,883eea1a-4061-4684-97c4-d035f2387026,"Monday, May 29, 2023",Tumpa Banerjee ,EPOD-010,Aman Chaudhary,10.0,Monday,10:57:00 PM,68,80,23:00,Gurgaon,False,0,0,HopchargeZ,8,2
+973,0acd6697-da66-4b93-81ef-46e4d21687b8,"Monday, May 29, 2023",Vinit Chadha,EPOD-011,Rohit Yadav,41.0,Monday,12:45:00 PM,37,80,01:00,Gurgaon,False,0,1,HopchargeZ,18,10
+974,c78b0f2d-86d1-42d4-9f9e-938d1151b30f,"Monday, May 29, 2023",Harsh Khandelwal,EPOD-007,Pradeep Rawat,61.0,Monday,4:51:00 AM,30,68,06:00,Delhi,False,0,1,Hopcharge1,4.8,15.88
+975,394a6355-eb5a-4367-a8f2-e8d9bd10fa92,"Sunday, May 28, 2023",Jyotendra Pallav,EPOD-010,Punil Kumar,54.0,Sunday,1:46:00 PM,58,80,14:00,Gurgaon,False,0,0,HopchargeZ,15,9.2
+976,b13dc2e8-d741-48fa-8e27-3a386dbccde0,"Monday, May 29, 2023",Amit Kr Chauhan ,EPOD-009,Sachin Rajput,26.0,Monday,4:17:00 AM,48,80,08:00,Gurgaon,False,0,1,HopchargeZ3,20,4
+977,6e754939-5294-413e-9b9c-b14b0f914ca5,"Sunday, May 28, 2023",Sanjay Kumar,EPOD-001,Ankit Kumar Gupta,97.0,Sunday,12:18:00 PM,42,95,18:00,Noida,False,0,1,Starter-I_100,15,11.2
+978,c12d218c-ac16-4dea-8bf4-82a37605a8e4,"Sunday, May 28, 2023",Mohit  Tyagi ,EPOD-007,Others,100.0,Sunday,1:47:00 PM,24,85,14:00,Delhi,False,0,0,HopchargeZ,11,20.4
+979,d00b8271-6dd6-4021-8c4e-716121914c64,"Sunday, May 28, 2023",Tumpa Banerjee ,EPOD-003,Ankush chauhan,40.0,Sunday,9:45:00 PM,57,80,22:00,Ghaziabad,False,0,1,HopchargeZ,14,1000
+980,53737de4-c702-49e6-91fa-85c46eb5cf79,"Sunday, May 28, 2023",Rishi Shukla,EPOD-009,Jitender Singh,30.0,Sunday,4:58:00 PM,29,80,17:00,Gurgaon,False,0,0,HopchargeZ,22,12
+981,7652a9f5-a9da-4d05-b8ee-d89a6af5cfde,"Sunday, May 28, 2023",Narendra Singh,EPOD-008,Shakti singh,77.0,Sunday,1:45:00 AM,17,80,07:00,Noida,False,0,1,FLEX,16,1080
+982,ad86552f-5af3-42c4-b879-63ed0b406c0d,"Sunday, May 28, 2023",Aman Tyagi,EPOD-008,Sonu Chauhan,67.0,Sunday,9:35:00 AM,15,80,10:00,Noida,False,0,1,Hopcharge-X,15,3417.6
+983,5ecaf204-d091-4dcc-83f0-c04b33beae64,"Sunday, May 28, 2023",Rama Shankar,EPOD-004,OPS sup,33.0,Sunday,8:50:00 PM,43,80,21:00,Noida,False,0,0,HopZ Lite,12,720
+984,0a2d8fa8-5a69-432e-86c7-35759fe9a7a9,"Sunday, May 28, 2023",Amit Kr Chauhan ,EPOD-010,Aman Chaudhary,29.0,Sunday,9:46:00 PM,8,58,22:00,Gurgaon,False,0,0,HopchargeZ3,6,16.4
+985,37524dd7-2cf6-4a6d-9b2b-e43e2222cff1,"Sunday, May 28, 2023",Tarun Wadhwa ,EPOD-010,Aman Chaudhary,63.0,Sunday,1:45:00 AM,49,80,07:00,Gurgaon,False,0,1,HopchargeZ,13,6.4
+986,f61529f5-cc04-4d8f-a690-196eaf469ab8,"Saturday, May 27, 2023",Rishabh Singhal,EPOD-007,OPS sup,59.0,Saturday,6:36:00 PM,15,80,02:00,Delhi,False,0,2,,10,15.2
+987,20abedb8-13ab-4571-8989-0ac435083317,"Sunday, May 28, 2023",Dinesh Sharma,EPOD-009,Jitender Singh,58.0,Sunday,12:43:00 PM,10,80,13:00,Gurgaon,False,0,1,HopchargeZ,8,13.6
+988,70fe7b3f-39da-467f-812e-cd2b28cf34cd,"Sunday, May 28, 2023",Shubhra  Vanjani,EPOD006,Others,25.0,Sunday,11:00:00 AM,39,100,09:00,Delhi,False,0,2,HopchargeZ,14,13.2
+989,35b82874-58c5-430e-80dd-b9c39c6f8147,"Sunday, May 28, 2023",Pradeep  Saini,EPOD006,OPS sup,90.0,Sunday,12:51:00 AM,14,80,01:00,Delhi,False,0,0,HopchargeZ3Y,23,2200
+990,0a015dfb-681f-4da4-989b-d23a2387c82a,"Sunday, May 28, 2023",Romil  Saxena,EPOD-001,OPS sup,38.0,Sunday,12:56:00 AM,55,82,01:00,Noida,False,0,0,HopchargeZ,16,880
+991,9ff639f3-e2ec-4b49-a2af-c3209f343b3e,"Sunday, May 28, 2023",Vinay Yadav,EPOD-004,Rohit Nagar,98.0,Sunday,4:40:00 PM,14,71,17:00,Noida,False,0,1,HopchargeX,34,18.8
+992,8e43fbe4-7dc7-451e-9bb1-e5696946d4b9,"Sunday, May 28, 2023",Vinit Chadha,E-POD-012,Pradeep kumar,46.0,Sunday,4:00:00 PM,32,81,17:00,Gurgaon,False,0,1,HopchargeZ,8,11.2
+993,de03bf5a-1f4b-484b-af9e-6600ef36be19,"Sunday, May 28, 2023",Nischal  Chauhan ,EPOD-007,Pradeep Rawat,39.0,Sunday,9:45:00 PM,39,80,22:00,Delhi,False,0,1,HopchargeZ,20,3775.32
+994,3d5593ab-9f2d-4850-89db-9cc3e69a78a2,"Sunday, May 28, 2023",PAWAN KHANDELWAL,EPOD-005,Pritam Kumar,40.0,Sunday,5:32:00 PM,40,80,19:00,Gurgaon,False,0,1,HopchargeZ,12,9.08
+995,5b1324b2-f9ab-4ee6-8af4-6c52e8216880,"Sunday, May 28, 2023",KULDEEP Singh ,EPOD-009,Sachin Rajput,64.0,Sunday,9:45:00 AM,15,65,10:00,Gurgaon,False,0,1,HopchargeZ,8,16.4
+996,ceec1353-cabd-4754-bd9d-99d3cc9fbf6c,"Sunday, May 28, 2023",Madhu Gogia,E-POD-012,Pradeep kumar,79.0,Sunday,8:30:00 AM,6,85,10:00,Gurgaon,False,0,1,,13,3186
+997,abbac447-6655-4507-b50e-6686b31abb4b,"Sunday, May 28, 2023",Manju Bhardwaj,EPOD-005,Others,68.0,Sunday,6:30:00 PM,10,80,19:00,Gurgaon,False,0,1,HopchargeZ,13,13.6
+998,fe1f13fe-fabe-4992-93f0-209381a4f415,"Sunday, May 28, 2023",Vinit Chadha,EPOD-011,Rohit Yadav,45.0,Sunday,6:45:00 AM,29,80,07:00,Gurgaon,False,0,1,HopchargeZ,14,-1056.8
+999,7079fa76-d3a9-4618-9a73-d3c52cf11ad8,"Sunday, May 28, 2023",Pragun Mittal,EPOD-005,Jitendra Singh New,49.0,Sunday,1:40:00 AM,32,80,02:00,Gurgaon,False,0,1,HopchargeZ,7,9.2
