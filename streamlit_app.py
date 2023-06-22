@@ -478,11 +478,6 @@ with tab1:
             gauge={'axis': {'range': gauge_range}}
         ))
         city_start_soc_median_gauge.update_layout(width=150, height=250)
-
-
-
-        
-
         city_end_soc_max_gauge = go.Figure(go.Indicator(
             mode="gauge+number",
             value=city_end_soc_max,
@@ -540,6 +535,12 @@ with tab1:
             st.plotly_chart(end_soc_avg_gauge)
         with col8:
             st.plotly_chart(end_soc_median_gauge)
+        
+
+
+
+        
+
         
     
 
