@@ -428,9 +428,11 @@ with tab1:
     with col8:
         st.plotly_chart(end_soc_median_gauge)
         
+    
+
     for city in allowed_cities:
-        city_start_soc_stats = start_soc_stats[start_soc_stats.index == city]
-        city_end_soc_stats = end_soc_stats[end_soc_stats.index == city]
+        city_start_soc_stats = filtered_df[filtered_df['Customer Location City'] == city]['Actual SoC_Start'].agg(['max', 'min', 'mean', 'median'])
+        city_end_soc_stats = filtered_df[filtered_df['Customer Location City'] == city]['Actual Soc_End'].agg(['max', 'min', 'mean', 'median'])
 
         
         city_start_soc_max = city_start_soc_stats['max'].values.max()
