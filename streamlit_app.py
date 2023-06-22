@@ -427,9 +427,45 @@ with tab1:
         st.plotly_chart(end_soc_avg_gauge)
     with col8:
         st.plotly_chart(end_soc_median_gauge)
-
+        
     for city in allowed_cities:
-        st.subheader(city)
+        city_start_soc_max = # Get max Start SoC for the current city
+        city_start_soc_min = # Get min Start SoC for the current city
+        city_start_soc_avg = # Get average Start SoC for the current city
+        city_start_soc_median = # Get median Start SoC for the current city
+
+        city_end_soc_max = # Get max End SoC for the current city
+        city_end_soc_min = # Get min End SoC for the current city
+        city_end_soc_avg = # Get average End SoC for the current city
+        city_end_soc_median = # Get median End SoC for the current city
+
+        # Create gauge chart for the current city
+        city_start_soc_gauge = go.Figure(go.Indicator(
+            mode="gauge+number",
+            value=city_start_soc_max,
+            title={'text': f"Start SoC - {city}", 'font': {'size': 15}},
+            domain={'x': [0, 1], 'y': [0, 1]},
+            gauge={'axis': {'range': gauge_range}}
+        ))
+       city_start_soc_gauge.update_layout(width=150, height=250)
+
+       city_end_soc_gauge = go.Figure(go.Indicator(
+           mode="gauge+number",
+           value=city_end_soc_max,
+           title={'text': f"End SoC - {city}", 'font': {'size': 15}},
+           domain={'x': [0, 1], 'y': [0, 1]},
+           gauge={'axis': {'range': gauge_range}}
+       ))
+       city_end_soc_gauge.update_layout(width=150, height=250)
+
+       # Plot the gauge graphs for the current city
+       st.subheader(city)
+       st.plotly_chart(city_start_soc_gauge)
+       st.plotly_chart(city_end_soc_gauge)
+    
+
+    
+
 
 with tab2:
 
