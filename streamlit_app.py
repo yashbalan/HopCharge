@@ -2,7 +2,7 @@
 import pandas as pd
 import streamlit as st
 from datetime import datetime
-import plotly.express as px                   
+import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
 import pandas as pd
@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 import seaborn as sns
 import re
 import matplotlib.pyplot as plt
-import time
+from PIL import Image
 
 df1 = pd.DataFrame(pd.read_csv(
     'Ops_Session_Data.csv', encoding='latin1'))
@@ -151,6 +151,7 @@ st.markdown(
     body {
         overflow-x: hidden;
         overflow-yr: hidden;
+        color:black;
     }
     </style>
     """,
@@ -159,9 +160,11 @@ st.markdown(
 
 
 df = merged_df
-
-tab1, tab2, tab3, tab4 = st.tabs(
-    ["Executive Dashboard", "Charge Pattern Insights", "EPod Stats", "Operator Stats"])
+image = Image.open('Hpcharge.png')
+col1, col2, col3, col4, col5 = st.columns(5)
+col3.image(image, use_column_width=False)
+tab1, tab2, tab3, tab4, tab5 = st.tabs(
+    ["Executive Dashboard", "Charge Pattern Insights", "EPod Stats", "Operator Stats", "Subscription Insights"])
 
 
 with tab1:
@@ -193,20 +196,19 @@ with tab1:
         name='Record Count')
     record_count_df = record_count_df.sort_values(by='Record Count')
     city_count_df = city_count_df.sort_values(by='Record Count')
-    start_soc_stats = filtered_df.groupby(['EPOD Name', 'Customer Location City'])['Actual SoC_Start'].agg(['max', 'min', 'mean', 'median'])
-    end_soc_stats = filtered_df.groupby(['EPOD Name', 'Customer Location City'])['Actual Soc_End'].agg(['max', 'min', 'mean', 'median'])
+    start_soc_stats = filtered_df.groupby('EPOD Name')['Actual SoC_Start'].agg([
+        'max', 'min', 'mean', 'median'])
 
+    end_soc_stats = filtered_df.groupby('EPOD Name')['Actual Soc_End'].agg([
+        'max', 'min', 'mean', 'median'])
     start_soc_stats = start_soc_stats.sort_values(by='EPOD Name')
     end_soc_stats = end_soc_stats.sort_values(by='EPOD Name')
-
     kpi_flag_data = filtered_df['t-15_kpi']
 
-    # Calculate counts
     before_time_count = (kpi_flag_data == 1).sum()
     on_time_count = (kpi_flag_data == 0).sum()
     delay_count = (kpi_flag_data == 2).sum()
 
-    # Calculate percentages
     total_count = before_time_count + delay_count + on_time_count
     before_time_percentage = (before_time_count / total_count) * 100
     on_time_percentage = (on_time_count / total_count) * 100
@@ -425,35 +427,15 @@ with tab1:
         st.plotly_chart(end_soc_avg_gauge)
     with col8:
         st.plotly_chart(end_soc_median_gauge)
-        
+
     for city in allowed_cities:
         st.subheader(city)
-
-
-
-    
-
-       
-    
-        
-
-   
-
-
-
-    
-
-
-
-
-    
-    
 
 with tab2:
 
     CustomerNames = df['Customer Name_x'].unique()
     SubscriptionNames = df['type'].unique()
-    HSZs = df['Customer Location City'].unique()
+
     col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
 
     with col1:
@@ -466,16 +448,12 @@ with tab2:
     with col2:
         end_date = st.date_input(
             'End Date', min_value=min_date, max_value=max_date, value=max_date, key="cpi-date-end")
-    with col5:
+    with col4:
 
         Name = st.multiselect(label='Select The Customers',
                               options=['All'] + CustomerNames.tolist(),
                               default='All')
 
-    with col4:
-        HSZ_Filter = st.multiselect(label='Select HSZ',
-                                    options=['All']+HSZs.tolist(),
-                                    default='All')
     with col3:
         Sub_filter = st.multiselect(label='Select Subscription',
                                     options=['All'] +
@@ -493,41 +471,45 @@ with tab2:
     if 'All' in Sub_filter:
         Sub_filter = SubscriptionNames
 
-    if 'All' in HSZ_Filter:
-        HSZ_Filter = HSZs
     filtered_data = filtered_data[
         (filtered_data['Customer Name_x'].isin(Name)) &
-        (filtered_data['type'].isin(Sub_filter)) &
-        (filtered_data['Customer Location City'].isin(
-            HSZ_Filter))
+        (filtered_data['type'].isin(Sub_filter))
     ]
 
     def generate_multiline_plot(data):
         fig = go.Figure()
         color_map = {0: 'blue', 1: 'green', 2: 'red'}
         names = {0: "T-15 Not Fulfilled", 1: "T-15 Fulfilled", 2: "Delayed"}
+
+        # compute total count
+        total_count = data.groupby('Day')['count'].sum().reset_index()
+        total_count['percent'] = round(
+            total_count['count']/total_count['count'].sum()*100, 2)
+
         for kpi_flag in data['t-15_kpi'].unique():
             subset = data[data['t-15_kpi'] == kpi_flag]
-            fig.add_trace(go.Scatter(x=subset['Day'], y=subset['count'], mode='lines+markers',
-                                     name=names[kpi_flag], line_color=color_map[kpi_flag]))
+            # create a colorscale with the same color
+            colorscale = [[0, color_map[kpi_flag]], [1, color_map[kpi_flag]]]
+            fig.add_trace(go.Scatter(x=subset['Day'], y=subset['count'], mode='lines+markers+text',
+                                     name=names[kpi_flag], line_color=color_map[kpi_flag],
 
-        total_count = data.groupby('Day')['count'].sum().reset_index()
-        fig.add_trace(go.Scatter(x=total_count['Day'], y=total_count['count'], mode='lines+markers',
-                                 name='Total Count', line_color='yellow'))
+                                     text=[f"{round(count/total_count[total_count['Day']==day]['count'].values[0]*100, 1)}%"
+                                           for day, count in zip(subset['Day'], subset['count'])],
+
+                                     showlegend=False))
+
+        fig.add_trace(go.Scatter(x=total_count['Day'], y=total_count['count'], mode='lines+markers+text',
+                                 name='Total Count', line_color='yellow',
+                                 text=total_count['count'],
+                                 textposition='top center',
+
+                                 showlegend=False))
 
         fig.update_layout(
             xaxis_title='Day', yaxis_title='Count', legend=dict(x=0, y=1.2, orientation='h'))
         fig.update_yaxes(title='Count', range=[
-                         0, total_count['count'].max() * 1.2])
-        for trace in fig.data:
-            fig.add_trace(go.Scatter(
-                x=trace.x,
-                y=trace.y,
-                mode='text',
-                text=trace.y,
-                textposition='top center',
-                showlegend=False
-            ))
+            0, total_count['count'].max() * 1.2])
+
         fig.update_layout(width=500, height=380)
         return fig
 
@@ -633,17 +615,30 @@ with tab2:
                          0, total_count['count'].max() * 1.2])
 
         for trace in fig.data:
-            fig.add_trace(go.Scatter(
-                x=trace.x,
-                y=trace.y,
-                mode='text',
-                text=trace.y,
-                textposition='top center',
-                showlegend=False
-            ))
+            if trace.name == 'Total Count':
+                fig.add_trace(go.Scatter(
+                    x=trace.x,
+                    y=trace.y,
+                    mode='text',
+                    text=trace.y,
+                    textposition='top center',
+                    showlegend=False
+                ))
+        for trace in fig.data:
+            if trace.line.color == 'green' or trace.line.color == 'blue' or trace.line.color == 'red':
+                trace_text = [
+                    f'{y/total_count["count"].sum()*100:.1f}%' for y in trace.y]
+                fig.add_trace(go.Scatter(
+                    x=trace.x,
+                    y=trace.y,
+                    mode='text',
+                    text=trace_text,
+                    textposition='top center',
+                    showlegend=False
+                ))
         fig.update_layout(xaxis=dict(tickmode='array', tickvals=list(
             range(24)), ticktext=list(range(24))))
-        fig.update_layout(width=1100, height=350)
+        fig.update_layout(width=1100, height=450)
 
         return fig
 
@@ -680,6 +675,264 @@ with tab2:
 
     with col1:
         st.plotly_chart(multiline_plot)
+
+    st.divider()
+    HSZs = df['Customer Location City'].dropna().unique()
+    for city in HSZs:
+        st.subheader(city)
+        CustomerNames = df['Customer Name_x'].unique()
+        SubscriptionNames = df['type'].unique()
+
+        col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
+
+        with col1:
+            df['Actual Date'] = pd.to_datetime(
+                df['Actual Date'], errors='coerce')
+            min_date = df['Actual Date'].min().date()
+            max_date = df['Actual Date'].max().date()
+            start_date = st.date_input(
+                'Start Date', min_value=min_date, max_value=max_date, value=min_date, key=f"{city}cpi-date-start")
+
+        with col2:
+            end_date = st.date_input(
+                'End Date', min_value=min_date, max_value=max_date, value=max_date, key=f"{city}cpi-date-end")
+        with col4:
+
+            Name = st.multiselect(label='Select The Customers',
+                                  options=['All'] + CustomerNames.tolist(),
+                                  default='All', key=f"{city}names")
+
+        with col3:
+            Sub_filter = st.multiselect(label='Select Subscription',
+                                        options=['All'] +
+                                        SubscriptionNames.tolist(),
+                                        default='All', key=f"{city}sub")
+
+        start_date = pd.to_datetime(start_date)
+        end_date = pd.to_datetime(end_date)
+        filtered_data = df[(df['Actual Date'] >= start_date)
+                           & (df['Actual Date'] <= end_date)]
+
+        if 'All' in Name:
+            Name = CustomerNames
+
+        if 'All' in Sub_filter:
+            Sub_filter = SubscriptionNames
+
+        filtered_data = filtered_data[
+            (filtered_data['Customer Name_x'].isin(Name)) &
+            (filtered_data['type'].isin(Sub_filter))
+        ]
+        filtered_data = filtered_data[
+            (filtered_data['Customer Location City'] == city)]
+
+        def generate_multiline_plot(data):
+            fig = go.Figure()
+            color_map = {0: 'blue', 1: 'green', 2: 'red'}
+            names = {0: "T-15 Not Fulfilled",
+                     1: "T-15 Fulfilled", 2: "Delayed"}
+
+            # compute total count
+            total_count = data.groupby('Day')['count'].sum().reset_index()
+            total_count['percent'] = round(
+                total_count['count']/total_count['count'].sum()*100, 2)
+
+            for kpi_flag in data['t-15_kpi'].unique():
+                subset = data[data['t-15_kpi'] == kpi_flag]
+                # create a colorscale with the same color
+                colorscale = [[0, color_map[kpi_flag]],
+                              [1, color_map[kpi_flag]]]
+                fig.add_trace(go.Scatter(x=subset['Day'], y=subset['count'], mode='lines+markers+text',
+                                         name=names[kpi_flag], line_color=color_map[kpi_flag],
+
+                                         text=[f"{round(count/total_count[total_count['Day']==day]['count'].values[0]*100, 1)}%"
+                                               for day, count in zip(subset['Day'], subset['count'])],
+
+                                         showlegend=False))
+
+            fig.add_trace(go.Scatter(x=total_count['Day'], y=total_count['count'], mode='lines+markers+text',
+                                     name='Total Count', line_color='yellow',
+                                     text=total_count['count'],
+                                     textposition='top center',
+
+                                     showlegend=False))
+
+            fig.update_layout(
+                xaxis_title='Day', yaxis_title='Count', legend=dict(x=0, y=1.2, orientation='h'))
+            fig.update_yaxes(title='Count', range=[
+                0, total_count['count'].max() * 1.2])
+
+            fig.update_layout(width=500, height=380)
+            return fig
+
+        day_order = ['Monday', 'Tuesday', 'Wednesday',
+                     'Thursday', 'Friday', 'Saturday', 'Sunday']
+        filtered_data['Day'] = pd.Categorical(
+            filtered_data['Day'], categories=day_order, ordered=True)
+
+        daily_count = filtered_data.groupby(
+            ['Day', 't-15_kpi']).size().reset_index(name='count')
+        maxday = filtered_data.groupby(
+            ['Day']).size().reset_index(name='count')
+
+        maxday['count'] = maxday['count'].astype(int)
+
+        max_count_index = maxday['count'].idxmax()
+
+        max_count_day = maxday.loc[max_count_index, 'Day']
+
+        minday = filtered_data.groupby(
+            ['Day']).size().reset_index(name='count')
+
+        minday['count'] = minday['count'].astype(int)
+
+        min_count_index = minday['count'].idxmin()
+
+        min_count_day = minday.loc[min_count_index, 'Day']
+
+        with col7:
+            for i in range(1, 10):
+                st.write("\n")
+            st.markdown("Most Sessions on Day")
+            st.markdown("<span style = 'font-size:25px;line-height: 0.8;'>" +
+                        max_count_day+"</span>", unsafe_allow_html=True)
+        with col7:
+            st.markdown("Min Sessions on Day")
+            st.markdown("<span style = 'font-size:25px;line-height: 0.8;'>" +
+                        min_count_day+"</span>", unsafe_allow_html=True)
+        multiline_plot = generate_multiline_plot(daily_count)
+
+        with col4:
+
+            st.plotly_chart(multiline_plot)
+
+        def count_t15_kpi(df):
+            try:
+                return df.groupby(
+                    ['t-15_kpi']).size()['1']
+            except KeyError:
+                return 0
+
+        def count_sessions(df):
+            return df.shape[0]
+
+        def count_cancelled(df):
+            try:
+                return df.groupby(['canceled_x']).size()[True]
+            except KeyError:
+                return 0
+
+        def count_cancelledPenalty(df):
+            try:
+                return df.groupby(['cancelledPenalty']).size()[1]
+            except KeyError:
+                return 0
+
+        total_sessions = count_sessions(filtered_data)
+        cancelled_sessions = count_cancelled(filtered_data)
+        cancelled_sessions_with_penalty = count_cancelledPenalty(filtered_data)
+        labels = ['Total Sessions', 'Cancelled Sessions',
+                  'Cancelled with Penalty']
+        values = [total_sessions-cancelled_sessions-cancelled_sessions_with_penalty, cancelled_sessions,
+                  cancelled_sessions_with_penalty]
+
+        colors = ['blue', 'orange', 'red']
+
+        fig = go.Figure(
+            data=[go.Pie(labels=labels, values=values, hole=0.7, textinfo='label+value+percent', marker=dict(colors=colors))])
+        fig.update_layout(
+            showlegend=True, width=500)
+        fig.add_annotation(
+            text=f"Overall Sessions: {total_sessions}", x=0.5, y=0.5, font_size=15, showarrow=False)
+        fig.update_layout(width=500, height=400)
+        with col1:
+            st.plotly_chart(fig)
+
+        def generate_multiline_plot(data):
+            fig = go.Figure()
+            color_map = {0: 'blue', 1: 'green', 2: 'red'}
+            names = {0: "T-15 Not Fulfilled",
+                     1: "T-15 Fulfilled", 2: "Delayed"}
+
+            for kpi_flag in data['t-15_kpi'].unique():
+                subset = data[data['t-15_kpi'] == kpi_flag]
+                fig.add_trace(go.Scatter(x=subset['Booking Session time'], y=subset['count'], mode='lines+markers',
+                                         name=names[kpi_flag], line_color=color_map[kpi_flag]))
+
+            total_count = data.groupby('Booking Session time')[
+                'count'].sum().reset_index()
+            fig.add_trace(go.Scatter(x=total_count['Booking Session time'], y=total_count['count'], mode='lines+markers',
+                                     name='Total Count', line_color='yellow'))
+
+            fig.update_layout(xaxis_title='Booking Session Time',
+                              yaxis_title='Count', legend=dict(x=0, y=1.2, orientation='h'))
+            fig.update_yaxes(title='Count', range=[
+                0, total_count['count'].max() * 1.2])
+
+            for trace in fig.data:
+                if trace.name == 'Total Count':
+                    fig.add_trace(go.Scatter(
+                        x=trace.x,
+                        y=trace.y,
+                        mode='text',
+                        text=trace.y,
+                        textposition='top center',
+                        showlegend=False
+                    ))
+            for trace in fig.data:
+                if trace.line.color == 'green' or trace.line.color == 'blue' or trace.line.color == 'red':
+                    trace_text = [
+                        f'{y/total_count["count"].sum()*100:.1f}%' for y in trace.y]
+                    fig.add_trace(go.Scatter(
+                        x=trace.x,
+                        y=trace.y,
+                        mode='text',
+                        text=trace_text,
+                        textposition='top center',
+                        showlegend=False
+                    ))
+            fig.update_layout(xaxis=dict(tickmode='array', tickvals=list(
+                range(24)), ticktext=list(range(24))))
+            fig.update_layout(width=1100, height=450)
+
+            return fig
+
+        filtered_data['Booking Session time'] = pd.to_datetime(
+            filtered_data['Booking Session time'], format='%H:%M').dt.hour
+
+        daily_count = filtered_data.groupby(
+            ['Booking Session time', 't-15_kpi']).size().reset_index(name='count')
+        maxmindf = filtered_data.groupby(
+            ['Booking Session time']).size().reset_index(name='count')
+        max_count_index = maxmindf['count'].idxmax()
+
+    # Retrieve the time with the maximum count
+        max_count_time = maxmindf.loc[max_count_index, 'Booking Session time']
+
+    # Find the index of the row with the minimum count
+        min_count_index = maxmindf['count'].idxmin()
+
+    # Retrieve the time with the minimum count
+        min_count_time = maxmindf.loc[min_count_index, 'Booking Session time']
+        with col7:
+            for i in range(1, 18):
+                st.write("\n")
+            st.markdown("Max Sessions at Time")
+            st.markdown("<span style = 'font-size:25px;line-height: 0.8;'>" +
+                        str(max_count_time)+"</span>", unsafe_allow_html=True)
+
+        with col7:
+            st.markdown("Min Sessions at Time")
+            st.markdown("<span style = 'font-size:25px;line-height: 0.8;'>" +
+                        str(min_count_time)+"</span>", unsafe_allow_html=True)
+
+        multiline_plot = generate_multiline_plot(daily_count)
+
+        with col1:
+            st.plotly_chart(multiline_plot)
+
+        st.divider()
+
 
 with tab3:
     col1, col2, col3, col4, col5, col6 = st.columns(6)
@@ -876,15 +1129,51 @@ with tab3:
 
     with col4:
         st.plotly_chart(fig)
-
+    st.divider()
     for city in df['Customer Location City'].dropna().unique():
+
+        st.subheader(city)
+
+        col1, col2, col3, col4, col5, col6 = st.columns(6)
         with col1:
-            st.write("\n")
-            st.subheader(city)
-        citydf = filtered_data[
+            df['Actual Date'] = pd.to_datetime(
+                df['Actual Date'], errors='coerce')
+            min_date = df['Actual Date'].min().date()
+            max_date = df['Actual Date'].max().date()
+            start_date = st.date_input(
+                'Start Date', min_value=min_date, max_value=max_date, value=min_date, key=f"{city}epod-date-start")
+        with col2:
+            end_date = st.date_input(
+                'End Date', min_value=min_date, max_value=max_date, value=max_date, key=f"{city}epod-date-end")
+        df['EPOD Name'] = df['EPOD Name'].str.replace('-', '')
+
+        epods = df['EPOD Name'].unique()
+        with col3:
+            EPod = st.multiselect(label='Select The EPOD',
+                                  options=['All'] + epods.tolist(),
+                                  default='All', key=f"{city}selectepods")
+        with col1:
+            st.markdown(":large_green_square: T-15 fulfilled")
+
+        with col2:
+            st.markdown(":large_blue_square: T-15 Not fulfilled")
+        with col3:
+            st.markdown(":large_red_square: Delay")
+
+        start_date = pd.to_datetime(start_date)
+        end_date = pd.to_datetime(end_date)
+        filtered_data = df[(df['Actual Date'] >= start_date)
+                           & (df['Actual Date'] <= end_date)]
+        if 'All' in EPod:
+            EPod = epods
+
+        filtered_data = filtered_data[
+            (filtered_data['EPOD Name'].isin(EPod))]
+
+        filtered_data = filtered_data[
             (filtered_data['Customer Location City'] == city)]
 
-        record_count_df = citydf.groupby(
+        record_count_df = filtered_data.groupby(
             ['EPOD Name', 't-15_kpi']).size().reset_index(name='Record Count')
         color_mapping = {0: 'blue', 1: 'green', 2: 'red'}
         record_count_df['Color'] = record_count_df['t-15_kpi'].map(
@@ -893,33 +1182,43 @@ with tab3:
         record_count_df = record_count_df.sort_values('EPOD Name')
         y_axis_range = [0, record_count_df['Record Count'].max() * 1.2]
 
-        average_kms = citydf.groupby(
+        total_duration = filtered_data.groupby(
+            'EPOD Name')['Duration'].sum().reset_index()
+
+        average_duration = filtered_data.groupby(
+            'EPOD Name')['Duration'].mean().reset_index().round(1)
+
+        avgdur = average_duration['Duration'].mean().round(2)
+
+        with col5:
+            st.markdown("Average Duration/Session")
+            st.markdown("<span style = 'font-size:25px;line-height: 0.8;'>" +
+                        str(avgdur)+"</span>", unsafe_allow_html=True)
+
+        filtered_data['KM Travelled for Session'] = filtered_data['KM Travelled for Session'].replace(
+            '', np.nan)
+        filtered_data['KM Travelled for Session'] = filtered_data['KM Travelled for Session'].astype(
+            float)
+        average_kms = filtered_data.groupby(
             'EPOD Name')['KM Travelled for Session'].mean().reset_index().round(1)
         avgkm = average_kms['KM Travelled for Session'].mean().round(2)
-        with col2:
-            for i in range(1, 46):
-                st.write("\n")
+        with col4:
             st.markdown("Average Kms/EPod")
             st.markdown("<span style = 'font-size:25px;line-height: 0.8;'>" +
                         str(avgkm)+"</span>", unsafe_allow_html=True)
 
-        total_duration = citydf.groupby(
-            'EPOD Name')['Duration'].sum().reset_index()
+        filtered_data['KWH Pumped Per Session'] = filtered_data['KWH Pumped Per Session'].replace(
+            '', np.nan)
 
-        average_duration = citydf.groupby(
-            'EPOD Name')['Duration'].mean().reset_index().round(1)
+        filtered_data = filtered_data[filtered_data['KWH Pumped Per Session'] != '#VALUE!']
 
-        avgdur = average_duration['Duration'].mean().round(2)
-        with col3:
-            for i in range(1, 46):
-                st.write("\n")
-            st.markdown("Average Duration/Session")
-            st.markdown("<span style = 'font-size:25px;line-height: 0.8;'>" +
-                        str(avgdur)+"</span>", unsafe_allow_html=True)
-        average_kwh = citydf.groupby(
+        filtered_data['KWH Pumped Per Session'] = filtered_data['KWH Pumped Per Session'].astype(
+            float)
+        filtered_data['KWH Pumped Per Session'] = filtered_data['KWH Pumped Per Session'].abs()
+        average_kwh = filtered_data.groupby(
             'EPOD Name')['KWH Pumped Per Session'].mean().reset_index().round(1)
         avgkwh = average_kwh['KWH Pumped Per Session'].mean().round(2)
-        with col4:
+        with col6:
             st.markdown("Average kWh/EPod")
             st.markdown("<span style = 'font-size:25px;line-height: 0.8;'>" +
                         str(avgkwh)+"</span>", unsafe_allow_html=True)
@@ -962,9 +1261,8 @@ with tab3:
 
             )
         )
+
         with col1:
-            for i in range(1, 5):
-                st.write("\n")
             st.plotly_chart(fig)
 
         fig = go.Figure()
@@ -1032,9 +1330,11 @@ with tab3:
             height=340,
             title="Avg kWh Per EPod",
         )
+
         with col4:
             st.plotly_chart(fig)
 
+        st.divider()
 with tab4:
 
     min_date = df['Actual Date'].min().date()
@@ -1042,10 +1342,10 @@ with tab4:
     col1, col2, col3, col4, col5, col6, col7, col8 = st.columns(8)
     with col1:
         start_date = st.date_input(
-            'Start Date', min_value=min_date, max_value=max_date, value=min_date)
+            'Start Date', min_value=min_date, max_value=max_date, value=min_date, key="ops_start_date")
     with col2:
         end_date = st.date_input(
-            'End Date', min_value=min_date, max_value=max_date, value=max_date)
+            'End Date', min_value=min_date, max_value=max_date, value=max_date, key="ops_end_date")
 
     start_date = pd.to_datetime(start_date)
     end_date = pd.to_datetime(end_date)
@@ -1280,3 +1580,48 @@ with tab4:
     )
     with col4:
         st.plotly_chart(fig_working_days)
+
+with tab5:
+    min_date = df['Actual Date'].min().date()
+    max_date = df['Actual Date'].max().date()
+    col1, col2, col3, col4, col5, col6, col7, col8 = st.columns(8)
+    with col1:
+        start_date = st.date_input(
+            'Start Date', min_value=min_date, max_value=max_date, value=min_date, key="sub_start_date")
+    with col2:
+        end_date = st.date_input(
+            'End Date', min_value=min_date, max_value=max_date, value=max_date, key="sub_end_date")
+
+    start_date = pd.to_datetime(start_date)
+    end_date = pd.to_datetime(end_date)
+    df['type'] = df['type'].str.replace('-', '')
+
+    filtered_df = df[(df['Actual Date'] >= start_date)
+                     & (df['Actual Date'] <= end_date)]
+
+    def generate_bar_graph(filtered_df):
+        type_counts = filtered_df['type'].value_counts().reset_index()
+        type_counts.columns = ['Type', 'Count']
+
+        fig = px.bar(type_counts, x='Type', y='Count', text='Count',
+                     labels={'Type': 'Type', 'Count': 'Count'})
+
+        return fig
+
+    bar_graph = generate_bar_graph(filtered_df)
+    st.plotly_chart(bar_graph)
+
+    for city in df['Customer Location City'].dropna().unique():
+
+        def generate_bar_graph(filtered_df):
+            type_counts = filtered_df['type'].value_counts().reset_index()
+            type_counts.columns = ['Type', 'Count']
+
+            fig = px.bar(type_counts, x='Type', y='Count', text='Count',
+                         labels={'Type': 'Type', 'Count': 'Count'})
+
+            return fig
+        filtered_data = filtered_data[
+            (filtered_data['Customer Location City'] == city)]
+        bar_graph = generate_bar_graph(filtered_df)
+        st.plotly_chart(bar_graph)
