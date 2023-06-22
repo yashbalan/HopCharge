@@ -1669,13 +1669,13 @@ with tab4:
             city_df['Operator'])]
 
     with col7:
-        st.markdown(f"Most Operator in {selected_city}")
+        st.markdown(f"Most Active Operator in {selected_city}")
         most_operator = city_df.loc[city_df['Count'].idxmax(), 'Operator']
         st.markdown("<span style = 'font-size:25px;line-height: 0.8;'>" +
                     most_operator+"</span>", unsafe_allow_html=True)
 
     with col8:
-        st.markdown(f"Least Operator in {selected_city}")
+        st.markdown(f"Least Active Operator in {selected_city}")
         least_operator = city_df.loc[city_df['Count'].idxmin(), 'Operator']
         st.markdown(
             "<span style = 'font-size:25px;line-height: 0.8;'>"+least_operator+"</span>",
