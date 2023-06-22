@@ -461,8 +461,6 @@ with tab1:
            gauge={'axis': {'range': gauge_range}}
        ))
        city_end_soc_gauge.update_layout(width=150, height=250)
-
-       # Plot the gauge graphs for the current city
        st.subheader(city)
        st.plotly_chart(city_start_soc_gauge)
        st.plotly_chart(city_end_soc_gauge)
