@@ -429,15 +429,19 @@ with tab1:
         st.plotly_chart(end_soc_median_gauge)
         
     for city in allowed_cities:
-        city_start_soc_max = # Get max Start SoC for the current city
-        city_start_soc_min = # Get min Start SoC for the current city
-        city_start_soc_avg = # Get average Start SoC for the current city
-        city_start_soc_median = # Get median Start SoC for the current city
+        city_start_soc_stats = start_soc_stats[start_soc_stats.index == city]
+        city_end_soc_stats = end_soc_stats[end_soc_stats.index == city]
 
-        city_end_soc_max = # Get max End SoC for the current city
-        city_end_soc_min = # Get min End SoC for the current city
-        city_end_soc_avg = # Get average End SoC for the current city
-        city_end_soc_median = # Get median End SoC for the current city
+        
+        city_start_soc_max = city_start_soc_stats['max'].values.max()
+        city_start_soc_min = city_start_soc_stats['min'].values.min()
+        city_start_soc_avg = city_start_soc_stats['mean'].values.mean()
+        city_start_soc_median = np.median(city_start_soc_stats['median'].values)
+
+        city_end_soc_max = city_end_soc_stats['max'].values.max()
+        city_end_soc_min = city_end_soc_stats['min'].values.min()
+        city_end_soc_avg = city_end_soc_stats['mean'].values.mean()
+        city_end_soc_median = np.median(city_end_soc_stats['median'].values)
 
         # Create gauge chart for the current city
         city_start_soc_gauge = go.Figure(go.Indicator(
