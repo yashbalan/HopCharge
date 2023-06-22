@@ -428,8 +428,126 @@ with tab1:
         st.plotly_chart(end_soc_median_gauge)
 
     
-    for city in allowed_cities:
-        st.subheader(city)
+    
+
+# Start SoC Stats
+for city in allowed_cities:
+    start_soc_stats_city = start_soc_stats[start_soc_stats['City'] == city]
+
+    start_soc_max = start_soc_stats_city['max'].values.max()
+    start_soc_min = start_soc_stats_city['min'].values.min()
+    start_soc_avg = start_soc_stats_city['mean'].values.mean()
+    start_soc_median = np.median(start_soc_stats_city['median'].values)
+
+    start_soc_max_gauge = go.Figure(go.Indicator(
+        mode="gauge+number",
+        value=start_soc_max,
+        title={'text': f"Max Start SoC % - {city}", 'font': {'size': 15}},
+        domain={'x': [0, 1], 'y': [0, 1]},
+        gauge={'axis': {'range': gauge_range}},
+    ))
+    start_soc_max_gauge.update_layout(width=150, height=250)
+
+    start_soc_min_gauge = go.Figure(go.Indicator(
+        mode="gauge+number",
+        value=start_soc_min,
+        title={'text': f"Min Start SoC % - {city}", 'font': {'size': 15}},
+        domain={'x': [0, 1], 'y': [0, 1]},
+        gauge={'axis': {'range': gauge_range}}
+    ))
+    start_soc_min_gauge.update_layout(width=150, height=250)
+
+    start_soc_avg_gauge = go.Figure(go.Indicator(
+        mode="gauge+number",
+        value=start_soc_avg,
+        title={'text': f"Avg Start SoC % - {city}", 'font': {'size': 15}},
+        domain={'x': [0, 1], 'y': [0, 1]},
+        gauge={'axis': {'range': gauge_range}}
+    ))
+    start_soc_avg_gauge.update_layout(width=150, height=250)
+
+    start_soc_median_gauge = go.Figure(go.Indicator(
+        mode="gauge+number",
+        value=start_soc_median,
+        title={'text': f"Median Start SoC % - {city}", 'font': {'size': 15}},
+        domain={'x': [0, 1], 'y': [0, 1]},
+        gauge={'axis': {'range': gauge_range}}
+    ))
+    start_soc_median_gauge.update_layout(width=150, height=250)
+
+    with col3:
+        st.plotly_chart(start_soc_min_gauge)
+
+    with col4:
+        st.plotly_chart(start_soc_max_gauge)
+
+    with col5:
+        st.plotly_chart(start_soc_avg_gauge)
+
+    with col6:
+        st.plotly_chart(start_soc_median_gauge)
+
+    st.subheader(f"{city} - Start SoC Stats")
+
+# End SoC Stats
+for city in allowed_cities:
+    end_soc_stats_city = end_soc_stats[end_soc_stats['City'] == city]
+
+    end_soc_max = end_soc_stats_city['max'].values.max()
+    end_soc_min = end_soc_stats_city['min'].values.min()
+    end_soc_avg = end_soc_stats_city['mean'].values.mean()
+    end_soc_median = np.median(end_soc_stats_city['median'].values)
+
+    end_soc_max_gauge = go.Figure(go.Indicator(
+        mode="gauge+number",
+        value=end_soc_max,
+        title={'text': f"Max End SoC % - {city}", 'font': {'size': 15}},
+        domain={'x': [0, 1], 'y': [0, 1]},
+        gauge={'axis': {'range': gauge_range}}
+    ))
+
+    end_soc_min_gauge = go.Figure(go.Indicator(
+        mode="gauge+number",
+        value=end_soc_min,
+        title={'text': f"Min End SoC % - {city}", 'font': {'size': 15}},
+        domain={'x': [0, 1], 'y': [0, 1]},
+        gauge={'axis': {'range': gauge_range}}
+    ))
+    end_soc_max_gauge.update_layout(width=150, height=250)
+    end_soc_min_gauge.update_layout(width=150, height=250)
+
+    end_soc_avg_gauge = go.Figure(go.Indicator(
+        mode="gauge+number",
+        value=end_soc_avg,
+        title={'text': f"Avg End SoC % - {city}", 'font': {'size': 15}},
+        domain={'x': [0, 1], 'y': [0, 1]},
+        gauge={'axis': {'range': gauge_range}}
+    ))
+    end_soc_avg_gauge.update_layout(width=150, height=250)
+
+    end_soc_median_gauge = go.Figure(go.Indicator(
+        mode="gauge+number",
+        value=end_soc_median,
+        title={'text': f"Median End SoC % - {city}", 'font': {'size': 15}},
+        domain={'x': [0, 1], 'y': [0, 1]},
+        gauge={'axis': {'range': gauge_range}}
+    ))
+    end_soc_median_gauge.update_layout(width=150, height=250)
+
+    with col7:
+        st.plotly_chart(end_soc_min_gauge)
+
+    with col8:
+        st.plotly_chart(end_soc_max_gauge)
+
+    with col9:
+        st.plotly_chart(end_soc_avg_gauge)
+
+    with col10:
+        st.plotly_chart(end_soc_median_gauge)
+
+    st.subheader(f"{city} - End SoC Stats")
+
        
     
         
