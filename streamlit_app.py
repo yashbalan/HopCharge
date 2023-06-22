@@ -449,7 +449,7 @@ with tab1:
         city_start_soc_max_gauge = go.Figure(go.Indicator(
             mode="gauge+number",
             value=city_start_soc_max,
-            title={'text': f"Start SoC Max - {city}", 'font': {'size': 15}},
+            title={'text': f"Start Max - {city}", 'font': {'size': 15}},
             domain={'x': [0, 1], 'y': [0, 1]},
             gauge={'axis': {'range': gauge_range}}
         ))
@@ -457,7 +457,7 @@ with tab1:
         city_start_soc_min_gauge = go.Figure(go.Indicator(
             mode="gauge+number",
             value=city_start_soc_min,
-            title={'text': f"Start SoC Min - {city}", 'font': {'size': 15}},
+            title={'text': f"Start Min - {city}", 'font': {'size': 15}},
             domain={'x': [0, 1], 'y': [0, 1]},
             gauge={'axis': {'range': gauge_range}}
         ))
@@ -465,7 +465,7 @@ with tab1:
         city_start_soc_avg_gauge = go.Figure(go.Indicator(
             mode="gauge+number",
             value=city_start_soc_avg,
-            title={'text': f"Start SoC Avg - {city}", 'font': {'size': 15}},
+            title={'text': f"Start Avg - {city}", 'font': {'size': 15}},
             domain={'x': [0, 1], 'y': [0, 1]},
             gauge={'axis': {'range': gauge_range}}
         ))
@@ -473,7 +473,7 @@ with tab1:
         city_start_soc_median_gauge = go.Figure(go.Indicator(
             mode="gauge+number",
             value=city_start_soc_median,
-            title={'text': f"Start SoC Median - {city}", 'font': {'size': 15}},
+            title={'text': f"Start Median - {city}", 'font': {'size': 15}},
             domain={'x': [0, 1], 'y': [0, 1]},
             gauge={'axis': {'range': gauge_range}}
         ))
@@ -481,7 +481,7 @@ with tab1:
         city_end_soc_max_gauge = go.Figure(go.Indicator(
             mode="gauge+number",
             value=city_end_soc_max,
-            title={'text': f"End SoC Max - {city}", 'font': {'size': 15}},
+            title={'text': f"End Max - {city}", 'font': {'size': 15}},
             domain={'x': [0, 1], 'y': [0, 1]},
             gauge={'axis': {'range': gauge_range}}
         ))
@@ -489,7 +489,7 @@ with tab1:
         city_end_soc_min_gauge = go.Figure(go.Indicator(
             mode="gauge+number",
             value=city_end_soc_min,
-            title={'text': f"End SoC Min - {city}", 'font': {'size': 15}},
+            title={'text': f"End Min - {city}", 'font': {'size': 15}},
             domain={'x': [0, 1], 'y': [0, 1]},
             gauge={'axis': {'range': gauge_range}}
         ))
@@ -497,7 +497,7 @@ with tab1:
         city_end_soc_avg_gauge = go.Figure(go.Indicator(
             mode="gauge+number",
             value=city_end_soc_avg,
-            title={'text': f"End SoC Avg - {city}", 'font': {'size': 15}},
+            title={'text': f"End Avg - {city}", 'font': {'size': 15}},
             domain={'x': [0, 1], 'y': [0, 1]},
             gauge={'axis': {'range': gauge_range}}
         ))
@@ -505,7 +505,7 @@ with tab1:
         city_end_soc_median_gauge = go.Figure(go.Indicator(
             mode="gauge+number",
             value=city_end_soc_median,
-            title={'text': f"End SoC Median - {city}", 'font': {'size': 15}},
+            title={'text': f"End Median - {city}", 'font': {'size': 15}},
             domain={'x': [0, 1], 'y': [0, 1]},
             gauge={'axis': {'range': gauge_range}}
         ))
