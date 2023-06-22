@@ -451,19 +451,19 @@ with tab1:
             domain={'x': [0, 1], 'y': [0, 1]},
             gauge={'axis': {'range': gauge_range}}
         ))
-       city_start_soc_gauge.update_layout(width=150, height=250)
+        city_start_soc_gauge.update_layout(width=150, height=250)
 
-       city_end_soc_gauge = go.Figure(go.Indicator(
-           mode="gauge+number",
-           value=city_end_soc_max,
-           title={'text': f"End SoC - {city}", 'font': {'size': 15}},
-           domain={'x': [0, 1], 'y': [0, 1]},
-           gauge={'axis': {'range': gauge_range}}
-       ))
-       city_end_soc_gauge.update_layout(width=150, height=250)
-       st.subheader(city)
-       st.plotly_chart(city_start_soc_gauge)
-       st.plotly_chart(city_end_soc_gauge)
+        city_end_soc_gauge = go.Figure(go.Indicator(
+            mode="gauge+number",
+            value=city_end_soc_max,
+            title={'text': f"End SoC - {city}", 'font': {'size': 15}},
+            domain={'x': [0, 1], 'y': [0, 1]},
+            gauge={'axis': {'range': gauge_range}}
+        ))
+        city_end_soc_gauge.update_layout(width=150, height=250)
+        st.subheader(city)
+        st.plotly_chart(city_start_soc_gauge)
+        st.plotly_chart(city_end_soc_gauge)
     
 
     
