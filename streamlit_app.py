@@ -1573,13 +1573,13 @@ with tab4:
     plt.title('Operator v/s Locations',
               fontsize=8, color='white')
     plt.xlabel('Customer Location City',
-               fontsize=font_size_labels, color='white')
-    plt.ylabel('Operator', fontsize=font_size_labels, color='white')
+               fontsize=font_size_labels, color='black')
+    plt.ylabel('Operator', fontsize=font_size_labels, color='black')
 
     # Rotate x-axis labels for better readability
     plt.xticks(rotation=0, ha='center',
-               fontsize=font_size_labels, color='white')
-    plt.yticks(fontsize=font_size_labels, color='white')
+               fontsize=font_size_labels, color='black')
+    plt.yticks(fontsize=font_size_labels, color='black')
     with col1:
         st.pyplot(plt, use_container_width=False)
 
