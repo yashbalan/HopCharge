@@ -435,37 +435,112 @@ with tab1:
         city_end_soc_stats = filtered_df[filtered_df['Customer Location City'] == city]['Actual Soc_End'].agg(['max', 'min', 'mean', 'median'])
 
         
-        city_start_soc_max = city_start_soc_stats['max'].values.max()
-        city_start_soc_min = city_start_soc_stats['min'].values.min()
-        city_start_soc_avg = city_start_soc_stats['mean'].values.mean()
-        city_start_soc_median = np.median(city_start_soc_stats['median'].values)
+        city_start_soc_max = city_start_soc_stats['max'].max()
+        city_start_soc_min = city_start_soc_stats['min'].min()
+        city_start_soc_avg = city_start_soc_stats['mean'].mean()
+        city_start_soc_median = np.median(city_start_soc_stats['median'])
 
-        city_end_soc_max = city_end_soc_stats['max'].values.max()
-        city_end_soc_min = city_end_soc_stats['min'].values.min()
-        city_end_soc_avg = city_end_soc_stats['mean'].values.mean()
-        city_end_soc_median = np.median(city_end_soc_stats['median'].values)
+        city_end_soc_max = city_end_soc_stats['max'].max()
+        city_end_soc_min = city_end_soc_stats['min'].min()
+        city_end_soc_avg = city_end_soc_stats['mean'].mean()
+        city_end_soc_median = np.median(city_end_soc_stats['median'])
 
         # Create gauge chart for the current city
-        city_start_soc_gauge = go.Figure(go.Indicator(
+        city_start_soc_max_gauge = go.Figure(go.Indicator(
             mode="gauge+number",
             value=city_start_soc_max,
             title={'text': f"Start SoC - {city}", 'font': {'size': 15}},
             domain={'x': [0, 1], 'y': [0, 1]},
             gauge={'axis': {'range': gauge_range}}
         ))
-        city_start_soc_gauge.update_layout(width=150, height=250)
+        city_start_soc_max_gauge.update_layout(width=150, height=250)
+        city_start_soc_min_gauge = go.Figure(go.Indicator(
+            mode="gauge+number",
+            value=city_start_soc_min,
+            title={'text': f"Start SoC - {city}", 'font': {'size': 15}},
+            domain={'x': [0, 1], 'y': [0, 1]},
+            gauge={'axis': {'range': gauge_range}}
+        ))
+        city_start_soc_min_gauge.update_layout(width=150, height=250)
+        city_start_soc_avg_gauge = go.Figure(go.Indicator(
+            mode="gauge+number",
+            value=city_start_soc_avg,
+            title={'text': f"Start SoC - {city}", 'font': {'size': 15}},
+            domain={'x': [0, 1], 'y': [0, 1]},
+            gauge={'axis': {'range': gauge_range}}
+        ))
+        city_start_soc_avg_gauge.update_layout(width=150, height=250)
+        city_start_soc_median_gauge = go.Figure(go.Indicator(
+            mode="gauge+number",
+            value=city_start_soc_median,
+            title={'text': f"Start SoC - {city}", 'font': {'size': 15}},
+            domain={'x': [0, 1], 'y': [0, 1]},
+            gauge={'axis': {'range': gauge_range}}
+        ))
+        city_start_soc_median_gauge.update_layout(width=150, height=250)
 
-        city_end_soc_gauge = go.Figure(go.Indicator(
+
+
+        
+
+        city_end_soc_max_gauge = go.Figure(go.Indicator(
             mode="gauge+number",
             value=city_end_soc_max,
             title={'text': f"End SoC - {city}", 'font': {'size': 15}},
             domain={'x': [0, 1], 'y': [0, 1]},
             gauge={'axis': {'range': gauge_range}}
         ))
-        city_end_soc_gauge.update_layout(width=150, height=250)
+        city_end_soc_max_gauge.update_layout(width=150, height=250)
+        city_end_soc_min_gauge = go.Figure(go.Indicator(
+            mode="gauge+number",
+            value=city_end_soc_min,
+            title={'text': f"End SoC - {city}", 'font': {'size': 15}},
+            domain={'x': [0, 1], 'y': [0, 1]},
+            gauge={'axis': {'range': gauge_range}}
+        ))
+        city_end_soc_min_gauge.update_layout(width=150, height=250)
+        city_end_soc_avg_gauge = go.Figure(go.Indicator(
+            mode="gauge+number",
+            value=city_end_soc_avg,
+            title={'text': f"End SoC - {city}", 'font': {'size': 15}},
+            domain={'x': [0, 1], 'y': [0, 1]},
+            gauge={'axis': {'range': gauge_range}}
+        ))
+        city_end_soc_avg_gauge.update_layout(width=150, height=250)
+        city_end_soc_median_gauge = go.Figure(go.Indicator(
+            mode="gauge+number",
+            value=city_end_soc_median,
+            title={'text': f"End SoC - {city}", 'font': {'size': 15}},
+            domain={'x': [0, 1], 'y': [0, 1]},
+            gauge={'axis': {'range': gauge_range}}
+        ))
+        city_end_soc_median_gauge.update_layout(width=150, height=250)
+
+        
         st.subheader(city)
-        st.plotly_chart(city_start_soc_gauge)
-        st.plotly_chart(city_end_soc_gauge)
+        col1, col2, col3, col4, col5, col6, col7, col8 = st.columns(8)
+        with col1:
+            st.plotly_chart(city_start_soc_min_gauge)
+
+        with col2:
+            st.plotly_chart(city_start_soc_max_gauge)
+
+        with col3:
+            st.plotly_chart(city_start_soc_avg_gauge)
+
+        with col4:
+            st.plotly_chart(city_start_soc_median_gauge)
+           
+        with col5:
+            st.plotly_chart(end_soc_min_gauge)
+
+        with col6:
+            st.plotly_chart(end_soc_max_gauge)
+        with col7:
+            st.plotly_chart(end_soc_avg_gauge)
+        with col8:
+            st.plotly_chart(end_soc_median_gauge)
+        
     
 
     
