@@ -193,13 +193,12 @@ with tab1:
         name='Record Count')
     record_count_df = record_count_df.sort_values(by='Record Count')
     city_count_df = city_count_df.sort_values(by='Record Count')
-    start_soc_stats = filtered_df.groupby('EPOD Name')['Actual SoC_Start'].agg([
-        'max', 'min', 'mean', 'median'])
+    start_soc_stats = filtered_df.groupby(['EPOD Name', 'Customer Location City'])['Actual SoC_Start'].agg(['max', 'min', 'mean', 'median'])
+    end_soc_stats = filtered_df.groupby(['EPOD Name', 'Customer Location City'])['Actual Soc_End'].agg(['max', 'min', 'mean', 'median'])
 
-    end_soc_stats = filtered_df.groupby('EPOD Name')['Actual Soc_End'].agg([
-        'max', 'min', 'mean', 'median'])
     start_soc_stats = start_soc_stats.sort_values(by='EPOD Name')
     end_soc_stats = end_soc_stats.sort_values(by='EPOD Name')
+
     kpi_flag_data = filtered_df['t-15_kpi']
 
     # Calculate counts
@@ -432,7 +431,7 @@ with tab1:
 
 # Start SoC Stats
 for city in allowed_cities:
-    start_soc_stats_city = start_soc_stats[start_soc_stats[allowed_cities] == city]
+    start_soc_stats_city = start_soc_stats[start_soc_stats['Customer Location City'] == city]
 
     start_soc_max = start_soc_stats_city['max'].values.max()
     start_soc_min = start_soc_stats_city['min'].values.min()
@@ -491,7 +490,7 @@ for city in allowed_cities:
 
 # End SoC Stats
 for city in allowed_cities:
-    end_soc_stats_city = end_soc_stats[end_soc_stats['City'] == city]
+    end_soc_stats_city = end_soc_stats[end_soc_stats['Customer Location City'] == city]
 
     end_soc_max = end_soc_stats_city['max'].values.max()
     end_soc_min = end_soc_stats_city['min'].values.min()
