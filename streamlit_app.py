@@ -1571,7 +1571,7 @@ with tab4:
                 annot_kws={'fontsize': font_size_heatmap})
 
     plt.title('Operator v/s Locations',
-              fontsize=8, color='white')
+              fontsize=8, color='black')
     plt.xlabel('Customer Location City',
                fontsize=font_size_labels, color='black')
     plt.ylabel('Operator', fontsize=font_size_labels, color='black')
