@@ -426,19 +426,28 @@ with tab1:
     with col8:
         st.plotly_chart(end_soc_median_gauge)
 
+    try:
+        start_soc_stats = filtered_df.groupby('Customer Location City')['Actual SoC_Start'].agg(['max', 'min', 'mean', 'median'])
+        end_soc_stats = filtered_df.groupby('Customer Location City')['Actual Soc_End'].agg(['max', 'min', 'mean', 'median'])
+
+        start_soc_stats = start_soc_stats.sort_values(by='Customer Location City')
+        end_soc_stats = end_soc_stats.sort_values(by='Customer Location City')
+    except KeyError as e:
+        st.error(f"An error occurred: {str(e)}")
+
+
     
     
 
 # Start SoC Stats
-for city in allowed_cities:
-    start_soc_stats_city = start_soc_stats[start_soc_stats['Customer Location City'] == city]
+    for city in allowed_cities:
+         start_soc_stats_city = start_soc_stats[start_soc_stats['Customer Location City'] == city]
 
-    start_soc_max = start_soc_stats_city['max'].values.max()
-    start_soc_min = start_soc_stats_city['min'].values.min()
-    start_soc_avg = start_soc_stats_city['mean'].values.mean()
-    start_soc_median = np.median(start_soc_stats_city['median'].values)
-
-    start_soc_max_gauge = go.Figure(go.Indicator(
+         start_soc_max = start_soc_stats_city['max'].values.max()
+         start_soc_min = start_soc_stats_city['min'].values.min()
+         start_soc_avg = start_soc_stats_city['mean'].values.mean()
+         start_soc_median = np.median(start_soc_stats_city['median'].values)
+         start_soc_max_gauge = go.Figure(go.Indicator(
         mode="gauge+number",
         value=start_soc_max,
         title={'text': f"Max Start SoC % - {city}", 'font': {'size': 15}},
@@ -546,6 +555,8 @@ for city in allowed_cities:
         st.plotly_chart(end_soc_median_gauge)
 
     st.subheader(f"{city} - End SoC Stats")
+
+    
 
        
     
