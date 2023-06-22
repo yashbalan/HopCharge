@@ -215,10 +215,10 @@ with tab1:
     delay_percentage = (delay_count / total_count) * 100
     labels = ['Before Time', 'Delay']
 
-    start_soc_avg = start_soc_stats['mean'].values[0]
+    start_soc_avg = start_soc_stats['mean'].values.mean()
     start_soc_median = start_soc_stats['median'].values[0]
 
-    end_soc_avg = end_soc_stats['mean'].values[0]
+    end_soc_avg = end_soc_stats['mean'].values.mean()
     end_soc_median = end_soc_stats['median'].values[0]
 
     col2.metric("Before Time", f"{before_time_percentage.round(2)}%")
