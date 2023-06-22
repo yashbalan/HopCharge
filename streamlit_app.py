@@ -432,7 +432,7 @@ with tab1:
 
 # Start SoC Stats
 for city in allowed_cities:
-    start_soc_stats_city = start_soc_stats[start_soc_stats[Customer Location City] == city]
+    start_soc_stats_city = start_soc_stats[start_soc_stats[allowed_cities] == city]
 
     start_soc_max = start_soc_stats_city['max'].values.max()
     start_soc_min = start_soc_stats_city['min'].values.min()
