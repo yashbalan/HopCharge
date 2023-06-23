@@ -223,12 +223,12 @@ with tab1:
 
     col2.metric("T-15 Fulfilled", f"{before_time_percentage.round(2)}%")
     col3.metric("Delay", f"{delay_percentage.round(2)}%")
-    col4.metric("T-15 not Fulfilled", f"{on_time_percentage.round(2)}%")
+    col4.metric("T-15 Not Fulfilled", f"{on_time_percentage.round(2)}%")
     col5.metric("Avg Start SoC", f"{start_soc_avg.round(2)}%")
     col6.metric("Avg End SoC", f"{end_soc_avg.round(2)}%")
 
     total_sessions = filtered_df['t-15_kpi'].count()
-    fig = go.Figure(data=[go.Pie(labels=['T-15 Fulfilled', 'Delay', 'T-15 not Fulfilled'],
+    fig = go.Figure(data=[go.Pie(labels=['T-15 Fulfilled', 'Delay', 'T-15 Not Fulfilled'],
                                  values=[before_time_count,
                                          delay_count, on_time_count],
                                  hole=0.6,
