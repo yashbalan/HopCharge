@@ -246,7 +246,7 @@ with tab1:
         title='T-15 KPI (Overall)',
         showlegend=False,
         height=400,
-        width=380
+        width=390
     )
 
     with col2:
