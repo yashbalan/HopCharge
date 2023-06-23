@@ -1698,46 +1698,159 @@ with tab4:
         st.plotly_chart(fig_working_days)
 
 with tab5:
+    df['type'] = df['type'].str.replace('-', '')
     min_date = df['Actual Date'].min().date()
     max_date = df['Actual Date'].max().date()
     col1, col2, col3, col4, col5, col6, col7, col8 = st.columns(8)
     with col1:
         start_date = st.date_input(
             'Start Date', min_value=min_date, max_value=max_date, value=min_date, key="sub_start_date")
-    with col2:
+    with col1:
         end_date = st.date_input(
             'End Date', min_value=min_date, max_value=max_date, value=max_date, key="sub_end_date")
 
     start_date = pd.to_datetime(start_date)
     end_date = pd.to_datetime(end_date)
-    df['type'] = df['type'].str.replace('-', '')
 
     filtered_df = df[(df['Actual Date'] >= start_date)
                      & (df['Actual Date'] <= end_date)]
 
     def generate_bar_graph(filtered_df):
+
         type_counts = filtered_df['type'].value_counts().reset_index()
         type_counts.columns = ['Type', 'Count']
-
-        fig = px.bar(type_counts, x='Type', y='Count', text='Count',
-                     labels={'Type': 'Type', 'Count': 'Count'})
+        total_sessions = type_counts['Count'].sum()
+        type_counts['Percentage'] = (
+            type_counts['Count'] / total_sessions) * 100
+        type_counts['Percentage'] = type_counts['Percentage'].round(2)
+        fig = px.bar(type_counts, x='Type', y='Percentage', text='Percentage',
+                     labels={'Type': 'Subscription', 'Percentage': 'Percentage'}, width=525, height=525,
+                     title='Total Sessions by Subscription Type')
+        fig.update_layout(xaxis=dict(tickangle=-45))
+        fig.update_traces(textposition='outside')
 
         return fig
-
     bar_graph = generate_bar_graph(filtered_df)
-    st.plotly_chart(bar_graph)
-
-    for city in df['Customer Location City'].dropna().unique():
-
-        def generate_bar_graph(filtered_df):
-            type_counts = filtered_df['type'].value_counts().reset_index()
-            type_counts.columns = ['Type', 'Count']
-
-            fig = px.bar(type_counts, x='Type', y='Count', text='Count',
-                         labels={'Type': 'Type', 'Count': 'Count'})
-
-            return fig
-        filtered_data = filtered_data[
-            (filtered_data['Customer Location City'] == city)]
-        bar_graph = generate_bar_graph(filtered_df)
+    with col2:
         st.plotly_chart(bar_graph)
+        st.write("\n")
+    filtered_df['KWH Pumped Per Session'] = filtered_df['KWH Pumped Per Session'].replace(
+        '', np.nan)
+
+    filtered_df = filtered_df[filtered_df['KWH Pumped Per Session'] != '#VALUE!']
+
+    filtered_df['KWH Pumped Per Session'] = filtered_df['KWH Pumped Per Session'].astype(
+        float)
+    filtered_df['KWH Pumped Per Session'] = filtered_df['KWH Pumped Per Session'].abs()
+    average_kwh = filtered_df.groupby(
+        'type')['KWH Pumped Per Session'].mean().reset_index().round(1)
+
+    fig = go.Figure(
+        data=[go.Bar(x=average_kwh['type'], y=average_kwh['KWH Pumped Per Session'], text=average_kwh['KWH Pumped Per Session'], textposition='outside')])
+    fig.update_layout(xaxis_title='Subscription', yaxis_title='Average kWh Pumped',
+                      title='Average kWh Pumped Per Session by Subscription Type', width=525, height=525, xaxis=dict(tickangle=-45))
+
+    with col6:
+        st.plotly_chart(fig)
+        st.write("\n")
+
+    filtered_df['KM Travelled for Session'] = filtered_df['KM Travelled for Session'].replace(
+        '', np.nan)
+    filtered_df['KM Travelled for Session'] = filtered_df['KM Travelled for Session'].astype(
+        float)
+    average_kms = filtered_df.groupby(
+        'type')['KM Travelled for Session'].mean().reset_index().round(1)
+
+    fig = go.Figure(
+        data=[go.Bar(x=average_kms['type'], y=average_kms['KM Travelled for Session'], text=average_kms['KM Travelled for Session'], textposition='outside')])
+    fig.update_layout(xaxis_title='Subscription', yaxis_title='Avg KMs Travelled per Session',
+                      title='Average KMs Travelled Per Session by Subscription Type', width=525, height=525, xaxis=dict(tickangle=-45))
+
+    with col2:
+
+        st.plotly_chart(fig)
+        st.write("\n")
+    average_duration = filtered_df.groupby(
+        'type')['Duration'].mean().reset_index().round(1)
+    fig = go.Figure(
+        data=[go.Bar(x=average_duration['type'], y=average_duration['Duration'], text=average_duration['Duration'], textposition='outside')])
+    fig.update_layout(xaxis_title='Subscription', yaxis_title='Avg Duration per Session',
+                      title='Average Duration Per Session by Subscription Type', width=525, height=525, xaxis=dict(tickangle=-45))
+    with col6:
+        st.plotly_chart(fig)
+        st.write("\n")
+
+    for city in filtered_df['Customer Location City'].dropna().unique():
+
+        with col1:
+            for i in range(1, 57):
+                st.write("\n")
+            st.subheader(city)
+            start_date = st.date_input(
+                'Start Date', min_value=min_date, max_value=max_date, value=min_date, key=f"{city}sub_start_date")
+        with col1:
+
+            end_date = st.date_input(
+                'End Date', min_value=min_date, max_value=max_date, value=max_date, key=f"{city}sub_end_date")
+
+        start_date = pd.to_datetime(start_date)
+        end_date = pd.to_datetime(end_date)
+
+        filtered_df = df[(df['Actual Date'] >= start_date)
+                         & (df['Actual Date'] <= end_date)]
+
+        filtered_df = filtered_df[
+            (filtered_df['Customer Location City'] == city)]
+        bar_graph = generate_bar_graph(filtered_df)
+
+        with col2:
+
+            st.plotly_chart(bar_graph)
+            st.write("\n")
+        filtered_df['KWH Pumped Per Session'] = filtered_df['KWH Pumped Per Session'].replace(
+            '', np.nan)
+
+        filtered_df = filtered_df[filtered_df['KWH Pumped Per Session'] != '#VALUE!']
+
+        filtered_df['KWH Pumped Per Session'] = filtered_df['KWH Pumped Per Session'].astype(
+            float)
+        filtered_df['KWH Pumped Per Session'] = filtered_df['KWH Pumped Per Session'].abs()
+        average_kwh = filtered_df.groupby(
+            'type')['KWH Pumped Per Session'].mean().reset_index().round(1)
+
+        fig = go.Figure(
+            data=[go.Bar(x=average_kwh['type'], y=average_kwh['KWH Pumped Per Session'], text=average_kwh['KWH Pumped Per Session'], textposition='outside')])
+        fig.update_layout(xaxis_title='Subscription', yaxis_title='Average kWh Pumped',
+                          title='Average kWh Pumped Per Session by Subscription Type', width=525, height=525, xaxis=dict(tickangle=-45))
+
+        with col6:
+
+            st.plotly_chart(fig)
+            st.write("\n")
+
+        filtered_df['KM Travelled for Session'] = filtered_df['KM Travelled for Session'].replace(
+            '', np.nan)
+        filtered_df['KM Travelled for Session'] = filtered_df['KM Travelled for Session'].astype(
+            float)
+        average_kms = filtered_df.groupby(
+            'type')['KM Travelled for Session'].mean().reset_index().round(1)
+
+        fig = go.Figure(
+            data=[go.Bar(x=average_kms['type'], y=average_kms['KM Travelled for Session'], text=average_kms['KM Travelled for Session'], textposition='outside')])
+        fig.update_layout(xaxis_title='Subscription', yaxis_title='Avg KMs Travelled per Session',
+                          title='Average KMs Travelled Per Session by Subscription Type', width=525, height=525, xaxis=dict(tickangle=-45))
+
+        with col2:
+
+            st.plotly_chart(fig)
+            st.write("\n")
+
+        average_duration = filtered_df.groupby(
+            'type')['Duration'].mean().reset_index().round(1)
+        fig = go.Figure(
+            data=[go.Bar(x=average_duration['type'], y=average_duration['Duration'], text=average_duration['Duration'], textposition='outside')])
+        fig.update_layout(xaxis_title='Subscription', yaxis_title='Avg Duration per Session',
+                          title='Average Duration Per Session by Subscription Type', width=525, height=525, xaxis=dict(tickangle=-45))
+        with col6:
+            st.plotly_chart(fig)
+            st.write("\n")
