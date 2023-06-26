@@ -127,7 +127,7 @@ merged_df['EPOD Name'] = merged_df['EPOD Name'].str.extract(
     r'^(.*?)\s+\(.*\)$')[0]
 merged_df['EPOD Name'] = merged_df['EPOD Name'].fillna('EPOD006')
 
-merged_df.to_csv('mergeddata.csv')
+
 st.set_page_config(page_title="Hopcharge Dashboard",
                    page_icon=":bar_chart:", layout="wide")
 
