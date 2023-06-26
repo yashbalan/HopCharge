@@ -48,11 +48,10 @@ df1['Booking Session time'] = df1['Booking Session time'].apply(
 df2['updated'] = pd.to_datetime(df2['updated'], format='%d/%m/%Y, %H:%M:%S')
 df2['fromTime'] = pd.to_datetime(df2['fromTime'], format='%Y-%m-%dT%H:%M')
 
-# Calculate the time difference in hours between 'fromTime' and 'updated'
+
 time_diff = df2['fromTime'] - df2['updated']
 time_diff_hours = time_diff / timedelta(hours=1)
 
-# Create the 'cancelledPenalty' column based on the conditions
 df2['cancelledPenalty'] = 0
 df2.loc[(df2['canceled'] == True) & (
     time_diff_hours < 2), 'cancelledPenalty'] = 1
@@ -256,7 +255,7 @@ with tab1:
     city_count_df = city_count_df[city_count_df['Customer Location City'].isin(
         allowed_cities)]
 
-    # Create a new figure
+    
     fig_group = go.Figure()
 
     color_mapping = {0: 'red', 1: 'green', 2: 'blue'}
@@ -264,14 +263,12 @@ with tab1:
         city_count_df.groupby('Customer Location City')[
         'Record Count'].transform('sum') * 100
 
-# Create the figure
+
     fig_group = go.Figure()
 
     for flag in city_count_df['t-15_kpi'].unique():
-        # Filter the dataframe for the specific flag value
         df_flag = city_count_df[city_count_df['t-15_kpi'] == flag]
 
-    # Add a trace for the specific flag with the corresponding color
         fig_group.add_trace(go.Bar(
             x=df_flag['Customer Location City'],
             y=df_flag['Percentage'],
@@ -281,7 +278,6 @@ with tab1:
             textposition='auto'
         ))
 
-    # Set the layout of the grouped bar graph
     fig_group.update_layout(
         barmode='group',
         title='T-15 KPI (HSZ Wise)',
@@ -381,7 +377,6 @@ with tab1:
     end_soc_avg = end_soc_stats['mean'].values.mean()
     end_soc_median = np.median(end_soc_stats['median'].values)
 
-    # Create gauge chart for maximum End SoC
     end_soc_max_gauge = go.Figure(go.Indicator(
         mode="gauge+number",
         value=end_soc_max,
@@ -390,7 +385,6 @@ with tab1:
         gauge={'axis': {'range': gauge_range}}
     ))
 
-    # Create gauge chart for minimum End SoC
     end_soc_min_gauge = go.Figure(go.Indicator(
         mode="gauge+number",
         value=end_soc_min,
@@ -409,7 +403,7 @@ with tab1:
         gauge={'axis': {'range': gauge_range}}
     ))
     end_soc_avg_gauge.update_layout(width=150, height=250)
-    # Create gauge chart for median End SoC
+
     end_soc_median_gauge = go.Figure(go.Indicator(
         mode="gauge+number",
         value=end_soc_median,
@@ -445,7 +439,6 @@ with tab1:
         city_end_soc_avg = city_end_soc_stats['mean'].mean()
         city_end_soc_median = np.median(city_end_soc_stats['median'])
 
-        # Create gauge chart for the current city
         city_start_soc_max_gauge = go.Figure(go.Indicator(
             mode="gauge+number",
             value=city_start_soc_max,
@@ -536,17 +529,6 @@ with tab1:
         with col8:
             st.plotly_chart(city_end_soc_median_gauge)
         
-
-
-
-        
-
-        
-    
-
-    
-
-
 with tab2:
 
     CustomerNames = df['Customer Name_x'].unique()
@@ -597,14 +579,12 @@ with tab2:
         color_map = {0: 'blue', 1: 'green', 2: 'red'}
         names = {0: "T-15 Not Fulfilled", 1: "T-15 Fulfilled", 2: "Delayed"}
 
-        # compute total count
         total_count = data.groupby('Day')['count'].sum().reset_index()
         total_count['percent'] = round(
             total_count['count']/total_count['count'].sum()*100, 2)
 
         for kpi_flag in data['t-15_kpi'].unique():
             subset = data[data['t-15_kpi'] == kpi_flag]
-            # create a colorscale with the same color
             colorscale = [[0, color_map[kpi_flag]], [1, color_map[kpi_flag]]]
             fig.add_trace(go.Scatter(x=subset['Day'], y=subset['count'], mode='lines+markers+text',
                                      name=names[kpi_flag], line_color=color_map[kpi_flag],
@@ -767,13 +747,10 @@ with tab2:
         ['Booking Session time']).size().reset_index(name='count')
     max_count_index = maxmindf['count'].idxmax()
 
-# Retrieve the time with the maximum count
     max_count_time = maxmindf.loc[max_count_index, 'Booking Session time']
 
-# Find the index of the row with the minimum count
     min_count_index = maxmindf['count'].idxmin()
 
-# Retrieve the time with the minimum count
     min_count_time = maxmindf.loc[min_count_index, 'Booking Session time']
     with col7:
         for i in range(1, 18):
@@ -848,14 +825,12 @@ with tab2:
             names = {0: "T-15 Not Fulfilled",
                      1: "T-15 Fulfilled", 2: "Delayed"}
 
-            # compute total count
             total_count = data.groupby('Day')['count'].sum().reset_index()
             total_count['percent'] = round(
                 total_count['count']/total_count['count'].sum()*100, 2)
 
             for kpi_flag in data['t-15_kpi'].unique():
                 subset = data[data['t-15_kpi'] == kpi_flag]
-                # create a colorscale with the same color
                 colorscale = [[0, color_map[kpi_flag]],
                               [1, color_map[kpi_flag]]]
                 fig.add_trace(go.Scatter(x=subset['Day'], y=subset['count'], mode='lines+markers+text',
@@ -1022,13 +997,10 @@ with tab2:
             ['Booking Session time']).size().reset_index(name='count')
         max_count_index = maxmindf['count'].idxmax()
 
-    # Retrieve the time with the maximum count
         max_count_time = maxmindf.loc[max_count_index, 'Booking Session time']
 
-    # Find the index of the row with the minimum count
         min_count_index = maxmindf['count'].idxmin()
 
-    # Retrieve the time with the minimum count
         min_count_time = maxmindf.loc[min_count_index, 'Booking Session time']
         with col7:
             for i in range(1, 18):
@@ -1473,14 +1445,12 @@ with tab4:
         'Actual Date'].count().reset_index()
     max_sessions.columns = ['Actual OPERATOR NAME', 'Max Sessions']
 
-    # Calculate the count of unique cities
     unique_cities = filtered_df.groupby(['Actual OPERATOR NAME', 'Actual Date'])[
         'Customer Location City'].nunique().reset_index()
     unique_cities = unique_cities.groupby('Actual OPERATOR NAME')[
         'Customer Location City'].max().reset_index()
     unique_cities.columns = ['Actual OPERATOR NAME', 'Unique Cities']
 
-    # Calculate the count of KPI flags
     kpi_flags = filtered_df.groupby(['Actual OPERATOR NAME', 'Actual Date'])[
         't-15_kpi'].unique().reset_index()
     kpi_flags['t-15_kpi'] = kpi_flags['t-15_kpi'].apply(
@@ -1489,12 +1459,10 @@ with tab4:
         't-15_kpi'].value_counts().unstack().reset_index()
     kpi_counts = kpi_counts.fillna(0)
 
-    # Calculate the count of working days
     working_days = filtered_df.groupby('Actual OPERATOR NAME')[
         'Actual Date'].nunique().reset_index()
     working_days.columns = ['Actual OPERATOR NAME', 'Working Days']
 
-    # Merge all the metrics into a single DataFrame
     merged_df = max_sessions.merge(
         unique_cities, on='Actual OPERATOR NAME', how='left')
     merged_df = merged_df.merge(
@@ -1502,7 +1470,6 @@ with tab4:
     merged_df = merged_df.merge(
         working_days, on='Actual OPERATOR NAME', how='left')
 
-    # Define weights for each metric
     weights = {
         'Max Sessions': 1,
         'Unique Cities': 2,
@@ -1511,29 +1478,23 @@ with tab4:
         'Working Days': 1
     }
 
-    # Filter the weights for only the metrics present in the merged DataFrame
     weights = {metric: weight for metric,
                weight in weights.items() if metric in merged_df.columns}
 
-    # Calculate scores for each metric
     for metric, weight in weights.items():
         merged_df[metric + ' Score'] = pd.to_numeric(
             merged_df[metric], errors='coerce') * weight
 
-    # Calculate total score
     merged_df['Total Score'] = merged_df[[
         metric + ' Score' for metric in weights]].sum(axis=1)
 
-    # Sort the DataFrame by total score and assign rank
     merged_df = merged_df.sort_values(
         'Total Score', ascending=False).reset_index(drop=True)
     merged_df['Rank'] = merged_df.index + 1
 
-    # Display the operator with the lowest rank
     lowest_rank_operator = merged_df.loc[merged_df['Rank'].idxmin(
     ), 'Actual OPERATOR NAME']
 
-    # Display the operator with the highest rank
     highest_rank_operator = merged_df.loc[merged_df['Rank'].idxmax(
     ), 'Actual OPERATOR NAME']
 
@@ -1550,21 +1511,17 @@ with tab4:
         ['Actual OPERATOR NAME', 'Customer Location City']).size().reset_index()
     grouped_df.columns = ['Operator', 'City', 'Count']
 
-    # Filter cities
     cities_to_include = ["Gurgaon", "Delhi", "Faridabad", "Noida", "Ghaziabad"]
     grouped_df = grouped_df[grouped_df['City'].isin(cities_to_include)]
 
-    # Pivot the data to create a matrix of operator-city counts
     pivot_df = grouped_df.pivot(
         index='Operator', columns='City', values='Count').fillna(0)
 
-    # Customize the plot parameters
-    figure_width = 1.9  # Adjust the figure width
-    figure_height = 6  # Adjust the figure height
-    font_size_heatmap = 5  # Adjust the font size for the heatmap
-    font_size_labels = 4  # Adjust the font size for x-axis and y-axis labels
+    figure_width = 1.9
+    figure_height = 6 
+    font_size_heatmap = 5  
+    font_size_labels = 4  
 
-    # Create the heatmap plot using seaborn
     plt.figure(figsize=(figure_width, figure_height), facecolor='none')
 
     sns.heatmap(pivot_df, cmap='YlGnBu', annot=True, fmt='g', linewidths=0.5, cbar=False,
@@ -1576,7 +1533,6 @@ with tab4:
                fontsize=font_size_labels, color='black')
     plt.ylabel('Operator', fontsize=font_size_labels, color='black')
 
-    # Rotate x-axis labels for better readability
     plt.xticks(rotation=0, ha='center',
                fontsize=font_size_labels, color='black')
     plt.yticks(fontsize=font_size_labels, color='black')
@@ -1591,13 +1547,11 @@ with tab4:
                          "Faridabad", "Noida", "Ghaziabad"]
     grouped_df = grouped_df[grouped_df['City'].isin(cities_to_include)]
 
-    # Create a list of unique cities for the dropdown
     cities = np.append(grouped_df['City'].unique(), "All")
 
     with col3:
         selected_city = st.selectbox('Select City', cities)
 
-    # Filter data based on selected city
     if selected_city == "All":
         city_df = grouped_df
     else:
@@ -1608,15 +1562,12 @@ with tab4:
     grouped_df.columns = ['Operator', 'City', 'Count']
     total_sessions = city_df.groupby('Operator')['Count'].sum().reset_index()
 
-    # Calculate the working days per operator
     working_days = filtered_df.groupby('Actual OPERATOR NAME')[
         'Actual Date'].nunique().reset_index()
     working_days.columns = ['Operator', 'Working Days']
 
-    # Merge total sessions and working days dataframes
     merged_df = pd.merge(total_sessions, working_days, on='Operator')
 
-    # Calculate the average sessions per operator
     avg_sessions = pd.DataFrame()
     avg_sessions['Operator'] = merged_df['Operator']
     avg_sessions['Avg. Sessions'] = merged_df['Count'] / \
@@ -1656,12 +1607,10 @@ with tab4:
             st.write("\n")
         st.plotly_chart(fig_sessions)
 
-    # Calculate working days per operator
     working_days = filtered_df.groupby('Actual OPERATOR NAME')[
         'Actual Date'].nunique().reset_index()
     working_days.columns = ['Operator', 'Working Days']
 
-    # Filter working days based on selected city
     if selected_city == "All":
         selected_working_days = working_days
     else:
