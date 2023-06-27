@@ -713,7 +713,7 @@ with tab2:
                 ))
         fig.update_layout(xaxis=dict(tickmode='array', tickvals=list(
             range(24)), ticktext=list(range(24))))
-        fig.update_layout(width=1100, height=500)
+        fig.update_layout(width=1100, height=530)
         return fig
     filtered_data['Booking Session time'] = pd.to_datetime(
         filtered_data['Booking Session time'], format='%H:%M').dt.hour
