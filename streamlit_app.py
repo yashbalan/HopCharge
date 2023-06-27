@@ -531,6 +531,7 @@ with tab1:
         
 with tab2:
 
+    
     CustomerNames = df['Customer Name_x'].unique()
     SubscriptionNames = df['type'].unique()
 
@@ -562,13 +563,10 @@ with tab2:
     end_date = pd.to_datetime(end_date)
     filtered_data = df[(df['Actual Date'] >= start_date)
                        & (df['Actual Date'] <= end_date)]
-
     if 'All' in Name:
         Name = CustomerNames
-
     if 'All' in Sub_filter:
         Sub_filter = SubscriptionNames
-
     filtered_data = filtered_data[
         (filtered_data['Customer Name_x'].isin(Name)) &
         (filtered_data['type'].isin(Sub_filter))
@@ -578,60 +576,44 @@ with tab2:
         fig = go.Figure()
         color_map = {0: 'blue', 1: 'green', 2: 'red'}
         names = {0: "T-15 Not Fulfilled", 1: "T-15 Fulfilled", 2: "Delayed"}
-
         total_count = data.groupby('Day')['count'].sum().reset_index()
         total_count['percent'] = round(
             total_count['count']/total_count['count'].sum()*100, 2)
-
         for kpi_flag in data['t-15_kpi'].unique():
             subset = data[data['t-15_kpi'] == kpi_flag]
             colorscale = [[0, color_map[kpi_flag]], [1, color_map[kpi_flag]]]
-            fig.add_trace(go.Scatter(x=subset['Day'], y=subset['count'], mode='lines+markers+text',
+            fig.add_trace(go.Scatter(x=subset['Day'], y=subset['count'], mode='lines+text',
                                      name=names[kpi_flag], line_color=color_map[kpi_flag],
 
                                      text=[f"{round(count/total_count[total_count['Day']==day]['count'].values[0]*100, 1)}%"
                                            for day, count in zip(subset['Day'], subset['count'])],
-
+                                     textposition='top center',
                                      showlegend=False))
-
         fig.add_trace(go.Scatter(x=total_count['Day'], y=total_count['count'], mode='lines+markers+text',
                                  name='Total Count', line_color='yellow',
                                  text=total_count['count'],
                                  textposition='top center',
-
                                  showlegend=False))
-
         fig.update_layout(
             xaxis_title='Day', yaxis_title='Count', legend=dict(x=0, y=1.2, orientation='h'))
         fig.update_yaxes(title='Count', range=[
             0, total_count['count'].max() * 1.2])
-
-        fig.update_layout(width=500, height=380)
+        fig.update_layout(width=500, height=500)
         return fig
-
     day_order = ['Monday', 'Tuesday', 'Wednesday',
                  'Thursday', 'Friday', 'Saturday', 'Sunday']
     filtered_data['Day'] = pd.Categorical(
         filtered_data['Day'], categories=day_order, ordered=True)
-
     daily_count = filtered_data.groupby(
         ['Day', 't-15_kpi']).size().reset_index(name='count')
     maxday = filtered_data.groupby(['Day']).size().reset_index(name='count')
-
     maxday['count'] = maxday['count'].astype(int)
-
     max_count_index = maxday['count'].idxmax()
-
     max_count_day = maxday.loc[max_count_index, 'Day']
-
     minday = filtered_data.groupby(['Day']).size().reset_index(name='count')
-
     minday['count'] = minday['count'].astype(int)
-
     min_count_index = minday['count'].idxmin()
-
     min_count_day = minday.loc[min_count_index, 'Day']
-
     with col7:
         for i in range(1, 10):
             st.write("\n")
@@ -643,9 +625,7 @@ with tab2:
         st.markdown("<span style = 'font-size:25px;line-height: 0.8;'>" +
                     min_count_day+"</span>", unsafe_allow_html=True)
     multiline_plot = generate_multiline_plot(daily_count)
-
     with col4:
-
         st.plotly_chart(multiline_plot)
 
     def count_t15_kpi(df):
@@ -677,7 +657,6 @@ with tab2:
               'Cancelled with Penalty']
     values = [total_sessions-cancelled_sessions-cancelled_sessions_with_penalty, cancelled_sessions,
               cancelled_sessions_with_penalty]
-
     colors = ['blue', 'orange', 'red']
 
     fig = go.Figure(
@@ -697,7 +676,7 @@ with tab2:
 
         for kpi_flag in data['t-15_kpi'].unique():
             subset = data[data['t-15_kpi'] == kpi_flag]
-            fig.add_trace(go.Scatter(x=subset['Booking Session time'], y=subset['count'], mode='lines+markers',
+            fig.add_trace(go.Scatter(x=subset['Booking Session time'], y=subset['count'], mode='lines',
                                      name=names[kpi_flag], line_color=color_map[kpi_flag]))
 
         total_count = data.groupby('Booking Session time')[
@@ -734,23 +713,17 @@ with tab2:
                 ))
         fig.update_layout(xaxis=dict(tickmode='array', tickvals=list(
             range(24)), ticktext=list(range(24))))
-        fig.update_layout(width=1100, height=450)
-
+        fig.update_layout(width=1100, height=500)
         return fig
-
     filtered_data['Booking Session time'] = pd.to_datetime(
         filtered_data['Booking Session time'], format='%H:%M').dt.hour
-
     daily_count = filtered_data.groupby(
         ['Booking Session time', 't-15_kpi']).size().reset_index(name='count')
     maxmindf = filtered_data.groupby(
         ['Booking Session time']).size().reset_index(name='count')
     max_count_index = maxmindf['count'].idxmax()
-
     max_count_time = maxmindf.loc[max_count_index, 'Booking Session time']
-
     min_count_index = maxmindf['count'].idxmin()
-
     min_count_time = maxmindf.loc[min_count_index, 'Booking Session time']
     with col7:
         for i in range(1, 18):
@@ -758,17 +731,13 @@ with tab2:
         st.markdown("Max Sessions at Time")
         st.markdown("<span style = 'font-size:25px;line-height: 0.8;'>" +
                     str(max_count_time)+"</span>", unsafe_allow_html=True)
-
     with col7:
         st.markdown("Min Sessions at Time")
         st.markdown("<span style = 'font-size:25px;line-height: 0.8;'>" +
                     str(min_count_time)+"</span>", unsafe_allow_html=True)
-
     multiline_plot = generate_multiline_plot(daily_count)
-
     with col1:
         st.plotly_chart(multiline_plot)
-
     st.divider()
     HSZs = df['Customer Location City'].dropna().unique()
     for city in HSZs:
@@ -800,12 +769,10 @@ with tab2:
                                         options=['All'] +
                                         SubscriptionNames.tolist(),
                                         default='All', key=f"{city}sub")
-
         start_date = pd.to_datetime(start_date)
         end_date = pd.to_datetime(end_date)
         filtered_data = df[(df['Actual Date'] >= start_date)
                            & (df['Actual Date'] <= end_date)]
-
         if 'All' in Name:
             Name = CustomerNames
 
@@ -824,7 +791,6 @@ with tab2:
             color_map = {0: 'blue', 1: 'green', 2: 'red'}
             names = {0: "T-15 Not Fulfilled",
                      1: "T-15 Fulfilled", 2: "Delayed"}
-
             total_count = data.groupby('Day')['count'].sum().reset_index()
             total_count['percent'] = round(
                 total_count['count']/total_count['count'].sum()*100, 2)
@@ -833,11 +799,12 @@ with tab2:
                 subset = data[data['t-15_kpi'] == kpi_flag]
                 colorscale = [[0, color_map[kpi_flag]],
                               [1, color_map[kpi_flag]]]
-                fig.add_trace(go.Scatter(x=subset['Day'], y=subset['count'], mode='lines+markers+text',
+                fig.add_trace(go.Scatter(x=subset['Day'], y=subset['count'], mode='lines+text',
                                          name=names[kpi_flag], line_color=color_map[kpi_flag],
 
                                          text=[f"{round(count/total_count[total_count['Day']==day]['count'].values[0]*100, 1)}%"
                                                for day, count in zip(subset['Day'], subset['count'])],
+                                         textposition='top center',
 
                                          showlegend=False))
 
@@ -853,34 +820,24 @@ with tab2:
             fig.update_yaxes(title='Count', range=[
                 0, total_count['count'].max() * 1.2])
 
-            fig.update_layout(width=500, height=380)
+            fig.update_layout(width=500, height=500)
             return fig
-
         day_order = ['Monday', 'Tuesday', 'Wednesday',
                      'Thursday', 'Friday', 'Saturday', 'Sunday']
         filtered_data['Day'] = pd.Categorical(
             filtered_data['Day'], categories=day_order, ordered=True)
-
         daily_count = filtered_data.groupby(
             ['Day', 't-15_kpi']).size().reset_index(name='count')
         maxday = filtered_data.groupby(
             ['Day']).size().reset_index(name='count')
-
         maxday['count'] = maxday['count'].astype(int)
-
         max_count_index = maxday['count'].idxmax()
-
         max_count_day = maxday.loc[max_count_index, 'Day']
-
         minday = filtered_data.groupby(
             ['Day']).size().reset_index(name='count')
-
         minday['count'] = minday['count'].astype(int)
-
         min_count_index = minday['count'].idxmin()
-
         min_count_day = minday.loc[min_count_index, 'Day']
-
         with col7:
             for i in range(1, 10):
                 st.write("\n")
@@ -918,7 +875,6 @@ with tab2:
                 return df.groupby(['cancelledPenalty']).size()[1]
             except KeyError:
                 return 0
-
         total_sessions = count_sessions(filtered_data)
         cancelled_sessions = count_cancelled(filtered_data)
         cancelled_sessions_with_penalty = count_cancelledPenalty(filtered_data)
@@ -926,9 +882,7 @@ with tab2:
                   'Cancelled with Penalty']
         values = [total_sessions-cancelled_sessions-cancelled_sessions_with_penalty, cancelled_sessions,
                   cancelled_sessions_with_penalty]
-
         colors = ['blue', 'orange', 'red']
-
         fig = go.Figure(
             data=[go.Pie(labels=labels, values=values, hole=0.7, textinfo='label+value+percent', marker=dict(colors=colors))])
         fig.update_layout(
@@ -947,7 +901,7 @@ with tab2:
 
             for kpi_flag in data['t-15_kpi'].unique():
                 subset = data[data['t-15_kpi'] == kpi_flag]
-                fig.add_trace(go.Scatter(x=subset['Booking Session time'], y=subset['count'], mode='lines+markers',
+                fig.add_trace(go.Scatter(x=subset['Booking Session time'], y=subset['count'], mode='lines',
                                          name=names[kpi_flag], line_color=color_map[kpi_flag]))
 
             total_count = data.groupby('Booking Session time')[
@@ -984,23 +938,18 @@ with tab2:
                     ))
             fig.update_layout(xaxis=dict(tickmode='array', tickvals=list(
                 range(24)), ticktext=list(range(24))))
-            fig.update_layout(width=1100, height=450)
+            fig.update_layout(width=1100, height=500)
 
             return fig
-
         filtered_data['Booking Session time'] = pd.to_datetime(
             filtered_data['Booking Session time'], format='%H:%M').dt.hour
-
         daily_count = filtered_data.groupby(
             ['Booking Session time', 't-15_kpi']).size().reset_index(name='count')
         maxmindf = filtered_data.groupby(
             ['Booking Session time']).size().reset_index(name='count')
         max_count_index = maxmindf['count'].idxmax()
-
         max_count_time = maxmindf.loc[max_count_index, 'Booking Session time']
-
         min_count_index = maxmindf['count'].idxmin()
-
         min_count_time = maxmindf.loc[min_count_index, 'Booking Session time']
         with col7:
             for i in range(1, 18):
