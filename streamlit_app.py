@@ -708,7 +708,7 @@ with tab2:
                     y=trace.y,
                     mode='text',
                     text=trace_text,
-                    textposition='top center',
+                    textposition='bottom center',
                     showlegend=False
                 ))
         fig.update_layout(xaxis=dict(tickmode='array', tickvals=list(
