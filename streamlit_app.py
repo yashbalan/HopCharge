@@ -156,7 +156,22 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
+st.markdown(
+    """
+    <style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr) 4px repeat(4, 1fr);
+        align-items: start;
+        height: 100vh;
+    }
+    .partition-line {
+        background-color: black;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 df = merged_df
 image = Image.open('Hpcharge.png')
@@ -355,22 +370,36 @@ with tab1:
         for i in range(1, 27):
             st.write("\n")
         st.write("#### End SoC Stats")
+
+    # Create the layout using grid container
+    st.markdown('<div class="grid-container">', unsafe_allow_html=True)
+
     col1, col2, col3, col4, col5, col6, col7, col8 = st.columns(8)
-    with col1:
+
+    # Add components to the first four columns
+    for i in range(4):
+        with col1:
 
         st.plotly_chart(start_soc_min_gauge)
-
-    with col2:
+        with col2:
 
         st.plotly_chart(start_soc_max_gauge)
-
-    with col3:
+        with col3:
 
         st.plotly_chart(start_soc_avg_gauge)
-
-    with col4:
+        with col4:
 
         st.plotly_chart(start_soc_median_gauge)
+    
+
+    # Draw the partition line
+    st.markdown('<div class="partition-line"></div>', unsafe_allow_html=True)
+
+   
+
+    
+
+    
 
     end_soc_max = end_soc_stats['max'].values.max()
     end_soc_min = end_soc_stats['min'].values.min()
@@ -412,15 +441,23 @@ with tab1:
         gauge={'axis': {'range': gauge_range}}
     ))
     end_soc_median_gauge.update_layout(width=150, height=250)
-    with col5:
-        st.plotly_chart(end_soc_min_gauge)
 
-    with col6:
-        st.plotly_chart(end_soc_max_gauge)
-    with col7:
-        st.plotly_chart(end_soc_avg_gauge)
-    with col8:
-        st.plotly_chart(end_soc_median_gauge)
+     # Add components to the last four columns
+    for i in range(4, 8):
+        with col5:
+            st.plotly_chart(end_soc_min_gauge)
+
+        with col6:
+            st.plotly_chart(end_soc_max_gauge)
+        with col7:
+            st.plotly_chart(end_soc_avg_gauge)
+        with col8:
+            st.plotly_chart(end_soc_median_gauge)
+    
+
+    # Close the grid container
+    st.markdown('</div>', unsafe_allow_html=True)
+    
         
     
 
