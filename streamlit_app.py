@@ -212,7 +212,7 @@ with tab1:
     before_time_percentage = (before_time_count / total_count) * 100
     on_time_percentage = (on_time_count / total_count) * 100
     delay_percentage = (delay_count / total_count) * 100
-    on_time_sla = (1 - (delay_percentage / 100)*100)
+    on_time_sla = (1 - (delay_percentage / 100))*100
     labels = ['T-15 Fulfilled', 'Delay']
 
     start_soc_avg = start_soc_stats['mean'].values.mean()
