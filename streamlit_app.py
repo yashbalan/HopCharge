@@ -762,7 +762,7 @@ with tab2:
                     mode='text',
                     text=trace.y,
                     textposition='top center',
-                    showlegend=True
+                    showlegend=False
                 ))
         for trace in fig.data:
             if trace.line.color == 'green' or trace.line.color == 'blue' or trace.line.color == 'red':
@@ -871,14 +871,14 @@ with tab2:
                                                for day, count in zip(subset['Day'], subset['count'])],
                                          textposition='top center',
 
-                                         showlegend=False))
+                                         showlegend=True))
 
             fig.add_trace(go.Scatter(x=total_count['Day'], y=total_count['count'], mode='lines+markers+text',
                                      name='Total Count', line_color='yellow',
                                      text=total_count['count'],
                                      textposition='top center',
 
-                                     showlegend=False))
+                                     showlegend=True))
 
             fig.update_layout(
                 xaxis_title='Day', yaxis_title='Count', legend=dict(x=0, y=1.2, orientation='h'))
