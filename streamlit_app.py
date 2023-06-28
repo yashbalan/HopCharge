@@ -774,7 +774,7 @@ with tab2:
                     mode='text',
                     text=trace_text,
                     textposition='top right',
-                    showlegend=True
+                    showlegend=False
                 ))
         fig.update_layout(xaxis=dict(tickmode='array', tickvals=list(
             range(24)), ticktext=list(range(24))))
