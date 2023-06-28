@@ -655,7 +655,7 @@ with tab2:
                                      textposition='top center',
                                      showlegend=True))
         fig.add_trace(go.Scatter(x=total_count['Day'], y=total_count['count'], mode='lines+markers+text',
-                                 name='Total Count', line_color='yellow',
+                                 name='Total Count', line_color='blue',
                                  text=total_count['count'],
                                  textposition='top center',
                                  showlegend=True))
@@ -747,7 +747,7 @@ with tab2:
         total_count = data.groupby('Booking Session time')[
             'count'].sum().reset_index()
         fig.add_trace(go.Scatter(x=total_count['Booking Session time'], y=total_count['count'], mode='lines+markers',
-                                 name='Total Count', line_color='yellow'))
+                                 name='Total Count', line_color='blue'))
 
         fig.update_layout(xaxis_title='Booking Session Time',
                           yaxis_title='Count', legend=dict(x=0, y=1.2, orientation='h'))
@@ -874,7 +874,7 @@ with tab2:
                                          showlegend=True))
 
             fig.add_trace(go.Scatter(x=total_count['Day'], y=total_count['count'], mode='lines+markers+text',
-                                     name='Total Count', line_color='yellow',
+                                     name='Total Count', line_color='blue',
                                      text=total_count['count'],
                                      textposition='top center',
 
@@ -972,7 +972,7 @@ with tab2:
             total_count = data.groupby('Booking Session time')[
                 'count'].sum().reset_index()
             fig.add_trace(go.Scatter(x=total_count['Booking Session time'], y=total_count['count'], mode='lines+markers',
-                                     name='Total Count', line_color='yellow'))
+                                     name='Total Count', line_color='blue'))
 
             fig.update_layout(xaxis_title='Booking Session Time',
                               yaxis_title='Count', legend=dict(x=0, y=1.2, orientation='h'))
