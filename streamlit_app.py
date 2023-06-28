@@ -722,7 +722,7 @@ with tab2:
               'Cancelled with Penalty']
     values = [total_sessions-cancelled_sessions-cancelled_sessions_with_penalty, cancelled_sessions,
               cancelled_sessions_with_penalty]
-    colors = ['yellow', 'orange', 'red']
+    colors = ['blue', 'orange', 'red']
 
     fig = go.Figure(
         data=[go.Pie(labels=labels, values=values, hole=0.7, textinfo='label+value+percent', marker=dict(colors=colors))])
@@ -947,7 +947,7 @@ with tab2:
                   'Cancelled with Penalty']
         values = [total_sessions-cancelled_sessions-cancelled_sessions_with_penalty, cancelled_sessions,
                   cancelled_sessions_with_penalty]
-        colors = ['yellow', 'orange', 'red']
+        colors = ['blue', 'orange', 'red']
         fig = go.Figure(
             data=[go.Pie(labels=labels, values=values, hole=0.7, textinfo='label+value+percent', marker=dict(colors=colors))])
         fig.update_layout(
