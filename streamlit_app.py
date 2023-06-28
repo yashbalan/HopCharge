@@ -653,12 +653,12 @@ with tab2:
                                      text=[f"{round(count/total_count[total_count['Day']==day]['count'].values[0]*100, 1)}%"
                                            for day, count in zip(subset['Day'], subset['count'])],
                                      textposition='top center',
-                                     showlegend=False))
+                                     showlegend=True))
         fig.add_trace(go.Scatter(x=total_count['Day'], y=total_count['count'], mode='lines+markers+text',
                                  name='Total Count', line_color='yellow',
                                  text=total_count['count'],
                                  textposition='top center',
-                                 showlegend=False))
+                                 showlegend=True))
         fig.update_layout(
             xaxis_title='Day', yaxis_title='Count', legend=dict(x=0, y=1.2, orientation='h'))
         fig.update_yaxes(title='Count', range=[
@@ -762,7 +762,7 @@ with tab2:
                     mode='text',
                     text=trace.y,
                     textposition='top center',
-                    showlegend=False
+                    showlegend=True
                 ))
         for trace in fig.data:
             if trace.line.color == 'green' or trace.line.color == 'blue' or trace.line.color == 'red':
@@ -774,7 +774,7 @@ with tab2:
                     mode='text',
                     text=trace_text,
                     textposition='top right',
-                    showlegend=False
+                    showlegend=True
                 ))
         fig.update_layout(xaxis=dict(tickmode='array', tickvals=list(
             range(24)), ticktext=list(range(24))))
