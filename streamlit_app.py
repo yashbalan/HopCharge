@@ -351,9 +351,9 @@ with tab1:
         shapes=[dict(
             type='line',
             x0=1,
-            y0=0,
+            y0=-2,
             x1=1,
-            y1=1.75,
+            y1=2,
             line=dict(
                 color="black",
                 width=1,
@@ -411,9 +411,9 @@ with tab1:
                 xref='paper',
                 yref='paper',
                 x0=0,
-                y0=0,
+                y0=-2,
                 x1=0,
-                y1=1.75,
+                y1=2,
                 line=dict(
                     color='black',
                     width=1
@@ -509,9 +509,9 @@ with tab1:
         shapes=[dict(
             type='line',
             x0=1,
-            y0=0,
+            y0=-2,
             x1=1,
-            y1=1.75,
+            y1=2,
             line=dict(
                 color="black",
                 width=1,
@@ -542,9 +542,9 @@ with tab1:
                 xref='paper',
                 yref='paper',
                 x0=0,
-                y0=0,
+                y0=-2,
                 x1=0,
-                y1=1.75,
+                y1=2,
                 line=dict(
                     color='black',
                     width=1
