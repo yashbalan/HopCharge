@@ -156,22 +156,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.markdown(
-    """
-    <style>
-    .grid-container {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr) 4px repeat(4, 1fr);
-        align-items: start;
-        height: 100vh;
-    }
-    .partition-line {
-        background-color: black;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+
 
 df = merged_df
 image = Image.open('Hpcharge.png')
