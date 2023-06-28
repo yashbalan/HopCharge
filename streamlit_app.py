@@ -212,6 +212,7 @@ with tab1:
     before_time_percentage = (before_time_count / total_count) * 100
     on_time_percentage = (on_time_count / total_count) * 100
     delay_percentage = (delay_count / total_count) * 100
+    on_time_sla = 1 - (delay_percentage / 100)
     labels = ['T-15 Fulfilled', 'Delay']
 
     start_soc_avg = start_soc_stats['mean'].values.mean()
@@ -221,7 +222,7 @@ with tab1:
     end_soc_median = end_soc_stats['median'].values[0]
 
     col2.metric("T-15 Fulfilled", f"{before_time_percentage.round(2)}%")
-    col3.metric("Delay", f"{delay_percentage.round(2)}%")
+    col3.metric("On Time SLA", f"{on_time_sla.round(2)}%")
     col4.metric("T-15 Not Fulfilled", f"{on_time_percentage.round(2)}%")
     col5.metric("Avg Start SoC", f"{start_soc_avg.round(2)}%")
     col6.metric("Avg End SoC", f"{end_soc_avg.round(2)}%")
