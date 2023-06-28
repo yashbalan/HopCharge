@@ -274,7 +274,7 @@ with tab1:
             x=df_flag['Customer Location City'],
             y=df_flag['Percentage'],
             name=str(flag),
-            text=df_flag['Percentage'].round(0).astype(str) + '%',
+            text=df_flag['Percentage'].round(1).astype(str) + '%',
             marker=dict(color=color_mapping[flag]),
             textposition='auto'
         ))
@@ -648,10 +648,11 @@ with tab2:
         for kpi_flag in data['t-15_kpi'].unique():
             subset = data[data['t-15_kpi'] == kpi_flag]
             colorscale = [[0, color_map[kpi_flag]], [1, color_map[kpi_flag]]]
+            
             fig.add_trace(go.Scatter(x=subset['Day'], y=subset['count'], mode='lines+text',
                                      name=names[kpi_flag], line_color=color_map[kpi_flag],
 
-                                     text=[f"{round(count/total_count[total_count['Day']==day]['count'].values[0]*100, 1)}%"
+                                     text=[f"{round(count/total_count[total_count['Day']==day]['count'].values[0]*100, 0)}%"
                                            for day, count in zip(subset['Day'], subset['count'])],
                                      textposition='top center',
                                      showlegend=True))
@@ -768,7 +769,7 @@ with tab2:
         for trace in fig.data:
             if trace.line.color == 'green' or trace.line.color == 'yellow' or trace.line.color == 'red':
                 trace_text = [
-                    f'{y/total_count["count"].sum()*100:.1f}%' for y in trace.y]
+                    f'{y/total_count["count"].sum()*100:.f}%' for y in trace.y]
                 fig.add_trace(go.Scatter(
                     x=trace.x,
                     y=trace.y,
@@ -868,7 +869,7 @@ with tab2:
                 fig.add_trace(go.Scatter(x=subset['Day'], y=subset['count'], mode='lines+text',
                                          name=names[kpi_flag], line_color=color_map[kpi_flag],
 
-                                         text=[f"{round(count/total_count[total_count['Day']==day]['count'].values[0]*100, 1)}%"
+                                         text=[f"{round(count/total_count[total_count['Day']==day]['count'].values[0]*100, 0)}%"
                                                for day, count in zip(subset['Day'], subset['count'])],
                                          textposition='top center',
 
