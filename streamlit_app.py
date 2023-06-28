@@ -346,6 +346,20 @@ with tab1:
         gauge={'axis': {'range': gauge_range}}
     ))
     start_soc_median_gauge.update_layout(width=150, height=250)
+    start_soc_median_gauge.update_layout(
+        # Adjust the margins as needed
+        shapes=[dict(
+            type='line',
+            x0=1,
+            y0=0,
+            x1=1,
+            y1=1.75,
+            line=dict(
+                color="black",
+                width=1,
+            )
+        )]
+    )
     with col3:
         for i in range(1, 27):
             st.write("\n")
@@ -390,6 +404,23 @@ with tab1:
         domain={'x': [0, 1], 'y': [0, 1]},
         gauge={'axis': {'range': gauge_range}}
     ))
+    end_soc_min_gauge.update_layout(
+        shapes=[
+            dict(
+                type='line',
+                xref='paper',
+                yref='paper',
+                x0=0,
+                y0=0,
+                x1=0,
+                y1=1.75,
+                line=dict(
+                    color='black',
+                    width=1
+                )
+            )
+        ]
+    )
     end_soc_max_gauge.update_layout(width=150, height=250)
     end_soc_min_gauge.update_layout(width=150, height=250)
 
