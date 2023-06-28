@@ -234,7 +234,7 @@ with tab1:
                                  sort=False,
                                  textinfo='label+percent+value',
                                  textposition='outside',
-                                 marker=dict(colors=['green', 'red', 'blue']))])
+                                 marker=dict(colors=['green', 'red', 'yellow']))])
 
     fig.add_annotation(text='Total Sessions',
                        x=0.5, y=0.5, font_size=15, showarrow=False)
@@ -258,7 +258,7 @@ with tab1:
     
     fig_group = go.Figure()
 
-    color_mapping = {0: 'red', 1: 'green', 2: 'blue'}
+    color_mapping = {0: 'red', 1: 'green', 2: 'yellow'}
     city_count_df['Percentage'] = city_count_df['Record Count'] / \
         city_count_df.groupby('Customer Location City')[
         'Record Count'].transform('sum') * 100
@@ -639,7 +639,7 @@ with tab2:
 
     def generate_multiline_plot(data):
         fig = go.Figure()
-        color_map = {0: 'blue', 1: 'green', 2: 'red'}
+        color_map = {0: 'yellow', 1: 'green', 2: 'red'}
         names = {0: "T-15 Not Fulfilled", 1: "T-15 Fulfilled", 2: "Delayed"}
         total_count = data.groupby('Day')['count'].sum().reset_index()
         total_count['percent'] = round(
@@ -722,7 +722,7 @@ with tab2:
               'Cancelled with Penalty']
     values = [total_sessions-cancelled_sessions-cancelled_sessions_with_penalty, cancelled_sessions,
               cancelled_sessions_with_penalty]
-    colors = ['blue', 'orange', 'red']
+    colors = ['yellow', 'orange', 'red']
 
     fig = go.Figure(
         data=[go.Pie(labels=labels, values=values, hole=0.7, textinfo='label+value+percent', marker=dict(colors=colors))])
@@ -736,7 +736,7 @@ with tab2:
 
     def generate_multiline_plot(data):
         fig = go.Figure()
-        color_map = {0: 'blue', 1: 'green', 2: 'red'}
+        color_map = {0: 'yellow', 1: 'green', 2: 'red'}
         names = {0: "T-15 Not Fulfilled", 1: "T-15 Fulfilled", 2: "Delayed"}
 
         for kpi_flag in data['t-15_kpi'].unique():
@@ -765,7 +765,7 @@ with tab2:
                     showlegend=False
                 ))
         for trace in fig.data:
-            if trace.line.color == 'green' or trace.line.color == 'blue' or trace.line.color == 'red':
+            if trace.line.color == 'green' or trace.line.color == 'yellow' or trace.line.color == 'red':
                 trace_text = [
                     f'{y/total_count["count"].sum()*100:.1f}%' for y in trace.y]
                 fig.add_trace(go.Scatter(
@@ -853,7 +853,7 @@ with tab2:
 
         def generate_multiline_plot(data):
             fig = go.Figure()
-            color_map = {0: 'blue', 1: 'green', 2: 'red'}
+            color_map = {0: 'yellow', 1: 'green', 2: 'red'}
             names = {0: "T-15 Not Fulfilled",
                      1: "T-15 Fulfilled", 2: "Delayed"}
             total_count = data.groupby('Day')['count'].sum().reset_index()
@@ -947,7 +947,7 @@ with tab2:
                   'Cancelled with Penalty']
         values = [total_sessions-cancelled_sessions-cancelled_sessions_with_penalty, cancelled_sessions,
                   cancelled_sessions_with_penalty]
-        colors = ['blue', 'orange', 'red']
+        colors = ['yellow', 'orange', 'red']
         fig = go.Figure(
             data=[go.Pie(labels=labels, values=values, hole=0.7, textinfo='label+value+percent', marker=dict(colors=colors))])
         fig.update_layout(
@@ -960,7 +960,7 @@ with tab2:
 
         def generate_multiline_plot(data):
             fig = go.Figure()
-            color_map = {0: 'blue', 1: 'green', 2: 'red'}
+            color_map = {0: 'yellow', 1: 'green', 2: 'red'}
             names = {0: "T-15 Not Fulfilled",
                      1: "T-15 Fulfilled", 2: "Delayed"}
 
@@ -990,7 +990,7 @@ with tab2:
                         showlegend=False
                     ))
             for trace in fig.data:
-                if trace.line.color == 'green' or trace.line.color == 'blue' or trace.line.color == 'red':
+                if trace.line.color == 'green' or trace.line.color == 'yellow' or trace.line.color == 'red':
                     trace_text = [
                         f'{y/total_count["count"].sum()*100:.1f}%' for y in trace.y]
                     fig.add_trace(go.Scatter(
@@ -1058,7 +1058,7 @@ with tab3:
         st.markdown(":large_green_square: T-15 fulfilled")
 
     with col2:
-        st.markdown(":large_blue_square: T-15 Not fulfilled")
+        st.markdown(":large_yellow_square: T-15 Not fulfilled")
     with col3:
         st.markdown(":large_red_square: Delay")
 
@@ -1074,7 +1074,7 @@ with tab3:
 
     record_count_df = filtered_data.groupby(
         ['EPOD Name', 't-15_kpi']).size().reset_index(name='Record Count')
-    color_mapping = {0: 'blue', 1: 'green', 2: 'red'}
+    color_mapping = {0: 'yellow', 1: 'green', 2: 'red'}
     record_count_df['Color'] = record_count_df['t-15_kpi'].map(color_mapping)
 
     record_count_df = record_count_df.sort_values('EPOD Name')
@@ -1258,7 +1258,7 @@ with tab3:
             st.markdown(":large_green_square: T-15 fulfilled")
 
         with col2:
-            st.markdown(":large_blue_square: T-15 Not fulfilled")
+            st.markdown(":large_yellow_square: T-15 Not fulfilled")
         with col3:
             st.markdown(":large_red_square: Delay")
 
@@ -1277,7 +1277,7 @@ with tab3:
 
         record_count_df = filtered_data.groupby(
             ['EPOD Name', 't-15_kpi']).size().reset_index(name='Record Count')
-        color_mapping = {0: 'blue', 1: 'green', 2: 'red'}
+        color_mapping = {0: 'yellow', 1: 'green', 2: 'red'}
         record_count_df['Color'] = record_count_df['t-15_kpi'].map(
             color_mapping)
 
@@ -1593,7 +1593,7 @@ with tab4:
         name='Total Sessions',
         text=total_sessions['Count'],
         textposition='auto',
-        marker=dict(color='blue'),
+        marker=dict(color='yellow'),
         width=0.5
     ))
     fig_sessions.add_trace(go.Bar(
