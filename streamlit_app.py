@@ -251,7 +251,7 @@ with tab1:
     with col2:
         st.plotly_chart(fig, use_container_width=False)
 
-    allowed_cities = ["Gurgaon", "Noida", "Delhi", "Ghaziabad", "Faridabad"]
+    allowed_cities = df['Customer Location City'].dropna().unique()
     city_count_df = city_count_df[city_count_df['Customer Location City'].isin(
         allowed_cities)]
 
@@ -1460,7 +1460,7 @@ with tab4:
         ['Actual OPERATOR NAME', 'Customer Location City']).size().reset_index()
     grouped_df.columns = ['Operator', 'City', 'Count']
 
-    cities_to_include = ["Gurgaon", "Delhi", "Faridabad", "Noida", "Ghaziabad"]
+    cities_to_include = df['Customer Location City'].dropna().unique()
     grouped_df = grouped_df[grouped_df['City'].isin(cities_to_include)]
 
     pivot_df = grouped_df.pivot(
@@ -1492,8 +1492,7 @@ with tab4:
         ['Actual OPERATOR NAME', 'Customer Location City']).size().reset_index()
     grouped_df.columns = ['Operator', 'City', 'Count']
 
-    cities_to_include = ["Gurgaon", "Delhi",
-                         "Faridabad", "Noida", "Ghaziabad"]
+    cities_to_include = df['Customer Location City'].dropna().unique()
     grouped_df = grouped_df[grouped_df['City'].isin(cities_to_include)]
 
     cities = np.append(grouped_df['City'].unique(), "All")
