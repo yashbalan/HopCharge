@@ -375,14 +375,14 @@ with tab1:
     st.markdown('<div class="grid-container">', unsafe_allow_html=True)
 
     col1, col2, col3, col4, col5, col6, col7, col8 = st.columns(8)
-        with col1:
-            st.plotly_chart(start_soc_min_gauge)
-        with col2:
-            st.plotly_chart(start_soc_max_gauge)
-        with col3:
-            st.plotly_chart(start_soc_avg_gauge)
-        with col4:
-            st.plotly_chart(start_soc_median_gauge)
+    with col1:
+        st.plotly_chart(start_soc_min_gauge)
+    with col2:
+        st.plotly_chart(start_soc_max_gauge)
+    with col3:
+        st.plotly_chart(start_soc_avg_gauge)
+    with col4:
+        st.plotly_chart(start_soc_median_gauge)
     
 
     end_soc_max = end_soc_stats['max'].values.max()
@@ -426,15 +426,15 @@ with tab1:
     ))
     end_soc_median_gauge.update_layout(width=150, height=250)
 
-        with col5:
-            st.plotly_chart(end_soc_min_gauge)
+    with col5:
+        st.plotly_chart(end_soc_min_gauge)
 
-        with col6:
-            st.plotly_chart(end_soc_max_gauge)
-        with col7:
-            st.plotly_chart(end_soc_avg_gauge)
-        with col8:
-            st.plotly_chart(end_soc_median_gauge)
+    with col6:
+        st.plotly_chart(end_soc_max_gauge)
+    with col7:
+        st.plotly_chart(end_soc_avg_gauge)
+    with col8:
+        st.plotly_chart(end_soc_median_gauge)
     
 
     
