@@ -379,17 +379,13 @@ with tab1:
     # Add components to the first four columns
     for i in range(4):
         with col1:
-
-        st.plotly_chart(start_soc_min_gauge)
+            st.plotly_chart(start_soc_min_gauge)
         with col2:
-
-        st.plotly_chart(start_soc_max_gauge)
+            st.plotly_chart(start_soc_max_gauge)
         with col3:
-
-        st.plotly_chart(start_soc_avg_gauge)
+            st.plotly_chart(start_soc_avg_gauge)
         with col4:
-
-        st.plotly_chart(start_soc_median_gauge)
+            st.plotly_chart(start_soc_median_gauge)
     
 
     # Draw the partition line
