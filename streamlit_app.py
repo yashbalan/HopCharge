@@ -504,6 +504,20 @@ with tab1:
             domain={'x': [0, 1], 'y': [0, 1]},
             gauge={'axis': {'range': gauge_range}}
         ))
+        city_start_soc_median_gauge.update_layout(
+        # Adjust the margins as needed
+        shapes=[dict(
+            type='line',
+            x0=1,
+            y0=0,
+            x1=1,
+            y1=1.75,
+            line=dict(
+                color="black",
+                width=1,
+            )
+        )]
+    )
         city_start_soc_median_gauge.update_layout(width=150, height=250)
         city_end_soc_max_gauge = go.Figure(go.Indicator(
             mode="gauge+number",
@@ -521,6 +535,23 @@ with tab1:
             gauge={'axis': {'range': gauge_range}}
         ))
         city_end_soc_min_gauge.update_layout(width=150, height=250)
+        city_end_soc_min_gauge.update_layout(
+        shapes=[
+            dict(
+                type='line',
+                xref='paper',
+                yref='paper',
+                x0=0,
+                y0=0,
+                x1=0,
+                y1=1.75,
+                line=dict(
+                    color='black',
+                    width=1
+                )
+            )
+        ]
+    )
         city_end_soc_avg_gauge = go.Figure(go.Indicator(
             mode="gauge+number",
             value=city_end_soc_avg,
