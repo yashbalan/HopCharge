@@ -769,7 +769,7 @@ with tab2:
         for trace in fig.data:
             if trace.line.color == 'green' or trace.line.color == 'yellow' or trace.line.color == 'red':
                 trace_text = [
-                    f'{y/total_count["count"].sum()*100:.f}%' for y in trace.y]
+                    f'{y/total_count["count"].sum()*100:.0f}%' for y in trace.y]
                 fig.add_trace(go.Scatter(
                     x=trace.x,
                     y=trace.y,
