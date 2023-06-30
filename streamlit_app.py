@@ -5,7 +5,6 @@ from datetime import datetime
 import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
-import pandas as pd
 from datetime import datetime, timedelta
 import seaborn as sns
 import re
