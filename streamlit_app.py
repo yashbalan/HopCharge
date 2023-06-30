@@ -11,7 +11,29 @@ import re
 import matplotlib.pyplot as plt
 from PIL import Image
 
-df1 = pd.DataFrame(pd.read_csv(
+
+# Define the correct username and password
+correct_username = "your_username"
+correct_password = "your_password"
+
+# Streamlit login page
+def login():
+    st.title("Login")
+
+    username = st.text_input("Username")
+    password = st.text_input("Password", type="password")
+
+    if st.button("Login"):
+        if username == correct_username and password == correct_password:
+            st.success("Logged in successfully!")
+            return True
+        else:
+            st.error("Incorrect username or password")
+            return False
+
+def main():
+    if login():
+        df1 = pd.DataFrame(pd.read_csv(
     'Ops_Session_Data.csv', encoding='latin1'))
 df2 = pd.DataFrame(pd.read_csv(
     'past_bookings_May23.csv', encoding='latin1'))
@@ -1817,3 +1839,7 @@ with tab5:
         with col6:
             st.plotly_chart(fig)
             st.write("\n")
+
+if _name_ == "_main_":
+    main()
+
