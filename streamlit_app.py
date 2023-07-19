@@ -165,7 +165,7 @@ df = merged_df
 image = Image.open('Hpcharge.png')
 col1, col2, col3, col4, col5 = st.columns(5)
 col3.image(image, use_column_width=False)
-tab1, tab2, tab3, tab4, tab5, tab6 = st.(
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
     ["Executive Dashboard", "Charge Pattern Insights", "EPod Stats", "Operator Stats", "Subscription Insights", "Geographical Insights])
 
 
