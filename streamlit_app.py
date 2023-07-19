@@ -10,6 +10,8 @@ import seaborn as sns
 import re
 import matplotlib.pyplot as plt
 from PIL import Image
+import folium
+from streamlit_folium import folium_static
 
 
 
@@ -1819,6 +1821,84 @@ with tab5:
         with col6:
             st.plotly_chart(fig)
             st.write("\n")
+
+with tab6:
+    # Read the merged_df CSV file
+    df = pd.read_csv("C:\\Users\\DELL\\Downloads\\finalstream\\finalstream\\merged_df.csv")
+
+    # Create a custom color mapping for each unique type
+    unique_types = df["type"].unique()
+    type_colors = {type_: f"#{hash(type_) % 16777215:06x}" for type_ in unique_types}
+
+
+
+    # Create a Streamlit map using folium
+    st.write("### Subscription Wise Geographical Insights")
+    m = folium.Map(location=[df['location.lat'].mean(), df['location.long'].mean()], zoom_start=10)
+
+    # Add circle markers for each location with different colors based on the type
+    for index, row in df.iterrows():
+        location_name = row["type"]
+        longitude = row["location.long"]
+        latitude = row["location.lat"]
+        color = type_colors[location_name]
+
+        folium.CircleMarker(
+            location=[latitude, longitude],
+            radius=5,
+            popup=f"<strong>{location_name}</strong><br>Longitude: {longitude}<br>Latitude: {latitude}",
+            color=color,
+            fill=True,
+            fill_color=color,
+        ).add_to(m)
+
+    # Create a custom legend using folium.plugins
+    legend_html = f"""
+         <div style="position: fixed; 
+                     bottom: 50px; left: 50px; width: 120px; height: 90px; 
+                     border:2px solid grey; z-index:9999; font-size:14px;
+                     background-color:white;
+                     ">&nbsp;<strong>Legend</strong><br>
+                      {"".join(f'<i style="background:{type_colors[type_]}; width: 15px; height: 15px; display:inline-block; margin-right: 5px;"></i> {type_}<br>'
+                               for type_ in unique_types)}
+         </div>
+         """
+
+    # Add the legend to the map using folium.plugins
+    legend = folium.plugins.FloatImage(legend_html, bottom=50, left=50)
+    m.get_root().add_child(legend)
+
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        # Render the map using folium_static
+        folium_static(m)
+
+    with col3:
+        # Display the custom legend with the color scale
+        legend_items = [(type_, color) for type_, color in type_colors.items()]
+
+        # Calculate the split point for two columns
+        split_point = len(legend_items) // 2
+
+        # Split the legend items into two lists for two columns
+        column1 = legend_items[:split_point]
+        column2 = legend_items[split_point:]
+
+        # Display the legend items in two columns
+        col1, col2 = st.columns(2)
+
+        with col1:
+            for type_, color in column1:
+                st.markdown(
+                    f'<i style="background:{color}; width: 8px; height: 8px; display:inline-block;"></i> {type_}',
+                    unsafe_allow_html=True)
+
+        with col2:
+            for type_, color in column2:
+                st.markdown(
+                    f'<i style="background:{color}; width: 8px; height: 8px; display:inline-block;"></i> {type_}',
+                    unsafe_allow_html=True)
 
 
 
