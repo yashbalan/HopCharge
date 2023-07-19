@@ -99,6 +99,8 @@ grouped_df = grouped_df.rename(
 
 merged_df = pd.merge(merged_df, grouped_df, on="uid", how="left")
 
+merged_df = pd.merge(merged_df, df2[['uid', 'location.long', 'location.lat']], on='uid', how='left')
+
 merged_df = merged_df.drop(["Actual SoC_Start_x", "Actual Soc_End_x"], axis=1)
 
 merged_df = merged_df.rename(columns={
@@ -120,7 +122,7 @@ merged_df['Day'] = pd.to_datetime(merged_df['Actual Date']).dt.day_name()
 
 
 requiredColumns = ['uid', 'Actual Date', 'Customer Name_x', 'EPOD Name', 'Actual OPERATOR NAME', 'Duration', 'Day',
-                   'E-pod Arrival Time @ Session location', 'Actual SoC_Start', 'Actual Soc_End', 'Booking Session time', 'Customer Location City', 'canceled_x', 'cancelledPenalty', 't-15_kpi', 'type', 'KM Travelled for Session', 'KWH Pumped Per Session']
+                   'E-pod Arrival Time @ Session location', 'Actual SoC_Start', 'Actual Soc_End', 'Booking Session time', 'Customer Location City', 'canceled_x', 'cancelledPenalty', 't-15_kpi', 'type', 'KM Travelled for Session', 'KWH Pumped Per Session', 'location.long', 'location.lat']
 merged_df = merged_df[requiredColumns]
 merged_df["Actual SoC_Start"] = merged_df["Actual SoC_Start"].str.rstrip("%")
 merged_df["Actual Soc_End"] = merged_df["Actual Soc_End"].str.rstrip("%")
