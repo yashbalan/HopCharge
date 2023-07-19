@@ -1824,7 +1824,7 @@ with tab5:
 
 with tab6:
     # Read the merged_df CSV file
-    df = pd.read_csv("C:\\Users\\DELL\\Downloads\\finalstream\\finalstream\\merged_df.csv")
+    df = pd.read_csv("merged_df.csv")
 
     # Create a custom color mapping for each unique type
     unique_types = df["type"].unique()
