@@ -1827,9 +1827,9 @@ with tab5:
 with tab6:
     df = merged_df
 
-    # Create a custom color mapping for each unique type
-    unique_types = df["type"].unique()
-    type_colors = {type_: f"#{hash(type_) % 16777215:06x}" for type_ in unique_types}
+       # Create a custom color mapping for each unique type
+       unique_types = df["type"].unique()
+       type_colors = {type_: f"#{hash(type_) % 16777215:06x}" for type_ in unique_types}
 
 
 
