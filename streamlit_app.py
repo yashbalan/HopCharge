@@ -132,6 +132,8 @@ merged_df['EPOD Name'] = merged_df['EPOD Name'].str.extract(
     r'^(.*?)\s+\(.*\)$')[0]
 merged_df['EPOD Name'] = merged_df['EPOD Name'].fillna('EPOD006')
 
+subscription = merged_df
+
 
 st.set_page_config(page_title="Hopcharge Dashboard",
                    page_icon=":bar_chart:", layout="wide")
@@ -1825,20 +1827,20 @@ with tab5:
             st.write("\n")
 
 with tab6:
-    df = df = pd.read_csv("merged_df.csv")
+    
 
     # Create a custom color mapping for each unique type
-    unique_types = df["type"].unique()
+    unique_types = subscription["type"].unique()
     type_colors = {type_: f"#{hash(type_) % 16777215:06x}" for type_ in unique_types}
 
 
 
     # Create a Streamlit map using folium
     st.write("### Subscription Wise Geographical Insights")
-    m = folium.Map(location=[df['location.lat'].mean(), df['location.long'].mean()], zoom_start=10)
+    m = folium.Map(location=[subscription['location.lat'].mean(), subscription['location.long'].mean()], zoom_start=10)
 
     # Add circle markers for each location with different colors based on the type
-    for index, row in df.iterrows():
+    for index, row in subscription.iterrows():
         location_name = row["type"]
         longitude = row["location.long"]
         latitude = row["location.lat"]
