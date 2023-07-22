@@ -2127,9 +2127,6 @@ with tab6:
     legend = folium.plugins.FloatImage(legend_html, bottom=50, left=50)
     m.get_root().add_child(legend)
 
-    # Add the full-screen option using folium.plugins.Fullscreen
-    plugins.Fullscreen(position='topright').add_to(m)
-
     # Calculate and display the most and least subscription types ("type") in columns
     with col7:
         most_subscribed_type = filtered_df['type'].value_counts().idxmax()
