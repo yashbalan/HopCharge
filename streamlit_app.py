@@ -2110,23 +2110,7 @@ with tab6:
             fill=True,
             fill_color=color,
         ).add_to(m)
-
-    # Create a custom legend using folium.plugins
-    legend_html = f"""
-         <div style="position: fixed; 
-                     bottom: 50px; left: 50px; width: 120px; height: 90px; 
-                     border:2px solid grey; z-index:9999; font-size:14px;
-                     background-color:white;
-                     ">&nbsp;<strong>Legend</strong><br>
-                      {"".join(f'<i style="background:{type_colors[type_]}; width: 15px; height: 15px; display:inline-block; margin-right: 5px;"></i> {type_}<br>'
-                               for type_ in unique_types)}
-         </div>
-         """
-
-    # Add the legend to the map using folium.plugins
-    legend = folium.plugins.FloatImage(legend_html, bottom=50, left=50)
-    m.get_root().add_child(legend)
-
+        
     # Calculate and display the most and least subscription types ("type") in columns
     with col7:
         most_subscribed_type = filtered_df['type'].value_counts().idxmax()
